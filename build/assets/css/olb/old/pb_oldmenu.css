@@ -1,0 +1,12 @@
+.nav-top, .wpthemeBanner .wpthemePrimaryNav {
+    border-right: 1px solid #8a7d59;
+}
+#nav-principal li, .wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {
+    border-left: 1px solid #8a7d59;
+}
+#nav-principal li.nav0, .wpthemeBanner .wpthemeInner .wpthemePrimaryNav li.nav0  {
+     border-left: 1px solid #8a7d59;
+}
+#nav-principal li a, .wpthemeBanner .wpthemeInner .wpthemePrimaryNav li a {
+    color: #fdd984;
+}

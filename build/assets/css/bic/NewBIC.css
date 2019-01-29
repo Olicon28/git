@@ -1,0 +1,182 @@
+/* Main box (caja principal) */
+.main-box{
+	padding: 15px 10px 20px 10px
+}
+.main-box, .main-box div{
+	box-sizing: border-box;
+}
+.main-box, .section-box {
+	background: #ffffff;
+	border: solid 1px #DFE6EE;
+}
+/* Dropdown */
+.dropdown-inbox{
+	width: 33%;
+	margin-bottom: 20px;
+}
+.dropdown-inbox *{
+	margin: 0;
+	padding: 0 !important;
+	font-size: inherit;
+	border-style: none;
+	display: block;
+	text-align: left !important;
+}
+.dropdown-inbox .dijitButtonNode {
+	border-radius: 2px !important;
+	border: solid 1px #B4B4B4;
+	font-size: 14px;
+	display: block;
+	padding: 12px 18px 12px 12px !important;
+}
+.dropdown-inbox .icon-itaufonts_seta_achatada {
+	float: right;
+}
+/* Titulo grupo de seccion */
+.title-section {
+	font-size: 18px;
+	font-weight: 400;
+	margin: 10px 0;
+	float: left;
+	width: 100%;
+}
+/* Seccion (bloque) */
+.section-box {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.main-box,
+.section-box ,
+.section-box div,
+.section-datagrid,
+[class*="cols-"] {
+	float: left;
+	width: 100%;
+}
+.section-box .section-header {
+	padding: 25px 20px 0 20px;
+	position: relative;
+}
+.section-box .section-title {
+	border-bottom: solid 1px #DFE6EE;
+	padding-bottom: 7px;
+	font-size: 15px;
+	font-weight: 500;
+}
+.section-box.collapsible .section-header i {
+	position: absolute;
+	cursor: pointer;
+    right: 20px;
+}
+.section-box.collapsible .section-header i::after {
+	font-family: arial;
+    content: "Ver más";
+    display: block;
+    width: 70px;
+    font-size: 14px;
+    margin-left: -55px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.section-box.collapsible .section-header .active::after {
+    content: "Ver menos";
+    margin-left: -70px;
+}
+.section-box.collapsible .section-header .active::before {
+	content: "\ea77";
+}
+.section-box .section-content {
+	padding: 10px 20px;
+}
+.section-box [class*="cols-"],
+.section-datagrid [class*="cols-"] {
+    margin-bottom: 10px;
+}
+.cols-2 .section-col{
+	float: left;
+	width: 50%;
+}
+.section-box .cols-2 .section-col {
+	width: 43%;
+	margin-right: 14%;
+}
+.section-box .section-col:last-child {
+	margin-right: 0;
+}
+.section-box .section-row {
+	padding: 8px 0;
+}
+.section-box i {
+	margin-left: 5px;
+}
+.section-box .section-row [class*="data-"] {
+	line-height: 110%;
+}
+.section-box .data-concept {
+	width: 55%;
+}
+.section-box .data-money {
+	text-align: right;
+	font-size: 18px;
+	width: 45%;
+}
+.section-box .section-footer {
+	padding: 20px;
+	background: #FAFBFC;
+}
+.section-datagrid {
+	margin-top: 10px;
+}
+.section-datagrid .tabla-mov {
+	float: left;
+	width: 100%;
+}
+.section-datagrid .title-section {
+	margin: 0 0 10px 0;
+}
+p.sibling-title {
+	margin: -7px 0 7px 0;
+	font-size: 14px;
+}
+.section-datagrid p {
+	float:left;
+	width: 100%;
+}
+.section-datagrid form {
+	float: right;
+	width: 100%;
+}
+.section-datagrid input {
+	width: 50% !important;
+	float: right;
+	padding: 20px !important;
+	margin: 0 !important;
+	display: block !important;
+	border-radius: 2px;
+	font-size: 13px;
+	font-style: italic;
+}
+.inline-link {
+	display: inline;
+    text-decoration: underline;
+}
+/* secciones colapsables*/
+.collapsible *{
+	transition: .4s;
+}
+.collapsible.closed .section-content {
+    display: none;
+}
+.collapsible.closed .section-header .section-title{
+    border-bottom: 0;
+}
+
+
+@media screen and (max-width:1200px) {
+	.section-box .data-concept {
+		width: 46%;
+	}
+	.section-box .data-money {
+		width: 54%;
+	}
+}

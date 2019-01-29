@@ -1,0 +1,960 @@
+/*Estilo por defecto naranjo,negro -  Barra campañas por producto Personas */
+
+	/* Eliminación de espacio de contenedores y los tres divs dentro de estos*/
+	#colapsable-cartola .cont { width: 100%;}
+	#colapsable-cartola .porlet-content .img-offer, #colapsable-cartola .porlet-content .middle-text-offer, #colapsable-cartola .porlet-content .last-offer { margin: 0px;}
+
+
+	/*background: Colo fondo de la barra; color: Color de el texto que aparece en la barra */
+	.personascampanaproducto00 {background: #32434d;color: #FFF;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}   
+	/* Color linea al lado de la flecha abrir/cerrar */
+	.personascampanaproducto00 span[name="mostrar2"] {border-left: 1px solid #FFF;}  
+	/* color fondo bloque colapsable */
+	.personascampanaproducto00 #colapsable-cartola {background:#fff;} 
+	/*background: Colo fondo de etiqueta "últimos dias"; color: Color de el texto que aparece en la etiqueta */
+	.personascampanaproducto00 .the-last-days {background: #FBB450;color: #000;} 
+
+	/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto00 .promo { line-height: 15px; }
+	.personascampanaproducto00 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto00 .the-last-days {padding: 7px 10px;border-radius: 3px 0 0 0;position: relative;top: 0;left: 0;font-weight: bold;float: left;width: 140px;text-align: center;}
+	.porlet-content .cont .last-offer { float: right;}
+
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto00 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto00 { 
+	display: inline-block;
+	background-position: -330px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/*Estilo por azul,naranja -  Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto01 {background: #F3791F;color: #fff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto01 span[name="mostrar2"] {border-left: 1px solid #FFF;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto01 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto01 .the-last-days {background: #2471a7;color: #FFFFFF;}
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto01 .promo { line-height: 15px; }
+	.personascampanaproducto01 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto01 .the-last-days { padding: 2px 10px; border-radius: 3px; }
+
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto01 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto01 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/*Estilo por azul,Gris -  Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto02 {background: #134779;color: #fff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto02 span[name="mostrar2"] {border-left: 1px solid #FFF;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto02 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto02 .the-last-days {background: #8BC34A;color: #000;}
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto02 .promo { line-height: 15px; }
+	.personascampanaproducto02 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto02 .the-last-days { padding: 2px 10px; border-radius: 3px; }
+
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto02 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto02 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/*Estilo por amarillo,naranja -  Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto03 {background: #00BCD4;color: #fff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto03 span[name="mostrar2"] {border-left: 1px solid #000000;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto03 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto03 .the-last-days {background: #2471a7;color: #ffffff;}
+	
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto03 .promo { line-height: 15px; }
+	.personascampanaproducto03 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto03 .the-last-days { padding: 2px 10px; border-radius: 3px; }	
+	
+
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto03 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto03 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/*Estilo caja verde con ultimos días amarillo -  Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto04 {background: #6FA249;color: #ffffff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto04 span[name="mostrar2"] {border-left: 1px solid #000000;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto04 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto04 .the-last-days {background: #FFEB3B;color: #000000;}	
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto04 .promo { line-height: 15px; }
+	.personascampanaproducto04 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto04 .the-last-days { padding: 2px 10px; border-radius: 3px; }	
+	
+		
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto04 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto04 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/*Estilo caja gris con ultimos días naranjo - Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto05 {background: #575757;color: #ffffff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto05 span[name="mostrar2"] {border-left: 1px solid #000000;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto05 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto05 .the-last-days {background: #ff9900;color: #000000;}	
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto05 .promo { line-height: 15px; }
+	.personascampanaproducto05 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto05 .the-last-days { padding: 2px 10px; border-radius: 3px; }		
+	
+
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto05 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto05 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   	
+
+/*Estilo caja violeta  últimos días fuccia - Barra campañas por producto Personas */
+	.personascampanaproducto06 {background: #9C27B0;color: #ffffff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto06 span[name="mostrar2"] {border-left: 1px solid #000000;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto06 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto06 .the-last-days {background: #E91E63;color: #ffffff;}	
+
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto06 .promo { line-height: 15px; }
+	.personascampanaproducto06 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto06 .the-last-days { padding: 2px 10px; border-radius: 3px; }	
+
+	
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto06 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto06 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/*Estilo caja café últimos días fuccia - Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto07 {background: #795548;color: #ffffff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto07 span[name="mostrar2"] {border-left: 1px solid #000000;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto07 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto07 .the-last-days {background: #E91E63;color: #ffffff;}	
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto07 .promo { line-height: 15px; }
+	.personascampanaproducto07 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto07 .the-last-days { padding: 2px 10px; border-radius: 3px; }	
+	
+	
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto07 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto07 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/*Estilo caja café últimos días fuccia - Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto08 {background: #009688;color: #ffffff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto08 span[name="mostrar2"] {border-left: 1px solid #000000;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto08 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto08 .the-last-days {background: #FF9800;color: #ffffff;}	
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto08 .promo { line-height: 15px; }
+	.personascampanaproducto08 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto08 .the-last-days { padding: 2px 10px; border-radius: 3px; }	
+
+
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto08 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto08 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+
+	
+/*Estilo caja azul oscuro últimos días naranjo - Barra campañas por producto Personas */
+	/* Colores contenedor principal */
+	.personascampanaproducto09 {background: #32434d ;color: #ffffff;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}  
+	/* Color linea al lado de la flecha abrir/cerrar */ 
+	.personascampanaproducto09 span[name="mostrar2"] {border-left: 1px solid #000000;} 
+	/* color fondo bloque colapsable */
+	.personascampanaproducto09 #colapsable-cartola {background:#fff;} 
+	 /*Color caja y texto aviso últimos días */
+	.personascampanaproducto09 .the-last-days {background: #fcb450;color: #ffffff;}	
+
+/* Optimización de Espacio ( Eliminación de padding y margenes ) */
+	.personascampanaproducto09 .promo { line-height: 15px; }
+	.personascampanaproducto09 .iconoBarraCampana {margin-top: 0px;} 
+	.personascampanaproducto09 .the-last-days { padding: 2px 10px; border-radius: 3px; }		
+
+
+/* Icono flecha Desplegar */
+	.icon-desplega-bottom.icon-blanco.personascampanaproducto09 { 
+	background-position: -286px 0; background-image: url("../img/icon-blanco.png");
+	margin-right: -5px; }
+/* Icono flecha Colapsar */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproducto09 { 
+	display: inline-block;
+	background-position: -329px 0; background-image: url("../img/icon-blanco.png"); }
+   
+
+/* Corrección espacio bajo la barra*/
+.alert-content .promo p, .alert-content .promo span {display:inline-block;} 
+
+
+/*Estilo Campana CUPO01*/
+/*Estilo Campana Aumendo de Cupo*/
+
+	/*background: Colo fondo de la barra; color: Color de el texto que aparece en la barra */
+	.personascampanaproductocupo00 {background: #e0e0e0;color: #333;border-radius: 4px;border-radius: 4px 4px 0 0;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0; width: 100%; display: table; border-bottom: solid 1px #e0e0e0;}   
+	/* Color linea al lado de la flecha abrir/cerrar */
+	.personascampanaproductocupo00 span[name="mostrar2"] {border-left: 1px solid #FFF;}  
+	/* color fondo bloque colapsable */
+	.personascampanaproductocupo00 #colapsable-cartola {background:#fff;} 
+	/*background: Colo fondo de etiqueta "últimos dias"; color: Color de el texto que aparece en la etiqueta */
+	.personascampanaproductocupo00 .the-last-days {background: #FBB450;color: #000;} 
+	/* background: Color fondo, alto y tamaño de la fuente de la barra*/
+	.personascampanaproductocupo00 .promo {line-height: 15px;font-weight: normal;!important;font-size: 15px;}    
+	/* Eliminación de margen top del contenedor de icono en la barra */
+	.personascampanaproductocupo00 .iconoBarraCampana {margin: 0 10px 0 2px;}     
+	/* Eliminación de linea (borde) a la izquierda de la flecha */
+	#campanaProducto span[name="mostrar2"] {border-left: none; top:3px;}  
+
+	/* Color de fondo de la barra */
+	.porlet-content.personascampanaproductocupo00 { border-radius: 0px; background: #efefef!important; }
+	/* Ancho del contenedor (se hizo para eliminar los espacios en blanco de las campañas) */
+	.personascampanaproductocupo00 .cont { width: 100%;}
+	/* Eliminación de espacios en en blanco de campañas para optimización de espacio y ancho de contenedores en detalle*/
+	.personascampanaproductocupo00 .img-offer, .personascampanaproductocupo00 .middle-text-offer, .personascampanaproductocupo00 .last-offer{ margin: 0; height: 60px; padding: 0;}
+	.personascampanaproductocupo00 .last-offer a.transaccion { margin-top: 18px; margin-bottom: 0;}
+	.personascampanaproductocupo00 .middle-text-offer h3{ font-size: 20px;}
+	.personascampanaproductocupo00 .img-offer {width: 11%;background: #efefef;}
+	.personascampanaproductocupo00 .middle-text-offer {width: 64%;background: #efefef;line-height: 60px;}
+	.personascampanaproductocupo00 .last-offer{width: 25%;background: #efefef;}
+	.personascampanaproductocupo00 .img-offer img { float: right; min-height: 30px; max-height: 35px; width: auto; margin: 12px 10px;}
+
+	/* Flecha Desplegar azul */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproductocupo00 { 
+	background-position: -329px 0; background-image: url("../../img/icon-azul.png")!important }
+    /* Flecha Esconder azul */
+	.icon-desplega-bottom.icon-blanco.personascampanaproductocupo00 { 
+	display: inline-block;
+    width: 15px;
+    margin-right: -5px;
+    border-bottom: 0;
+	background-position: -286px 0; background-image: url("../../img/icon-azul.png")!important }
+
+	/* Tamaño de las fuentes en el detalle */
+	/* Tamaño del texto frase en el detalle de la oferta */
+    .personascampanaproductocupo00 .middle-text-offer #titulo_oferta { font-size:23px; font-weight: 500;}
+    /* Tamaño del texto MONTO */
+    .personascampanaproductocupo00 .middle-text-offer #detalle_oferta {font-size: 34px;margin-left: 10px;}
+    /* Tamaño del texto FECHA VALIDEZ DE LA OFERTA */
+    .personascampanaproductocupo00 .middle-text-offer #validez_campana {font-size: 12px;width: 212px;display: inline-block;height: 40px;float:right;line-height: 62px;}
+	.personascampanaproductocupo00 .middle-text-offer #validez_campana span {color:#ff9900; font-weight: bold;}
+    .corr-camp .alerta-campanas .alert-content {  background: none;  }
+	.corr-camp .personascampanaproducto00 .iconoBarraCampana { display: none; } 
+	.corr-camp .personascampanaproducto00 .promo { width: 96%; } 
+	.corr-camp .alerta-campanas .alert-content .personascampanaproducto00 .the-last-days { margin-right: 10px; width: auto; max-width: 25%;}
+
+    @media screen and (max-width: 1200px) {
+    .personascampanaproductocupo00 .promo {font-size: 13px;}   
+    .personascampanaproductocupo00 .img-offer {width: 12%;}
+	.personascampanaproductocupo00 .middle-text-offer {width: 58%; line-height: normal;}
+	.personascampanaproductocupo00 .last-offer{width: 30%;}
+   	.personascampanaproductocupo00 .middle-text-offer #detalle_oferta { font-size:24px; margin-left: 5px;}
+    .personascampanaproductocupo00 .middle-text-offer #validez_campana { font-size:11px; width:188px; line-height: normal; height: 10px; float: none;}
+ 	#colapsable-cartola .porlet-content .middle-text-offer { padding: 10px 20px 10px 20px; }
+ 	#colapsable-cartola .personascampanaproductocupo00 .middle-text-offer { padding: 0px; text-align: center; padding-top: 10px;}
+ 	#colapsable-cartola .porlet-content .middle-text-offer h4, #colapsable-cartola .porlet-content .middle-text-offer h3{ line-height:16px }
+	.mensaje-lateral.dap { width: 330px; }
+	.modulo-medium .separar-dap { width: 100%;margin: 0px 0 20px 0%!important; }
+	.corr-camp .alerta-campanas .alert-content .personascampanaproducto00 .the-last-days 
+	{min-height: 30px;margin-right: 10px;max-height: 30px;line-height: 15px; max-width: 20%; overflow-wrap: break-word;}
+	.corr-camp .alerta-campanas .alert-content .personascampanaproducto00 .promo {line-height: 20px; min-height: 30px;border-radius: 5px!important;font-size: 14px;font-weight: 400;line-height: 15px!important;max-height: 30px;}
+	.corr-camp .alerta-campanas .alert-content .personascampanaproducto00 .promo .iconoBarraCampana { display: none; }	
+}
+
+
+/* Estilos para Campañas Aumento de Cupo Personal Bank */
+
+	/*background: Colo fondo de la barra; color: Color de el texto que aparece en la barra */
+	.personascampanaproductocupo00_PB {background: #efefef;color: #333;border-radius: 4px;border-radius: 4px 4px 0 0;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0; width: 100%; display: table; border-bottom: solid 1px #efefef;}   
+	/* color fondo bloque colapsable */
+	.personascampanaproductocupo00_PB #colapsable-cartola {background:#fff;} 
+	/*background: Colo fondo de etiqueta "últimos dias"; color: Color de el texto que aparece en la etiqueta */
+	/* background: Color fondo, alto y tamaño de la fuente de la barra*/
+	.personascampanaproductocupo00_PB .promo {line-height: 15px;font-weight: normal;!important;font-size: 15px;}    
+	/* Eliminación de margen top del contenedor de icono en la barra */
+	.personascampanaproductocupo00_PB .iconoBarraCampana {margin-top: 0px; display: none;} 
+	 
+
+	/* Color de fondo de la barra */
+	.porlet-content.personascampanaproductocupo00_PB { border-radius: 0px; background: #e0e0e0!important; }
+	/* Ancho del contenedor (se hizo para eliminar los espacios en blanco de las campañas) Color de texto en detalle */
+	.personascampanaproductocupo00_PB .cont { width: 100%; color: #333;}
+	/* Eliminación de espacios en en blanco de campañas para optimización de espacio y ancho de contenedores en detalle */
+	.personascampanaproductocupo00_PB .img-offer, .personascampanaproductocupo00_PB .middle-text-offer, .personascampanaproductocupo00_PB .last-offer{ margin: 0; height: 60px; padding: 0;}
+	.personascampanaproductocupo00_PB .last-offer a.transaccion { margin-top: 18px; margin-bottom: 0;}
+	.personascampanaproductocupo00_PB .middle-text-offer h3{ font-size: 20px;}
+	.personascampanaproductocupo00_PB .img-offer {width: 11%;background: #efefef;}
+	.personascampanaproductocupo00_PB .middle-text-offer {width: 64%;background: #efefef;line-height: 60px;}
+	.personascampanaproductocupo00_PB .last-offer{width: 25%;background: #efefef;}
+	.personascampanaproductocupo00_PB .img-offer img { float: right; min-height: 40px; max-height: 40px; width: auto; margin: 5px 10px;}
+
+	/* Flecha Desplegar azul */
+	.icon-desplega-bottom.icon-blanco.activado.personascampanaproductocupo00_PB { 
+	background-position: -329px 0; background-image: url("../img/icon-azul.png"); }
+    /* Flecha Esconder azul */
+	.icon-desplega-bottom.icon-blanco.personascampanaproductocupo00_PB { 
+	display: inline-block;
+    width: 15px;
+    margin-right: -5px;
+    border-bottom: 0;
+	background-position: -286px 0; background-image: url("../img/icon-azul.png"); }
+
+	/* Tamaño de las fuentes en el detalle */
+	/* Tamaño del texto frase en el detalle de la oferta */
+    .personascampanaproductocupo00_PB .middle-text-offer #titulo_oferta { font-size:20px;}
+    /* Tamaño del texto MONTO */
+    .personascampanaproductocupo00_PB .middle-text-offer #detalle_oferta {font-size: 34px;margin-left: 10px;}
+    /* Tamaño del texto FECHA VALIDEZ DE LA OFERTA */
+    .personascampanaproductocupo00_PB .middle-text-offer #validez_campana {font-size:14px;margin-left: 95px;}
+
+
+    /* Color de fondo y texto en la barra */
+    .personascampanaproductocupo01 {background: #efefef;color: #333; border-bottom: 0;}
+	.personascampanaproductocupo01 .iconoBarraCampana { margin: 0 10px 0 2px; }
+	.personascampanaproductocupo01 .promo { line-height: 16px; }
+    /* Color de textos en detalle */
+	.personascampanaproductocupo00_PB .middle-text-offer { color: #333;}
+	.personascampanaproductocupo00_PB .last-offer { color: #333;}
+	/* Flecha Desplegar blanco */
+	
+	/* Adaptación de textos para pantalla de menos de 1200px  */
+    @media screen and (max-width: 1200px) {
+	.personascampanaproductocupo01 .iconoBarraCampana { margin: -20px 10px 0 2px!important; }
+	.alert-content .promo p, .alert-content .promo span { margin-left: 25px; }
+    .personascampanaproductocupo00_PB .promo {font-size: 13px;}   
+    .personascampanaproductocupo00_PB .img-offer {width: 12%;}
+	.personascampanaproductocupo00_PB .middle-text-offer {width: 58%;}
+	.personascampanaproductocupo00_PB .last-offer{width: 30%;}
+    .personascampanaproductocupo00_PB .middle-text-offer #titulo_oferta { font-size:16px;}
+    .personascampanaproductocupo00_PB .middle-text-offer #detalle_oferta { font-size:24px; margin-left: 5px;}
+    .personascampanaproductocupo00_PB .middle-text-offer #validez_campana { font-size:12px; margin-left: 15px;}
+    
+    /* Adaptaci�n de textos y tooltip campa�a nueva cr�dito para pantalla de menos de 1200px  */
+    .personascampanaproductocredito .middle-text-offer { padding: 10px 0 10px!important;}
+    .personascampanaproductocredito .middle-text-offer .accion.transaccion { margin-top: -10px; }
+	.personascampanaproductocredito .middle-text-offer .borde { padding: 0px;}
+	.personascampanaproductocredito .last-offer { padding: 10px 0 10px!important; }
+ 	.personascampanaproductocredito .last-offer h3 { font-size: 12px }
+ 	.personascampanaproductocredito .last-offer .txt-legal { padding-top: 30px; }
+ 	.personascampanaproductocredito .last-offer .dts-fila .collft { font-size: 10px!important; }
+ 	.personascampanaproductocredito .last-offer .dts-fila .colrgt { font-size: 10px!important; }
+ 	.personascampanaproductocredito .tooltip-info .info-credito { width: 670px; top: -145px; left: -578px; max-height: 130px; min-height:112px; padding: 10px 5px 5px 10px; }
+ 	.personascampanaproductocredito .tooltip-info .info-credito.tool-top2:before { top: 138px;left:590px; }
+ 	.personascampanaproductocredito .tooltip-info .info-credito.tool-top2:after { top: 139px;left:590px; } 
+    .personascampanaproductocredito .tooltip-info .info-credito { left: -581px!important; top: -135px!important; width: 660px!important; padding: 5px!important; }
+    .personascampanaproductocredito .tooltip-info .info-credito.tool-top2:before { top: 132px!important; left: 590px!important; }
+    .personascampanaproductocredito .tooltip-info .info-credito.tool-top2:after { top: 133px; left: 590px; }
+}
+
+	.hide {display: none;}
+	.show {display: block;}
+
+.personascampanaproductocredito .img-offer { width:20.8%; }
+.personascampanaproductocredito .middle-text-offer {width: 28%;background: #fff;text-align: center;padding: 20px 0 15px;}
+.personascampanaproductocredito .middle-text-offer h2 { margin: 10px 0 20px!important; }
+.personascampanaproductocredito .middle-text-offer a { width: 120px; }
+.personascampanaproductocredito .middle-text-offer .borde {min-height: 140px;border-right: solid 2px #ff7900;padding: 0 10px 0 0;}
+.personascampanaproductocredito .middle-text-offer .borde span{ color: #ff7900; font-weight: bold; font-size: 14px; }
+.personascampanaproductocredito .last-offer { width: 50%; background: #fff; padding: 20px 0; min-height: 140px; max-height: 140px; text-align: left;}
+.personascampanaproductocredito .last-offer .ofrts { max-width: 390px; max-height: 40px; line-height: 16px;}
+.personascampanaproductocredito .last-offer .img-offer { width: 40px; height: 40px; margin: 0 10px!important; }
+.personascampanaproductocredito .last-offer .img-offer img { width: 40px; height: 40px!important; min-height: 40px!important;}
+.personascampanaproductocredito .last-offer h3 { font-weight: normal; }
+.personascampanaproductocredito .last-offer .txt-oferta { width: 100%; min-height: 40px; margin: 0 0 10px;}
+.personascampanaproductocredito .last-offer .dts-oferta {width: 90%;padding-left: 10%;min-height: 40px;margin-top: 20px;}
+.personascampanaproductocredito .last-offer .dts-oferta ul li { list-style: initial; } 
+.personascampanaproductocredito .last-offer .dts-fila { width: 100%; }
+.personascampanaproductocredito .last-offer .dts-fila .collft {width:37%;float: left;font-size: 13px;padding: 1% 0;line-height:12px;font-weight: bold;}
+.personascampanaproductocredito .last-offer .dts-fila .colrgt {width:57%;float: left;font-size: 13px;padding: 1% 0;line-height:12px;}
+.personascampanaproductocredito .last-offer .dts-fila .colrgt span { font-weight: bold;}
+.personascampanaproductocredito .last-offer .txt-legal { padding: 2%; font-size: 10px; line-height: 10px; }
+.personascampanaproductocredito .last-offer .txt-legal span { color: #ff7900; font-weight: bold; cursor: pointer; }
+
+.personascampanaproductocredito .tooltip-info { float: none!important; }
+.personascampanaproductocredito .tooltip-info:hover .info-credito {display:block;}
+.personascampanaproductocredito .tooltip-info .info-credito {display:none;background: #f5f5f5;border: 1px solid #ccc;border-radius: 5px;position: absolute;top: -135px;left: -425px;width: 680px;padding: 10px;min-height: 110px;line-height: 12px;}
+.personascampanaproductocredito .tooltip-info .info-credito.tool-top2 .recomendado { font-size: 11px!important; }
+.personascampanaproductocredito .tooltip-info .info-credito.tool-top2:before {content:' ';z-index:2;display:block;border-top:7px solid #f5f5f5;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 130px;left:436px;}
+.personascampanaproductocredito .tooltip-info .info-credito.tool-top2:after {content:' ';z-index:1;display:block;border-top:7px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 130px;left:435px; }
+.personascampanaproductocredito .tooltip-info .info-credito.tool-top2.shadow { box-shadow: #333 0 1px 10px 0; }
+.personascampanaproductocredito .tooltip-info .info-credito.tool-top2 .recomendado { color: #7c7c7c; }
+.personascampanaproductocredito .tooltip-info .info-credito.tool-top2 .recomendado p { margin-bottom: 5px;}
+.personasnegociacion01 .img-offer { width:25%; float: left; }
+.personasnegociacion01 .middle-text-offer {float: left;color: #333!important;margin: 0 20px 0 50px!important;width: 40%;}
+.personasnegociacion01 .last-offer { float: left!important; }
+.personasnegociacion01 .middle-text-offer h2 { font-size: 30px; }
+.personasnegociacion01 .middle-text-offer h3 { margin-top: 40px!important;}
+.personasnegociacion01{background:#000;color:#FFF;border-radius:4px;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;display:table;width:100%;}
+.personasnegociacion01 h3.uno {display:inline-block;width:240px;text-align:center;line-height: 30px;}
+.personasnegociacion01 span[name="mostrar2"]{border-left:1px solid #FFF;}
+.personasnegociacion01 #colapsable-cartola{background:#fff;}
+.personasnegociacion01 .promo{display:block;height:19px;}
+.personasnegociacion01 .promo h3{height:10px!important;line-height:20px!important;margin-left:10px;}
+.personasnegociacion01 .iconoBarraCampana{margin-top:0;}
+.personasnegociacion01 .the-last-days{padding:9px 10px;border-radius:3px 0 0 0;position:relative;top:0;left:0;font-weight:bold;float:left;width:230px;text-align:center;background:#000;color:#fff;font-size:14px;margin-right:50px;}
+.icon-blanco.personasnegociacion01{background-image:url(../img/icon-blanco.png); width: 15px; background-position: -285px;}
+.personasnegociacion01 img{width:initial;min-height:initial!important;margin:20px auto;display:block;}
+.personasnegociacion01 .middle-text-offer,.personasnegociacion01 .last-offer{background:#FFF;}
+.personasnegociacion01 .last-offer a{margin:73px auto 20px}
+.personasnegociacion01 .middle-text-offer h3{margin:30px 0 18px;display:block;}
+/* ==========================================================================
+    Modificaciones en Campana Productos Circulo de Pagos 16-06-2017
+    ========================================================================== */
+
+    /*  Se deben dar nombres relacionados a nuestra campana  */
+
+    /*  Estilos para contenedor de acordeon  */
+    .cp-personascampanaproducto00 {
+    	background: #ff8800;
+    	color: #FFF;
+    	border-radius: 0px;
+    }
+
+    .corr-camp .alerta-campanas .alert-content .cp-personascampanaproducto00 .cp-campana-nominas {
+    	margin-right: 10px;cp-
+    	width: 170px;
+    }
+
+    .cp-personascampanaproducto00 .cp-campana-nominas {
+    	padding: 7px 10px;
+    	border-radius: 3px 0 0 0;
+    	position: relative;
+    	top: 0;
+    	left: 0;
+    	font-weight: bold;
+    	float: left;
+    	width: 140px;
+    	text-align: center;
+    }
+
+    .cp-personascampanaproducto00 .cp-campana-nominas {
+    	background: #464646;
+    	color: #fff;
+    }
+
+    /*  Span para abrir y cerrar acordeon  */
+    #campanaProducto span.cp-campanaico[name="mostrar2"] {
+    	top: 0px;
+    }
+
+    .estilo05 span.cp-campanaico[name="mostrar2"] {
+    	cursor: pointer;
+    	padding: 9px;
+    	position: absolute;
+    	right: 4px;
+    	top: 9px;
+    	border-left: 1px solid #DDD!important;
+    }
+	
+	span.cp-campanaico>i {
+		color: white!important;
+	}
+    .cp-personascampanaproducto00 .promo {line-height:34px;}
+    .cp-CampanaporProducto 
+	{	
+		width: 930px; 
+		background:url() 547px 0px no-repeat; 
+		overflow: auto; 
+		display: block; 
+		margin: 0 auto; 
+		outline: solid 1px rgba(189, 180, 180, 0.23); 
+		background-size: contain; 
+		background-color: #fbfcfc;
+		height: 200px;
+	}
+	
+	.cp-CampanaporProducto .bloque_1
+	{
+		display: inline-block;
+		position: relative;
+		width: 640px;
+	}
+	.cp-CampanaporProducto .bloque_1 .cp-titulo-content {height: 42px;}
+    .cp-CampanaporProducto .bloque_1 .cp-titulo-content h2 {color: #003765; font-size: 18px; font-weight: bold; padding: 10px;display: block; margin: 0; }
+	.cp-titulo-content > p {
+		color: #ff8800;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: bold;
+		left: 20px;
+		position: absolute;
+		top: 170px;
+	}
+    .cp-CampanaporProducto .bloque_1 > .cp-cont-items { width: 290px; font-size: 13px; display: inline-block; padding-left: 20px; }
+    .cp-CampanaporProducto .bloque_1 > .cp-cont-items .lista-info { margin-bottom: 20px; color: #6b6b6b; display: block; padding-left: 40px; }
+    .cp-CampanaporProducto .bloque_1 > .cp-cont-items .lista-info.primero { background:url() -7px -5px no-repeat ; }
+    .cp-CampanaporProducto .bloque_1 > .cp-cont-items .lista-info.segundo { background:url() -7px -51px no-repeat ; }
+    .cp-CampanaporProducto .bloque_1 > .cp-cont-items .lista-info.tercero { background:url() -7px -3px no-repeat ; height: 40px; }
+    .cp-CampanaporProducto .bloque_1 > .cp-cont-items .lista-info.cuarto { background:url() -2px -47px no-repeat ; }
+    .cp-CampanaporProducto .bloque_1 > p 
+	{ 
+		color: #ff8800;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: -12px;
+		padding-bottom: 12px;
+		padding-left: 20px;
+		position: relative;
+		top: 18px;		
+	}
+	
+    .cp-CampanaporProducto .bloque_1 .transaccion { border: 1px solid #CB5E02; background:url() repeat-x 0 -130px #FF7900; }
+    .cp-CampanaporProducto .bloque_1 .cont-botonera .transaccion:hover { background:url() repeat-x 0 -97px #FF7900; border: 1px solid #CB5E02; }
+    .cp-CampanaporProducto .bloque_1 .cont-botonera .transaccion:active { background:url() repeat-x 0 -163px #FF7900; }
+    .cp-CampanaporProducto .bloque_1 .cont-botonera .transaccion { color: #fff; line-height: 28px; display: block; padding: 0 20px; border-radius: 4px; font-size: 14px; font-weight: bold; }
+	.cp-CampanaporProducto .bloque_1 .cont-botonera
+	{
+		left: 500px;
+		position: absolute;
+		top: 160px;
+	}
+	.cp-info-alert { width: 100%!important; padding: 0!important; }
+	
+/* ==========================================================================
+    CAMPANA FIN FLUJO LP
+    ========================================================================== */
+.campana-fin-flujo h3 { font-weight: normal!important; color: #333!important;}
+.campana-fin-flujo h3 span { font-weight: bold; color: #F3791F!important; }
+.campana-fin-flujo .txt-campana-fin {width: 70%;margin: 20px auto 0;line-height: 16px;text-align: center;}
+.campana-fin-flujo .txt-campana-fin p span span { color: #F3791F; font-size: 14px; font-weight: bold; }
+.campana-fin-flujo .txt-campana-fin .fin-flujo-validez {font-size: 11px;}
+.campana-fin-flujo .txt-campana-fin .fin-flujo-validez span {font-weight: bold;}
+.campTC .campana-fin-flujo { padding: 0px;/* margin-top:  3px; */}
+.campTC .campana-fin-flujo .txt-campana-fin { width: 90%;padding-bottom: 4px;}
+.campLP .campana-fin-flujo {display: table;max-height: 220px!important;min-height: 233px;}
+.campana-fin-flujo .cffrow {display: table-row;}
+/*.campana-fin-flujo .cffleft {display: table-cell;width: 20%;background: #ff7900;border-right: solid 4px #757575;border-radius: 5px 0 0 5px;text-align: center;vertical-align: middle;} */
+.campana-fin-flujo .cffleft {display: table-cell;width: 20%;background: #ff7900;border-right: solid 4px #ffbc00;border-radius: 5px 0 0 5px;text-align: center;vertical-align: middle;}
+.campana-fin-flujo .cffright {display: table-cell;width: 80%;border: solid 1px #ddd;border-left: none;border-radius: 0 5px 5px 0;padding: 35px 20px 0 20px;text-align: center;}
+.icon-acTC { width: 48px; height: 48px; url("../img/icon-acTC.png"); }
+
+
+/* ==========================================================================
+  Contenedor de campa�as - Slider
+========================================================================== */
+
+#cont-slider .img-fnd { height: 200px; background-image: no-repeat; }
+.barra-home {/*! background: #fff; */padding: 16px 20px 16px 0;width: 95.5%;border-radius: 5px 5px 0 0;font-size: 14px; /*! border: solid 1px #ddd; */ /*! margin-bottom: 10px; */}
+.barra-home#divTituloMisOfertas h3 span table span .recomendado {margin: 13px;color: #373d45!important;margin-bottom: 0px;/*! line-height: 180%; */}
+.contenedor-max {width: 100%;height: auto;margin: 0 auto 20px;}
+#cont-slider {position: relative;width: 100%;overflow: hidden;border-radius: 0 30px 0 0;}
+#cont-slider ul {position: relative;list-style: none;padding: 0;margin: 0;transition: all 750ms ease;left: 0;}
+#cont-slider #idItem1, #cont-slider #idItem2, #cont-slider #idItem3, #cont-slider #idItem4 {position: relative;/* height: 100%; */float: left;/*! width: 100%; */}
+#cont-slider #prev{width: 30px;border-radius: 0 5px 5px 0;height: 40px;background: #000;opacity: 0.5;text-align: center;position: absolute;top: 50%;transform: translateY(-50%);transition: all 150ms ease;z-index: 100;}
+#cont-slider #next{width: 30px;border-radius: 5px 0 0 5px;height: 40px;background: #000;opacity: 0.5;text-align: center;position: absolute;top: 50%;transform: translateY(-50%);transition: all 150ms ease;z-index: 100;border: none;}
+#cont-slider #prev:hover, #cont-slider #next:hover { opacity: 0.8;}
+#cont-slider #prev { left: 0px; }
+#cont-slider #next { right: 1px; }
+#cont-slider #prev .arrow {width: 10px;height: 10px;border-left: solid 3px #fff;border-bottom: solid 3px #fff;transform: rotate(45deg); -ms-transform: rotate(45deg); margin: 15px 0 0 11px;top: 25px;}
+#cont-slider #next .arrow {width: 10px;height: 10px;border-left: solid 3px #fff;border-bottom: solid 3px #fff;transform: rotate(225deg); -ms-transform: rotate(225deg); margin: 15px 0 0 7px;top: 25px;}
+.cont-tabs {width: 99.8%;margin-bottom: 20px;border-right: solid 2px #ddd;height: 40px;}
+.cont-tabs ul {padding: 0px;margin: 0px;width: 100%;border-bottom: solid 1px #ddd;/*! border-top: 1px solid #ddd; */}
+.cont-tabs li {width:100%; position: relative;list-style: none;height: 38px;float: left;background: #fff;border-left: solid 1px #ddd;color: #373d45;font-size: 12px;font-weight: normal;border-bottom: solid 1px #ddd;line-height: 14px;border-top: 1px solid #ddd;text-align: center;}
+.cont-tabs li p {padding: 10px;}
+.cont-tabs li:hover { color: #EC7000; background: #FAFBFC;  cursor: default;}
+.barra-home h3 #primerNombre {color: #373d45; margin: -10px 0 0 -6px!important}
+div [name="idTabsSlider"] { float: left; /*! margin-bottom: 20px; */}
+#cont-slider .width-campana { width: 930px!important; }
+.tab-active li {background: #fff;color: #EC7000;border: 1px solid #EC7000;height: 38px;width: 100%;z-index: 100; font-weight: bold;}
+.tab-active li:before{content:' ';z-index:3;display:block;border-bottom: 10px solid #ffffff;border-left: 10px solid transparent;border-right: 10px solid transparent;position:absolute;top: -8px;left: 50%;}
+.tab-active:hover li:before{content:' ';z-index:3;display:block;border-bottom: 10px solid #EC7000;border-left: 10px solid transparent;border-right: 10px solid transparent;position:absolute;top: -10px;left: 50%;}
+.tab-active li:after{content:' ';z-index:2;display:block;border-bottom: 10px solid #EC7000;border-left: 10px solid transparent;border-right: 10px solid transparent;position:absolute;top: -10px;left: 50%;}
+.cont-tabs .tab-active:hover li{background-color: #EC7000; color: #fff;}
+.icon-Campanas  {background-image: url("../img/icon-Ofertas.png");background-position: 0;
+    background-size: contain;}
+.barra-home .icon-Campanas { margin-top: -8px;}	
+
+/* Estilos barra de progreso tabs */
+.tab-active .contBarraProgress {display: block;position: absolute;height: 8px;background: #fff;z-index: 200;bottom: 0;width: 99.86%; border-bottom: 1px solid #EC7000; border-left: 1px solid #EC7000;}
+.tab-active .contBarraProgress .barraProgress {height: 8px;background: #EC7000;}
+.contBarraProgress .barraProgress {width: 0%; }
+.tab-active {position: relative;}
+
+.barra-home#divTituloMisOfertas .titulo-contenedor-nombre {color: #43484C;font-size: 20px;}
+.barra-home#divTituloMisOfertas .titulo-contenedor-txt.recomendado {color: #43484C !important;font-size: 16px !important;font-weight: normal;}
+.tab-active:hover .contBarraProgress {background-color: #EC7000;}
+@media screen and ( max-width: 1200px) { 
+  .barra-home { width: 94.2% }
+}
+
+
+/* ==========================================================================
+    CAMPANA PRODUCTO HOME SLIDER
+    ========================================================================== */
+ #cont-campanas-ffmmN.img-fnd { background-position:right; background-repeat: no-repeat; background-color: #ffffff;}
+ #cont-campanas-producto { height: 200px; }
+ #cont-campanas-producto.img-fnd { background-position:right; background-repeat: no-repeat; background-color: #ffffff;}
+ #cont-campanas-producto .col-txt 	{width: 53%;float: left;height: 180px;padding: 1%; }
+ #cont-campanas-producto .col-boton 	{width: 20%;float: left;height: 180px;position: relative;}
+ #cont-campanas-producto .col-img { width: 23%; float: left; height: 180px; padding: 1%; }
+ #cont-campanas-producto .boton-campanas {position: absolute;top: 60%;}
+ #cont-campanas-producto .col-txt .txt-legal { font-size: 11px; line-height: 11px; padding-left: 30px }
+ #cont-campanas-producto .txt-det-ofer {height: 110px; padding: 10px 0 10px 30px; }
+ #cont-campanas-producto .col-txt .tooltip-info { float: none!important; }
+ #cont-campanas-producto .col-txt .tooltip-info:hover .info-credito {display:block;}
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito {display:none;background: #f5f5f5;border: 1px solid #ccc;border-radius: 5px;position: absolute;top: -135px; left: 0px;width: 680px;padding: 10px;min-height: 110px;line-height: 12px; z-index: 10;}
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2 .recomendado { font-size: 11px!important; }
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2:before {content:' ';z-index:2;display:block;border-top:7px solid #f5f5f5;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 130px;left:15px;}
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2:after {content:' ';z-index:1;display:block;border-top:7px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 130px;left:15px; }
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2.shadow { box-shadow: #333 0 1px 10px 0; }
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2 .recomendado { color: #7c7c7c; }
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2 .recomendado p { margin-bottom: 5px;}
+ .personasProductos{ background: #ccc!important; color: #333!important; }
+ #cont-campanas-producto .txt-legal #idVerMas { color:#ff7900!important; font-weight:bold!important; }
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito { top: -140px!important; left: 0px!important; }
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2:before { left: 15px!important; }
+ #cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2:after { left: 15px!important; }
+ 
+ @media screen and (max-width: 1200px) {
+	#cont-campanas-producto .txt-det-ofer {height: 130px; padding: 10px 0 10px 10px; }	
+	#cont-campanas-producto .col-txt .txt-legal { padding-left: 10px }
+	#cont-campanas-producto .col-boton 	{width: 25%;}
+	#cont-campanas-producto .col-img { width: 18%;}
+	.cont-tabs li { min-height: 60px; }
+	#cont-campanas-producto .col-txt .tooltip-info .info-credito {top: -140px!important;width: 655px;}
+	#cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2:before { left: 15px!important; top: 143px;}
+ 	#cont-campanas-producto .col-txt .tooltip-info .info-credito.tool-top2:after { left: 15px!important; top: 144px;}
+	#cont-campanas-producto #colapsable-cartola .porlet-content .img-offer { display: none; }
+	#cont-campanas-producto #colapsable-cartola .cont { min-height: 200px; }
+	#cont-campanas-producto #colapsable-cartola .porlet-content .middle-text-offer { padding-left: 50px!important; }
+	#colapsable-cartola .porlet-content .middle-text-offer { padding: 10px 0 10px 0; } /* Correccion boton MP Negociado*/
+}
+
+ /* ==========================================================================
+    NOTA IMPORTANTE
+    ========================================================================== */
+ .simulador-ab .inew-notas-box { padding: 10px 20px!important;�}
+ .simulador-ab .inew-notas-box .inew-legal h4 { color:#447b9a; margin-bottom: 10px!important;}
+ .simulador-ab .inew-notas-box .inew-legal li p { margin-bottom: 10px; color:#447b9a!important; }
+ .simulador-ab .top-loan-creCon-proteccion .txt-desgrav p span:first-child { margin-right: 5px; }
+ 
+ 
+ /* --- CAMPANA ENROLAMIENTO --- */
+   
+#cont-campanas-enrolamiento .col-txt {width: 65%;padding: 3% 0 1% 4%;}
+#cont-campanas-enrolamiento .titulo {width: 100%;font-size: 21px;font-weight: 500;color: #252220;}
+#cont-campanas-enrolamiento .titulo span span { color: #ff7900; }
+#cont-campanas-enrolamiento .subtitulo {width: 100%;font-size: 15px;margin-top: 4px;}
+#cont-campanas-enrolamiento .subtitulo span span { font-weight: bold;}
+#cont-campanas-enrolamiento .cont-columnas {font-size: 14px;margin: 15px 0 9px;color: #ababab;display: inline-block;width: 100%;}
+#cont-campanas-enrolamiento .cont-columnas .columnas {line-height: 14px; float: left;border-right: solid 1px #ddd;padding:  1%;display:  table;width: 30%;}
+#cont-campanas-enrolamiento .cont-columnas .columnas img { width: 30px;}
+#cont-campanas-enrolamiento .cont-columnas .columnas:last-child { border-right: none; }
+#cont-campanas-enrolamiento .cont-columnas .columnas .row { display: table-row; }
+#cont-campanas-enrolamiento .cont-columnas .columnas .left {width: 27%;float:left;display:  table-column;text-align: right;}
+#cont-campanas-enrolamiento .cont-columnas .columnas .left .icon-Campanas { text-align: left;}
+#cont-campanas-enrolamiento .cont-columnas .columnas .right {width: 70%;float: right;display:  table-column;color: #605751;}
+
+
+/* --- CAMPANA FFMM 2018 --- */
+
+#cont-campanas-ffmmN .col-txt {width: 55%;padding: 1% 0 1% 4%;}
+#cont-campanas-ffmmN .titulo {width: 100%;font-size: 22px;font-weight: 500;color: #fb792b;}
+#cont-campanas-ffmmN .titulo span span { font-weight: bold;}
+#cont-campanas-ffmmN .subtitulo {width: 100%;font-size: 17px;color: #757575;margin-top: 4px;}
+#cont-campanas-ffmmN .cont-columnas {margin: 15px 0 9px;display: inline-block;width: 100%;}
+#cont-campanas-ffmmN .cont-columnas .columnas {font-size: 14px;line-height: 14px;float: left;border-right: solid 2px #252220;padding:  1%;display:  table;width: 35%;}
+#cont-campanas-ffmmN .cont-columnas .columnas.col-1{ width: 35%!important;} 
+#cont-campanas-ffmmN .cont-columnas .columnas.col-2{ width: 60%!important;}
+#cont-campanas-ffmmN .cont-columnas .columnas.col-2 p:first-child { font-size: 17px; font-weight: bold;  }
+#cont-campanas-ffmmN .cont-columnas .columnas img { width: 30px;}
+#cont-campanas-ffmmN .cont-columnas .columnas:last-child { border-right: none; }
+#cont-campanas-ffmmN .cont-columnas .columnas .row { display: table-row; }
+#cont-campanas-ffmmN .cont-columnas .columnas .left {width: 35%;float:left;display:  table-column;text-align: right;}
+#cont-campanas-ffmmN .cont-columnas .columnas .left .icon-Campanas { text-align: left;}
+#cont-campanas-ffmmN .cont-columnas .columnas .right.desta {font-size: 30px;font-weight: bold;width: 62%;line-height:  30px;}
+#cont-campanas-ffmmN .cont-columnas .columnas .right {width: 55%;float: right;display:  table-column;color: #605751;}
+#cont-campanas-ffmmN .cont-columnas .columnas .right.perfil p:last-child { font-size: 15px; font-weight: bold;}
+#cont-campanas-ffmmN .texto-fin {font-size: 14px;margin-bottom: 10px;}
+#cont-campanas-ffmmN .texto-fin p { display: inline-block; �}
+
+/* --- TOOLTIP --- */
+
+#cont-campanas-ffmmN .tooltip-info {float: none!important;font-size: 11px;color: #ff7900;font-weight:  bold; cursor:default; }
+#cont-campanas-ffmmN .tooltip-info:hover .info-credito {display:block;}
+#cont-campanas-ffmmN .tooltip-info .info-credito {display:none;background: #f5f5f5;border: 1px solid #ccc;border-radius: 5px;position: absolute;top: -125px;left: -345px;width: 745px;padding: 10px;min-height: 100px;line-height: 12px;}
+#cont-campanas-ffmmN .tooltip-info .info-credito.tool-top2:before {content:' ';z-index:2;display:block;border-top:7px solid #f5f5f5;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 120px;left: 365px;}
+#cont-campanas-ffmmN .tooltip-info .info-credito.tool-top2:after {content:' ';z-index:1;display:block;border-top:7px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 121px;left: 365px;}
+#cont-campanas-ffmmN .tooltip-info .info-credito.tool-top2.shadow { box-shadow: #333 0 1px 10px 0; }
+#cont-campanas-ffmmN .tooltip-info .info-credito.tool-top2 .recomendado { color: #7c7c7c; }
+#cont-campanas-ffmmN .tooltip-info .info-credito.tool-top2 .recomendado p { margin-bottom: 5px;}
+@media screen and (max-width: 1200px) {
+	#cont-campanas-ffmmN .col-txt {width: 75%;padding: 1% 0 1% 4%;}
+	#cont-campanas-ffmmN .tooltip-info .info-credito {display:none;background: #f5f5f5;border: 1px solid #ccc;border-radius: 5px;position: absolute;top: -145px;left: -415px;width: 670px;padding: 10px;min-height: 100px;line-height: 12px;z-index: 100;}
+	#cont-campanas-ffmmN .tooltip-info .info-credito.tool-top2:before {content:' ';z-index:2;display:block;border-top:7px solid #f5f5f5;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 120px;left: 425px;}
+	#cont-campanas-ffmmN .tooltip-info .info-credito.tool-top2:after {content:' ';z-index:1;display:block;border-top:7px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 121px;left: 425px;}
+	#cont-campanas-ffmmN .tooltip-info .info-credito p { font-size: 10px; }
+}
+
+ 
+/*Estilos Flujo de Avance Agosto 2018*/
+
+.flujoAvance-privado .bg-img{width: 100%;position: absolute;height: 250px; display: block; overflow: hidden;}
+.flujoAvance-privado .bg-img img{width: 100%;}
+.flujoAvance-privado #tabs-container-cvd {display: block;overflow: hidden;padding: 0 20px;}
+.flujoAvance-privado #tabs-container-cvd .tab-cvd{border: none;margin-bottom: 0;width: auto;padding: 40px 0;overflow: hidden;position: relative;}
+.flujoAvance-privado #tabs-container-cvd .tab-cvd #tab-1 {display: block;margin: 0 auto;}
+.flujoAvance-privado #tabs-container-cvd #tab-1 label{width: 250px;margin-left: 0;font-size: 18px;color: #43484C;margin-bottom: 15px;margin-top: 6px;font-weight: normal;}
+.flujoAvance-privado #tabs-container-cvd #tab-1 .demo-select{width: 318px;}
+.flujoAvance-privado #NroTarjeta {background-color: transparent !important;width: 100%;}
+.flujoAvance-privado #tabs-container-cvd #tab-1 .demo-select #NroTarjeta tbody tr td .dijitReset.dijitInputField.dijitButtonText {width: 100%;background-color: #fff;}
+.flujoAvance-privado #tabs-container-cvd .tab-cvd {border: none;margin-bottom: 0;width: auto;padding: 40px 0;overflow: hidden;position: relative;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-content-selector p{font-size: 14px;color: #43484C;display: block;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-content-selector .txt-monto{font-size: 26px;font-weight: bold;display: block;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-simulador {background: #FFF;margin-top: 30px;padding: 20px;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados {margin: 0;width: 100%;overflow: hidden;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .span6{width: 50%;margin: 0;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .span6:first-child{margin-left: 0;background: transparent;}
+.flujoAvance-privado #tabs-container-cvd .mensaje {width: 100% !important;}
+.flujoAvance-privado #tabs-container-cvd #widget_montoInput {width: 95%;}
+.flujoAvance-privado #tabs-container-cvd #widget_numCuotas {width: 90%;}
+.flujoAvance-privado #tabs-container-cvd #mensaje-validacion {background: transparent;padding: 0;margin-top: 0 !important;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque{width: 48%;margin: 0 0 0 10px;float: left;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .span6 .s-bloque:first-child{margin-left: 0;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque p{font-size: 14px;color: #43484C;line-height: 120%;background: transparent !important;margin-bottom: 20px;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque #msgErrorMontoID {font-size: 13px;color: #B71C1C;line-height: 120%;background: transparent !important;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque span{display: block;color: #696969;font-size: 11px;margin-right: 5px;background-color: transparent !important;float: left;margin-bottom: 0 !important;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque input{width: 90% !important;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque .dijitReset.dijitInputField.dijitArrowButtonInner {width: 24px !important;height: 28px !important;padding: 0 !important;background-position: center center !important;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque select {width: 100%;height:40px;margin-top:20px !important;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque a {margin-top:45px !important;}
+.flujoAvance-privado #tabs-container-cvd .cvd-montos-resultados .btn-base.btn-termino.margen3-top.wpfBlueButton {float: right;margin-top: 32px !important;}
+.flujoAvance-privado #tabs-container-cvd #avanceEfectivoForm #divRefreshSimular #detalleAvance {border-top: 1px #ec7000 solid;}
+.flujoAvance-privado #NroCuenta .dijitReset.dijitInputField.dijitButtonText {width: 100%;}
+.flujoAvance-privado #avanceEfectivoForm {display: block;overflow: hidden;padding-bottom: 30px;border-bottom: 1px #f5f5f5 solid;}
+.flujoAvance-privado .contModulos-avance {overflow: hidden; min-height: 580px;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .s-bloque .dijitReset.dijitInputField.dijitArrowButtonInner {width: 24px !important;height: 28px !important;padding: 0 !important;background-position: center center !important;margin: 0;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .numero-cuotas #numCuotas {width: 90%;}
+.flujoAvance-privado #tabs-container-cvd #tab-1.tab-content-cvd .cvd-montos-resultados .numero-cuotas #numCuotas .dijitReset.dijitInputField.dijitButtonText {width: 100%;}
+
+/* Mensaje Importante */
+.flujoAvance-privado .importante-cvd {overflow:hidden;  padding: 20px;background: #d9edf6;margin-top: 30px;}
+.flujoAvance-privado .importante-cvd i {float: left; color: #007AB7; font-size: 35px; display: block; height: 24px; width: 25px; text-align: center; line-height: 19px}
+.flujoAvance-privado .importante-cvd p {font-size: 13px;line-height: 16px; color: #447b9a; margin-left: 10px; float: left; display: block; width: 90%;}
+.flujoAvance-privado .importante-cvd p span {font-weight:bold;}
+
+/* Mensaje Importante */
+.flujoAvance-privado .importante-cvd {overflow:hidden;padding: 20px;background: #d9edf6;margin-top: 30px;}
+.flujoAvance-privado .importante-cvd i {float: left; color: #007AB7; font-size: 35px; display: block; height: 24px; width: 25px; text-align: center; line-height: 19px}
+.flujoAvance-privado .importante-cvd p {font-size: 13px;line-height: 16px; color: #447b9a; margin-left: 10px; float: left; display: block; width: 90%;}
+.flujoAvance-privado .importante-cvd p span {font-weight:bold;}
+
+/* Resultado Simulaci�n */
+.flujoAvance-privado .inew-vencimientos {float: left; width: 99.6%; margin-left: 2px; margin-right:2px;}
+.flujoAvance-privado .inew-vencimientos >div {padding: 20px 10px; float: left;box-sizing: border-box; border-right: solid 1px #dddddd; text-align: center;display: table-cell;vertical-align: middle;height: 85px;}
+.flujoAvance-privado .resCuotaMensual span:nth-child(1) {display: inline-block !important;font-weight: bold !important;}
+.flujoAvance-privado .resCuotaMensual span:nth-child(2) {display: inline-block;font-weight: bold;}
+.flujoAvance-privado .resCuotaMensual span:nth-child(3) {display: block;}
+.flujoAvance-privado .inew-vencimientos .box-sin-cuota {width: 33.3%;}
+.flujoAvance-privado .inew-vencimientos .box-con-cuota {width: 17%;}
+.flujoAvance-privado .inew-vencimientos .box-detalle-cuota {width: 12%;}
+.flujoAvance-privado .inew-vencimientos>div:last-child {border-right:none;}
+.fecha-simulacion span:nth-child(1) {font-weight: normal !important;}
+.fecha-simulacion span:nth-child(2) {font-weight: bold !important;}
+.flujoAvance-privado .inew-vencimientos>div span:first-child {font-size:13px !important; color:#373D45 !important; font-weight:bold; display: block;}
+.flujoAvance-privado .inew-vencimientos .box-detalle-cuota span:first-child {font-size: 12px !important;color: #43484C !important;font-weight: normal;}
+.flujoAvance-privado .inew-vencimientos>div span:last-child {font-size:14px !important;font-weight:bold;}
+.flujoAvance-privado .inew-vencimientos .box-detalle-cuota span:last-child {font-size: 14px !important;color: #43484C;font-weight: normal;}
+.flujoAvance-privado .inew-vencimientos .fecha-simulacion span {font-weight: normal; color:#373D45 !important;}
+.flujoAvance-privado .inew-vencimientos .numCuota-avance span:nth-child(1) {display: inline-block !important;}
+.flujoAvance-privado .inew-vencimientos .numCuota-avance span:nth-child(2) {display: inline-block !important;font-size: 13px;font-weight: bold;}
+.flujoAvance-privado .inew-vencimientos .numCuota-avance span:nth-child(3) {display: block !important;}
+.flujoAvance-privado .resultado {width:340px;float: right;}
+.flujoAvance-privado .resultado .btn-continuidad {float:left; margin:10px 20px 0 0 !important;}
+.flujoAvance-privado .resultado .btn-termino {float:left !important; margin: 10px 0 0 0 !important;}
+.flujoAvance-privado .pasos20_tabla_detalle .deglose .numCuotasLabel {float: left;padding-right: 0 !important;margin-right: 5px;}
+/* PARTE 3*/
+/* Comprobante */
+.flujoAvance-privado .inew-simulacion-icode p {font-size:11px; text-align: center; margin-top:15px; color:#007AB7;}
+.flujoAvance-privado .inew-simulacion-icode p span {font-weight:bold;}
+.flujoAvance-privado .bloque-importante-paso2-avance {margin: 0 10px;border-top: 1px solid #f5f5f5;}
+/* tabla de Resultados Simulaci�n BIG - PersonalBank */
+.flujoAvance-privado .inew-resultado {float: left; margin-top: 30px; width: 90%;}
+.flujoAvance-privado .inew-resultado>div {padding: 20px 9px; float: left; box-sizing: border-box; border-right: solid 1px #dddddd; text-align: center;}
+.flujoAvance-privado .inew-resultado>div:last-child {border-right:none;}
+.flujoAvance-privado .inew-resultado>div .dato1 {font-size:14px !important; color:#373D45 !important; font-weight:bold;}
+.flujoAvance-privado .inew-resultado>div .dato2 {font-size:14px !important; color:#EC7000; font-weight: bold; display:block;}
+.flujoAvance-privado .inew-resultado .fecha-simulacion span {font-weight: normal !important;}
+.flujoAvance-privado .inew-resultado .fecha-simulacion .dato2 {color:#000; font-size: 13px !important;}
+.flujoAvance-privado .font-size-11 {font-size:11px;}
+.flujoAvance-privado .cvd-content-selector .txt-box p {width:90%; text-align: right; font-size: 11px !important;}
+.flujoAvance-privado .resumenSimulacionAvance {padding-bottom: 30px;}
+.flujoAvance-privado .resumenSimulacionAvance .contenedor-detalle-simular {padding: 10px;box-shadow: 0px 3px 8px 0px rgba(183, 175, 175, 0.51);border-top: 1px solid #EC7000;}
+.flujoAvance-privado .pasos20_tabla_detalle .deglose:last-child {border-bottom: none;}
+/* ======================================================================
+    Campa�a nueva inversiones banner 17-08-18
+===================================================================== */
+.campana-nueva-inversiones html, body {font-family:Arial, sans-serif;font-size:12px;color:#43484C;}
+.campana-nueva-inversiones .table-box {width: 440px;max-height: 40px;min-height:40px;float: left;border-top:1px;border-left:0px;border-bottom:1px;border-right:0px;border-style: solid;border-color:#D8D8D8;padding:5px 0px 5px 5px;}
+.campana-nueva-inversiones .table-box-1 {width: 131px;max-height:40px;min-height:40px;float:left;border-top:0px;border-right:1px;border-left:0px;border-bottom:0px;border-style:solid;border-color: #D8D8D8;}
+.campana-nueva-inversiones .table-box-2 {width: 297px;float:left;margin-left:10px;border-bottom: solid 1px #D8D8D8;}
+.campana-nueva-inversiones .table-box-2:nth-child(3){border-bottom:none;}
+.campana-nueva-inversiones .txt-legal {float:left; font-size: 11px; line-height: 11px;}
+/*.campana-nueva-inversiones .col-txt {width:390px;float:left;height:110px!important;margin:5px 0 10px 50px;}*/
+.campana-nueva-inversiones .col-txt {width:464px;float:left;height:110px!important;margin:5px 0 10px 50px;}
+.campana-nueva-inversiones .col-txt h1 {font-size:18px;margin:0 0 10px 0;font-weight: normal;}
+.campana-nueva-inversiones .col-boton p	{float:left;font-size:11px;position:relative;top:5px;}
+.campana-nueva-inversiones .col-boton {width:80%!important;float:left;height:auto!important;position: relative; margin-top:10px;}
+/* ======================================================================
+    Campa�a nueva inversiones banner 17-08-18
+===================================================================== */
+/* ======================================================================
+	NUEVO CONTENEDOR DE CAMPA�AS 11-09-2018
+===================================================================== */
+/**************************Estilos Nuevo Contenedor de Campa�as*/
+#cont-campanas-producto.cont-newCampanas {height: 224px; position: relative;}
+.cont-newCampanas .cont-txt-newCampanas {width: 70% !important;height: 184px !important;padding: 20px 20px 20px 40px !important;}
+.cont-newCampanas .cont-txt-newCampanas .titulo-newCampana-Slider {margin: 0 0 20px 0;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .caja-principal {height: 50px;display: block;float: left;padding: 5px 10px 5px 5px;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos.caso-consumo .cajaGenerica:nth-child(2) {border-left: none;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .caja-principal .caja-principal-txt {line-height: 150%;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .caja-principal .caja-principal-bigTxt {font-size: 30px;font-weight: bold;line-height: 100%;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos {overflow: hidden;display: block;float: left;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos .cajaImg {height: 40px;float: left;padding: 10px 5px;min-width: 60px;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos .cajaGenerica {height: 46px;padding: 14px 10px 0 10px;float: left;line-height: 130%;font-size: 12px;min-width: 60px;overflow: hidden;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos .cajaGenerica{border-bottom: none;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos.caso-consumo .cajaGenerica {height: 34px;padding: 4px 10px 0 10px;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos .cajaGenerica div {float: left;display: block;margin-right: 10px;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajas-elementos .cajaGenerica img {height: 28px !important;width: 28px !important;float: left;}
+.cont-newCampanas .cont-txt-newCampanas .cont-cajas-newCampana-slider .cajaCostoTotal {height: 21px;overflow: hidden;padding-left: 10px;clear: both;}
+.cont-newCampanas .cont-txt-newCampanas .boton-campanas {top: 62% !important;}
+.cont-newCampanas .cont-txt-newCampanas .txt-legal {position: absolute;bottom: 20px;left: 40px;padding: 0 !important;}
+.cont-newCampanas .cont-txt-newCampanas .txt-legal p {float: left;margin-right: 5px;}
+#cont-campanas-producto.cont-newCampanas .cont-txt-newCampanas .txt-legal .tooltip-info {float: left !important;}
+.cont-newCampanas .cont-txt-newCampanas.alinear-centro {padding-left: 330px !important;width: 580px !important;}
+.cont-newCampanas .cont-txt-newCampanas.alinear-centro .txt-legal {left: 330px;}
+/*_________________________________________TEXTO CLARO__________________________________*/
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .titulo-newCampana-Slider {color: #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .titulo-newCampana-Slider strong {color: #FCE770;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .caja-principal {border-top: 1px solid #FFFFFF;border-bottom: 1px solid #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .caja-principal .caja-principal-txt {color: #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .caja-principal .caja-principal-bigTxt {color: #FCE770;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .cajas-elementos {border-top: 1px solid #FFFFFF;border-bottom: 1px solid #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .cajas-elementos .cajaGenerica {border-left: 1px solid #FFFFFF;color: #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .cajas-elementos.caso-consumo .cajaGenerica {border-bottom: 1px solid #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .cajas-elementos .cajaImg {border-left: 1px solid #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .cont-cajas-newCampana-slider .cajaCostoTotal {border-left: 1px solid #FFFFFF;color: #FFFFFF;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-claro .txt-legal {color: #FFFFFF;}
+/*TEXTO OSCURO*/
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .titulo-newCampana-Slider {olor: #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .titulo-newCampana-Slider strong {color: #A78845;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .caja-principal {border-top: 1px solid #43484C;border-bottom: 1px solid #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .caja-principal .caja-principal-txt {color: #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .caja-principal .caja-principal-bigTxt {color: #EC7000;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .cajas-elementos {border-top: 1px solid #43484C;border-bottom: 1px solid #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .cajas-elementos .cajaGenerica {color: #43484C;border-left: 1px solid #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .cajas-elementos.caso-consumo .cajaGenerica {border-bottom: 1px solid #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .cajas-elementos .cajaImg {border-left: 1px solid #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .cont-cajas-newCampana-slider .cajaCostoTotal {border-left: 1px solid #43484C;color: #43484C;}
+.cont-newCampanas .cont-txt-newCampanas.campana-texto-obscuro .txt-legal {color: #43484C;}
+/* ======================================================================
+	FIN NUEVO CONTENEDOR DE CAMPA�AS 11-09-2018
+===================================================================== */
+
+/* Ajuste para l�nea sobre campa�a portlet home simular avance */
+.box_avance {border-top: 1px solid #ddd;}
+
+/* Ajuste acordeon para firefox, IE11 */
+.main-box #contenidoConMovimientos {float: left !important; width: 100% !important;} /* Firefox */
+.section-box.collapsible .section-header i { z-index: 99!important; } /* IE10 y 11 */
+
+/*Inicio campa�a avance fin de flujo aumento cupo tc*/
+.campanaAvance-ff, .campanaAvance-ff table, .campanaAvance-ff tbody, .campanaAvance-ff tr, .campanaAvance-ff td, .campanaAvance-ff span {width: 100%;display: block;}
+.campanaAvance-ff td {padding: 0;}
+#contenedor-campanaAvance-ff {margin: 20px auto 40px !important;width: 100%;text-align: left;}
+.comprobante-aumento-tc-ff h2 {margin-bottom: 5px;font-size: 24px;}
+.detalle-campana-aumento-ff {float: left;margin: 20px 0 10px 20px;font-size: 16px;}
+/*Fin campa�a avance fin de flujo aumento cupo tc*/
+
+/* ==================================================================
+	ESTILOS BOTON FLOTANTE CONSUMO STICKY 24-09-2018
+   ================================================================== */
+.sticky-banner {width: 218px;height: 145px;background-color: #fff;margin-top: 20px;}
+.sticky-banner .sid-bar {width: 5px;display: block;float: left;}
+.sticky-banner .sid-bar .color-superior {height: 25px;background-color: #FCE770;}
+.sticky-banner .sid-bar .color-inferior {background-color: #FF7900;height: 120px;}
+.sticky-banner .banner-content {float: left;width: 199px;padding: 25px 7px 0 7px;height: 121px;}
+.sticky-banner .banner-content td {text-align: left !important;}
+.sticky-banner-flotante {position: fixed;top: 0;right: 91px;z-index: 1000;margin-top: 0;}
+/* ==================================================================
+	FIN ESTILOS BOTON FLOTANTE CONSUMO STICKY 24-09-2018
+   ================================================================== */

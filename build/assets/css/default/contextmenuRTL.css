@@ -1,0 +1,60 @@
+.wpthemeMenuRight {
+    color: #FFFFFF;
+    float:left;
+    position: relative;
+}
+.wpthemeMenuLeft {
+    color: #FFFFFF;
+    float:right;
+    position: relative;
+}
+.wpthemeMenuRight .wpthemeMenuBorder .wpthemeMenuNotchBorder {
+    left:0px;
+}
+.wpthemeIcon .wpthemeMenuRight .wpthemeMenuBorder .wpthemeMenuNotchBorder {
+    left: -5px;
+}
+.wpthemeMenuLeft .wpthemeMenuBorder .wpthemeMenuNotchBorder {
+    right: -10px;
+}
+.wpthemeMenuBorder .wpthemeMenuDropDown li.rtl {
+    text-align: right;
+}
+
+.wpthemeMenuShow .wpthemeMenuRight .wpthemeMenuBorder {
+    left: -10px;
+    top: 20px;
+}
+.wpthemeIcon.wpthemeMenuShow .wpthemeMenuRight .wpthemeMenuBorder {
+    left: -10px;
+    top: 3px;
+}
+.wpthemeMenuShow .wpthemeMenuLeft .wpthemeMenuBorder {
+    right: 0px;
+    top: 20px;
+}
+
+.wpthemeMenuShow .wpthemeMenuRight .wpthemeMenuLoading {
+    position: static;
+}
+.wpthemeMenuShow .wpthemeMenuLeft .wpthemeMenuLoading {
+    position: static;
+}
+
+
+/* Submenu handling */
+.wpthemeMenuRight .typeSubmenu.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {
+    left: 104%;
+}
+.wpthemeMenuRight .typeSubmenu.rtl.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {
+    left: auto;
+    right: 102%;
+}
+
+.wpthemeMenuLeft .typeSubmenu.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {
+    right: 102%;
+}
+.wpthemeMenuLeft .typeSubmenu.rtl.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {
+    left: 104%;
+    right: auto;
+}

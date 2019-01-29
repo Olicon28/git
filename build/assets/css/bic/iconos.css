@@ -1,0 +1,523 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+/* ==========================================================================
+   ICONS
+   ========================================================================== */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  vertical-align: text-top;
+  background-position: 15px 15px;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}  
+
+.icon-mini        { width: 12px; height: 12px; background-position: 12px 12px;  background-image: url("../img/icon-mini-azul.png"); }
+.icon-gris        { background-image: url("../img/icon-gris.png"); }
+.icon-seg_redes   { background-image: url("../img/icon-permisos.png");display: block;width: 64px;height: 64px;margin: 0 auto; background-position: -4px 4px; }
+.icon-blanco      { background-image: url("../img/icon-blanco.png"); }
+.icon-naranjo     { background-image: url("../img/icon-naranjo.png"); }
+.icon-16		  { width:16px; height:16px; background-position: 16px 16px; }
+.icon-grande      { width:20px; height:20px; background-position: 20px 20px; }
+.icon-24 		  { width:24px; height:24px; background-position: 24px 24px; }
+.icon-mlarge      { width:32px; height:32px; background-position: 32px 32px; }
+.icon-xlarge      { width:64px; height:64px; background-position: 64px 64px; }
+
+
+
+[class*="icon-grande"].icon-naranjo { background-image: url("../img/icon-naranjo-large.png"); }
+[class*="icon-grande"].icon-gris    { background-image: url("../img/icon-gris-large.png"); }
+[class*="icon-grande"].icon-blanco  { background-image: url("../img/icon-blanco-large.png"); }
+[class*="icon-mlarge"].icon-blanco  { background-image: url("../img/icon-blanco-mlarge.png"); }
+[class*="icon-16"].icon-gris 		{ background-image: url("../img/icon-gris-16.png"); }
+[class*="icon-24"].icon-color		{ background-image: url("../img/icono-color-24.png"); } 
+[class*="icon-xlarge"].icon-naranjo { background-image: url("../img/icon-naranjo-xlarge.png"); }
+[class*="icon-xlarge"].icon-gris    { background-image: url("../img/icon-gris-xlarge.png"); }
+[class*="icon-xlarge"].icon-blanco  { background-image: url("../img/icon-blanco-xlarge.png"); }
+
+
+/* ==========================================================================
+   ICON HOVER
+   ========================================================================== */
+.hover-icon:hover [class*="icon-gris"] { background-image: url("../img/icon-azul-p.png"); }
+.hover-icon:hover [class*="icon-blanco"] { background-image: url("../img/icon-naranjo.png"); }
+
+
+/* ==========================================================================
+   ICONOS 12X12PX
+   ========================================================================== */
+[class*="icon-mini"].icon-buscar          { background-position: 0 0; }
+
+/* ==========================================================================
+   ICONOS 15X15PX
+   ========================================================================== */
+.icon-mensaje       { background-position: 0 0; }
+.icon-usuario       { background-position: -15px 0; }
+.icon-cerrar        { background-position: -30px 0; }
+.icon-balance       { background-position: -45px 0; }
+.icon-pregunta      { background-position: -60px 0; }
+.icon-transferir    { background-position: -75px 0; }
+.icon-movimiento    { background-position: -90px 0; }
+.icon-configuracion   { background-position: -105px 0; }
+.icon-inversiones   { background-position: -120px 0; }
+.icon-ok        { background-position: -135px 0; }
+.icon-pagar       { background-position: -150px 0; }
+.icon-notas       { background-position: -165px 0; }
+.icon-resumen     { background-position: -180px 0; }
+.icon-monto       { background-position: -195px 0; }
+.icon-fecha       { background-position: -210px 0; }
+.icon-drag        { background-position: -225px 0; }
+.icon-llamar      { background-position: -240px 0; }
+.icon-contratar     { background-position: -255px 0; }
+.icon-agregar     { background-position: -270px 0; }
+.icon-desplega-bottom { background-position: -285px 0; }
+.icon-desplega-right  { background-position: -300px 0; }
+.icon-desplega-left   { background-position: -315px 0; }
+.icon-desplega-top    { background-position: -330px 0; }
+.icon-nav-bottom    { background-position: -345px 0; }
+.icon-nav-right     { background-position: -360px 0; }
+.icon-flecha-top    { background-position: -375px 0; }
+.icon-flecha-bottom   { background-position: -390px 0; }
+.icon-volver      { background-position: -405px 0; }
+.icon-ejecutivo     { background-position: -420px 0; }
+.icon-tarjeta     { background-position: -435px 0; }
+.icon-billetera     { background-position: -450px 0; }
+.icon-mail          { background-position: -465px 0; }
+.icon-agenda      { background-position: -480px 0; }
+.icon-help        { background-position: -495px 0; }
+.icon-exito       { background-position: -510px 0; }
+.icon-candado     { background-position: -525px 0; }
+.icon-hipotecario   { background-position: -540px 0; }
+.icon-credito       { background-position: -555px 0; }
+.icon-error         { background-position: -570px 0; }
+.icon-traspasos       { background-position: -585px 0; }
+.icon-valevista       { background-position: -600px 0; }
+.icon-cartola       { background-position: -615px 0; }
+.icon-home          { background-position: -630px 0; }
+.icon-cheques       { background-position: -645px 0; }
+.icon-buscar        { background-position: -660px 0; }
+.icon-itau          { background-position: -675px 0; }
+.icon-chequera        { background-position: -690px 0; }
+.icon-talonarios    { background-position: -705px 0; }
+.icon-crear-proyecto  { background-position: -720px 0; }
+.icon-fono        { background-position: -735px 0; }
+.icon-feriado     { background-position: -750px 0; }
+.icon-doc       { background-position: -765px 0; }
+.icon-excel       { background-position: -780px 0; }
+.icon-expirar     { background-position: -795px 0; }
+.icon-transferencia     { background-position: -810px 0; }
+.icon-editar        { background-position: -825px 0; }
+.icon-destinatarios     { background-position: -840px 0; }
+.icon-preferencial    { background-position: -855px 0; }
+.icon-eliminar        { background-position: -870px 0; }
+.icon-favorito-1    { background-position: -885px 0; }
+.icon-favorito-2    { background-position: -900px 0; }
+.icon-nav-top       { background-position: -915px 0; }
+.icon-nav-left      { background-position: -930px 0; }
+.icon-detalle     { background-position: -945px 0; position: relative; }
+
+.icon-nav-top-o       { background-position: -960px 0; }
+.icon-nav-bottom-o      { background-position: -975px 0; }
+.icon-nav-left-o      { background-position: -990px 0; }
+.icon-nav-right-o     { background-position: -1005px 0; }
+
+.icon-estado-cuenta   { background-position: -1020px 0; }
+.icon-peso        { background-position: -1035px 0; }
+.icon-descargar-datos   { background-position: -1050px 0; }
+
+.icon-pagar-producto  { background-position: -1065px 0; }
+.icon-productos     { background-position: -1080px 0; }
+
+.icon-servicios     { background-position: -1095px 0; }
+.icon-transacciones   { background-position: -1110px 0; }
+
+.icon-doble-flecha    { background-position: -1125px 0; }
+.icon-cartola2    { background-position: -1140px 0; }
+.icon-home2       { background-position: -1155px 0; }
+.icon-visualizar       { background-position: -1170px 0; }
+
+.icon-dolar       { background-position: -1185px 0; }
+.icon-sobregiro     { background-position: -1200px 0; }
+.icon-txt           { background-position: -1230px 0; }
+
+.icon-doble-flecha-bottom          { background-position: -1245px 0; }
+.icon-doble-flecha-top          { background-position: -1260px 0; }
+.icon-print               { background-position: -1305px 0; }
+.icon-crear-destinatario               { background-position: -1335px 0; margin-top: -2px; }
+.icon-new-page,
+.icon-importar              { background-position: -1320px 0; }
+
+.icon-info  { background-position: -1440px 0;}
+.icon-ver-folleto { background-position: -1455px 0;} 
+.icon-ver-grafico { background-position: -1470px 0; }
+.icon-ver-contrato-general { background-position: -1485px 0; }
+.icon-reloj { background-position: -1500px 0;}
+
+.icon-valor-cuota { background-position: -1530px 0; }
+.icon-folleto { background-position: -1545px 0; }
+.icon-realizado { background-position: -1560px 0; }
+
+.icon-pendiente { background-position: -1575px 0; }
+.icon-notificacion { background-position: -1365px 0; }
+.icon-home-empresa { background-position: -1665px 0; }
+.icon-moneda-clp { background-position: -1650px 0; }
+.icon-moneda-euro { background-position: -1635px 0; }
+
+.icon-arrow-right   { background-position: -1695px 0;}
+.icon-arrow-bottom  { background-position: -1710px 0;}
+.icon-ubicacion  { background-position: -1740px 0;}
+
+.icon-nav-first  { background-position: -1755px 0;}
+.icon-nav-last   { background-position: -1770px 0;}
+.icon-bloqueo   { background-position: -1785px 0;}
+
+
+.icon-consultas { background-position: -1605px 0; }
+.icon-operaciones { background-position: -1620px 0; }
+.icon-alerta { background-position: -1800px 0; }
+
+
+.icon-euro                  { background-position: -1830px 0; }
+.icon-cta-vista-gastos      { background-position: -1845px 0; }
+.icon-doc-tributarios       { background-position: -1860px 0; }
+.icon-transferir-montos     { background-position: -1905px 0; }
+.icon-portal-pagos          { background-position: -1920px 0; }
+.icon-portal-recaudaciones  { background-position: -1935px 0; }
+.icon-firmas-pendientes     { background-position: -1950px 0; }
+
+.icon-comercio-exterior     { background-position: -1965px 0; }
+.icon-factoring             { background-position: -1980px 0; }
+.icon-leasing               { background-position: -1995px 0; }
+
+.icon-bf-pagador            { background-position: -2010px 0; }
+.icon-bf-proveedor          { background-position: -2025px 0; }
+.icon-cambio-clave          { background-position: -2040px 0; }
+.icon-reutilizar            { background-position: -2055px 0; }
+
+.icon-edificio				{ background-position: -1410px 0; }
+
+.icon-intercambio                    { background-position: -1215px 0; }
+.icon-doble-flecha-doble1         { background-position: -1275px 0; }
+.icon-doble-flecha-doble2         { background-position: -1290px 0; }
+.icon-usuarios              { background-position: -1350px 0; }
+.icon-libro { background-position: -1380px 0; }
+.icon-fabrica1 { background-position: -1395px 0; }
+.icon-new-doc				{ background-position: -1425px 0; }
+.icon-botiquin { background-position: -1515px 0;}
+.icon-arrow-up { background-position: -1680px 0; }
+.icon-arrow-left  { background-position: -1725px 0;}
+.icon-key1 { background-position: -1815px 0; }
+.icon-piechart       { background-position: -1875px 0; }
+.icon-moneybag       { background-position: -1890px 0; }
+.icon-descarga1 { background-position: -1590px 0; }
+.icon-error1            { background-position: -2070px 0; }
+.icon-superdoc            { background-position: -2085px 0; }
+.icon-download1            { background-position: -2098px 0; }
+.icon-globe            { background-position: -2115px 0; }
+.icon-cash-pooling            { background-position: -2130px 0; }
+.icon-cheque-seguro          { background-position: -2145px 0; }
+.icon-circulo-pagos          { background-position: -2160px 0; }
+.icon-cobranza-ext            { background-position: -2175px 0; }
+.icon-cobranza-nac            { background-position: -2190px 0; }
+.icon-correspondencia      { background-position: -2220px 0; }
+.icon-carta-credito          { background-position: -2235px 0; }
+
+/*nuevas funcionalidades cash 2.0*/
+.icon-notificacion-firmas         { background-position: -2330px 0; }
+
+/*PAGINA NOTIFICACIONES*/
+#notificaciones .icon-alerta,
+#header .icon-alerta {
+  background-position: 0 0;
+}
+
+#notificaciones .icon-consentimiento,
+#header .icon-consentimiento {
+  background-position: -15px 0;
+}
+
+#notificaciones .icon-informativo,
+#header .icon-informativo {
+  background-position: -30px 0;
+}
+
+#header .icon-alerta,
+#header .icon-consentimiento,
+#header .icon-informativo,
+#notificaciones .icon-alerta,
+#notificaciones .icon-consentimiento,
+#notificaciones .icon-informativo,
+.notificaciones .icon-alerta,
+.notificaciones .icon-consentimiento,
+.notificaciones .icon-informativo {
+  background-image: url("../img/icon_notificaciones.png")!important;
+}
+
+/*NOTIFICACIONES HOME*/
+.notificaciones .icon-alerta {
+  background-position: 0 -30px;
+}
+
+.notificaciones .icon-consentimiento {
+  background-position: -15px -30px;
+}
+
+.notificaciones .icon-informativo {
+  background-position: -30px -30px;
+}
+
+/* ==========================================================================
+   ICONOS 16X16PX
+   ========================================================================== */
+[class*="icon-16"].iconUsuario      { background-position: 0 0; } 
+[class*="icon-16"].iconConfiguracion      { background-position: -16px 0; } 
+[class*="icon-16"].iconNotificacion      { background-position: -34px 0; } 
+[class*="icon-16"].iconFactura       { background-position: -52px 0; }
+
+
+/* ==========================================================================
+   ICONOS 20X20PX
+   ========================================================================== */
+[class*="icon-grande"].icon-mensaje       { background-position: 0 0; }
+[class*="icon-grande"].icon-usuario       { background-position: -20px 0; }
+[class*="icon-grande"].icon-cerrar      { background-position: -40px 0; }
+[class*="icon-grande"].icon-balance       { background-position: -60px 0; }
+[class*="icon-grande"].icon-pregunta      { background-position: -80px 0; }
+[class*="icon-grande"].icon-transferir      { background-position: -100px 0; }
+[class*="icon-grande"].icon-movimiento      { background-position: -120px 0; }
+[class*="icon-grande"].icon-configuracion   { background-position: -140px 0; }
+[class*="icon-grande"].icon-inversiones     { background-position: -160px 0; }
+[class*="icon-grande"].icon-ok          { background-position: -180px 0; }
+[class*="icon-grande"].icon-pagar       { background-position: -200px 0; }
+[class*="icon-grande"].icon-notas       { background-position: -220px 0; }
+[class*="icon-grande"].icon-resumen       { background-position: -240px 0; }
+[class*="icon-grande"].icon-monto       { background-position: -260px 0; }
+[class*="icon-grande"].icon-fecha       { background-position: -280px 0; }
+[class*="icon-grande"].icon-drag      { background-position: -300px 0; }
+[class*="icon-grande"].icon-llamar        { background-position: -320px 0; }
+[class*="icon-grande"].icon-contratar     { background-position: -340px 0; }
+[class*="icon-grande"].icon-agregar       { background-position: -360px 0; }
+[class*="icon-grande"].icon-desplega-bottom { background-position: -380px 0; }
+[class*="icon-grande"].icon-desplega-right  { background-position: -400px 0; }
+[class*="icon-grande"].icon-desplega-left { background-position: -420px 0; }
+[class*="icon-grande"].icon-desplega-top  { background-position: -440px 0; }
+[class*="icon-grande"].icon-nav-bottom    { background-position: -460px 0; }
+[class*="icon-grande"].icon-nav-right   { background-position: -480px 0; }
+[class*="icon-grande"].icon-flecha-top    { background-position: -500px 0; }
+[class*="icon-grande"].icon-flecha-bottom { background-position: -520px 0; }
+[class*="icon-grande"].icon-volver      { background-position: -540px 0; }
+[class*="icon-grande"].icon-ejecutivo   { background-position: -560px 0; }
+[class*="icon-grande"].icon-tarjeta     { background-position: -580px 0; }
+[class*="icon-grande"].icon-billetera   { background-position: -600px 0; }
+[class*="icon-grande"].icon-mail      { background-position: -620px 0; }
+[class*="icon-grande"].icon-agenda      { background-position: -640px 0; }
+[class*="icon-grande"].icon-help      { background-position: -660px 0; }
+[class*="icon-grande"].icon-exito     { background-position: -680px 0; }
+[class*="icon-grande"].icon-candado     { background-position: -700px 0; }
+[class*="icon-grande"].icon-hipotecario   { background-position: -720px 0; }
+[class*="icon-grande"].icon-credito       { background-position: -740px 0; }
+[class*="icon-grande"].icon-error       { background-position: -760px 0; }
+[class*="icon-grande"].icon-traspasos     { background-position: -780px 0; }
+[class*="icon-grande"].icon-valevista     { background-position: -800px 0; }
+[class*="icon-grande"].icon-cartola       { background-position: -820px 0; }
+[class*="icon-grande"].icon-home        { background-position: -840px 0; }
+[class*="icon-grande"].icon-cheques       { background-position: -860px 0; }
+[class*="icon-grande"].icon-buscar        { background-position: -880px 0; }
+[class*="icon-grande"].icon-itau        { background-position: -898px 0; }
+[class*="icon-grande"].icon-chequera    { background-position: -918px 0; }
+[class*="icon-grande"].icon-talonarios    { background-position: -940px 0; }
+[class*="icon-grande"].icon-crear-proyecto  { background-position: -960px 0; }
+[class*="icon-grande"].icon-fono      { background-position: -978px 0; }
+[class*="icon-grande"].icon-feriado     { background-position: -1000px 0; }
+[class*="icon-grande"].icon-doc       { background-position: -1017px 0; }
+[class*="icon-grande"].icon-excel     { background-position: -1036px 0; }
+[class*="icon-grande"].icon-expirar     { background-position: -1060px 0; }
+[class*="icon-grande"].icon-transferencia   { background-position: -1076px 0; }
+[class*="icon-grande"].icon-editar        { background-position: -1096px 0; }
+[class*="icon-grande"].icon-destinatarios   { background-position: -1116px 0; }
+[class*="icon-grande"].icon-preferencial  { background-position: -1136px 0; }
+[class*="icon-grande"].icon-eliminar    { background-position: -1156px 0; }
+[class*="icon-grande"].icon-favorito-1    { background-position: -1176px 0; }
+[class*="icon-grande"].icon-favorito-2    { background-position: -1196px 0; }
+[class*="icon-grande"].icon-nav-top     { background-position: -1220px 0; }
+[class*="icon-grande"].icon-nav-left    { background-position: -1240px 0; }
+[class*="icon-grande"].icon-detalle     { background-position: -1260px 0; }
+
+[class*="icon-grande"].icon-nav-top-o   { background-position: -960px 0; }
+[class*="icon-grande"].icon-nav-bottom-o  { background-position: -975px 0; }
+[class*="icon-grande"].icon-nav-left-o      { background-position: -990px 0; }
+[class*="icon-grande"].icon-nav-right-o     { background-position: -1005px 0; }
+
+[class*="icon-grande"].icon-estado-cuenta   { background-position: -1358px 0; }
+[class*="icon-grande"].icon-peso      { background-position: -1378px 0; }
+[class*="icon-grande"].icon-descargar-datos { background-position: -1398px 0; }
+
+[class*="icon-grande"].icon-pagar-producto  { background-position: -1418px 0; }
+[class*="icon-grande"].icon-productos     { background-position: -1438px 0; }
+
+[class*="icon-grande"].icon-transacciones   { background-position: -1478px 0; }
+
+[class*="icon-grande"].icon-dolar       { background-position: -1578px 0; }
+[class*="icon-grande"].icon-sobregiro     { background-position: -1598px 0; }
+[class*="icon-grande"].icon-agregar-cuenta { background-position: -1658px 0; }
+
+[class*="icon-grande"].icon-ipad {  background-position: -1859px 0; }
+[class*="icon-grande"].icon-asistencia {  background-position: -1819px 0; }
+[class*="icon-grande"].icon-proteccion-financiera {  background-position: -1799px 0; }
+[class*="icon-grande"].icon-proteccion-full {  background-position: -1839px 0; }
+[class*="icon-grande"].icon-vida-salud {  background-position: -1778px 0; }
+
+[class*="icon-grande"].icon-ubicacion { background-position: -1878px 0;}
+
+/* ==========================================================================
+	ICONOS 24X24PX
+========================================================================== */
+[class*="icon-24"].iconAlerta { background-position: 0 0; }
+
+/* ==========================================================================
+   ICONOS 32X32PX
+   ========================================================================== */
+   
+[class*="icon-mlarge"].icon-fono                   { background-position: 0px 0; }
+[class*="icon-mlarge"].icon-mensaje                   { background-position: -32px 0; }
+[class*="icon-mlarge"].icon-agenda                    { background-position: -64px 0; }
+   
+
+
+
+
+/* ==========================================================================
+   ICONOS 64X64PX
+   ========================================================================== */
+[class*="icon-xlarge"].icon-error                   { background-position: 0px 0; }
+[class*="icon-xlarge"].icon-exito                   { background-position: -64px 0; }
+[class*="icon-xlarge"].icon-docs                    { background-position: -128px 0; }
+[class*="icon-xlarge"].icon-correo                  { background-position: -192px 0; }
+[class*="icon-xlarge"].icon-eliminar                { background-position: -256px 0; }
+[class*="icon-xlarge"].icon-visualizar              { background-position: -320px 0; }
+[class*="icon-xlarge"].icon-alerta                  { background-position: -384px 0; }
+[class*="icon-xlarge"].icon-pago                    { background-position: -455px 0; }
+[class*="icon-xlarge"].icon-timeout                 { background-position: -1280px 0; }
+
+[class*="icon-xlarge"].icon-advertencia             { background-position: -448px 0; }
+[class*="icon-xlarge"].icon-no-usuario              { background-position: -448px 0; }
+[class*="icon-xlarge"].icon-fallo-servicio          { background-position: -448px 0; }
+[class*="icon-xlarge"].icon-sin-resultado           { background-position: -128px 0; }
+[class*="icon-xlarge"].icon-sin-destinatario        { background-position: -512px 0; }
+[class*="icon-xlarge"].icon-sin-transferencias      { background-position: -192px 0; }
+[class*="icon-xlarge"].icon-carta-aceptacion-riesgo { background-position: -645px 0; }
+[class*="icon-xlarge"].icon-test-inversionista      { background-position: -703px 0; }
+[class*="icon-xlarge"].icon-mandato-web             { background-position: -768px 0; }
+[class*="icon-xlarge"].icon-contrato-ok             { background-position: -832px 0; }
+[class*="icon-xlarge"].icon-descargar               { background-position: -893px 0; }
+[class*="icon-xlarge"].icon-moneda                  { background-position: -960px 0; }
+[class*="icon-xlarge"].icon-bloqueo-datos           { background-position: -1024px 0; }
+[class*="icon-xlarge"].icon-mail-exito              { background-position: -1088px 0; }
+[class*="icon-xlarge"].icon-mail-error              { background-position: -1152px 0; }
+
+
+.icon-cargando{background: url("../img/cargando.gif") no-repeat center center;}
+.icon-zona-descargas {
+    background-position: -2098px 0;
+}
+
+/* ==========================================================================
+   ICONOS 15X15PX ACCESO RAPIDO 
+   ========================================================================== */
+.icon-transferir-lineado  {background-image: url("../img/transferir.png"); background-position: 0;
+    background-size: contain;}
+.icon-pagar-cs-lineado  {background-image: url("../img/pagar-cs.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-tc-lineado  {background-image: url("../img/pagar-tc.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-linea-cred-lineado  {background-image: url("../img/pagar-linea-cred.png");background-position: 0;
+    background-size: contain;}
+.icon-comercio-ext-lineado  {background-image: url("../img/comercio-ext.png");background-position: 0;
+    background-size: contain;}
+.icon-cartola-hist-lineado  {background-image: url("../img/cartola-hist.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-remu-lineado  {background-image: url("../img/pagar-remu.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-proveedores-lineado {background-image: url("../img/pagar-proveedores.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-credito-lineado  {background-image: url("../img/pagar-credito.png");background-position: 0;
+    background-size: contain;}
+
+a:hover .icon-transferir-lineado  {background-image: url("../img/transferir-blanco.png");}
+a:hover .icon-pagar-cs-lineado {background-image: url("../img/pagar-cs-blanco.png");}
+a:hover .icon-pagar-tc-lineado {background-image: url("../img/pagar-tc-blanco.png");}
+a:hover .icon-pagar-linea-cred-lineado {background-image: url("../img/pagar-linea-cred-blanco.png");}
+a:hover .icon-comercio-ext-lineado {background-image: url("../img/comercio-ext-blanco.png");}
+a:hover .icon-cartola-hist-lineado {background-image: url("../img/cartola-hist-blanco.png"); }
+a:hover .icon-pagar-remu-lineado {background-image: url("../img/pagar-remu-blanco.png"); }
+a:hover .icon-pagar-proveedores-lineado {background-image: url("../img/pagar-proveedores-blanco.png"); }
+a:hover .icon-pagar-credito-lineado  {background-image: url("../img/pagar-credito-blanco.png"); }
+
+
+.icon-nav-bottom-lateral    {background-position: -345px 0;position: absolute!important;left: 197px!important;}
+
+
+.activado-menu-lateral .icon-cartola-hist-lineado  {background-image: url("../img/cartola-hist-blanco.png")!important;}
+
+
+/* ==========================================================================
+   ICONOS CLAVE PERSONA 
+   ========================================================================== */
+   
+ .icono-clave-segura-error  {background-image: url("../img/icono-clave-segura-error.png")!important; background-position: 0;    background-size: contain;}  
+ .icono-clave-segura {background-image: url("../img/icono-clave-segura.png")!important; background-position: 0;    background-size: contain;}  
+
+/* ==========================================================================
+   ICONOS QUICK LINKS MENU SUPERIOR RWEB
+   ========================================================================== */
+.icon-transferir-lineado-ms {background-image: url("../img/transferir-ms.png"); background-position: 0;
+    background-size: contain;}
+.icon-pagar-cs-lineado-ms {background-image: url("../img/pagar-cs-ms.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-tc-lineado-ms {background-image: url("../img/pagar-tc-ms.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-linea-cred-lineado-ms {background-image: url("../img/pagar-linea-cred-ms.png");background-position: 0;
+    background-size: contain;}
+.icon-pagar-credito-lineado-ms {background-image: url("../img/pagar-credito-ms.png");background-position: 0;
+    background-size: contain;}
+
+a:hover .icon-transferir-lineado-ms {background-image: url("../img/transferir-blanco-ms.png");}
+a:hover .icon-pagar-cs-lineado-ms {background-image: url("../img/pagar-cs-blanco-ms.png");}
+a:hover .icon-pagar-tc-lineado-ms {background-image: url("../img/pagar-tc-blanco-ms.png");}
+a:hover .icon-pagar-linea-cred-lineado-ms {background-image: url("../img/pagar-linea-cred-blanco-ms.png");}
+a:hover .icon-pagar-credito-lineado-ms {background-image: url("../img/pagar-credito-blanco-ms.png"); }
+
+/*Icono para HU 5.1.12 SME */
+.icon-info {background-image: url("../img/icon-info.png")!important; background-position: 0;    background-size: contain;}  
+
+/* ==========================================================================
+   ICONOS ON-OFF TARJETA CREDITO SME
+   ========================================================================== */
+ 
+.icon2-on-off-cerrar {background: url(../img/icon-close.png);position: relative;/* top: -21px!important; *//* left: 4px; *//* padding: 11px; */}
+.icon2-on-off-error {background: url(../img/error-24.png);position: relative;top: 3px!important;}
+.icon2-off-aviso {background: url(../img/alert-24.png);position: relative; top: 1px;}
+.icon2-on-off-exito {background: url(../img/check-24.png); position: relative;top: 3px; }
+.icon2-on-off-info-importante {background: url(../img/info-24.png); width: 25px!important;height: 26px!important;position: relative;top: -4px!important;left: -2px;padding: 7px;}
+
+.on-off [class^="icon2-"], [class*=" icon2-"] {display: inline-block; width: 24px; height: 24px;background-position: 0px 0px;background-repeat: no-repeat;}
+.mov-nodisp [class*="icon-xlarge"].icon-alert {background-image: url("../img/icon-alert.png");background-repeat: no-repeat;background-position: 0 0!important;}
+
+/* Iconos Productos hipotecarios */
+.productos-hp .tasa-fija {background: url(../img/lock-icon.png) no-repeat; background-size: 40px 40px;}
+.productos-hp .tasa-mixta {background: url(../img/porcent-icon.png) no-repeat; background-size: 40px 40px;}
+.productos-hp .fija-doble {background: url(../img/fija-icon.png) no-repeat; background-size: 40px 40px;}
+.productos-hp .universal {background: url(../img/word-icon.png) no-repeat; background-size: 40px 40px;}
+/* Iconos Listado Productos hipotecarios */
+.productos-hp ul li .icon-tasa {background: url(../img/icon-hp-tasa.png) no-repeat;}
+.productos-hp ul li .icon-plazo {background: url(../img/icon-hp-plazo.png) no-repeat;}
+.productos-hp ul li .icon-fines {background: url(../img/icon-hp-fines.png) no-repeat;}
+.productos-hp ul li .icon-vivienda {background: url(../img/icon-hp-vivienda.png) no-repeat;}
+
+.followup-cont .icon-escritura {background: url(../img/icon-escritura.png) no-repeat;}

@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"/>
+    <title>Consultar crédito</title>
+    <link href="../css/default/default.css" rel="stylesheet" type="text/css"/>
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="../css/bic/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/bic.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/botones.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/carrousel.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/claro.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/componentes-dojo.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/dropdown.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/estilos.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/footer-bottom.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/form.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/guideline_elements.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/header.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/iconos.css" rel="stylesheet" type="text/css"/>
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" href="../css/bic/ie7.css"><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="../css/bic/ie8.css"><![endif]-->
+    <link href="../css/bic/modal.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/personasCampanaProducto.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/portlets.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/simuladores.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/skins.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/tablas.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/tundra.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/adaptar.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/NewBIC.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/bic/fonts-itau.css" rel="stylesheet" type="text/css"/>
+    <script>alert("Debes ingresar un segmento");           </script>
+    <!--DOJO-->
+    <script src="../js/dojo-function.js" type="text/javascript"></script>
+    <script src="../js/dropdown-function.js" type="text/javascript"></script>
+    <script src="../js/validaciones.js" type="text/javascript"></script>
+    <script src="../js/calendario-filtro.js" type="text/javascript"></script>
+    <script src="../js/onload.js" type="text/javascript"></script>
+    <!--JQUERY-->
+    <script src="../js/jquery-1.8.3-min.js" type="text/javascript"></script>
+    <script src="../js/jquery-function.js" type="text/javascript"></script>
+    <!--SLIDER-->
+    <script type="text/javascript" src="../js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="../js/carrousel.js"></script>
+    <script type="text/javascript" src="../js/eventos-jquery.js"></script>
+  </head>
+</html>
+<script>
+  $( document ).ready(function() {
+  $(".popover").hide();
+  $("td.relative a").click(function() {
+  $(".popover").show();
+  });
+  $(".icon-itaufonts_fechar").click(function() {
+  $(".popover").hide();
+  });
+  });
+</script>
+<body>
+  <header role="banner">
+    <div class="wpthemeBannerInner">
+      <div class="wpthemeInner">
+        <div id="logo"><span class="wpthemeBranding"><a class="logo flotar-left" href="/wps/myportal/olb/web/home"><img src="../img/logo-50x50.png"/></a></span></div>
+        <div class="buscador" style="float: left">
+          <ul>
+            <li class="dropdown">
+              <form name="searchpage" onsubmit="return false;" autocomplete="off">
+                <input id="searchkey" type="text" name="searchkey" size="20" maxlength="30" placeholder="Buscar"/>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-user-new olb-new-menu">
+          <ul>
+            <li class="dudas"><i class="icon-itaufonts_gerente sizeL color8" id="a_linkContactenos"></i><span class="title-dudas-persona">¿Tienes dudas?</span><a href="/wps/myportal/newolb/web/mis-links/usuario/datos-contactos"><span class="link-dudas-persona">Contáctanos</span></a></li>
+            <li class="user"><a href="/wps/myportal/newolb/web/mis-links/usuario" onclick="marcaGA(['_trackEvent','menu_privado_customersession','bic.olb.mislinks.usuario','Usuario']);"><span class="icon-itaufonts_usuario_perfil sizeL color8" title="Cargar o modificar avatar">
+                  <div class="overlay-img-user"></div></span></a><a class="user-info" href="/wps/myportal/newolb/web/mis-links/usuario" title="Cargar o modificar avatar"><span class="name-user">Enzo Felipe Sotelo Martinez</span><span class="name">Sesión anterior: 27/12/2018 09:56:14</span></a>
+              <div class="sub-user">
+                <ul class="nav-drop">
+                  <li class="itemmenu"><a title="Mis datos personales" href="/wps/myportal/newolb/web/mis-links/usuario/datos-contactos"><span class="titulo"><i class="icon-itaufonts_usuario_perfil sizeS"></i>Mis datos personales</span><span class="parrafo">Actualización de su e-mail, celular, teléfono particular y comercial</span></a></li>
+                  <li class="itemmenu"><a title="Cambio de claves" href="/wps/myportal/newolb/web/mis-links/usuario/cambio-de-claves"><span class="titulo"><i class="icon-itaufonts_configuracoes sizeS"></i>Cambio de claves</span><span class="parrafo">Acceso a Internet, tarjetas de débito y crédito</span></a></li>
+                  <li class="itemmenu"><a title="Configuracion de avisos" href="/wps/myportal/newolb/web/mis-links/usuario/solicitar-avisos"><span class="titulo"><i class="icon-itaufonts_configuracoes sizeS"></i>Configuracion de avisos</span><span class="parrafo">Solicite avisos de seguridad SMS y/o email</span></a></li>
+                  <li class="itemmenu"><a title="Notificaciones" href="/wps/myportal/newolb/web/mis-links/notificaciones"><span class="titulo"><i class="icon-itaufonts_notificacao sizeS"></i>Notificaciones</span><span class="parrafo">Tenemos unos mensajes importantes para usted</span></a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="notificaciones"><a class="inew-tooltip" href="/wps/myportal/newolb/web/mis-links/notificaciones" onclick=""><i class="icon-itaufonts_notificacao sizeM color8" title=""></i><span class="inew-tooltiptext inew-tooltipSmall">Notificaciones</span></a></li>
+            <li class="cerrarsesion"><a title="Finalizar la sesión en Online Banking" href="" onclick=""><i class="icon-itaufonts_seguranca sizeXS" title="Salir"></i><span class="name">Salir</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="wpthemeBanner">
+      <div class="wpthemeBannerInner">
+        <div class="wpthemeInner">
+          <script src="/privateThemeStatic/themes/bicPrivateTheme/js/navigationHover.js?1.5" type="text/javascript"></script>
+          <nav class="wpthemePrimaryNav wpthemeNavContainer1" id="nav-principal">
+            <ul class="wpthemeNavList">
+              <li class="dropdown nav0"><a id="navigationHome_a" href="/wps/myportal/newolb/web/home" onclick="marcaGA(['_trackEvent','menu_privado_nivel1','bic.olb.route2home','Inicio']);" onmouseover="hideBack();"><strong><span class="title-top">Inicio</span></strong></a></li>
+              <li class="dropdown nav2"><a id="navigationCuentas_li" href="javascript:void(0);" onmouseover="showBack();"><strong><span class="title-top">Cuentas</span><i class="icono-flecha"></i></strong></a>
+                <ul class="nav-drop">
+                  <li class="itemmenu nivel2"><a id="labelCuentaCorriente_a"><span class="titulo">Cuenta corriente</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcSaldosyMovimientos_a"><span class="titulo">Saldos y últimos movimientos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcCartolaHistorica_a"><span class="titulo">Cartola histórica</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcConsultarCheques_a"><span class="titulo">Consultar cheques</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcConsultarTalonario_a"><span class="titulo">Consultar talonarios de cheques</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="" lang="es" dir="ltr" href="/wps/myportal/newolb/web/cuentas/cuenta-corriente/vale-vista" onclick="marcaGTM({'event':'trigger_event','event-config':{'eve-cat':'menu-superior','eve-acc':'Cuentas-Cuenta corriente','eve-lab':'Vale vista'}});"><span class="titulo">Vale vista</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcConfigurarCartolas_a"><span class="titulo">Configurar envío de cartolas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcBloquearTarjeta_a"><span class="titulo nuevo-label">Bloquear y desbloquear tarjeta</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcCambiarClave_a"><span class="titulo">Cambiar clave tarjeta de débito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcActivarExtranjero_a"><span class="titulo">Activar tarjeta débito en extranjero</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcSolicitarDocumento_a"><span class="titulo">Solicitar documentos tributarios</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCcSolicitarCertificado_a"><span class="titulo">Ver certificados tributarios</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelLineadeCredito_a"><span class="titulo">Línea de crédito</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkLcSaldosyMovimientos_a"><span class="titulo">Saldos y últimos movimientos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkLcCartolaHistorica_a"><span class="titulo">Cartola histórica</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkLcPagarLinea_a"><span class="titulo">Pagar línea de crédito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkLcCartolaIntereses_a"><span class="titulo">Cartola de intereses</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkLcUltimosMovInt_a"><span class="titulo">Últimos movimientos de intereses</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkLcAbonarCorriente_a"><span class="titulo">Abonar cuenta corriente</span></a></li>
+                    </ul>
+                  </li>
+                  <!-- inicio lógica footer menu-->
+                  <!-- fin lógica footer menu-->
+                </ul>
+              </li>
+              <li class="dropdown nav3"><a id="navigationTransferenciasyPagos_li" href="javascript:void(0);" onmouseover="showBack();"><strong><span class="title-top">Transferencias y Pagos</span><i class="icono-flecha"></i></strong></a>
+                <ul class="nav-drop">
+                  <li class="itemmenu nivel2"><a id="labelTransferencias_a"><span class="titulo">Transferencias</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkTrTransferenciasTerceros_a"><span class="titulo">Transferencias a terceros</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkTrTransferenciasRealizadas_a"><span class="titulo">Transferencias realizadas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkTrTransferenciasRecibidas_a"><span class="titulo">Transferencias recibidas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkTrAdministrarDestinatarios_a"><span class="titulo">Administrar destinatarios</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkTrProgramarTransferencias_a"><span class="titulo">Programar transferencias</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkTrSuspenderTransferencias_a"><span class="titulo">Suspender transferencias programadas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkTrCartolaTransferencias_a"><span class="titulo">Cartola de transferencias programadas</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelPagosenLinea_a"><span class="titulo">Pagos en línea</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a><span class="titulo">Cuentas inscritas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a><span class="titulo">Cuentas no inscritas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPlHistoricoPagos_a"><span class="titulo">Histórico de pagos realizados</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPlPagarLineaCredito_a"><span class="titulo">Pagar línea de crédito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPlPagarTarjetaCredito_a"><span class="titulo">Pagar tarjeta de crédito</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelPagosAutomaticos_a"><span class="titulo">Pagos automáticos</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkPaConsultarPAC_a"><span class="titulo">Consultar cartola PAC</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPaConsultarPatPass_a"><span class="titulo">Consultar cuentas PatPass</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelPagoConvenios_a"><span class="titulo">Pago de convenios</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkPcPagarInscritos_a"><span class="titulo">Pagar convenios inscritos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPcPagarNoInscritos_a"><span class="titulo">Pagar convenios no inscritos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPcCarrosdePagoComprobantes_a"><span class="titulo">Carros de pago y comprobantes</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPcInscribirConvenio_a"><span class="titulo">Inscribir convenio</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPcEliminarConvenio_a"><span class="titulo">Eliminar convenio</span></a></li>
+                    </ul>
+                  </li>
+                  <!-- inicio lógica footer menu-->
+                  <!-- fin lógica footer menu-->
+                </ul>
+              </li>
+              <li class="dropdown nav4"><a id="navigationTarjetas_li" href="javascript:void(0);" onmouseover="showBack();"><strong><span class="title-top">Tarjeta de crédito</span><i class="icono-flecha"></i></strong></a>
+                <ul class="nav-drop">
+                  <li class="itemmenu nivel2"><a id="lablelResumenTarjeta_a"><span class="titulo">Información de tarjeta</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtEstadoDeuda_a"><span class="titulo">Resumen tarjeta de crédito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtEstadoCuentaNacional_a"><span class="titulo">Estado de cuenta nacional</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtEstadoCuentaInternacional_a"><span class="titulo">Estado de cuenta internacional</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtSolicitarAvance_a"><span class="titulo">Solicitar avance</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtUltimosMovsPesos_a"><span class="titulo">Últimos movimientos en pesos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtUltimosMovsDolares_a"><span class="titulo">Últimos movimientos en dólares</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtSolicitarTarjeta_a"><span class="titulo">Solicitar tarjeta adicional</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtBloquearTarjeta_a"><span class="titulo">Bloquear y desbloquear tarjeta</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtCambiarClave_a"><span class="titulo">Cambiar clave de tarjeta de crédito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkRtConfigurarCartola_a"><span class="titulo">Configurar envío de cartolas</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelPagosTarjeta_a"><span class="titulo">Pagos de tarjeta</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkPtPagarNacional_a"><span class="titulo">Pagar deuda nacional</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPtPagarInternacional_a"><span class="titulo">Pagar deuda internacional</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPtConsultarPatPass_a"><span class="titulo">Consultar cuentas PatPass</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelItauPuntos_a"><span class="titulo">Itaú puntos</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkIpCartolarPuntos_a"><span class="titulo nuevo-label">Cartola de puntos</span></a></li>
+                    </ul>
+                  </li>
+                  <!-- inicio lógica footer menu-->
+                  <!-- fin lógica footer menu-->
+                </ul>
+              </li>
+              <li class="dropdown nav5"><a id="navigationCreditos_li" href="javascript:void(0);" onmouseover="showBack();"><strong><span class="title-top">Créditos</span><i class="icono-flecha"></i></strong></a>
+                <ul class="nav-drop">
+                  <li class="itemmenu nivel2"><a id="labelCreditoConsumo_a"><span class="titulo">Crédito de consumo</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkCrcSimularenCuotas_a"><span class="titulo">Simular crédito en cuotas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCrcPagarCredito_a"><span class="titulo">Pagar crédito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkCrcConsultarCredito_a"><span class="titulo">Consultar crédito</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="linkChCreditoHipotecario_a"><span class="titulo">Crédito Hipotecario</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkChConsultaDividendo_a"><span class="titulo">Consultar créditos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkChConsultarDividendos_a"><span class="titulo">Consultar dividendos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkChHipotecario_a"><span class="titulo">Hipotecario Itaú</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkChConsultaCredito_a"><span class="titulo">Consultar solicitud de crédito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkChPagarCredito_a"><span class="titulo">Pagar crédito</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkChDescargarCertificados_a"><span class="titulo">Descargar certificados</span></a></li>
+                    </ul>
+                  </li>
+                  <!-- inicio lógica footer menu-->
+                  <!-- fin lógica footer menu-->
+                </ul>
+              </li>
+              <li class="dropdown nav6"><a id="navigationInversiones_li" href="javascript:void(0);" onmouseover="showBack();"><strong><span class="title-top">Inversiones</span><i class="icono-flecha"></i></strong></a>
+                <ul class="nav-drop">
+                  <li class="itemmenu nivel2"><a id="labelInversionesl_a"><span class="titulo">Inversiones</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkInvResumenInversiones_a"><span class="titulo">Resumen de inversiones</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkInvConsultarDocumentos_a"><span class="titulo">Consultar documentos tributarios</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkInvCertificadosTributarios_a"><span class="titulo">Certificados tributarios</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelFondosMutuos_a"><span class="titulo">Fondos mutuos</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmInvertirEnFondos_a"><span class="titulo">Invertir en fondos mutuos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmRescatar_a"><span class="titulo">Rescatar</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmConsultarValores_a"><span class="titulo">Consultar valores cuota</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmConsultarSaldos_a"><span class="titulo">Consultar saldos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmMovimientosRealizados_a"><span class="titulo">Movimientos realizados</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmConsultarCartolas_a"><span class="titulo">Consultar cartolas</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmConsultarRegistro_a"><span class="titulo">Consultar registro de aportes</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkFmDocumentacion_a"><span class="titulo">Documentación de fondos</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelDepositoaPlazo_a"><span class="titulo">Depósito a plazo</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkDpSimularInvertir_a"><span class="titulo">Simular e invertir</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkDepositoaPlazo_a"><span class="titulo">Deposito a plazo vigente</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelAPV_a"><span class="titulo">APV</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkApvSimular_a"><span class="titulo">Simular APV</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkApvConsultarMovs_a"><span class="titulo">Consultar movimientos</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkAPV_a"><span class="titulo">Ahorro previsional voluntario</span></a></li>
+                    </ul>
+                  </li>
+                  <!-- inicio lógica footer menu-->
+                  <!-- fin lógica footer menu-->
+                </ul>
+              </li>
+              <li class="dropdown nav7"><a id="navigationSeguros_li" href="javascript:void(0);" onmouseover="showBack();"><strong><span class="title-top">Seguros</span><i class="icono-flecha"></i></strong></a>
+                <ul class="nav-drop">
+                  <li class="itemmenu nivel2"><a id="labelContratacionSeguros_a"><span class="titulo">Contratacion de seguros</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkCsConocerSeguros_a"><span class="titulo">Conocer los seguros</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelPostVenta_a"><span class="titulo">Postventa</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkPvAutoservicio_a"><span class="titulo">Autoservicio</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPvConsultarSeguros_a"><span class="titulo">Consultar seguros</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPvConsultarAsistencias_a"><span class="titulo">Consultar asistencias</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkPvConsultarSiniestros_a"><span class="titulo">Consultar siniestros</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="itemmenu nivel2"><a id="labelAyuda_a"><span class="titulo">Ayuda</span><span class="parrafo"></span></a>
+                    <ul class="nav-drop nivel3">
+                      <li class="itemmenu titulo-nivel3"><a id="linkAyuPreguntasFrecuentes_a"><span class="titulo">Preguntas frecuentes</span></a></li>
+                      <li class="itemmenu titulo-nivel3"><a id="linkAyuContacto_a"><span class="titulo">Contacto</span></a></li>
+                    </ul>
+                  </li>
+                  <!-- inicio lógica footer menu-->
+                  <!-- fin lógica footer menu-->
+                </ul>
+              </li>
+              <li class="dropdown nav8"><a id="navigationMisOfertas_a" href="/wps/myportal/newolb/web/mis-ofertas" onclick="marcaGA(['_trackEvent','menu_privado_nivel1','bic.olb.misofertas','Mis Ofertas']);" onmouseover="hideBack();"><strong><span class="title-top">Mis Ofertas</span></strong><span class="mensajes-counter msjs-nav">0</span></a></li>
+            </ul>
+          </nav>
+          <div class="wpthemeClear"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wpthemeMainContent">
+    <div class="wpthemeInner breadcrumbs">
+      <div class="wpthemeCrumbTrail wpthemeLeft">
+        <ol class="breadcrumbs-content">
+          <li><a title="Volver al Home" onclick="marcaGA(['_trackEvent','breadcrum_privado','bic.olb.home','Bienvenido a Itaú personas']);" href="#"></a><i class="icon-itaufonts_residencia sizeXS"></i></li><i class="icon-itaufonts_seta_right sizeXS" id="crumbTrailSeparator"></i>
+          <li><a href="#" onclick="marcaGA(['_trackEvent','breadcrum_privado','bic.olb.mp.cuentapersonal','Cuenta Corriente']);" title=""></a><span lang="es" dir="ltr">Crédito de consumo</span></li><i class="icon-itaufonts_seta_right sizeXS"></i>
+          <li><a href="#" onclick="marcaGA(['_trackEvent','breadcrum_privado','bic.olb.mp.cp.producto','Producto']);" title=""></a><span class="wpthemeSelected">Consultar crédito</span></li>
+        </ol>
+      </div>
+    </div>
+    <div class="wpthemeLayoutContainers wpthemeLayoutContainersHidden" id="layoutContainers" role="main">
+      <div class="wpthemeInner">
+        <div class="hiddenWidgetsDiv">
+          <!-- widgets in this container are hidden in the UI by default-->
+          <div class="component-container ibmDndRow hiddenWidgetsContainer id-Z7_9I80G3K0N88LB0QOP4OH4I0GJ6" name="ibmHiddenWidgets"></div>
+          <div style="clear:both"></div>
+        </div>
+        <!-- this layout has two columns with right column assigned a smaller fixed width while the other is fluid-->
+        <div class="container">
+          <div class="row">
+            <div class="component-container wpthemeCol le_column1 wpthemeLeft ibmDndColumn span9 id-Z7_9I80G3K0N88LB0QOP4OH4I0GJ1" name="ibmMainContainer">
+              <div class="component-control">
+                <section class="ibmPortalControl wpthemeNoSkin" role="region" aria-labelledby="">
+                  <div class="wpthemeOverflowAuto">
+                    <div id="divOk" name="divOk">
+                      <div id="regionImprimir">
+                        <h3 class="margen1-bottom">Consultar crédito</h3>
+                        <div class="main-box grid-box">
+                          <!--Aquí va el content-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="component-container wpthemeCol le_column2 wpthemeLeft span3 ibmDndColumn id-Z7_9I80G3K0N88LB0QOP4OH4I0GB4" name="right">
+              <div class="component-control id-Z7_9I80G3K0N88LB0QOP4OH4I0GB2">
+                <section class="ibmPortalControl wpthemeNoSkin" role="region" aria-labelledby="">
+                  <div class="wpthemeOverflowAuto">
+                    <!-- SIDE MENU PORTLET Dynamic Menu Begin-->
+                    <div class="nav-titulos radius shadow2 margentop1">
+                      <h4 class="margen0-bottom">
+                        <p title="">Crédito de consumo</p>
+                      </h4>
+                      <div class="nav-titulos-content padding0-top">
+                        <ul>
+                          <li><i class="icon-nav-right"></i><a href="#">Simular crédito en cuotas</a></li>
+                          <li><i class="current icon-nav-right"></i><a href="2-pagar_credito_datos.html">Pagar crédito</a></li>
+                          <li class="activado"><i class="current icon-nav-right"></i><a href="1-consultar_credito.html">Consultar crédito</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- Dynamic Menu End-->
+                    <!-- itau punto-->
+                    <!-- fin itau puntos-->
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wpthemeClear"></div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    //Cuenta caracteres (tooltip)
+    function setTooltips() {
+    var tooltips = document.getElementsByClassName("inew-tooltiptext");
+    for (var i = tooltips.length - 1; i >= 0; --i) {
+    var tooltipCount = tooltips[i].innerHTML.length;
+    if (tooltipCount > 22) {
+    tooltips[i].className = "inew-tooltiptext inew-tooltipLarge";
+    }
+    }
+    }
+    setTooltips();
+  </script>
+</body>

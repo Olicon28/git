@@ -1,0 +1,6196 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+/* ==========================================================================
+   CAMBIO CLAVE 
+   ========================================================================== */
+.form-clave {
+	height:auto;
+	width:270px;
+}
+
+/* ==========================================================================
+   RECOMENDACIONES
+   ========================================================================== */
+.recomendaciones {
+	max-width:198px;
+	background:#F8F8F8;
+	padding:20px;
+}
+
+/* ==========================================================================
+   ICODE - PIN TEMPORAL 
+   ========================================================================== */
+.icode {
+	clear:both;
+	width:210px;
+	height:auto;
+	padding:20px 30px;
+}
+
+.icode  .accion {
+	margin-left: 15px;
+}
+
+.pin-temporal input { width: 174px!important; }
+
+.margen-icode { margin: 0 10px 0 10px; }
+
+.icode h3 {
+	text-align:center;
+	margin-bottom:10px;
+}
+.icode p {
+	line-height:16px;
+    text-align:center;
+}
+.icode form {
+	width:188px;
+	margin:0 auto;
+}
+.icode form label {
+	text-align:center;
+}
+.icode form fieldset div {
+	float:left;
+	margin-bottom: 10px;
+}
+.icode form fieldset div:last-child {
+	margin-right:0;
+}
+
+/* ==========================================================================
+   HELPDESK
+   ========================================================================== */
+#helpdesk .radius.borde-gris {
+   	background: white;
+   	border-radius: 5px;
+	-webkit-box-shadow: #DDD 0 0 3px 0;
+	-moz-box-shadow: #DDD 0 0 3px 0;
+	box-shadow: #DDD 0 0 3px 0;
+	border-collapse: separate;   	
+   	-moz-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+   	/*border: 1px solid #EEE;*/
+}
+#helpdesk .mensaje-respuesta {
+	margin: 10px 0 10px 10px ;
+    overflow: hidden;
+    width: 477px;
+}
+/*#helpdesk .borde-gris {
+	border: solid 1px #ddd;
+}*/
+
+#helpdesk textarea {
+	width: 486px!important;
+}
+
+
+.contingencia {
+	background: url(../img/bg-contingencia.jpg) repeat-x 0 0 #f5f5f5;
+	padding: 20px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+	/*border: 1px solid #ddd;*/
+}
+
+.contingencia ul {
+	margin: 20px 0;
+}
+
+.contingencia h2 {
+	/*border-bottom: 1px solid #CCC;*/
+	padding-bottom: 10px;
+}
+
+
+/* ==========================================================================
+   CONT- BOTONES
+   ========================================================================== */
+.cont-botones {
+ overflow: hidden;
+ margin:0 10px 10px 0;
+}
+
+.cont-botones .link {
+	margin: 5px 20px 0 0;
+}
+
+/* ==========================================================================
+   MODULO
+   ========================================================================== */
+.modulo-medium .agregar {
+	/*border: 1px solid #ddd;*/
+	border-bottom: 0 none;
+	padding: 10px;
+	width: 282px;
+}
+
+
+/* ==========================================================================
+   SCROLL
+   ========================================================================== */
+.scroll {
+	overflow-y: scroll!important;
+	height: 150px;
+	padding: 20px 10px!important;
+	/*border: 1px solid #ddd;*/
+	width: 282px;
+}
+
+.scroll li {
+	overflow: hidden;
+}
+
+.scroll label,
+.scroll input
+ {
+	float: left;
+}
+
+.scroll input {
+	margin: 3px 0 0 2px;
+}
+
+.scroll label {
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.agregar i { margin-top: -1px; }
+
+/* ==========================================================================
+   MODULO LARGE ICODE
+   ========================================================================== */
+.modulo-large .cont-icode {
+	/*background: #F8F8F8;*/
+	padding: 20px;
+}
+
+/*#icode button {
+	margin: 20px auto 0;
+	display: block;
+}*/
+
+#icode {
+	/*background: #F8F8F8;*/
+	overflow: hidden;
+	padding: 10px;
+	width: auto;
+	margin: 0 auto;
+} 
+#icode h2 {
+	text-align: center;
+}
+#icode .campos {
+	overflow: hidden;
+}
+
+#icode .campos > div {
+	float: left;
+	text-align: center;
+	width: 33.333%;
+}
+
+#icode .campos input {
+	width: 60%;
+	text-align: center;
+}
+
+#icode .campos label {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#icode #volver a {
+	line-height: 30px;
+}
+
+
+/*WIDTH MENSAJE*/
+#mensaje .mensaje-respuesta { width: 600px; }
+
+
+#accion-transferencia {
+	width: 322px;
+	margin-left: 5px;
+	/*border: 1px solid #DDD;*/
+	position: relative;
+	top: -5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+/*#accion-transferencia li { padding-right: 43px; }*/
+.accion-editar li { float: right; }
+.accion-editar li a { float: right; padding: 0 10px; /*border-left:1px solid #ddd;*/ }
+
+
+#crear-destinatario {
+	padding: 20px;
+	overflow: hidden;
+}
+#crear-destinatario .datos {
+	width: 750px;
+	padding-left: 150px;
+	float: left;
+}
+
+#crear-destinatario .crear {
+	/*border-bottom: 1px solid #DDD;*/
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+#codigo-seguridad {
+	width: auto;
+	overflow: hidden;
+}
+
+#codigo-seguridad label,
+#codigo-seguridad input {
+	float: left;
+}
+
+#codigo-seguridad label {
+	margin: 5px 20px 0 0;
+}
+
+#codigo-seguridad .accion {
+	float: right;
+}
+
+.accion-continuar {
+	padding-left: 70px;
+}
+
+#adm-destinatario {
+	clear: both;
+}
+
+#cartola-historica { 
+	-webkit-border-radius: 5px 5px 0 0;
+	   -moz-border-radius: 5px 5px 0 0;
+	        border-radius: 5px 5px 0 0;
+}
+
+#cartola-historica .modulo-header {
+	padding: 0;
+}
+
+
+#crea-destinatario {
+	margin-top: 74px;
+}
+
+#crea-destinatario ul {
+	margin:10px 0 0 28px;
+}
+
+#crea-destinatario button {
+	margin-right: 28px;
+}
+
+/*TRANSFERENCIA*/
+#transferencia #mensaje-cuenta {
+	margin-top: 20px;
+}
+
+#transferencia #destinatario {
+	margin-top: 60px;
+}
+
+#transferencia #mensaje-detinatario {
+	margin-top: 34px;
+}
+
+#accion-transferir {
+    margin: 20px 0 0 80px;
+}
+
+#accion-pin {
+	margin: 20px 0 0 70px;
+}
+
+/* ==========================================================================
+   TRANSFERENCIA
+   ========================================================================== */
+#transferencia-terceros input[type="text"],
+#transferencia-terceros textarea,
+#traspasos input[type="text"]
+{
+	width: 316px;
+}
+
+#transferencia-terceros .selectBox,
+#traspasos .selectBox
+{
+	width: 328px;
+}
+
+#transferencia-terceros {
+	background: #fff; }   
+   
+.form-pasos input[type="text"] {
+	max-width: 292px;
+}   
+
+/*EDITAR TRANSFERENCIA*/
+#editar-transferencia {
+	-webkit-border-radius: 0 0 5px 5px;	
+	-moz-border-radius: 0 0 5px 5px;	
+	border-radius: 0 0 5px 5px;	
+}
+
+#editar-transferencia h3 {
+	margin-bottom: 40px;
+}
+
+#editar-transferencia .bloque {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 40px;
+}
+
+
+#editar-transferencia .left {
+	width: 200px;
+	float: left;
+}
+
+#editar-transferencia .right {
+	width: 270px;
+	float: right;
+}
+
+#editar-transferencia .input-calendario { margin-left: 0; }
+
+
+#cuenta-origen-mensaje {
+	margin: 30px 0 20px 0; }
+
+#estado * {
+	float: left;
+}
+
+#estado .right label {
+	margin: 0 20px 0 5px;
+}
+
+#editar-transferencia .scroll {
+	width: 247px;
+}
+
+#editar-transferencia #frecuencia .selectBox { 
+	float: left;
+}
+/*FIN EDITAR TRANSFERENCIA*/
+
+/*MONTOS TRANSFERENCIAS*/
+.monto-transferencias {
+	padding:10px 0;
+}
+.monto-transferencias p {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 10px;
+}
+.programar-transferencia.accion {
+	float: right;
+}
+/* ==========================================================================
+   R1 CASO 03
+   ========================================================================== */
+.contenedor-aviso {
+	float: left;
+	margin-top: 10px;
+}
+.contenedor-aviso .left { 
+	width: 180px;
+} 
+.contenedor-aviso .right {
+	width: 370px; 
+}
+.contenedor-aviso  p {
+	float: left;
+	margin-right: 2px;
+}
+.contenedor-aviso .radio {
+	width: 20px;
+	float: left;
+	display: inline;
+	margin-top: 6px;
+}
+.contenedor-aviso button {
+	margin: 20px 92px 0 0;
+}
+.contenedor-aviso input {
+	width:270px;
+}
+
+
+/* ==========================================================================
+   R1 CASO 22
+   ========================================================================== */
+.detalle {
+    color: #ACACAC;
+    font-size: 11px;
+    line-height: 16px;
+    padding-left: 230px;
+    width: 250px;
+    clear: both;
+}
+.acciones {
+	width: 230px;
+	margin-left: 220px;
+	overflow: hidden;
+}
+
+.detalle {
+    color: #ACACAC;
+    font-size: 11px;
+    line-height: 16px;
+    padding-left: 230px;
+    width: 250px;
+    clear: both;
+}
+
+/* ==========================================================================
+   CUENTA ORIGEN
+   ========================================================================== */
+#cuenta-origen {
+	padding-top: 10px;
+	margin-bottom: 35px;
+	overflow: hidden;
+}
+
+#cuenta-destino {
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+#activar-tarjeta label {
+	font-weight: normal;
+} 
+#activar-tarjeta input {
+	float: left;
+	margin-right: 10px;
+}
+
+
+/* ==========================================================================
+   RECOMENDADO
+   ========================================================================== */
+.recomendado {
+	margin:10px;
+	color: #949494;
+	font-size: 11px;
+	clear: both;
+}
+
+.recomendado h4 {
+	margin-bottom: 10px;
+	line-height: 14px;
+}
+
+.recomendado .bullet li {
+	margin-bottom: 5px;
+}
+
+
+
+/* ==========================================================================
+   MODULO FECHA - CASO 2
+   ========================================================================== */
+.modulo-fecha2 {
+	width: 430px;
+	float: right;
+	z-index: 1004;
+}
+
+.modulo-fecha2 .selectBox {
+	float: right;
+}
+
+.modulo-fecha2 label { 
+	float: left;
+    margin: 4px 5px 0 0;
+	}
+
+.modulo-fecha2 .fecha,
+.modulo-fecha2 .bloque-ano,
+.modulo-fecha2 .bloque-mes { float: right;}	
+
+.modulo-fecha2 .bloque-ano { margin: 0 20px; }
+
+.modulo-fecha {
+	width: 390px;
+	margin-right: -7px;
+	float: right;
+}
+
+.cont-consulta {
+	float: left;
+	clear: both;
+	width: 705px;
+	margin: 10px 0 30px;
+}
+
+.cont-consulta h2,
+.cont-consulta .selectBox {
+	margin-bottom: 0;
+}
+
+	.modulo-fecha .bloque-mes > label {
+	    float: left;
+	    margin-top: 4px;
+	    width: 40px;
+	}
+	.modulo-fecha .selectBox.select-medium {
+	    float: left;
+	}
+	.modulo-fecha .bloque-ano > label {
+	    float: left;
+	    margin-top: 4px;
+	    margin-left: 20px;
+	    width: 40px;
+	}
+	.modulo-fecha .selectBox.select-small {
+	    float: left;
+	    width: 100px;
+	}
+
+	
+	.comprobante-transferencia {
+		*border: solid 1px #ddd; /* ie7 hack */
+		border: solid 1px #ddd\0/; /* ie8 hack */
+	}
+	
+
+.prefix-fono .selectBox  { width: 98px;}	
+
+
+#frecuencia #mes { width: 170px; }
+#frecuencia #number { width: 80px; }
+
+/* ==========================================================================
+   TRANSFERENCIAS ALTAS
+   ========================================================================== */
+.forma-pago {
+  width: 345px;
+  float: left;
+  padding: 4px 3px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin: 30px 0 0;
+}
+.forma-pago .separar {
+  padding-left: 20px;
+  width: 324px;
+  margin: 10px 0 0 0;
+}
+.forma-pago .fecha-hora {
+  float: left;
+  margin-right: 8px;
+}
+.forma-pago .fecha-hora input[type="radio"], 
+.forma-pago .fecha-hora input[type="checkbox"] {
+  margin-right: 5px
+}
+  
+.separar.fecha-hora-contenedor {
+  margin: 4px 0;
+}	
+
+/* ==========================================================================
+   MONTO
+   ========================================================================== */
+.monto {
+    background: none repeat scroll 0 0 #D7D7D7;
+    height: 21px;
+    margin: 0 0 20px;
+    padding: 10px;
+    width: auto;
+}
+	.monto p {
+		width: 50%;
+		font-size: 14px;
+		font-weight: bold;
+		overflow: hidden;
+	}
+		.flotar-right.aling-right {
+		    text-align: right;
+		}
+
+
+
+/* ==========================================================================
+   SEPARAR BLOQUES CON MENSAJES
+   ========================================================================== */
+.serapar-inline .inline li {
+	line-height: 30px;
+}
+
+html .serapar-inline h5 {
+	width: 120px;
+	line-height: 30px;
+	float: left;
+}
+
+html .serapar-inline input[type="text"] {
+	float: left;
+	margin-bottom: 0;
+	width: 168px;	
+}
+
+#monto-uf {
+	margin-top: -20px;
+}
+
+.form-pasos input[type="text"] {
+width: 292px !important;
+}
+
+.modulo-medium .separar-accion {
+	width: 322px;
+}
+
+
+#ffmm-movimiento .mes-anio label {
+	line-height: 30px;
+	margin-right: 10px;
+}
+
+/*SEPARAR*/
+.separar-compressed {
+	margin: 5px 0!important;
+}
+
+.separar {
+	width: 100%;
+	float: left;
+	clear: both;
+	position: relative; 
+	/*z-index: 1004;*/
+	margin: 20px 0;
+}
+.separar-corto {
+	margin: 5px 0;
+}
+.separar .left,
+.separar .centro {
+	float: left;
+}
+
+/*.separar .sub-left {
+	border:1px solid red;
+}*/
+
+.separar .left textarea { margin-bottom: 0; }
+
+.separar .left .scroll,
+.separar .sub-left { margin-bottom: 10px; }
+
+.separar .input-xlarge input[type="text"],
+.separar .textarea-xlarge textarea {
+	width: 289px!important;
+}
+
+.separar .select-xlarge { width: 301px; }
+
+.modulo-medium .separar .accion-form .accion {
+	float: right;
+	margin-right: 24px;
+}
+
+#form-mensaje ul {
+	padding: 15px;
+}
+
+
+/*.separar .centro {
+	width: 210px;
+	margin-left: 10px;
+}*/
+.centro-content input {
+  float: none;
+  width: auto;
+  margin-right: 5px;
+}
+.centro-content {
+  margin-bottom:10px;
+  width: auto;
+}
+.centro-content input {
+  float: none;
+  width: auto;
+  margin-right: 0 10px 0 0;
+}
+.centro-content span {
+	margin-right: 10px;
+}
+.separar .left {
+	text-align: left;
+	margin: 0 0 0 20px;
+}
+/*.separar .left button,
+.solicitud-avance-content button {
+	float: right;
+	margin-right: 60px;
+}*/
+
+.desde-hasta,  #seleccione-periodos {
+	width: 658px;
+	float: left;
+	clear: both;
+}
+
+.desde-hasta .desde label { width: 65px; }
+
+#filtro-modulo .desde-hasta .input-calendario input[type="radio"] {
+	float: left!important;
+	width: auto;
+	margin: 5px 5px 0 0;
+}
+
+#seleccione-periodos {
+	clear: both;
+	margin-top: 20px;
+}
+
+#seleccione-periodos label {
+	float: left;
+	margin-right: 10px;
+	line-height: 30px;
+}
+
+#seleccione-periodos .filtro-calendario { 
+	float: left;
+	width: 110px;
+}
+
+#seleccione-periodos .seleccione-fondo {
+	float: left;
+	margin-left: 30px;
+	width: 442px;
+}
+
+#seleccione-periodos .seleccione-fondo  .selectBox {
+	width: 292px;
+}
+
+#seleccione-periodos .seleccione-fondo .selectBox { float: left;}
+
+.solicitud-avance-content button {
+	margin-right: 0;
+}
+
+#seleccione-periodos #containerMonthYear { left: 0!important; }
+
+.separar .right {
+	float: right;
+	margin: 20px 16px 0 0;
+}
+.right .mensaje-lateral {
+	margin: 0;
+}
+.modulo-medium .left {
+	width: 326px;
+}
+
+.modulo-medium .left table {
+	width: 93%;
+}
+
+
+#filtro-doc-tributarios {
+	width: 530px;
+	margin: 0 auto;
+}
+
+#filtro-historico {
+	width: 612px;
+	margin: 0 auto;
+}
+
+.monto-small {
+    font-size: 16px;
+}
+.separar .left span {
+	margin:10px 10px 10px 0;
+}
+.separar .left input[type="text"]  {
+    margin: 0;
+}
+.monto-pago{
+	font-size: 18px;
+}
+
+.separar .left input[type="radio"] {
+	margin:0 5px 2px 2px;
+}
+
+#pagar-deuda-bancos,
+#pei-pagar {
+	background: url(../img/bg-gris.jpg) 600px 0 repeat-y #fff;
+}
+
+/*======LARGE=========*/
+.modulo-large .separar {
+}
+
+/*LEFT*/
+.modulo-large .separar .left {
+  width: 250px;
+}
+
+.modulo-large .separar .left .der {
+  float: left;
+  width: 270px;
+  text-align: right;
+}
+ 
+
+.modulo-large .separar .left .izq {
+  float: right;
+}
+ 
+.modulo-large .separar .left .izq p {
+  float: left;
+}
+ 
+.modulo-large .separar .izq input {
+  margin: 0 0 0 0;
+}
+
+
+.modulo-large .separar .left label,
+.modulo-large .separar .text-big { line-height: 30px; }
+
+
+.modulo-large .separar .left,
+.modulo-large .separar .centro,
+.modulo-large .separar .right {
+	float: left;
+}
+
+/*CENTRO*/
+.modulo-large .separar .centro {
+	width: 301px;
+	margin: 0 20px 0 10px;
+}
+ 
+ 
+.modulo-large .separar .centro p {
+  margin-top: 2px;
+}
+
+/*RIGHT*/
+.modulo-large .separar .right {
+  width: 330px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.modulo-large .separar .right,
+.modulo-large .separar .mensaje-lateral {
+	margin: 0;
+}
+
+.modulo-large .separar .accion-form {
+	width: 582px;
+}
+
+.modulo-large .separar .accion-form .accion {
+	float: right;
+}
+
+.modulo-large .separar .columnas {
+	width: 573px;
+}
+
+
+/* Separar cabecera */
+.titulo-interior {
+	overflow: hidden;
+}
+.titulo-interior h2 {
+	margin-top: 10px;
+}
+
+/* ==========================================================================
+   BLOQUES SMALL - LARGE
+   ========================================================================== */
+.bloque {
+  clear: both;
+}
+.bloque-large {
+  padding-right:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+.bloque-small {
+  float: right;
+  width: 282px;
+  margin-right: 28px;
+}
+.bloque-large label {
+  margin-left: 50px;
+    width: 170px;
+}
+
+/*INLINE*/
+.bloque-inline li * {
+	float: left;
+}
+
+.bloque-inline li {
+	clear: both;
+}
+
+.bloque-inline li label {
+	width: 130px;
+}
+
+.bloque-inline li input[type="radio"] {
+	margin: 3px 5px 0 0;
+}
+
+.bloque-inline li input[type="text"] {
+	width: 168px;
+}
+
+/*agregado 30 de mayo*/
+.bloque-alto {
+	height: 30px;
+}
+.bloque-xalto {
+	height: 30px;
+	*height: 40px; /* ie7 */
+	margin-left: 80px;
+}
+
+
+/* ==========================================================================
+   TABLA DETALLE INFO
+   ========================================================================== */
+.detalle-info {
+	/*background: #F8F8F8;*/
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.detalle-info thead td {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 1px solid #DFDFDF;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.detalle-info tbody tr {
+	border-bottom: 1px solid #DFDFDF;
+	padding-bottom: 10px;
+}
+
+.detalle-info .text-center span {
+	font-size: 20px;
+}
+
+.detalle-info .last {
+	border-bottom: 0 none;
+}
+
+
+/*R2*/
+
+#pago-cuenta .contenedor-inline input[type="radio"] {
+	margin-top: -2px;
+}
+
+.deuda-tarjeta {
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin: 10px 10px 0 10px;
+	padding-bottom: 20px;
+}
+.solicitud-avance-content {
+	float: left;
+    padding: 20px;
+    width: 300px;
+}
+
+#pago-cuenta .input-medium.input-email input{
+  width: 180px;
+} 
+#pago-cuenta .input-calendario {
+  margin-right: 0;
+}
+
+/* ==========================================================================
+  DESTINATARIOS
+   ========================================================================== */
+#datos-personales {
+	/*border-bottom: 1px solid #DDD;*/
+	padding-bottom: 20px;
+	margin-bottom: 20px; 
+}
+
+#datos-personales .bloque {
+	margin: 20px auto 0;
+	width: 270px;
+}
+
+#datos-cuenta {
+	margin: 20px auto 0;
+	width: 270px;
+}
+
+#datos-cuenta p { line-height: 14px; }
+
+/* ==========================================================================
+  CONT COLAPSABLE
+   ========================================================================== */
+.colapsable {
+	/*border: 1px solid #DDD;*/
+	border-radius: 5px;
+	/*overflow: hidden;*/
+	clear: both;
+	/*background: #F8F8F8;*/
+}
+
+.colapsable-white {
+	border: 0 none;
+	background: #FFF;
+}
+
+.colapsable > div {
+	clear: both;
+	/*overflow: hidden;*/
+}
+
+/*HEAD*/
+ 
+.colapsable-head img { float: left; }
+.colapsable-head h3 { float: right; line-height: 30px; }
+
+
+/*ini RWEB RW-461 */
+#divSaldoOk #colapsable-cartola2 .colapsable-head img,
+#divSaldoOk #colapsable-cartola2 .colapsable-head h3 {
+    padding: 10px!important;
+}
+/*fin RWEB RW-461*/
+
+/*CONTENT*/
+.colapsable.show .colapsable-content { display: block; }
+.colapsable-content { display: none; }
+
+/*FOOTER*/
+.colapsable-footer {
+	background: url(../img/bg-colapsable.jpg) 0 0 repeat-x;
+	height: 18px;
+	line-height: 18px;
+	/*border-top: 1px solid #DDD;*/
+	border-radius: 0 0 5px 5px;
+}
+
+.colapsable-footer button {
+	display: block;
+	width: 75px;
+	height: 18px;
+	margin:0 auto;
+	border: 0 none;
+	background: url(../img/footer_collapsable.png) 0 0 no-repeat;
+}
+
+.icon-colapsable {
+	background: url(../img/icon-colapsable.png) 0 0 no-repeat;
+	width: 30px;
+	height: 15px;
+}
+
+.colapsable.show .icon-colapsable {
+	background-position: 0 -18px;
+}
+
+/*cartola-historica*/
+#colapsable-cartola .colapsable-head {
+	padding: 10px;
+	min-height: 30px;
+}
+
+#colapsable-cartola .separar {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	/*border-bottom: 1px solid #DDD;*/ 
+	float: left;
+	clear: both;
+}
+
+#colapsable-cartola .colapsable-content {
+	padding: 0 10px;
+}
+
+#colapsable-cartola .colapsable-content .table-small {
+  width: 320px;
+}
+.colapsable-content .table-small td {
+  padding: 0
+}
+
+#colapsable-cartola .colapsable-content li {
+	width: 290px;
+	float: left;
+	padding-right: 10px;
+}
+#colapsable-cartola .colapsable-content li.nombre {
+	width:630px;
+}
+
+.colapsable-content .modulo-footer {
+	background: #FFF;
+	border-radius: 0; 
+	border-bottom: 0 none;
+	border-left: 0 none;
+	border-right: 0 none;
+}
+
+.d-corta p { margin-top: -5px;}
+
+.cont-fechas {
+    float: right;
+}
+ 
+ 
+.cont-fechas .select-small {
+    float:left;
+}
+ 
+.cont-fechas .desde,
+.cont-fechas .hasta {
+    float: left;
+} 
+ 
+.cont-fechas .hasta { margin-left: 10px;}
+ 
+.cont-fechas label {
+    float: left;
+    margin: 5px 10px 0 0;
+}
+
+/*AGREGADO 31 DE MAYO*/
+.big {
+    font-size: 30px;
+    margin: 6px 0;
+}
+
+
+#antecedentes-personales {
+	margin: 10px 0 20px;
+	overflow: hidden;
+}
+#antecedentes-personales .bloque {
+	margin-bottom: 0;
+}
+
+#antecedentes-personales .bloque p { margin-top: 3px; }
+
+
+/* ==========================================================================
+     ER0 C3 y C4
+   ========================================================================== */
+.right .btn-destinatario {
+  float: right;
+  margin-right: 130px;
+}
+.right span {
+  margin-right: 28px;
+}
+.rut-noeditar p {
+  line-height: 26px;
+}
+.content-cambio-clave {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.right .rut-noeditar span {
+  font-weight: bold;
+}
+/* ==========================================================================
+     ER0 C5
+   ========================================================================== */
+.modulo .botonera {
+  margin: 20px 0 20px 10px;
+  float: left;
+}
+.modulo .botonera a,
+.modulo .botonera button {
+  float: left;
+  margin-right: 10px;
+}
+/* ==========================================================================
+     ER0 C6
+   ========================================================================== */
+.contenedor-datos {
+  float: left;
+  padding-left: 50px;
+  width: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.contenedor-datos .bloque .rut-noeditar {
+  float: right;
+  line-height: 26px;
+}
+.contenedor-datos .bloque {
+  display: inline-block;
+  margin: 10px 0;
+}
+.contenedor-datos .bloque-largo {
+  width: 310px;
+  margin-top: 40px;
+}
+ 
+.bloque-largo .rut-noeditar {
+  margin-right: 10px;
+}
+ 
+.bloque-largo .rut-noeditar span {
+  margin-right: 3px;
+}
+.contenedor-datos .bloque-bajada {
+  margin: 20px 0 0 0;
+  display: inline-block;
+}
+.bloque-bajada p {
+  line-height: 12px;
+}
+.table-inter {
+  width: 100%;
+  border: 1px solid #EEEEEE;
+  border-radius: 5px 5px 0 0;
+}
+.table-inter input[type="text"] {
+  margin: 0;
+}
+.table-inter input[type="checkbox"],
+.table-inter input[type="radio"] {
+  margin-top: -1px;
+}
+.table-inter .head-table-inter {
+  /*border: 1px solid #ddd;*/
+ 
+  border-radius: 5px 5px 0 0;
+  padding: 6px;
+  background: url(../img/bg-header-table-inter.jpg) 0 0 repeat-x;
+}
+.modulo-left .links {
+  width: 468px;
+  overflow: hidden;
+  margin: 20px auto 0;
+}
+.modulo-left .links li {
+  float: left;
+  margin-right: 16px;
+}
+.modulo-left .links li a {
+  color: #32434c;
+  margin-right: 10px;
+}
+/* ==========================================================================
+     ER0 10
+   ========================================================================== */
+.calendario {
+}
+ 
+/* ==========================================================================
+   ER0 11
+   ========================================================================== */
+.bajada-h3 {
+    color: #999999;
+}
+ 
+#nuevo-destinatario { margin-top: -20px; }
+#destinatario-filtro { margin-top: -64px; }
+ 
+#destinatarios .accion {
+  margin-right: 22px;
+} 
+ 
+/*INPUT CALENDARIO*/
+.input-calendario label {
+  float: left;
+  margin-right: 10px;
+  line-height: 30px;
+}
+ 
+.centrar-volver { margin-left: 50%; }
+ 
+.modulo-medium .separar-accion {
+  width: 322px;
+}
+ 
+.separar-accion .accion {
+  float: right;
+}
+
+/* ==========================================================================
+   ESTADO TARJETAS
+   ========================================================================== */
+
+ .estado-tarjetas .legal { 
+ 	line-height: 12px;
+ 	font-size: 11px;
+  }
+
+  .estado-tarjetas h5 { margin: 10px 0;  clear: both; }
+
+  #info-principal { 
+  	/*background: #F6F5F2;*/
+  	padding: 10px;
+  	border-radius: 5px;
+  	margin-bottom: 10px;
+   }
+
+  .table-dados-tres th { width: 32%; } 
+
+.centrar-volver { margin-left: 50%;}
+.hidden { overflow: hidden;}
+
+.btn-destinatario .accion { margin-left: 142px; }
+
+.accion-destinatario a { font-weight: bold; text-decoration: underline; }
+
+
+/* ==========================================================================
+   R3 CASO 14 DATOS 
+   ========================================================================== */
+.tabla-pagar-cuenta {
+	border:1px solid #DFDFDF; 
+}
+.tabla-pagar-cuenta tr,
+.tabla-pagar-cuenta td {
+	background: #fbfbfb;
+}
+.tabla-pagar-cuenta tr,
+.tabla-pagar-cuenta td {
+	border: 1px solid #DFDFDF;
+} 
+.tabla-pagar-cuenta tr td.titulo {
+	background: #EBEBEB;
+	font-weight: bold;
+} 
+.tabla-pagar-cuenta .selectBox {
+	margin-bottom: 0;
+}
+
+#pago-servicio p {
+	margin-bottom: 10px;
+}
+
+
+
+/*INPUT CALENDARIO*/
+.input-calendario label {
+	float: left;
+	margin-right: 10px;
+	line-height: 30px;
+}
+
+
+/* LOGO BANCA EN LINEA */
+.logo-banca{
+	color:#fff;
+	font-size:14px;
+}
+
+.logo-banca img{
+	margin-right:15px;
+	float: left;
+}
+
+.logo-banca span{
+	margin-top: 22px;
+	float: left;
+}
+
+
+.parrafos p{
+	margin-bottom:20px;
+}
+
+.bajada{
+	padding: 15px 0;
+	clear: both;
+}
+/*.border-legales-top {
+	border-top: 1px #898989 solid;
+}
+
+.border-legales-bottom{
+	border-bottom: 1px #898989 solid;
+}*/
+
+.txt_align_right{
+	text-align:right;
+}
+
+.bg-white{background-color:#fff;}
+.color-grey{color:#999;}
+
+/* ==========================================================================
+   AGENTE INVERSIONES Y VISION MERCADO
+   ========================================================================== */
+.agente-inversion {
+	background: #fff;
+	/*border: 1px solid #DDD;*/
+	margin-top: 20px;
+}
+.agente-inversion .head {
+	padding: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+	/*background: #FF7F18;*/
+}
+.agente-inversion .head i {
+	margin-top: 8px;
+}
+.agente-inversion .head h4 {
+	margin: 0 0 0 10px;
+	line-height: 15px;
+	width: 160px;
+}
+.agente-inversion .head h4,
+.agente-inversion .head i
+ {
+	float: left;
+}
+.agente-inversion ul,
+.vision-mercado ul {
+	padding: 10px 20px;
+}
+.agente-inversion .last {
+	margin-top: 10px;
+	padding-top: 10px;
+	background: url(../img/line-bottom.jpg) top left repeat-x;
+}
+.vision-mercado {
+	background: #fff;
+	/*border: 1px solid #DDD;*/
+	margin-top: 20px;
+}
+.vision-mercado span {
+	display: block;
+	width: 150px;
+	float: right;
+	font-weight: bold;
+	line-height: 14px;
+}
+.vision-mercado .head {
+	padding: 10px 20px;
+	overflow: hidden;
+	/*border-bottom: 1px solid #ddd;*/
+}
+.vision-mercado .head h4 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	/*color: #FF7F18;*/
+}
+.vision-mercado ul li {
+	overflow: hidden;
+	padding-bottom: 10px; 
+}
+.vision-mercado ul li i {
+	margin-right: 10px;
+}
+
+
+/**/
+#valevista-tomar-datos #beneficiario .right {
+	margin-top: 0;
+}
+
+
+#accion-mandatos {
+	overflow: hidden;
+	padding: 20px;
+}
+
+
+#accion-mandatos li {
+	float: left;
+	text-align: center;
+}
+
+#accion-mandatos li i {
+	clear: both;
+}
+
+#accion-mandatos li a  {
+	display: block;
+	clear: both;
+	line-height: 15px;
+	margin-top: 5px;
+}
+
+/*#accion-mandatos li {
+	border-right: 1px solid #DDD;
+}*/
+
+#accion-mandatos .last {
+	border-right: 0 none;
+}
+.cuatro-mandatos li {
+	min-height: 140px;
+    padding: 10px 0;
+    width: 158px;
+}
+
+.tres-mandatos li {
+	padding: 10px 0;
+	min-height: 140px;
+	width: 32%;
+}
+
+.dos-mandatos li {
+	padding: 10px 80px;
+}
+
+#acciones-operar-web p {
+	margin-bottom: 10px;
+}
+
+#accion-aceptar-mandato p {
+	line-height: 15px;
+}
+
+#accion-aceptar-mandato .accion {
+	margin-left: 260px;
+}
+
+#ffmm-promocio-suscripcion p {
+	margin-bottom: 10px;
+}
+
+.consultar-calendar {
+	width: 310px;
+	margin: 0 auto;
+}
+
+.consultar-calendar .accion {
+	margin: 10px 14px 0 0;
+	float: right;
+}
+
+/*FILTRSOS PERIODOS*/
+.nav-filtros {
+	overflow: hidden;
+	clear: both;
+	position: relative;
+	bottom: -1px;
+	z-index: 900; /*Cambio IBM - sub men� queda abajo*/
+}
+
+.nav-filtros h4 { 
+	padding: 17px 0 0 20px;
+	float: left;
+}
+
+.nav-filtros ul { 
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;	
+	height: 40px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.nav-filtros li {
+	float: left;
+	height: 33px;
+	margin-top: 7px;
+	background: #dbdbd3;
+}
+
+.nav-filtros li + li a {
+	/*background: url(../img/bg-linea-y.jpg) top left repeat-y;*/
+}
+
+.nav-filtros li a {
+	display: block;
+	line-height: 33px;
+	height: 33px;
+	padding: 0 27px;
+}
+
+/*.nav-filtros .last {
+	border-radius: 0 5px 0 0;
+	overflow: hidden;
+}*/
+
+.nav-filtros .last a {
+	background:none;
+}
+
+.nav-filtros .activado {
+	height: 40px;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+	background: #fff;
+	/*border: 1px solid #DDD;*/
+	border-bottom: 0 none;	
+}
+
+.nav-filtros .activado a {
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px 5px 0 0;
+	background: none;
+	/*color: #F3791F;*/
+}
+
+
+/**/
+/*.contrato-left, 
+.descargar-right {
+	margin-top: 10px;
+}*/
+
+.contrato-left {
+	float: left;
+	width: 370px;
+	padding-right: 50px;
+	/*border-right: 1px solid #ddd;*/
+}
+
+.descargar-right {
+	float: right;
+	text-align: center;
+	margin-right: 67px;
+}
+
+.descargar-right i {
+	margin-bottom: 5px
+}
+
+
+.descargar-right span {
+	display: block;
+	font-weight: bold;
+	line-height: 15px;
+}
+/* CASO 33 PASO 4 */
+.modulo-content .sugerencias {
+	width: 300px;
+	float: left;
+	margin: 30px 30px 0 0;
+}
+.aviso {
+	padding: 40px;
+	/*background: #F3F3F1;*/ 
+}
+.aviso i { margin-right: 5px;}
+.sugerencias a {
+	display: block;
+	margin-top: 20px;
+	text-decoration: underline; }
+
+#apv-cartola-movimientos .modulo-fecha2 {
+	width: 173px;
+}
+
+.consultar-fechas {
+	float: right;
+	margin-right: -10px;
+}
+
+#resultado-simulacion {
+	margin-top: 130px;
+}
+
+.embed-img img {
+	width: 940px;
+}
+
+/* Condiciones contrato */
+
+#visualizacion-contrato {
+	padding-bottom: 20px;
+	/*border: 1px solid #DDD;*/
+	border-radius: 5px;
+}
+#visualizacion-contrato h2 { 
+	text-align: center; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#visualizacion-contrato p {
+	text-align: left;
+	margin-bottom: 10px;
+} 
+/* Pasos contrato */
+
+#visualizacion-contrato .contenedor-pasos {
+	width: 100%;
+	height: 40px;
+	/*border-bottom: 1px solid #ddd;*/
+}
+.contenedor-pasos p {
+	font-size: 14px; 
+	float: left;
+	margin: 10px 10px 0 0;
+}
+.contenedor-pasos .pasos {
+	float: left;
+	width: 230px;
+	height: 20px;
+	margin: 10px 20px 0 0;
+	/*background-image: url(../img/pasos-acciones-mandatos.png);*/   /*No existe la imagen - IBM*/
+}
+.pasos.paso1 { background-position: 0 0;}
+.pasos.paso2 { background-position: 0 -20px;}
+.pasos.paso3 { background-position: 0 -40px;}
+.pasos.paso4 { background-position: 0 -60px;}
+
+/**/
+
+
+#ingrese-monto-divisas .left {
+} 
+
+#ingrese-monto-divisas .left .bloque {
+	margin-bottom: 10px;
+	float: left;
+}
+
+#ingrese-monto-divisas .left .bloque label {
+	width: 123px;
+}
+
+#ingrese-monto-divisas .left .bloque input[type="text"] {
+	width: 163px;
+}
+
+#ingrese-monto-divisas .left .accion {
+	margin-right: 26px;
+}
+
+#ingrese-monto-divisas .mensaje-lateral {
+	margin-top: -20px;
+}
+
+
+/*CASO 26 - PR4*/
+#ffmm-fondos .uno 	 { width: 210px; }
+#ffmm-fondos .dos 	 { width:63px; }
+#ffmm-fondos .tres 	 { width:65px; }
+#ffmm-fondos .cuatro   { width:70px; }
+#ffmm-fondos .cinco    { width:100px;}
+#ffmm-fondos .seis     { width:55px; }
+
+
+#ffmm-fondos #icons-invertir li {
+	line-height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*#ffmm-fondos .info-invertir, .check-simular {
+	background: #F5F5F5;
+}*/
+
+
+.row-invertir {
+	border-bottom: 1px solid #DDD;
+}
+
+
+/*#colapsable-ffmm .buscar-modulo { display: none; }
+.show#colapsable-ffmm .buscar-modulo { display: block;}*/
+
+
+
+/* contenedor interior centrado */
+
+.content-center {
+	width: 600px;
+	margin: 20px auto 0;
+}
+.content-left {
+	float: left;
+	width: 50%;
+}
+.content-bg {
+	overflow: hidden;
+	padding: 10px;
+}
+.modulo-content .btn-ffmm {
+	float: right;
+	width: 130px;
+}
+.cont-mensajes {
+	border-radius: 5px;
+	/*border: 1px solid #DDD;*/
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
+.cont-mensajes i {
+	margin-top: 0;
+}
+.cont-mensajes:hover {
+	background: #fafafa;
+}
+.cont-mensajes .left-info { 
+	float: left;
+	width: 60%;
+	font-weight: bold;
+}
+.cont-mensajes .right-info { 
+	float: right;
+	width: 40%;
+}	
+.cont-mensajes .right-info i {
+	margin: 0 10px 0 20px;
+}
+.acciones-exito li {
+	float: left;
+	margin-right: 10px;
+}
+.acciones-exito {
+	margin-left: 25%;
+}
+#accion-aceptar-mandato {
+	margin-top: 40px;
+}
+
+/*NAV SLIDE*/
+
+.nav-slide {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.nav-slide li {
+	float: right;
+	margin-left: 10px;
+}
+
+.cont-accion {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.cont-accion * { float: right; }
+.cont-accion .volver { line-height: 30px; margin-right: 20px;}
+
+#contrato-general td input[type="text"],
+#contrato-general td .selectBox { margin-bottom: 0; }
+
+table .agregar-nuevo { display: block; margin-top: 7px; }
+
+#table-ffmm .selectBox {
+	width: 170px;
+	margin-bottom: 0;
+}
+
+#table-ffmm th {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+,
+#table-ffmm input[type="radio"]{
+	margin: -1px 5px 0 0;
+}
+
+#table-ffmm input[type="text"]{
+	margin-bottom: 0;
+}
+
+
+
+#repetir-transferencia .right {
+	margin-top: 40px;
+}
+
+#cuenta-transferencia .right {
+	margin-top: 30px;
+}
+
+
+#modulo-tabs {
+	border-radius: 5px 0 5px 5px;
+}
+
+#acciones-mandato,
+#mostrar-contenido {
+	display: none;
+}
+
+/*AGENDAR TRANSFERENCIAS*/
+#agendar-transferencias {
+	width: 678px;
+	margin-top: 20px;
+}
+
+#agendar-transferencias .datos {
+	width: 678px;
+	float: left;
+	clear: both;
+}
+
+#agendar-transferencias .datos + .datos {
+/*	border-top: 1px solid #DDD;*/
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+#agendar-transferencias .left-datos {
+	width: 230px;
+	float: left;
+	text-align: right;
+}
+
+#agendar-transferencias .left-datos label {
+	line-height: 30px;
+}
+
+#agendar-transferencias .right-datos {
+	width: 428px;
+	float: right;
+}
+
+#agendar-transferencias input[type="radio"] {
+	float: left;
+}
+
+#repetir-datos .inline {
+	clear: both;
+}
+
+#agendar-transferencias #cantidad label{ 
+	margin-top: 5px;
+}
+
+#agendar-transferencias #cantidad input[type="radio"] {
+	margin-top: 8px;
+}
+
+#agendar-transferencias .accion {
+	float: right;
+}
+
+#agendar-transferencias .selectBox {
+	margin-bottom: 0;
+}
+
+#agendar-transferencias #frecuencia ul {
+	float: left;
+}
+
+#agendar-transferencias #frecuencia ul + ul {
+	margin-left: 10px;
+}
+
+#agendar-transferencias #frecuencia span {
+	line-height: 30px;
+}
+
+
+#table-banco th {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#suscribir-cartolas {
+	margin-bottom: 20px;
+	/*border-top: 1px solid #ddd;*/
+}
+#suscribir-cartolas .select-small { width: 130px; }
+#suscribir-cartolas .select-small .box { width: 100px; }
+#suscribir-cartolas .select-small select { width: 120px; }
+
+
+#suscribir-cartolas  td 	{ padding:10px 0; }
+#suscribir-cartolas .uno 	{ width: 180px; line-height: 30px; font-weight: bold; }
+#suscribir-cartolas .dos 	{ width: 130px; }
+#suscribir-cartolas .tres 	{ width: 150px; }
+#suscribir-cartolas .cuatro { width: 150px; }
+#suscribir-cartolas .cuatro input { width: 140px; }  
+
+/*#suscribir-cartolas tr {
+	border-bottom: 1px solid #DDD;
+}*/
+
+#suscribir-cartolas label,
+#suscribir-cartolas p {
+	line-height: 30px;
+} 
+
+#suscribir-cartolas .selectBox,
+#suscribir-cartolas input[type="text"],
+#suscribir-cartolas p,
+#suscribir-cartolas label { margin-bottom: 0; }
+
+/*#suscribir-cartolas .uno .selectBox { margin-left: 10px; }
+#suscribir-cartolas .dos { padding: 0 10px; }
+#suscribir-cartolas .tres input { width: 150px; }*/
+
+
+#cuenta-nueva-transferencia label {
+	line-height: 14px!important;
+	margin-top: 3px;
+}
+
+#resumen-inversiones,
+.embed-img { text-align: center; }
+
+/* ==========================================================================
+   Datos personales
+   ========================================================================== */
+.contenedor-mis-datos {
+	width: 470px; 
+	float: left;
+	margin: 0;
+}
+.contenedor-mis-datos .bloque {
+	width: 100%;
+	float: left; 
+	position: relative;
+}
+.contenedor-mis-datos .bloque.bloque-pequeno  { 
+	width: 300px;
+}
+.contenedor-mis-datos .bloque .cont-datos {
+	overflow: hidden;
+	margin: 6px 0 0;
+}
+.contenedor-mis-datos .bloque .small-bloque { font-size: 10px; margin-top: 40px; }
+
+.contenedor-mis-datos .bloque .cont-datos label,
+.contenedor-mis-datos .bloque .cont-datos p, 
+.contenedor-mis-datos .bloque .cont-datos a {
+	float: left;
+	margin:0 10px 0 0;
+}
+.contenedor-mis-datos .bloque .cont-datos input {
+	display: none;
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+#mis-datos .contenedor-titulo {
+	display: block;
+	float: left;
+	width: 140px; 
+	margin: 0 24px 0 28px;
+	text-align: right;
+} 
+
+/* Tabla settings */
+.tabla-settings-small {
+	margin-top: 20px;
+}
+.tabla-settings-small tr th {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 6px 10px;
+	background: #ddd;
+}
+.tabla-settings-small tr th { 
+	border-right: 1px solid #ccc;
+}
+/*.tabla-settings-small tr th.last {
+	border: 1px solid #ddd;
+}
+.tabla-settings-small tr td {
+	border: 1px solid #ddd;
+}*/
+.tabla-settings-small tr td input[type="radio"] {
+	margin: -3px 5px 0 0;
+}
+/**/
+
+/* input orden */
+.orden-items li {
+	margin: 4px 0 0; 
+}
+.orden-items input[type="text"] {
+	margin: 0 10px 0 0;
+	width: 10px;
+	height: 12px;
+}
+.orden-items span { 
+	font-weight: bold;
+}
+/**/
+
+.imagen-ejemplo {
+	width: 468px;
+	margin-top: 20px;
+	/*background: #f5f5f5; */
+}
+.imagen-ejemplo img { 
+	display: block;
+	margin: 0 auto;
+}
+.imagen-ejemplo h3 {
+	margin: 10px;
+	display: inline-block;
+}
+.documentacion-datos {
+	overflow: hidden;
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+.documentacion-datos li i {
+	margin-right: 6px;
+}
+
+/* ==========================================================================
+   FFMM consultar valor cuota
+   ========================================================================== */
+  /* dropdown small*/
+#dropdown.dropdown-small {
+	float: left;
+	width: 200px;
+	font-size: 12px;
+}
+#dropdown.dropdown-small ul {
+	width: 200px;
+}
+
+.dropdown-small #dropdown-lista li input[type="checkbox"],
+.dropdown-small #dropdown-lista li span {
+	float: left;
+}
+.dropdown-small #dropdown-lista li span {
+	line-height: 12px;
+	margin-left: 10px;
+}
+.dropdown-small #dropdown-lista li i {
+	float: right;
+}
+ 
+.dropdown-small #dropdown-seleccion span {
+	margin-right: 10px;
+}
+/* fin dropdown small*/
+
+.ffmm-texto-tabla {
+	line-height: 36px;
+	/*color: #F3791F;*/
+}
+
+.table-ffmm-datos tr td .link-datos {
+	float: left;
+}
+.table-ffmm-datos tr td i {
+	margin-right: 4px;
+}
+#ffmm-datos .select-large {
+	width: 176px;
+}
+
+.tabla-div-datos {
+	overflow: hidden;
+	/*background:#F6F6F6;
+	border-bottom: 1px solid #D9D9D9;*/
+}
+.tabla-div-datos .info-head {
+	overflow: hidden;
+	padding: 4px;
+}
+.tabla-div-datos .info-head > div{
+	float: left; 
+	width: 12%;
+	text-align: center;
+}
+.tabla-div-datos .info-head > div.first {
+	margin: 8px 0 0 10px;
+	width: 24%;
+}
+
+
+.tabla-div-datos .info-head.mas-datos > div{
+	width: 9%;
+	margin-right: 13px;
+
+}
+.tabla-div-datos .info-head.mas-datos > div.first {
+	margin: 8px 0 0 4px;
+	width: 22%;
+}
+
+
+
+
+.tabla-div-datos .info-head > div.first i,
+.tabla-div-datos .info-head > div.first a {
+	float: left;
+}
+.tabla-div-datos .info-head > div.first i {
+	margin-right: 4px;
+}
+.tabla-div-datos .info-head > div > p {
+	font-size: 11px;
+	font-weight: bold;
+}
+.tabla-div-datos .info-footer {
+	padding: 20px;
+	background: #fff;
+	/*border: 1px solid #D9D9D9;*/
+	border-bottom: none;
+	overflow: hidden;
+}
+
+.tabla-div-datos .info-footer .content-btn {
+	float: left;
+	background: #EFEFEF;
+	border: #ddd;
+	border-radius: 4px;
+	width: 100%;
+}
+.tabla-div-datos .info-footer .content-btn.tres a {
+	margin: 0 10px 0 16px;
+	padding: 5px 10px;
+	display: inline-block; 
+}
+.tabla-div-datos .info-footer .content-btn.cuatro a {
+	margin: 0 10px 0 16px;
+	padding: 5px 10px;
+	display: inline-block; 
+	width: auto;
+}
+
+.tabla-div-datos .info-footer .content-btn a {
+	float: left;
+	/*border-right: 1px solid #ddd;*/
+	margin: 0 10px;
+	padding: 5px 10px;
+}
+.tabla-div-datos .info-footer .content-btn a.last {
+	border: none;
+}
+.tabla-div-datos .info-footer .content-btn a i {
+	margin-right: 4px;
+}
+
+/* ==========================================================================
+   Notificaciones
+   ========================================================================== */
+#notificaciones {
+}
+#notificaciones .label-dropdown {
+	margin: 6px 6px 0 0;
+	float: left;
+}
+.content-notificaciones {
+	clear: both;
+}
+.not-left {
+	float: left;
+	width: 30%;
+	height: 400px;
+}
+.not-right {
+	float: right;
+	width: 70%;
+	height: 400px;
+}
+
+/* ==========================================================================
+   COMPROBANTE PR3
+   ========================================================================== */
+.comprobante {
+	margin-bottom: 20px;
+}
+
+.comprobante table,
+.mensaje-error table {
+	border-right: 0 none;
+}
+
+
+.cont-comprobante {
+	border-bottom: 0 none;
+	padding: 10px;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-radius-border-radius: 5px 5px 0 0;
+}
+
+.comprobante .sello { 
+	background-size: 100px 100px;
+	background-position: 80% 36px;
+}
+
+.cont-comprobante h3 {
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.comprobante .head { 
+	overflow: hidden;
+}
+
+.comprobante .head h3 { float: left; }
+.comprobante .head p  { float: right; color: #666; }
+
+.comprobante td,
+.mensaje-error td {
+	padding: 5px;
+}
+
+.mensaje-exito,
+.mensaje-error {
+	clear: both;
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.mensaje-exito i,
+.mensaje-exito p { float: left; }
+
+.mensaje-exito.text-center i {
+	float: none;
+}
+
+.mensaje-exito p { 
+	width: 95%; 
+	margin-left: 10px; 
+	line-height: 13px; 
+}
+
+.mensaje-error .head { 
+	margin-bottom: 10px; 
+	overflow: hidden;
+}
+
+
+.mensaje-error .head  i,
+.mensaje-error .head h3 {
+	float: left;
+	line-height: 20px;
+}
+
+.mensaje-error .head h3 {
+	margin-left: 10px;
+	font-weight: normal;
+}
+
+.image-servicio { 
+	text-align: center;
+	width: 460px;
+	margin-left:27%;
+	margin-top: 20px;
+}
+
+.image-servicio p { 
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.grafico-pagos {
+	clear: both;
+	margin: 10px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#estadisticas-pagos {
+	padding: 1%;
+	margin: 1%; 
+	float: left;
+	width: 96%;
+}
+
+.est-pagos {
+	width: 570px;
+	margin: 10px auto;
+}
+
+.est-pagos .filtro-calendario { width: 107px; }
+
+.est-pagos .dato-filtro {
+	float: left;
+}
+
+.est-pagos .servicio {
+	margin:0 30px;
+}
+
+.est-pagos #containerMonthYear {
+	left: 0;
+}
+
+.monto-comprobante {
+	font-size: 16px;
+}
+
+.tipo-perfil { 
+	margin-left: 30px;
+	padding-left: 10px;
+}
+
+#filtro-periodo {
+	padding: 20px 0;
+	margin-bottom: 10px;
+}
+
+#filtro-periodo .cont-periodo {
+	width: 480px;
+	margin:0 auto;
+}
+
+#filtro-periodo .cont-periodo .input-calendario { margin-right: 30px; }
+
+/*COMPROBANTE PR3*/
+#consultar-transferencias .calendario {
+    float: left;
+}
+
+#consultar-transferencias .modulo-header {
+    margin-bottom: 0;
+}
+
+/* Agregado caso 1 r2 */
+	.ver-todas {
+		padding: 0 20px;	
+	}
+	
+	.tar-credito {
+		width: 49%;
+	}
+	
+	#tab-estados-cuenta ul,
+	#tab-compras ul {
+		width: auto;
+		float: left;
+	}
+	#tab-estados-cuenta .modulo-fecha,
+	#tab-compras .modulo-fecha {
+		width: 306px;
+		padding-top: 6px; 
+	}
+
+
+/*Agregado para IE7*/
+.cont-consulta {
+	*float: none;
+}
+
+/*Agregado para Dropdown*/
+#dropdown .drop-small {
+    width: 220px;
+}
+/*Agregado para Modulo fecha*/
+.modulo-periodo {
+    float: right;
+    width: 520px;
+    margin-top: 5px;
+}
+.modulo-periodo .bloque-mes > label {
+	float: left;
+	margin-top: 4px;
+	margin-right: 10px;
+	width: auto !important;
+}
+.modulo-periodo .bloque-ano > label {
+    float: left;
+    margin-left: 20px;
+	margin-right: 10px;
+    margin-top: 4px;
+    width: 40px;
+}
+.modulo-periodo .selectBox.select-small {
+	float: left;
+	width: 100px;
+}
+.info-cuenta {
+	box-shadow: inset 0 0 3px 0 #DDDDDD;
+	border-collapse: separate;
+}
+
+/* ------------------------------------
+cambiar a estilos 15.07.2013
+------------------------------------ */
+.modulo-content .sugerencias {
+  min-height: 200px;
+}
+
+#dap-consultar-dap {
+  width: 700px;
+}
+
+.cont-info-banca {
+	width: 940px;
+	margin: 20px auto;
+}
+
+.cont-info-banca .head-banca {
+	margin-bottom: 20px;
+	height: 45px;
+}
+
+.cont-info-banca .head-banca,
+.cont-info-banca .cont-banca {
+	width: 920px;
+	padding: 10px;
+	float: left;
+	clear: both;
+	background: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/* ==========================================================================
+   HEAD
+   ========================================================================== */
+.cont-info-banca .left-head,
+.cont-info-banca .right-head {
+	line-height: 45px;
+}
+
+.cont-info-banca .left-head {
+ 	float: left;
+ 	width: 35%;
+ 	height: 45px;
+}
+
+.cont-info-banca .left-head h2 {
+ 	margin-left: 10px;
+}
+ 
+.cont-info-banca .left-head * {
+  	float: left;
+} 
+
+/*RIGHT*/
+ .cont-info-banca .right-head {
+ 	float: right;
+ 	width: 60%;
+ }
+
+.cont-info-banca .right-head .user {
+	float: right;
+}
+
+.cont-info-banca .right-head .cerrar {
+  	float: right;
+  	padding: 0 10px;
+  	margin-left: 20px;
+}
+
+.cont-info-banca .right-head .icon-cerrar {
+	margin-top: -1px;
+}
+
+/* ==========================================================================
+   CONTENT
+   ========================================================================== */
+.cont-info-banca .cont-banca {
+	margin-bottom: 20px;
+}
+
+.cont-info-banca .cont-banca-left {
+	width: 550px;
+	float: left;
+}
+
+.cont-info-banca .cont-banca-right { 
+	width: 328px;
+	float: right;
+}
+
+
+
+.inversiones.agente-inversion {
+	background: #fff;
+}
+.inversiones.agente-inversion p {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+	margin:10px 0 0 10px;
+	display: inline-block;
+}
+.inversiones.agente-inversion li {
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+
+.inversiones.agente-inversion li i {
+	margin-right: 5px;
+}
+
+
+#agendar-nueva-transferencia {
+	width: 680px;
+	margin:20px auto;
+	overflow: hidden;
+}
+
+#agendar-nueva-transferencia .cont-agendar {
+	float: left;
+	clear: both;
+	width: 680px;
+}
+
+#agendar-nueva-transferencia .left,
+#agendar-nueva-transferencia .centro,
+#agendar-nueva-transferencia .right {
+	float: left;
+}
+
+#agendar-nueva-transferencia .left {
+	width: 180px;
+	min-height: 1px;
+	margin-right: 20px;
+	text-align: right;
+}
+
+#agendar-nueva-transferencia .left label {
+	line-height: 30px;
+}
+
+#agendar-nueva-transferencia .agendar-destinatarios .centro {
+	width: 313px;
+}
+
+#agendar-nueva-transferencia .centro {
+	width: 223px;
+}
+
+#agendar-nueva-transferencia .right {
+	width: 255px;
+	font-size: 11px;
+	line-height: 12px;
+	font-style: italic;
+	padding-top: 21px;
+}
+
+#agendar-nueva-transferencia .right.sin-fecha {
+	padding-top: 0;
+}
+
+#agendar-nueva-transferencia .repetir-hasta {
+	margin-top: 20px;
+}
+
+#agendar-nueva-transferencia input[type=radio] {
+	float: left;
+	margin-top: 2px;
+}
+
+#agendar-nueva-transferencia .datos {
+	float: right;
+	width: 205px;
+}
+
+#agendar-nueva-transferencia .repetir-hasta input[type="text"] {
+	width: 179px!important;
+}
+
+#agendar-nueva-transferencia .selectBox {
+	width: 209px;
+}
+
+#agendar-nueva-transferencia .input-calendario .dijitInlineTable{
+	width: 210px!important;
+}
+
+#agendar-nueva-transferencia .input-calendario .dijitInputInner {
+	width: 172px!important;
+}
+
+
+#agendar-nueva-transferencia .repetir-hasta .input-calendario .dijitInlineTable {
+	width: 193px!important;
+}
+
+
+#agendar-nueva-transferencia .repetir-hasta .input-calendario .dijitInputInner {
+	width: 155px!important;
+}
+
+#agendar-nueva-transferencia .accion {
+	float: right;
+	margin-top: 20px;
+}
+
+
+#agendar-nueva-transferencia .agendar-destinatarios input[type="checkbox"] {
+	float: left;
+}
+
+#agendar-nueva-transferencia .agendar-destinatarios input[type="text"],
+#agendar-nueva-transferencia .agendar-destinatarios textarea {
+	width: 288px!important;
+}
+
+#agendar-nueva-transferencia .mensaje-agendar p {
+	float: left;
+	width: 280px;
+	line-height: 13px;
+	margin-left: 10px;
+}
+
+#consultar-valor {
+	width: 650px;
+	margin: 15px auto;
+}
+
+#consultar-valor h3 {
+	float: left;
+	margin-right: 75px;
+}
+
+#consultar-valor .accion {
+	clear: none;
+	margin-top: 0;
+}
+
+#est-recaudacion {
+	width: 510px;
+	margin: 0 auto;
+}
+
+#est-recaudacion .input-calendario {
+	margin-right: 20px;
+}
+
+#conultar-pagos-historicos {
+	width: 580px;
+	margin: 0 auto;
+}
+
+#conultar-pagos-historicos .input-calendario  {
+	margin-right: 20px;
+}
+
+#combo-pagos-historicos {
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+
+#conultar-pagos-historicos .combox {
+	float: left;
+}
+
+#conultar-pagos-historicos .combox + .combox {
+	margin-left: 40px;
+}
+
+#mostrar-contenido {
+	display: none;
+}
+
+/*PAGE INFORMATIVA*/
+.page-informativa {
+	width: 96%;
+	padding: 2%;
+}
+
+.page-informativa .left-info {
+	float: left;
+	width: 28%;
+}
+
+.page-informativa .left-info img {
+	margin-top: 10px;
+}
+
+.page-informativa .left-info h3 {
+	color: #f3791f;
+}
+
+.page-informativa .left-info h4 {
+	font-weight: normal;
+}
+
+.page-informativa .right-info {
+	float: right;
+	width: 70%;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+.page-informativa .right-info h4 {
+	margin-bottom: 20px;
+}
+
+.page-informativa .right-info ul {
+	margin: 10px 0;
+}
+
+.page-informativa .right-info li {
+	margin-bottom: 0;
+}
+
+.page-informativa .right-info p + table,
+.page-informativa .right-info table + h4 {
+	margin-top: 20px;
+}
+
+.page-informativa .right-info h4 + ul {
+	margin-top: 0;
+}
+
+.page-informativa .right-info p + p {
+	margin-top: 20px;
+}
+
+
+
+/* pasar a estilos.css */
+
+.inversiones.agente-inversion {
+	background: #fff;
+}
+.inversiones.agente-inversion p {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+	margin:10px 0 0 10px;
+	display: inline-block;
+}
+.inversiones.agente-inversion li {
+	border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+.inversiones.agente-inversion li i {
+	margin-right: 5px;
+}
+/*ASIGNAR PERMISOS*/
+.permisos-cuentas + .permisos-cuentas {
+	float: left;
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top:1px solid #DDD;
+}
+
+
+/* ==========================================================================
+   ER2 04 Crear nueva nómina
+   ========================================================================== */
+.crear-nomina-bloque {
+  width: 100%;
+ 
+ 
+ 
+  float: left;
+  margin: 10px 0 10px 30px;
+ 
+}
+ 
+ 
+.crear-nomina-bloque .bloque-left {
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  float: left; 
+  width: 122px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+ 
+.crear-nomina-bloque .bloque-rigth {
+ 
+  float: left; 
+  /*width: 340px;*/ 
+}
+ 
+ 
+.crear-nomina-bloque .bloque-rigth input {
+  margin-bottom: 0;
+}
+ 
+.crear-nomina-bloque .bloque-left label {
+  text-align: left;
+ 
+}
+ 
+/* ========================================================================== */
+ 
+.tabla-nomina {
+  width: 100%;
+}
+ 
+.tabla-nomina tr td.titulo {
+  background: #EBEBEB;
+  font-weight: bold; 
+}
+ 
+.tabla-nomina tr td{
+  padding: 4px 8px;
+  border: 1px solid #DFDFDF;
+ 
+}
+.tabla-nomina tr td input {
+  width: 182px;
+  margin-bottom: 0;
+  
+ 
+}
+.tabla-nomina td.titulo  {
+  background: #fbfbfb;  
+}
+.tabla-nomina th, .tabla-nomina td {
+  vertical-align: center;
+ 
+ 
+}
+.tabla-nomina .selectBox {
+  margin-bottom: 0;
+ 
+ 
+}
+ 
+#nomina .select-large {
+  width: 208px;
+  float: left;
+}
+#nomina input[type="file"] {
+  width: auto;
+  line-height: 20px;
+  margin-top: 10px;
+ 
+ 
+}
+/* ==========================================================================
+   ER2 05 mandatos activos
+   ========================================================================== */
+ 
+.table-bloque tr td {
+  padding-right: 6px;
+ 
+}
+.table-bloque {
+  width: 100%;
+ 
+ 
+}
+ 
+/* ==========================================================================
+   ER2 29 Transferencias realizadas y recibidas
+   ========================================================================== */
+ 
+.separar-filtro input[type="radio"]{
+  margin: -2px 0 0 2px;
+}
+ 
+/* ==========================================================================
+   ER2 19b recaudacion en línea editar
+   ========================================================================== */
+ 
+#recaudacion-en-linea .dijitInlineTable {
+  width: 148px;
+  float: none;
+}
+ 
+#recaudacion-en-linea .dijitInputInner {
+  width: 110px!important;
+}
+ 
+ 
+/* ==========================================================================
+   ER2 28 transferencias altos montos
+   ========================================================================== */
+.tipo-transferencia {
+  padding-left: 20px;
+} 
+ 
+ 
+.tipo-transferencia div {
+  float: left;
+  margin-right: 40px;
+}
+ 
+ 
+.tipo-transferencia div input[type="radio"] {
+  float: left;
+  margin-right: 10px;
+}
+ 
+.tipo-transferencia div label {
+  float: left;
+  display: inline;
+}
+ 
+#transferencias-altos-montos .separar .left input[type="text"]  {
+    margin: 0;
+ 
+ 
+ 
+}
+ 
+ 
+/* ==========================================================================
+   ER2 24 importar grupo de transferencias
+   ========================================================================== */
+ 
+#importar-grupo-transferencias .bloque { overflow: hidden; padding: 20px 40px; }
+ 
+#importar-grupo-transferencias .bloque > div { float: left;}
+#importar-grupo-transferencias .bloque .content-label { width: 130px; margin-right: 30px;}
+#importar-grupo-transferencias .bloque .content-input { width: 100px;}
+ 
+#importar-grupo-transferencias .cont-left  { float: left; }
+#importar-grupo-transferencias .cont-right { float: left; width: 100px;}
+ 
+/* mensaje importar transferencia */
+#importar-grupo-transferencias .detalle-nomina { width: 300px; margin-top: 20px; float: left; }
+.detalle-nomina ul { border: 1px solid #ddd;  height: 200px; overflow-y: scroll;}
+.mensaje-nomina-error { border: 1px solid #f3791f; padding: 10px; margin-top: 10px; }
+.detalle-nomina ul li { margin: 10px; padding: 6px; }
+.detalle-nomina ul li i { margin-left: 20px;}
+.detalle-nomina ul li a span { margin-left: 6px;}
+.detalles { width: 360px; float: right; }
+#importar-grupo-transferencias .mensaje-lateral td { padding: 4px 8px; vertical-align: middle;}
+#importar-grupo-transferencias .mensaje-lateral .input-edit input { width: 172px; margin: 0; }
+#importar-grupo-transferencias .mensaje-lateral .input-edit input.error-dato { border: 1px solid #f3791f;}
+ 
+#importar-grupo-transferencias .continuar { margin-right: 28px;}
+
+#importar-grupo-transferencias .mensaje-lateral  { width: 310px;}
+#importar-grupo-transferencias .mensaje-lateral .arrow-mensaje { top: 60px;}
+
+/**/
+ 
+.contenedor-nomina-cargada { overflow: hidden; margin-top: 20px;}
+.volver-importar { font-size: 12px; font-weight: normal; float: right; text-decoration: underline;}
+ 
+ 
+.porlet-content .porlet_check li { float: left; width: 440px; }
+#asignar-permisos .seleccionar input[type="checkbox"],
+#asignar-permisos .permiso_head input[type="checkbox"] { margin-right: 10px; }
+ 
+.permiso_head {
+  margin: 10px;
+}
+ 
+ul.porlet_check {
+  float: left;
+ 
+  width: 290px;
+}
+ 
+#asignar-permisos ul.porlet_check li input[type="checkbox"] {
+  margin-right: 6px;
+ 
+ 
+}
+ 
+/* ==========================================================================
+   ER2 transferencias
+   ========================================================================== */
+#transferencias-altos-montos .calendario-cont {
+  float: left;
+  margin-left: 7px;
+}
+ 
+#transferencias-altos-montos .modulo-medium .agregar,
+#transferencias-altos-montos .modulo-medium .scroll {
+  width: 278px;
+}
+ 
+#transferencias-altos-montos .textarea-xlarge textarea {
+  width: 286px;
+}
+ 
+#transferencias-altos-montos .input-medium.extra input,
+#transferencias-altos-montos .input-medium.extra2 input{
+  width: 130px;
+}
+ 
+#transferencias-altos-montos .input-medium.extra2 {
+  margin-right: 12px
+} 
+ 
+#transferencias-realizadas .icon-detalle {
+ 
+  margin: 0 auto;
+} 
+ 
+/* ==========================================================================
+   ER2 Filtro transferencias recibidas / realizadas 
+   ========================================================================== */
+
+.modulo-filtro-transacciones {
+  width: 100%;
+}
+.modulo-filtro-transacciones .separar-filtro {
+  width: 100%!important;
+  margin: 0;
+}
+.modulo-filtro-transacciones .filtro-top {
+  float: left;
+  width: 150px;
+  text-align: right;
+  margin: 0 20px 0 30px;
+}
+.modulo-filtro-transacciones .filtro-datos {
+  overflow: hidden;
+  float: left;
+  clear: none;
+  margin-top: 0;
+}
+.modulo-filtro-transacciones .filtro-datos.corto {
+  width: 160px;
+  float: left;
+}
+.modulo-filtro-transacciones .input-calendario {
+  width: 110px;
+  height: auto;
+  margin-right: 2px;
+}
+.modulo-filtro-transacciones .input-calendario label {
+  float: none;
+  margin: 0;
+  line-height: 20px;
+}
+.modulo-filtro-transacciones .selectBox.select-large {
+  width: 308px;
+}
+.filtro-datos label {
+  margin: 0;
+}
+.dato-pie-transferencias {
+  float: left;
+  width: 180px;
+  line-height: 14px;
+}
+
+
+/* ==========================================================================
+   ER0 administrar-facultades-a-usuarios 
+   ========================================================================== */
+.contenedor-datos .bloque.bloque-fijo {
+  height: 82px;
+  margin: 0 ;
+}
+.contenedor-datos .bloque.bloque-fijo input {
+  margin: 0;
+}
+
+/* ==========================================================================
+   ER0 administrar-facultades-a-usuarios 
+   ========================================================================== */
+.bloque.cambio-clave-inicio {
+  position: relative;
+}
+.bloque .cambio-clave {
+  overflow: hidden;
+}
+.bloque .cambio-clave .separador {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px; 
+}
+.form-inline .bloque.bloque-large {
+  width: 740px;
+}
+.bloque.bloque-large .right {
+  width: 460px;
+}
+.bloque.bloque-large .left label {
+  text-align: right;
+}
+
+/* ==========================================================================
+   ER3
+   ========================================================================== */
+
+   /*  Perfil inversionista */
+
+.content-center {
+  width: 656px;
+  margin: 12px auto 12px;
+}
+.content-center h3 {
+  color: #f3791f;
+}
+.content-center h5 {
+  margin-bottom: 12px;
+}
+.content-center ul {
+  margin-bottom: 30px;
+}
+.res-perfil {
+  display: block;
+  margin: 30px 0;
+  font-size: 22px;
+  color: #f3791f;
+}
+.content-center > ul li input[type="radio"]{
+  margin-right: 5px;
+}
+.content-left {
+  float: left;
+  width: 50%;
+}
+
+.modulo-content .btn-ffmm {
+  float: right;
+  width: 130px;
+}
+.cont-mensajes {
+  border-radius: 5px;
+  border: 1px solid #DDD;
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.cont-mensajes.largo {
+  height: 130px;
+}
+.cont-mensajes.largo .left-info .info-carta {
+  clear: both;
+  line-height: 18px;
+  font-weight: normal;
+}
+.cont-mensajes i {
+  margin-top: 0;
+}
+.cont-mensajes:hover {
+  background: #fafafa;
+}
+.cont-mensajes .left-info { 
+  float: left;
+}
+.cont-mensajes .left-info p {
+  font-weight: bold;
+}
+.cont-mensajes .right-info { 
+  float: right;
+} 
+.cont-mensajes .right-info i {
+  margin: 0 10px 0 20px;
+}
+.acciones-exito li {
+  float: left;
+  margin-right: 10px;
+}
+.acciones-exito {
+  margin-left: 25%;
+}
+#accion-aceptar-mandato {
+  margin-top: 40px;
+}
+
+  /* Filtro periodo */
+
+#filtro-periodo {
+  background: #F5F5F5;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+#filtro-periodo .cont-periodo {
+  width: 480px;
+  margin:0 auto;
+}
+#filtro-periodo .cont-periodo .input-calendario { margin-right: 30px; }
+
+/* ==========================================================================
+   ER3 Consultar depósitos a plazo
+   ========================================================================== */
+
+#dap-consultar-dap {
+  width: 700px;
+}
+.calendario, .cont-tab .calendario {
+  float: right;
+  margin-top: 0px;
+}
+.titulo-interior {
+overflow: hidden;
+}
+
+/* ==========================================================================
+   ER3 Divisas
+   ========================================================================== */
+
+#ingrese-monto-divisas .left {
+} 
+
+#ingrese-monto-divisas .left .bloque {
+  margin-bottom: 10px;
+  float: left;
+}
+
+#ingrese-monto-divisas .left .bloque label {
+  width: auto;
+}
+
+#ingrese-monto-divisas .left .bloque input[type="text"] {
+  width: 163px;
+}
+#ingrese-monto-divisas .bloque-fijo {
+  width: 303px;
+}
+#ingrese-monto-divisas .bloque-fijo .accion {
+  margin-right: 0;
+  float: right; 
+}
+/*#ingrese-monto-divisas .left .accion {
+  margin-right: 26px;
+  float: left; 
+}*/
+
+#ingrese-monto-divisas .mensaje-lateral {  
+  margin-top: -20px;
+}
+
+#divisas .separar .left input[type="radio"] { 
+  margin: 0 5px 2px 2px;
+  width: auto;
+}
+#divisas .input-small input[type="text"] {
+  width: 60px !important;
+}
+
+.filtro-inline .selectBox, .filtro-inline label, .filtro-inline input[type="text"] {
+  float: left;
+}
+.filtro-inline label {
+  line-height: 30px;
+  margin-right: 10px;
+}
+#modulo-filtros .accion {
+  float: right;
+}
+
+
+#dap-info .modulo-medium .left .accion {
+  float: left;
+  margin-right: 0;
+}
+
+/* ==========================================================================
+   ER3 FFMM
+   ========================================================================== */
+
+.ffmm-texto-tabla {
+  line-height: 36px;
+  color: #F3791F;
+}
+
+.table-ffmm-datos tr td .link-datos {
+  float: left;
+}
+.table-ffmm-datos tr td i {
+  margin-right: 4px;
+}
+#ffmm-datos .select-large {
+  width: 176px;
+}
+/**/
+.tabla-div-datos {
+  background:#F6F6F6;
+  overflow: hidden;
+  border-bottom: 1px solid #D9D9D9;
+}
+.tabla-div-datos .info-head {
+  overflow: hidden;
+  padding: 4px;
+}
+.tabla-div-datos .info-head > div{
+  float: left; 
+  width: 12%;
+  text-align: center;
+}
+.tabla-div-datos .info-head > div.first {
+  margin: 8px 0 0 10px;
+  width: 24%;
+}
+
+
+.tabla-div-datos .info-head.mas-datos > div{
+  width: 9%;
+  margin-right: 13px;
+
+}
+.tabla-div-datos .info-head.mas-datos > div.first {
+  margin: 8px 0 0 4px;
+  width: 22%;
+}
+
+
+
+
+.tabla-div-datos .info-head > div.first i,
+.tabla-div-datos .info-head > div.first a {
+  float: left;
+}
+.tabla-div-datos .info-head > div.first i {
+  margin-right: 4px;
+}
+.tabla-div-datos .info-head > div > p {
+  font-size: 11px;
+  font-weight: bold;
+}
+.tabla-div-datos .info-footer {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #D9D9D9;
+  border-bottom: none;
+  overflow: hidden;
+}
+
+.tabla-div-datos .info-footer .content-btn {
+  float: left;
+  background: #EFEFEF;
+  border: #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+.tabla-div-datos .info-footer .content-btn.tres a {
+  margin: 0 10px 0 16px;
+  padding: 5px 10px;
+  display: inline-block; 
+}
+.tabla-div-datos .info-footer .content-btn.cuatro a {
+  margin: 0 10px 0 16px;
+  padding: 5px 10px;
+  display: inline-block; 
+  width: auto;
+}
+
+.tabla-div-datos .info-footer .content-btn a {
+  float: left;
+  border-right: 1px solid #ddd;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+.tabla-div-datos .info-footer .content-btn a.last {
+  border: none;
+}
+.tabla-div-datos .info-footer .content-btn a i {
+  margin-right: 4px;
+}
+
+
+.tipo-perfil { 
+  margin-left: 30px;
+  border-left: 1px solid #DDD;
+  padding-left: 10px;
+}
+
+
+
+/* ==========================================================================
+   ER3 Boleta garantía
+   ========================================================================== */
+.seleccion-left {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+#boleta-garantia .seleccion-left input[type="radio"] {
+  margin: 4px 10px 0 0;
+}
+.seleccion-left .selectBox,
+.seleccion-left label,
+.seleccion-left input[type="radio"] {
+  float: left;
+} 
+
+#boleta-garantia  #pasos .paso {
+  margin-right: 2px;
+}
+#boleta-garantia .separar .left {
+  width: 326px; 
+  margin-left: 10px;
+}
+.content-form-block {
+  margin: 10px 0;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+.content-form-block > div{
+  width: 316px;
+  float: left;
+  margin: 10px 20px 0 0;
+}
+.content-form-block .textarea-xlarge {
+  width: 100%;
+}
+.content-form-block .textarea-xlarge textarea {
+  width: 594px !important;
+}
+.editar-texto {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.editar-texto > div {
+  float: left;
+  width: 40%;
+}
+.editar-texto > div p {
+  font-weight: bold;
+  float: left;
+}
+#boleta-garantia .editar-texto input[type="text"] {
+  margin: -3px 0 0 10px;
+  width: 20px;
+} 
+.porlet-content.porlet-scroll {
+  width: 896px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#cuenta-dolar-consultar-documento .separar-filtro input[type="radio"],
+#linea-credito-consultar-documento .separar-filtro input[type="radio"] {
+  margin: 8px 10px 0 2px;
+}
+
+
+
+#cta-cte-consultar-documentos .separar-filtro input[type="radio"] {
+  margin: 8px 10px 0 2px; 
+}
+
+
+#fecha-filtro {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#fecha-filtro .input-calendario  {
+  float: left;
+}
+
+#fecha-filtro .accion  {
+  float: right;
+  clear: none;
+  margin-top: 0;
+}
+
+
+#pago-cuenta .accion {
+  float:right;
+  margin-right: 20px;
+}
+
+#interfaz-filtro {
+  width: 420px;
+  margin: 0 auto;
+}
+
+#interfaz-filtro label {
+  line-height: 30px;
+  margin-right: 20px;
+}
+
+#interfaz-filtro label,
+#interfaz-filtro .selectBox  {
+  float: left;
+}
+
+#interfaz-filtro .accion {
+  float: right;
+  clear: none;
+  margin-top: 0;
+}
+
+/* filtro er2 recaudación */
+
+.tabla-recaudacion tr,
+.tabla-recaudacion td  {
+  border: 1px solid #ccc;
+  padding: 10px; 
+  background: #fff;
+}
+
+.tabla-recaudacion thead tr th {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+   background: #eee;
+   border: none;
+}
+
+.tabla-recaudacion input[type="radio"] {
+  margin: 0 4px 2px 0;
+}
+
+#filtro-recaudacion .modulo-left,
+#filtro-recaudacion .modulo-right {
+  padding: 0;
+}
+#filtro-recaudacion .modulo-right {
+  float: right;
+}
+#filtro-recaudacion .aceptar {
+  float: right;
+  margin: 10px 10px 10px 0;
+}
+
+#filtro-recaudacion .modulo-left {
+  width: 48%;
+}
+#filtro-recaudacion .modulo-right {
+  width: 48%;
+}
+.modulo-content-recaudacion {
+  float: left;
+  padding: 0 10px 10px 10px;
+  width: 918px;
+} 
+
+    #formato-archivo .left-dato {
+      width: 350px;
+      float: left;
+      line-height: 30px;
+    }
+
+    #formato-archivo .left-dato label {
+      line-height: 30px;
+      font-weight: normal;
+    }   
+
+    #formato-archivo .right {
+      width: 250px;
+      float: left;
+    }
+
+    #formato-archivo .right input[type="text"] { width: 235px!important; }
+
+    #formato-archivo .datos-formato { 
+      float: left;
+      clear: both; 
+      margin-bottom: 10px;
+    }
+
+    #formato-archivo .accion { float: right; }
+
+  #table-cargar-nomina {
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  #table-cargar-nomina .accion {
+    float: right;
+    margin-right: 20px;
+  }
+
+  #table-cargar-nomina th label { float: right; }
+
+  #table-cargar-nomina td {
+    padding-bottom: 5px;
+  }
+
+  #table-cargar-nomina input[type="text"] {
+    margin-bottom: 0;
+  }    
+
+
+
+  #datos-pagos {
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  #datos-pagos th { width: 60%; text-align: right; padding-right: 20px; }
+
+  #datos-pagos td {
+    padding-right: 10px;
+  }
+
+  #datos-pagos .selectBox { width: 150px; }
+  #datos-pagos .accion { margin-top: 20px; }
+
+
+#est-recaudacion {
+  width: 510px;
+  margin: 0 auto;
+}
+
+#est-recaudacion .input-calendario {
+  margin-right: 20px;
+}
+
+#est-recaudacion .input-calendario {
+  margin-right: 20px;
+}
+
+/* ==========================================================================
+   Cambios er3 
+   ========================================================================== */
+
+.icon-detalle {
+  cursor: pointer;
+}
+
+.scroll.subcuentas {
+  width: 266px;
+}
+
+#firmas-pendientes .table-thead input[type="radio"] {
+  margin: 3px 3px 0 0;
+}
+
+#firmas-pendientes .porlet .icon-detalle {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Test inversionista
+   ========================================================================== */
+.bloque-gris {
+  padding: 20px;
+  margin-top: 10px;
+  background: #F6F6F6;
+}
+.bloque-gris h3 {
+  font-size: 24px;
+  color: #f3791f;
+  margin-bottom: 6px;
+}
+.bloque-gris .perfiles-riesgo {
+  overflow: hidden;
+  margin: 30px 0; 
+}
+.bloque-gris .perfiles-riesgo span {
+  margin-left: 5px;
+}
+.bloque-gris .perfiles-riesgo p {
+  margin-right: 30px;
+  float: left;
+}
+
+/* ==========================================================================
+   PERFIL INVERSIONISTA
+   ========================================================================== */
+#perfil-resultado {
+	overflow: hidden;
+	clear: both;
+	margin: 20px 0 30px 0;
+}
+
+#perfil-resultado h4,
+#perfil-resultado .bullet {
+	margin-bottom: 10px;
+}
+
+#perfil-resultado .bullet li {
+	margin-bottom: 0; 
+}
+
+#perfil-resultado .left {
+	width: 40%;
+	float: left;
+}
+
+
+#perfil-resultado .right {
+	width: 58%;
+	float: right;
+}
+
+
+/* ==========================================================================
+   FILTRO MULTI DATOS 
+   ========================================================================== */
+#iltro-multi-datos {
+	width: 640px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.opc-principal {
+	width: 640px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.opc-principal h3 {
+	margin-bottom: 10px;
+}
+
+.opc-principal ul, .opc-principal table  {
+	margin: 0 auto;
+}
+
+.opc-principal table .dijitRadio {
+	float:left;
+}
+.opc-principal table label {
+	white-space:nowrap;
+	margin-right:30px;
+	margin-left:4px
+}
+
+.opc-principal .dos-option {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.opc-principal .tres-option {
+	width: 520px;
+	margin: 0 auto;
+}
+
+.opc-principal li {
+	float: left;
+	margin-right: 50px;
+}
+
+.opc-principal li input {
+	margin: 2px 5px 0 0;
+}
+
+.opc-principal li input,
+.opc-principal li label {
+	float: left;
+}
+
+html .dos-datos th {
+	width: 50%;
+}
+
+/*---*/
+#filtro-multi-datos .datos-opcion {
+	width: 540px;
+	margin: 0 auto;
+	display: table;
+}
+
+
+#filtro-multi-datos .select-left {
+	float: left;
+	text-align: right;
+	width: 40%;
+}
+
+#filtro-multi-datos .select-left label,
+#filtro-multi-datos .select-right p {
+	line-height: 30px;
+}
+
+#filtro-multi-datos .select-right {
+	float: right;
+	width: 59%;
+}
+
+.selec-datos .selectBox {
+	width: 248px;
+}
+
+#filtro-multi-datos .input-large input[type="text"] {
+	width: 236px!important;
+}
+
+#filtro-multi-datos .accion {
+	margin-right: 20px;
+	clear: both;
+}
+
+#filtro-multi-datos #medio-pago label {
+	padding-left: 16px;
+}
+
+
+/*TABLA*/
+#table-eliminar-debito {
+	width: 70%;
+	margin: 20px 0 20px 15%;
+}
+
+#table-eliminar-debito .caracteres {
+	clear: both;
+	display: block;
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+#table-eliminar-debito td {
+	padding: 0 5px 0 5px;
+}
+
+#table-eliminar-debito td input[type="text"] {
+	margin-bottom: 0;
+}
+
+#table-eliminar-debito label,
+#table-eliminar-debito p {
+	line-height: 30px;
+	margin-bottom: 0;
+}
+
+#table-eliminar-debito .accion {
+	float: right;
+}
+
+/*TABLA*/
+#form-recaudacion-editar {
+	margin:20px 0;
+}
+#form-recaudacion-editar td {
+	padding: 0 10px;
+	line-height: auto;
+}
+
+#form-recaudacion-editar .accion {
+	float: right;
+	margin-top: 20px;
+}
+
+
+
+  .inline-label-input li { clear: both; }
+    .inline-label-input label { font-weight: normal; }
+    .inline-label-input label,
+    .inline-label-input input { float: left; }
+    .inline-label-input li input[type="radio"] { margin: 2px 5px 0 0; }
+    .inline-label-input .delimitador label { line-height: 30px; margin-right: 10px; }
+
+/* ==========================================================================
+   CALENDARIO MES AÑO
+   ========================================================================== */
+.mes-anios {
+	width: 180px;
+	position: relative;
+}
+
+.mes-anios label {
+	margin-right: 10px;
+	/*line-height: 30px;*/
+}
+
+.mes-anios label,
+.mes-anios #boxMonthYear {
+	float: left;
+}
+
+.mes-anios #boxMonthYear {
+	width: 25px;
+}
+
+.mes-anios #containerMonthYear {
+	left: -78px;
+}
+
+.mes-anios #calendarIcon {
+	*position: relative;
+	*left: -3px;
+}
+
+/* ==========================================================================
+   COLUMNAS
+   ========================================================================== */
+.col1,
+.col2 {
+	width: 48%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.col1 {
+	float: left;
+	margin-left: 1%;
+}
+
+.col2 {
+	float: right;
+	margin-right: 1%;
+}
+
+
+/* ==========================================================================
+   2 COLUMNAS INTERIOR MODULO
+   ========================================================================== */
+
+.modulo-content.dos-columnas-inter {
+	padding: 10px ;
+}
+.dos-columnas-inter .modulo-left,
+.dos-columnas-inter .modulo-right {
+	padding: 0; 
+}
+.dos-columnas-inter .modulo-right {
+	margin-left: 20px;
+}
+.dos-columnas-bloque {
+	overflow: hidden;
+	margin: 2px;
+	height: 52px;
+}
+.dos-columnas-bloque label,
+.dos-columnas-bloque .input-large {
+	margin-left: 9px;
+	float: left;
+}
+.dos-columnas-bloque label {
+	width: 63px;
+	text-align: right;
+	line-height: 15px;
+	margin-right: 30px;
+}
+.dos-columnas-bloque small {
+	display: block;
+	float: left;
+	margin: -12px 0 0 112px;
+}
+.dos-columnas-inter .consultar {
+	float: right;
+	margin-right: 4px;
+}
+
+/**/
+
+#filtro-multi-datos .select-right small {
+	display: block;
+	float: left;
+	margin-top: -10px;
+}
+
+#filtro-multi-datos .selec-datos {
+	margin-bottom: 10px;
+	clear: both;
+	overflow: hidden;
+}
+
+#header .portal-consultas {
+	margin: 20px;
+}
+
+
+.claves-autorizacion li {
+	float: left;
+}
+
+.claves-autorizacion li + li {
+	width: 350px;
+	margin-left: 5px;
+}
+
+
+/* ==========================================================================
+   LEASING - ER5
+   ========================================================================== */
+#leasing-filtro {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#leasing-filtro .moneda label,
+#leasing-filtro .selectBox {
+	float: left;
+}
+
+#leasing-filtro .moneda {
+	float: left;
+}
+
+#leasing-filtro .moneda label {
+	line-height: 30px;
+	margin-right: 10px;
+}
+
+#leasing-filtro .accion {
+	/*clear: both;*/
+	margin-top: 0;
+}
+
+/* ==========================================================================
+   	NOTIFICACIONES
+   ========================================================================== */
+#notificaciones {
+	background: #FFF;
+	border-top: 1px solid #DDD;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	padding: 2px 0;
+}
+
+#notificaciones a:hover {
+	text-decoration: none;
+}
+
+#notificaciones a:hover span {
+	text-decoration: underline;
+}
+
+#notificaciones tr + tr {
+	border-top: 1px solid #DDD;
+}
+
+#notificaciones tr td {
+	font-weight: bold;
+}
+
+#notificaciones tr td a {
+	font-weight: normal;
+} 
+
+/*--- LEIDO ---*/
+#notificaciones .leido {
+ 	background: #FAFAFA;
+ }
+
+ #notificaciones .leido td,
+ #notificaciones .leido a {
+ 	color: #999;
+ }
+
+ #notificaciones .ico {
+ 	text-align: center;
+ }
+
+ #notificaciones .leido > i {
+ 	background-image: url(../img/icon-gris.png);
+ }
+
+#notificaciones .leido .icon-alerta {
+	background-position: 0 -15px;
+}
+
+#notificaciones .leido .icon-consentimiento {
+	background-position: -15px -15px;
+}
+
+#notificaciones .leido .icon-informativo {
+	background-position: -30px -15px;
+}
+
+
+ /*--- POPOVER ---*/
+#notificaciones .popover {
+	top: -6px;
+	left: -279px;
+}
+
+
+#notificaciones .popover li {
+	font-weight: normal;
+}
+
+#notificaciones .icon-detalle {
+	background-position: -660px 0;
+	background-image: url(../img/icon-naranjo.png);
+}
+
+#notificaciones .desp-pop {
+	position: relative;
+}
+
+#notificaciones .desp-pop .detalle-pop {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 90px;
+	font-weight: normal;
+}
+
+.input-xlarge .form-inline .accion {
+	margin-right: 128px;
+}
+
+
+/* CMONARDES */
+.bg-white{
+	background-color:#fff;
+	width:93.5%;
+	padding:2%;
+	display:inline-block;
+	border:1px #ddd solid;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+ul.aumentos-disp{
+	margin:20px 0;
+}
+ul.aumentos-disp li{
+	background-color:#f5f5f5;
+	border:1px #ddd solid;
+	padding:15px 35px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+ul.aumentos-disp li > img{
+	float:left;
+	padding-top:5px;
+}
+ul.aumentos-disp li .nomb-card{
+	float:left;
+	border-right:1px #ddd solid;
+	margin-left:80px;
+	width:56%;
+	height:55px;
+	padding-top:15px;
+}
+ul.aumentos-disp li .nomb-card p span{
+	display:block;
+}
+ul.aumentos-disp li .cupo-disp{
+	float:left;
+	border-right:1px #ddd solid;
+	border-left:1px #fff solid;
+	width:26%;
+	padding-left:4%;
+	padding-top:15px;
+	height:55px;
+}
+ul.aumentos-disp li .solicita-aumento{
+	float:left;
+	border-left:1px #fff solid;
+	width:22%;
+	text-align:right;
+	height:55px;
+	padding-top:15px;
+}
+ul.aumentos-disp li .solicita-aumento p span{
+	display:block;
+	font-size:25px;
+}
+ul.aumentos-disp li .solicita-aumento p input{
+	margin-right:20px;
+}
+.content-btns{
+	border:1px #ddd solid;
+	padding:15px 55px;
+	overflow:hidden;
+	clear: both;
+}
+.content-btns .second-btn{
+	border-right:1px #ddd solid;
+	width:60%;
+	float:left;
+	height:50px;
+	padding-top:15px;
+}
+.content-btns .second-btn .accion:last-child{
+	margin-left:20px;
+}
+.content-btns .acciones-btn{
+	float:left;
+	height:50px;
+	text-align:center;
+	width:39%;
+}
+.content-btns .acciones-btn .accion{
+	margin-top:5px;
+}
+ul.aumentos-disp.aument-lc li .nomb-card{
+    border: none;
+    height: 45px;
+    margin-left: 0;
+    padding-top: 25px;
+    width: 49%;
+}
+ul.aumentos-disp.aument-lc li .solicita-aumento{
+	width: 50%;
+	height: 65px;
+    padding-top: 5px;
+	border:none;
+}
+ul.aumentos-disp.aument-lc li .solicita-aumento p{
+	line-height:50px;
+}
+ul.aumentos-disp.aument-lc li .solicita-aumento p span{
+	display:inline-block;
+	margin-left:40px;
+}
+
+.alert-cc{
+	background-color:#fcb450;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:1%;
+	overflow:hidden;
+}
+.alert-cc img{
+	margin-right:2%;
+	float:left;
+}
+.alert-cc p{
+	color:#fff;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	width: 58%;
+}
+.alert-cc a{
+	color:#fff;
+	float:right;
+	padding-top:10px;
+	width: 25%;
+	text-align: right;
+}
+.overlay-campana-flotante{
+	background:url("../img/bg-overlay-campana-flotante.png") repeat left top;
+	position:fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+.campana-flotante{
+	background-color:#F5F5F5;
+	box-shadow:0 3px 3px #ccc;
+	width:780px;
+	top: 10%;
+	position:absolute;
+	margin-left: -440px;
+	left:50%;
+	padding:25px 50px;
+}
+.campana-flotante > img{
+	float:left;
+}
+.campana-flotante .content-info{
+	width:460px;
+	float:left;
+	margin-left:55px;
+}
+.campana-flotante .content-info h3{
+	font-size:28px;
+	margin-top:10px;
+}
+.campana-flotante .content-info .bullet-check{
+	margin-top:25px;
+}
+.campana-flotante .content-info .bullet-check li{
+	margin-bottom:20px;
+}
+.campana-flotante .content-btns{
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+    padding-left: 3%;
+    padding-right: 0;
+    width: 97%;
+}
+.campana-flotante .content-btns .second-btn .accion:last-child{
+	margin-left:5%;
+}
+.campana-flotante .info-legal{
+	margin-top:40px;
+}
+.campana-flotante .info-legal p{
+	margin-bottom:10px;
+	font-size:11px;
+}
+.campana-flotante ul.det-plazos{
+	width:250px;
+	float:left;
+}
+.campana-flotante ul.det-plazos li:first-child{
+	border-bottom:1px #ddd solid;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+.campana-flotante ul.det-plazos li p{
+	font-size:20px;
+	font-weight:bold;
+}
+.campana-flotante ul.det-plazos li p span{
+	font-size:15px;
+	font-weight:normal;
+	display:block;
+}
+.bg-campana{
+	width:880px;
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	height:580px;
+	position:relative;
+}
+.bg-campana.campana01{
+	/*background:url("../img/bg-campana-01.jpg") no-repeat left top;*/  /*No existe la imagen - IBM*/
+}
+.bg-campana.campana02{
+	background:#E8E8E8;
+}
+.txt-campana{
+	float:right;
+	width: 385px;
+	margin-top:90px;
+}
+.txt-campana h3{
+	font-size:20px;
+	margin-bottom:20px;
+}
+.txt-campana p{
+	margin-bottom:10px;
+}
+.txt-campana > img{
+	float:left;
+	margin-right:10px;
+	margin-bottom:20px;
+}
+.llamado-campana{
+    margin: 0 auto;
+    padding-top: 90px;
+    width: 530px;
+}
+.llamado-campana h3{
+    font-size: 40px;
+    line-height: 42px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #DDD;
+}
+.llamado-campana p{
+	border-top: 1px solid #EEE;
+	padding-top: 30px;
+	font-size: 20px;
+	font-weight:bold;
+}
+.bg-campana .content-btns{
+	background:url("../img/bg-overlay-campana-flotante.png") repeat left top;
+	position:absolute;
+	left:10px;
+	right:10px;
+	bottom:10px;
+}
+.legal-campana{
+	background-color:#fff;
+	width:880px;
+	display:block;
+	margin:20px auto 40px;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow:0 0 5px #ccc;
+	-moz-box-shadow:0 0 5px #ccc;
+	-webkit-box-shadow:0 0 5px #ccc;
+}
+.legal-campana p{
+	margin-bottom:10px;
+}
+
+/*Exito tarjeta*/
+.exito-aumento {
+	margin: 20px 0;
+	background: #FFF;
+	padding: 20px;
+	border: 1px solid #DDD;
+}
+
+.exito-aumento th {
+	border-bottom: 0;
+}
+
+.exito-aumento .cupo {
+	font-weight: bold;
+	color: #F3791F;
+}
+
+/* ==========================================================================
+   Cr�dito en cuotas
+   ========================================================================== */
+
+
+.cont-gris,
+.cont-blanco {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	width: 96%;
+	padding: 14px 0;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.cont-gris {
+	background: #FAFAFA;
+}
+.cont-blanco {
+	background: #fff;
+	height: 70px;
+}
+.cont-gris-head {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.cont-gris .ico-oferta {
+	background: url(../img/icon-bullet-check.png) 0 4px no-repeat;
+	padding-left: 20px;
+}
+.cont-gris .oferta {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.cont-gris .precio {
+	font-weight: bold;
+	color: #FF7900;
+}
+.cont-gris .solicitar {
+	border-top: 1px solid #ccc;
+	margin: 20px auto;
+	padding: 20px 0 0;
+	width: 96%;
+	overflow: hidden;
+}
+.cont-gris-left {
+	width: 42%;
+	float: left;
+	margin-left: 4%;
+}
+.cont-gris-right {
+	width: 50%;
+	float: right;
+}
+.cont-gris-left .accion {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+.cont-gris-left h4 {
+	margin-left: 24px;
+}
+.form-credito {
+	/*width: 235px;*/
+	border: 2px solid #DFDFDF;
+	border-radius: 5px;
+	background: #F4F4F4;
+	margin: 30px auto;
+	padding: 20px 40px;
+}
+.form-credito .datos {
+	overflow: hidden;
+}
+.form-credito .datos label {
+	float: left;
+}
+.form-credito .datos > div {
+	float: right;
+	margin-right: 40px;
+	width: 90px;
+}
+table.credito-cuotas {
+	width: 96%;
+}
+/*table.credito-cuotas .bg {
+	background: #ddd;
+}*/
+#credito-cuotas .modulo-left {
+	width: 48%;
+}
+#credito-cuotas .modulo-right {
+	width: 43%;
+	padding: 30px 2%;
+}
+.descarga-credito {
+	padding-top: 20px;
+}
+.descarga-credito li {
+	margin-bottom: 10px;
+} 
+.monto-solicitado {
+	width: 500px;
+	margin: 22px auto 0;
+	overflow: hidden;
+}
+.monto-solicitado label,
+.monto-solicitado div {
+	float: left;
+	margin-right: 10px;
+}
+.credito-cuotas .cae {
+	font-weight: bold; 
+	font-size: 16px;
+}
+.si-no {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer-credito {
+	clear: both;
+	overflow: hidden;
+	padding: 20px 20px;
+	margin-top: 20px;
+	background: #EBEBEB;
+}
+
+#radio-finan .select-right {
+	margin-top: 4px;
+}
+
+#radio-finan .select-right label {
+	margin-top: 2px;
+}
+
+#notas-credito .accion {
+	margin-right: 70px;
+}
+
+/*PASAR A ESTILOS.CSS*/
+#form-cartera-vigente {
+	width: 500px;
+	margin: 0 auto;
+}
+
+#form-cartera-vigente label {
+	float: left;
+	line-height: 30px;
+	margin: 0 5px 0 0;
+}
+
+#form-cartera-vigente .selectBox {
+	float: left;
+}
+
+#form-cartera-vigente .dato {
+	float: left;
+	margin-right: 20px;
+}
+
+#form-cartera-vigente .modulo-fecha2 {
+	width: 200px;
+}
+
+#form-cartera-vigente .accion {
+	clear: none;
+	margin-top: 0;
+}
+
+#modificar-datos .accion {
+	margin-right: 24px;
+}
+
+#datos-usuarios .accion {
+	margin:10px 126px 0 0;
+}
+
+.claves-autorizacion {
+	text-align: justify;
+}
+
+#st-dap .accion {
+	float: right!important;
+	margin-right: 22px! important;
+}
+
+#form-aprobar-nomina .accion,
+#form-consultar-nomina .accion,
+#form-cta-cte-precios .accion,
+#form-cta-cte-virtual .accion,
+#form-doc-pagador .accion,
+#form-notas-creditos .accion,
+#form-vencimiento-fechas .accion,
+#accion-right .accion {
+	margin-right: 68px!important;
+}
+
+#modificar-usuarios .accion {
+	margin-right: 26px;
+}
+
+html body #crear-dest-transferencia .accion,
+html body #editar-dest-transferencia .accion  { margin-right: 0px!important; }
+
+#transferencia-dvp .accion {
+	margin-right: 42px;
+}
+
+#divisas-landing .accion {
+	float:right;
+}
+
+#consultar-vale-vista .accion { clear: both; }
+
+.email-confirmacion,
+.fecha-pago {
+	margin-top: 10px;
+}
+
+.email-confirmacion.input-email input { width: 180px!important; }
+
+#crear-nueva-nomina,
+#importar-nomina-debito,
+#consult-consultar-nomina,
+#consult-doc-tributarios,
+#consult-mov-realizados,
+#form-ingreso-debitos {
+	margin: 0 auto;
+	display: table;
+}
+
+#crear-nueva-nomina 				{ width: 550px; }
+#importar-nomina-debito,
+#consult-consultar-nomina 			{ width: 490px; }
+#consult-consultar-nomina .accion	{ margin-right: 12px; }
+
+#consult-doc-tributarios 			{ width: 520px; }
+#consult-mov-realizados 			{ width: 630px; }
+#consult-mov-realizados label {
+	float: left;
+	width: 100%;
+	line-height: 20px;
+}
+
+#consult-mov-realizados .selectBox {
+	float: left;
+	clear: both;
+}
+
+#monto-parcial input[type="text"] 	{ width: 196px!important; }
+
+#form-ingreso-debitos .left-ingreso {
+	float: left;
+}
+
+#form-ingreso-debitos .left-ingreso + .left-ingreso {
+	margin-left: 15px;
+}
+
+#form-ingreso-debitos { width: 670px; }
+#form-ingreso-debitos .cinco p {
+	margin-top: 28px;
+	font-weight: bold;
+}
+
+/* ==========================================================================
+   05022014
+   ========================================================================== */
+.cont-hover {
+	position: relative;
+}
+.cont-hover:hover .msje-hover {
+	display: inline;
+}
+.msje-hover {
+	display: none;
+	top: 19px;
+	left: -28px;
+	padding: 8px 2px;
+	width: 68px;
+	position: absolute;
+	background: #F4F3F2;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #999;
+	border: 1px solid #ddd;
+	z-index: 2000;
+}
+.msje-hover .top {
+	display: block;
+	position: absolute;
+	top: -7px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 16px;
+	height: 8px;
+	background: url(../img/tooltip-flecha.png) no-repeat 0 -13px;
+}
+.msje-hover .text {
+	display: block;
+	color: #373D45;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* ==========================================================================
+   12022014
+   ========================================================================== */
+.form-columna .bloque p {
+	margin: 10px 0;
+}
+.pag-modal {
+	float: right;
+	width: 70px;
+}
+.pag-modal p {
+	float: left;
+	color: #F3791F;
+}
+.pag-modal a {
+	float: left;
+	line-height: 0;
+} 
+.modal-seguros2 .modal-content .bloque-modal {
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/* ==========================================================================
+   12022014
+   ========================================================================== */
+.form-columna .bloque p {
+	margin: 10px 0;
+}
+.pag-modal {
+	float: right;
+	width: 70px;
+}
+.pag-modal p {
+	float: left;
+	color: #F3791F;
+}
+.pag-modal a {
+	float: left;
+	line-height: 0;
+} 
+.modal-seguros2 .modal-content .bloque-modal {
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+} 
+
+/* ==========================================================================
+   web pay 25/02/2014
+   ========================================================================== */
+
+.webpay-bg {
+	height: 200%;
+	position: fixed;
+	width: 200%;
+	top: 0;
+	left: 0;
+}
+.webpay-bg img {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	min-height: 50%;
+	min-width: 50%;
+	right: 0;
+	top: 0;
+} 
+.webpay {
+	position: relative;
+	overflow: hidden;
+	z-index: 1000;
+	width: 330px;
+	min-height: 370px;
+	border-radius: 6px;
+	background: #fff;
+	box-shadow: 1px 1px 1px #666;
+	margin: 100px auto 0;
+}
+.webpay .webpay-head {
+	height: 33px;
+	border-radius: 6px 6px 0 0;
+	border: 1px solid #ddd;
+	/*background: url("../img/webpay-head-bg.jpg") repeat-x;*/   /*No existe la imagen - IBM*/
+}
+.webpay .webpay-head h3 {
+	font-size: 14px;
+	line-height: 32px;
+} 
+.webpay h2,
+.webpay h3 {
+	text-align: center;
+	margin: 0;
+}
+.webpay h2 {
+	margin-bottom: 8px;
+}
+.webpay .webpay-logos {
+	overflow: hidden;
+	padding: 10px 4px;
+	border-bottom: 1px solid #ddd;
+}
+.webpay .webpay-logos span {
+	float: left;
+	width: 78px;
+	min-height: 50px;
+	padding: 0 14px; 
+	border-right: 1px solid #ddd;
+}
+.webpay .webpay-content {
+	padding: 0 10px;
+	margin: 20px 0;
+}
+.webpay .webpay-logos span.last {
+	border: none;
+}
+.webpay .webpay-logos img {
+	display: block;
+	margin: 0 auto;
+}
+.webpay .datos {
+	width: 270px;
+	margin: 40px auto 0;
+}
+.webpay .webpay-info {
+	border-radius: 6px;
+	margin: 0 auto 20px;
+	padding: 10px 0;
+	background: #F7F7F7;
+}
+.webpay .webpay-info div {
+	margin: 0 auto
+}
+.webpay .webpay-info .webpay-icode {
+	width: 310px;
+}
+.webpay .webpay-info .webpay-info-detalle {
+	width: 210px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.webpay-info-detalle p {
+	margin-bottom: 10px;
+}
+.webpay a.accion {
+	display: block;
+	float: none;
+	width: 120px;
+	margin: 0 auto 10px;	
+}
+.webpay .webpay-info .webpay-icode {
+	width: 250px;
+	margin-top: 10px;
+	overflow: hidden; 	
+}
+.webpay .webpay-info .input-icode {
+	margin-right: 8px;
+	float: left;
+}
+.webpay .webpay-icode > div {
+	width: 200px;
+}
+.webpay .webpay-info .accion {
+	width: 122px;
+}
+.webpay .input-icode label {
+	text-align: center;
+}
+.webpay .webpay-content > .icon {
+	display: block;
+	margin: 20px auto;
+}
+
+.dato-destinatario {
+	margin: 10px 0;
+	color: #F3791F;
+	line-height: 14px;
+}
+
+
+/* ==========================================================================
+   Cambios 18/02/2014
+   ========================================================================== */
+
+.input-cons-doc input[type='text']{
+	width: 236px !important;
+	margin-left: 10px;
+}
+.porlet .fav-radio input[type="radio"] {
+	display: block;
+	margin: 0 auto;
+}
+.porlet table tr th {
+}
+.porlet table tr th.th-fav-radio {
+	width: 130px;
+	text-align: center;
+}
+.porlet .th-fav-radio a {
+
+}
+.fav-radio i.icon-favorito-1 {
+	display: block;
+	margin: 0 auto;
+}
+.icono-guardar {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background: url(../img/icono-guardar.gif);
+}
+
+/* ==========================================================================
+   Cambios 27/03/2014
+   ========================================================================== */
+
+.mensaje-advertencia{
+	margin: 10px 0 0 10px
+}
+
+.porlet-table-aliniacion td:nth-child(1),
+.porlet-table-aliniacion td:nth-child(2),
+.porlet-table-aliniacion td:nth-child(3),
+.porlet-table-aliniacion td:nth-child(4){
+	width: 25%;
+}
+
+.table-dap-tomar-depositos-plazo {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.table-dap-tomar-depositos-plazo td:nth-child(1){
+	width: 401px;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.table-dap-tomar-depositos-plazo td:nth-child(1){
+	width: 313px;
+}	
+}
+
+.mensaje-lateral-parrafo {
+	position: relative;
+	width: 315px;
+	border: 1px;
+	background: #fff;
+	margin: 5px 10px;
+}
+
+.boton-dap {
+	margin-left: 450px;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.boton-dap {
+	margin-left: 360px;
+	}
+}
+
+/* ==========================================================================
+   Cambios 31/03/2014
+   ========================================================================== */
+
+.destacado {
+	position: relative;
+	text-align: center;
+	padding: 70px 20px;
+	background: #F5F5F5;
+	margin: 20px 5px 0 5px;
+	border: 1px solid #DDD;
+}
+/* Se agrega por error en consulta destinatario en transferencias */
+.modulo-right .destacado {
+	position: relative;
+	text-align:left;
+	padding: 0;
+	background: none;
+	margin:0;
+	border: none;
+}
+/* Se agrega por error en consulta destinatario en transferencias */
+
+.destacado-corredor  {
+	position: relative;
+	text-align: center;
+	padding: 70px 20px;
+	background: #F5F5F5;
+	margin: 20px 5px 0 5px;
+	border: 1px solid #DDD;
+}
+
+.subir-archivo input[type="file"] {
+	line-height: 20px;
+	margin-left: 14px;
+}
+
+/*08042014 - Por MRC*/
+#transferencia .separar-cuenta {
+	margin-top: 10px!important;
+}
+
+.separar-cuenta .right {
+	margin-top: 5px!important;
+}
+
+.separar-cuenta .arrow-mensaje {
+	top: 24px!important;
+}
+
+.separar-destinatario .arrow-mensaje {
+	top: 95px!important;
+}
+
+.separar-destinatario .right {
+	margin-top: -20px!important;
+}
+
+.separar-destinatario #form-mensaje input,
+.separar-destinatario #form-mensaje .selectBox {
+	margin-bottom: 8px!important;
+}
+
+/* Agregado por Matías Calderón G */
+
+#nomina .select-medium {
+  width: 180px;
+  float: left;
+}
+
+.filtro-porlet-resumen{
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.filtro-porlet-resumen #filtro-operaciones {
+	width: 500px;
+	margin-top: 10px;
+}
+
+/* ==========================================================================
+   TABLAS APROBAR NÓMINAS 14-04-2014
+   ========================================================================== */
+
+/* ==========================================================================
+   Mandato para cargo en cuenta corriente Itaú 15-04-2014
+   ========================================================================== */
+
+#interfaz-agregar {
+  width: 530px;
+  /*width: 480px;*/ /*Mod Cardumen*/
+  margin: 0 auto;
+}
+
+#interfaz-agregar label {
+  line-height: 30px;
+  margin-right: 20px;
+}
+
+#interfaz-agregar label,
+#interfaz-agregar .selectBox  {
+  float: left;
+}
+
+#interfaz-agregar .accion {
+  float: right;
+  clear: none;
+  margin-top: 0;
+}
+
+/* ==========================================================================
+   Mandato para cargo en cuenta corriente Itaú 15-04-2014
+   ========================================================================== */
+
+.modulo-mensaje-lateral {
+	width: 100%;
+	display: inline-block;
+}
+
+.modulo-mensaje-lateral .left {
+	float: left;
+	margin-top: 5px;
+	width: 300px;
+}
+
+.modulo-mensaje-lateral .right {
+	float: left;
+}
+
+/* ==========================================================================
+   Filtros de busqueda Itaú 23-04-2014
+   ========================================================================== */
+
+.tres-datos {
+	width: 100% !important;
+}
+
+
+.tres-datos .accion {
+	float: left;
+	clear: none;
+	margin-top: 0;
+	margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px){
+	.tres-datos .operaciones{
+		margin-left: 2% !important;
+	}
+	.tres-datos .operaciones:first-child{
+		margin-left: 0 !important;
+	}
+	.tres-datos .operaciones .select-small{
+		width: 70px !important;
+	}
+}
+
+/* ==========================================================================
+   Filtros de busqueda Itaú 23-04-2014
+   ========================================================================== */
+
+#factoring-electronico .accion {
+	margin-right: 26px;
+}
+
+.factoring-electronico-input label {
+	float: left;
+	margin-right: 10px;
+	line-height: 30px;
+}
+
+.factoring-electronico-input input{
+	float: left;
+	position: relative;
+	width: auto;
+	display: block;
+	border: none;
+	margin-right: 10px;
+}
+
+/* ==========================================================================
+   CAE 05/05/2014
+   ========================================================================== */
+
+.cae {
+	font-size: 16px;
+   }
+
+/* ==========================================================================
+   Targeta Virtual Personas 05/05/2014
+   ========================================================================== */
+#tab-tarjetavirtual{
+ 	width: 700px;
+ 	float: left;
+}
+
+
+#tarjetavirtual {
+	width: 676px;
+   }
+
+@media screen and (min-width: 1200px) {
+	#tarjetavirtual {
+	width: 906px;
+	}
+}
+
+#tarjetavirtual #dropdown {
+	width: 300px;
+	margin-bottom: 50px !important;
+}
+
+#tarjetavirtual #dropdown span {
+	margin: 0;
+}
+
+#tarjetavirtual #dropdown ul {
+	width: 300px;
+}
+
+#tarjetavirtual .mensaje-lateral {
+	width: 300px;
+}
+
+#tarjetavirtual .modulo-left,
+#tarjetavirtual .modulo-right {
+width: 318px;
+}
+
+/*#tarjetavirtual p.moneda{
+	margin-top: 35px;
+}*/
+
+@media screen and (min-width: 1200px) {
+	#tarjetavirtual .modulo-left,
+	#tarjetavirtual .modulo-right {
+	width: 432px;
+	}
+}
+
+.tarjeta-virtual {
+	position: relative;
+	color: #fff;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 20px 20px 10px 20px;
+	height: 180px;
+	background-color: #444;
+	border-bottom: 3px solid #222;
+	/*background-image: 
+	-webkit-gradient(
+		linear,
+		left top,
+		right bottom,
+		color-stop(0, #FE921F),
+		color-stop(0.54, #FF7700)
+	);
+	background-image: -o-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: -moz-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: -webkit-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: -ms-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: linear-gradient(to right bottom, #FE921F 0%, #FF7700 54%);*/
+}
+
+.tarjeta-virtual .icono{
+	position: absolute;
+	padding: 5px;
+	top: 15px;
+	right: 20px;
+	height: 24px;
+	width: 24px;
+	background: url(../img/tarjeta-virtual.png) no-repeat center center #fff;
+	border-radius: 5px;
+}
+
+.tarjeta-virtual h2 {
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.tarjeta-virtual h4 {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 36px;
+	color: #fff;
+}
+
+.tarjeta-virtual p {
+	font-size: 21px;
+	font-weight: bold;
+	word-spacing:10px;
+	letter-spacing:2px;
+	font-family: 'Electrolize', sans-serif;
+}
+.tarjeta-virtual .left {
+	margin-top: 20px;
+	float: left;
+	width: 110px;
+}
+
+.tarjeta-virtual .right {
+	margin-top: 20px;
+	float: right;
+	width: 130px;
+	padding: 2px 5px 10px 5px;
+	text-align: center;
+}
+.tarjeta-virtual .right span {margin-right:0px;}
+
+.tarjeta-virtual .right p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000;
+	font-size: 16px;
+}
+
+.tarjeta-virtual .fondo {
+	background-color: #fff;
+	display: inline-block;
+	color: #000;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+@media screen and (max-width: 1200px) {
+	
+	.tarjeta-virtual p {
+	font-size: 16px;
+	word-spacing:5px;
+	letter-spacing:1px;
+	}
+
+	.tarjeta-virtual .right {
+	width: 120px;
+}
+}
+
+
+.tarjeta-virtual-b {
+	position: relative;
+	color: #666;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 20px 20px 10px 20px;
+	height: 180px;
+	background-color: #F5F5F5;
+	border: 1px solid #DDD;
+	/*background-image: 
+	-webkit-gradient(
+		linear,
+		left top,
+		right bottom,
+		color-stop(0, #FE921F),
+		color-stop(0.54, #FF7700)
+	);
+	background-image: -o-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: -moz-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: -webkit-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: -ms-linear-gradient(right bottom, #FE921F 0%, #FF7700 54%);
+	background-image: linear-gradient(to right bottom, #FE921F 0%, #FF7700 54%);*/
+}
+
+/* v2*/
+.tarjeta-virtual-b .icono{
+	position: absolute;
+	padding: 5px;
+	top: 15px;
+	right: 20px;
+	height: 24px;
+	width: 24px;
+	background: url(../img/tarjeta-virtual.png) no-repeat center center #fff;
+	border-radius: 5px;
+}
+
+.tarjeta-virtual-b h2 {
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.tarjeta-virtual-b h4 {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 36px;
+	color: #666
+}
+
+.tarjeta-virtual-b p {
+	font-size: 21px;
+	font-weight: bold;
+	word-spacing:10px;
+	letter-spacing:2px;
+	font-family: 'Electrolize', sans-serif;
+}
+.tarjeta-virtual-b p.anaranjado {
+	color: #ff7900;
+}
+.tarjeta-virtual-b .left {
+	margin-top: 20px;
+	float: left;
+	width: 110px;
+}
+
+.tarjeta-virtual-b .right {
+	margin-top: 20px;
+	float: right;
+	width: 130px;
+	padding: 2px 5px 10px 5px;
+	text-align: center;
+}
+.tarjeta-virtual-b .right p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000;
+	font-size: 16px;
+}
+
+.tarjeta-virtual-b .fondo {
+	background-color: #fff;
+	display: inline-block;
+	color: #666;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+@media screen and (max-width: 1200px) {
+	
+	.tarjeta-virtual-b p {
+	font-size: 16px;
+	word-spacing:5px;
+	letter-spacing:1px;
+	}
+
+	.tarjeta-virtual-b .right {
+	width: 120px;
+}
+}
+
+#colapsable-tarjeta .colapsable-head {
+padding: 10px;
+}
+
+#colapsable-tarjeta .colapsable-content {
+padding: 10px;
+}
+
+#colapsable-tarjeta .colapsable-head h3 {
+float: inherit;
+line-height: 30px;
+}
+
+#colapsable-ventajas .colapsable-head {
+padding: 10px;
+}
+
+#colapsable-ventajas .colapsable-content {
+padding: 10px;
+}
+
+#colapsable-ventajas .colapsable-head h3 {
+float: inherit;
+line-height: 30px;
+}
+
+/* ==========================================================================
+   FFMM solicitud no efectuada 12/05/2014
+   ========================================================================== */
+
+.mensaje-respuesta .bullet li{
+	width: 35%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   Cobranza 14/05/2014
+   ========================================================================== */
+
+#cobranza-consultar-nomina {
+	width: 660px;
+	margin: 0 auto;
+	display: table;
+}
+
+#cobranza-consultar-nomina .accion {
+	margin-top: 25px !important;
+}
+
+#cobranza-consultar-cedente {
+	width: 710px;
+	margin: 0 auto;
+	display: table;
+}
+
+#cobranza-consultar-cedente .accion {
+	margin-top: 0px !important;
+}
+
+#cobranza-consultar-cedente .filtro-right {
+	width: 500px;
+}
+
+#cobranza-consultar-cedente .separar-filtro input[type="radio"] {
+	margin: 6px 0 0 2px;
+	width: 20px;
+	float: left !important;
+}
+
+/* ==========================================================================
+   Consultas 27/05/2014
+   ========================================================================== */
+
+#medio-pago-nomina .selectBox {
+	width: 150px;
+}
+
+.consulta-tres-datos {
+width: 578px !important;
+}
+
+#cobranza-consultar-nomina .consulta-tres-datos .accion {
+	margin-top: 0 !important;
+}
+
+/* ==========================================================================
+   28/05/2014
+   ========================================================================== */
+
+html body .margen3-top     { margin-top:30px!important; }
+
+
+/* ==========================================================================
+   02/06/2014
+   ========================================================================== */
+#mes-ano{
+	height: 40px;
+}
+
+.cgf2-dato-accion {
+	margin-right: 0;
+	float: left;
+}
+
+.cgf2-dato-accion>.accion{
+	margin-top: 25px;
+	
+}
+
+.form-cgf-paso2 {
+	width: 750px;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   04/06/2014
+   ========================================================================== */
+
+#cobranza-consultar-nomina .consulta-cuatro-datos input[type="radio"] {
+	margin: 6px 0 0 2px;
+	width: 20px;
+	float: left !important;
+}
+
+/* ==========================================================================
+   11/06/2014
+   ========================================================================== */
+.cont-footer-no-clientes {
+width: 134px;
+height: 80px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.cont-footer-no-clientes .accesos {
+float: left;
+height: 65px;
+padding-top: 15px;
+}
+
+.cont-footer-no-clientes .accesos .info-acceso {
+float: left;
+margin-left: 10px;
+}
+
+.cont-footer-no-clientes .accesos .first {
+font-size: 14px;
+	font-weight: bold;
+margin-bottom: 10px;
+}
+
+.cont-footer-no-clientes .accesos * {
+color: #FFF;
+line-height: 14px;
+}
+
+.cont-footer-no-clientes .info-no-clientes {
+width: 134px;
+}
+
+.cont-footer-no-clientes .info-no-clientes .info-acceso, .cont-footer .info-no-clientes i {
+float: right;
+text-align: right;
+}
+
+.cont-footer-no-clientes .accesos i {
+margin-top: -1px;
+}
+
+/* ==========================================================================
+   13/06/2014
+   ========================================================================== */
+	
+.exportar-nomina {
+	width: 300px;
+	margin: 0 auto;
+	}
+
+.exportar-nomina2 {
+	width: 464px;
+	margin: 0 auto;
+}
+
+.centrar-ul {
+	margin: 0 auto;
+	width: 376px;
+}
+
+ul.inline-center {
+	margin-left: 0;
+	list-style:  none;
+}
+
+ul.inline-center > li {
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* ==========================================================================
+   13/06/2014
+   ========================================================================== */
+
+#cuenta-virtual-consultar-nomina {
+	width: 600px;
+	margin: 0 auto;
+	display: table;
+}
+
+#cuenta-virtual-consultar-nomina .accion {
+	margin-top: 25px !important;
+}
+
+#cuenta-virtual-consultar-nomina .selectBox {
+	width: 150px;
+}
+
+#bf-aprobar-nomina {
+	width: 430px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-aprobar-nomina .accion {
+	margin-top: 25px !important;
+}
+
+#bf-consultar-documentos {
+	width: 570px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-consultar-documentos .accion {
+	margin-top: 25px !important;
+}
+
+#bf-notas-credito {
+	width: 510px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-notas-credito .accion {
+	margin-top: 25px !important;
+}
+
+#bf-notas-credito .selectBox {
+	width: 240px;
+}
+
+#bf-vencimiento-fecha {
+	width: 510px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-vencimiento-fecha .accion {
+	margin-top: 25px !important;
+}
+
+#bf-vencimiento-fecha .selectBox {
+	width: 224px;
+}
+
+#bf-diferencia-precio { 
+	width: 400px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-diferencia-precio .accion {
+	margin-top:  25px !important;
+}
+
+#bf-diferencia-precio .mes-anios label {
+	display:block;
+	float:none;
+	line-height:20px;
+}
+
+#bf-cargar-nominas {
+	width: 385px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-cargar-nominas input[type="file"] {
+height: 30px;
+line-height: 0;
+}
+
+#bf-proveedor-doc-pendientes {
+	width: 510px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-proveedor-doc-pendientes .accion {
+	margin-top: 0 !important;
+}
+
+#bf-proveedor-doc-pendientes .selectBox {
+	width: 240px;
+}
+
+/* ==========================================================================
+   13/06/2014
+   ========================================================================== */
+
+.group-filtros {
+	margin-bottom:10px; 
+	overflow:hidden;
+}
+
+.modal-overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg-overlay-modal.png) repeat left top;
+	z-index:9999;
+}
+
+.modal-borrar {
+     position: absolute;
+     top: 10%;
+     left: 50%;
+     margin-left: -440px;
+     width: 780px;
+     background: #F5F5F5;
+     box-shadow: 0 3px 3px #ccc;
+     padding: 25px 50px;
+     color: #333;
+     z-index:1002;
+     overflow: auto;
+}
+
+.seleccion-check {
+	padding-top: 5px;
+}
+
+.seleccion-check input {
+	float: left;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.seleccion-check label {
+	float: left;
+	margin-right: 20px;
+}
+
+/* ==========================================================================
+   24/06/2014
+   ========================================================================== */
+
+.modulo-filtro2 {
+	width: 670px;
+	float: right;
+	z-index: 1004;
+}
+
+.modulo-filtro2 .mes-anios {
+	width: 185px;
+	position: relative;
+	float: left;
+}
+
+.modulo-filtro2 .fecha {
+	float: left;
+	margin-right: 10px;
+}
+
+.modulo-filtro2 label {
+	float: left;
+	margin: 4px 5px 0 0;
+}
+
+.modulo-filtro2 .formato {
+	float: right;
+}
+
+.modulo-filtro2 .formato .selectBox {
+	width: 170px;
+}
+
+.modulo-filtro2 .selectBox {
+	float: right;
+}
+
+.descargar-archivos {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#filtro-pac-multibanco {
+	width: 660px;
+	margin: 0 auto;
+	display: table;
+}
+
+#filtro-pac-multibanco .accion {
+	margin-top: 25px !important;
+}
+
+.centrado {
+	text-align: center;
+}
+
+#header-texto {
+	width: 60%;
+}
+
+/* ==========================================================================
+   26/06/2014 header portal no clientes
+   ========================================================================== */
+
+.nav1-no-clientes {
+	width: 120px;
+}
+
+.nav2-no-clientes {
+	width: 120px;
+}
+
+.nav3-no-clientes {
+	width: 120px;
+}
+
+.left-head {
+	width: 380px;
+}
+
+.popover-content h3.clear-both {
+	clear: inherit;
+	display: inherit;
+}
+
+#nc-consulta-pagos {
+	width: 528px;
+	margin: 0 auto;
+	display: table;
+}
+
+#nc-consulta-pagos .accion {
+	margin-top: 25px !important;
+}
+
+#nc-consulta-pagos .selectBox {
+	width: 150px;
+}
+
+#bf-consultar-nomina {
+	width: 630px;
+	margin: 0 auto;
+	display: table;
+}
+
+#bf-consultar-nomina .selectBox {
+	width: 150px;
+}
+
+#bf-consultar-nomina .accion {
+	margin-top: 25px !important;
+}
+.cambio-clave-nc {
+	padding: 30px;
+	overflow: hidden;
+}
+
+.cambio-clave-nc .recomendaciones {
+	margin-top: 0; 
+}
+
+.cambio-clave-nc .recomendaciones .dato-formulario .campo-formulario {
+    width: 60%;
+    float: right;
+}
+
+.cambio-clave-nc .recomendaciones .dato-formulario .campo-formulario a{
+    float: right;
+    margin-left: 5px;
+}
+
+.cambio-clave-nc .formulario-cambio-clave-nc {
+	float: left;
+	width: 50%;
+}
+
+/*CAMBIOS RESUMEN DE CUENTA*/
+
+.cuenta-item {
+	border-bottom: 1px solid #ddd;
+}
+
+.cuenta-item.cuenta-last {
+	border-bottom: none;
+}
+
+.tb-grey-back {
+	background: #ededed;
+}
+
+.acc-fav td {
+	font-weight: bold;
+}
+
+.acc-fav a {
+	float: left;
+}
+
+.fav-marcador {
+	background: url(../img/icon-segmento-pb.png) no-repeat;
+	background-position: -2280px 0;
+	/*background: url(../img/star-unsel.png) no-repeat center;*/
+	float: left;
+	height: 16px;
+	/*margin-left: 10px;*/
+	width: 16px;
+	cursor: pointer;
+	position: relative;
+	text-decoration:none!important;
+}
+
+.fav-marcador:hover .tooltip-fav {
+	display: block;
+}
+
+.fav-marcador .tooltip-fav {
+	display: none;
+	position: absolute;
+	width: 180px;
+	border: 1px solid #BCBCBC;
+	border-radius: 5px;
+	background: #fff;
+	margin: 0;
+	box-shadow: 0 0 5px 0 #999;
+	top: -6px;
+	left: 30px;
+	padding: 5px;
+}
+
+.fav-marcador .tooltip-fav p {
+	font-weight: bold;
+}
+
+.fav-marcador .tooltip-fav .arrow-mensaje {
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	left: -10px;
+	top: 5px;
+	background: url(../img/arrows-direcciones.png) no-repeat;
+}
+
+.selected-fav {
+	/*background: url(../img/star-sel.png) no-repeat center;*/
+	background: url(../img/icon-segmento-pb.png) no-repeat;
+	background-position: -2295px 0;
+}
+
+/* CAMBIOS FLUJO TRANSFERENCIAS */
+
+.cont-tab-transferencias {
+	width: 655px;
+	margin: 0 auto;
+}
+
+.cont-tab-transferencias input.buscar-destinatario {
+	background: url(../img/icon-mini-naranjo.png) no-repeat scroll 280px 7px transparent;
+}
+
+.cont-tab-transferencias .scroll {
+	float: left;
+	padding: 20px 10px!important;
+}
+
+.cont-tab-transferencias .scroll label {
+	margin-left:0px;
+	width:92%;
+}
+
+.cont-tab-transferencias .float-right {
+	float: left;
+	margin-top: 65px;
+}
+
+.cont-tab-transferencias .mensaje-lateral .arrow-mensaje {
+	top: 20px;;
+}
+
+.cont-tab-transferencias .mensaje-lateral td {
+	padding: 3px 16px;
+}
+
+.cont-tab-transferencias .cont-buscador {
+	background-color: #ddd;
+	border-radius: 5px;
+	padding: 5px;
+	width: 295px;
+	margin-top: 10px;
+}
+
+.cont-tab-transferencias .cont-buscador input.dijitInputInner {
+	background: url(../img/icon-mini-naranjo.png) no-repeat scroll 270px 7px transparent;
+	width: 280px !important;
+	margin-bottom: 0;
+}
+
+.cont-tab-transferencias .scroll input {
+	margin: 4px 0 0 2px;
+}
+
+.separar .left .nuevo-destinatario input[type="text"] {
+	margin: 0 0 10px;
+}
+
+.cont-tab-transferencias.tab-top .tab .activado a {
+	height: 46px;
+}
+
+.cont-tab-transferencias.tab-top .tab li a {
+	height: 39px;
+	border-radius: 5px 5px 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.cont-tab-transferencias {
+		width: 650px;
+		margin: 0 auto;
+	}
+}
+
+.cont-destinatarios {
+	border: 1px solid #dddddd;
+	padding: 15px 0;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.cont-tab-transferencias .mensaje-lateral {
+	width: 280px;
+}
+
+.cont-destinatarios .select-banco {
+	position: relative;
+}
+
+.cont-destinatarios .select-banco .logo-banco {
+	position: absolute;
+  	top: 29px;
+  	right: -10px;
+}
+
+
+#transferencia.modulo-medium .separar.no-m-bottom {
+	margin-bottom: 0!important;
+}
+
+#transferencia.modulo-medium .separar.no-m-top {
+	margin-top: 0!important;
+}
+

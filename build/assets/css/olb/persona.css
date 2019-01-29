@@ -1,0 +1,1779 @@
+/* 
+autor: Kibernum TEAM
+fecha :21-09-2016
+nota : Hoja de estilos definida para estilos OLB
+*/
+
+
+/* ==========================================================================
+   ICONS
+   ========================================================================== */
+/* Para ver los íconos naranjos según prototípo */
+/*[class^="icon-"],[class*=" icon-"] {background-image: url("../img/icon-azul-p.png");}  */
+[class*="icon-grande"]  { background-image: url("../img/icon-azul-large-p.png"); } 
+[class*="icon-xlarge"]  { background-image: url("../img/icon-azul-xlarge-p.png"); }
+
+/* ==========================================================================
+   BREADCRUMBS PERSONAS
+   ========================================================================== */
+.breadcrumbs {background: url(../img/bg-head-cuentas.jpg) repeat-x #EBE8E1;}
+
+/* ==========================================================================
+   HEADER PERSONAS
+   ========================================================================== */
+.nav-top,.wpthemeBanner .wpthemePrimaryNav {border-right: 1px solid #db6d1d;}
+#nav-principal li,.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {border-left: 1px solid #db6d1d;}
+#nav-principal li a,.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li a {color: #fff;}
+/*#nav-principal .dropdown:hover .icon-nav-bottom { background-image: url(../img/icon-naranjo.png);}*/
+
+/* ==========================================================================
+   NAV USER
+   ========================================================================== */
+.nav1, .nav1 a { width: 136px; }
+.nav2, .nav2 a { width: 166px; }
+.nav3, .nav3 a { width: 130px; }
+
+.nav1 a { *width: 100px; }
+.nav2 a { *width: 126px; }
+.nav3 a { *width: 93px; }
+
+.nav-user li a {color: #FFF;}
+.nav-user > ul > li {border: 1px solid #f57921;}
+/*.nav-user ul > li:hover  {border: 1px solid #dd6d00;}*/
+.nav-user i {background-image: url(../img/icon-blanco.png);}
+.cerrarsesion button {color: #fff;}
+.nav-user .mensaje {background: #003767;}
+
+/* ==========================================================================
+   ALERTA CAMPANA
+   ========================================================================== */
+/*.alerta-campanas .arrow-top {background:url("../img/arrows-p.png") 0 0 no-repeat;}*/
+
+/* ==========================================================================
+   TABLA THEAD COLOR
+   ========================================================================== */
+html .table-thead th,html .table-thead th:hover {background: url(../img/bg-table-thead-p.jpg) 0 0 repeat-x #ff7714;}
+.table-thead .filtrar-top i,.table-thead .filtrar-bottom i {background-image: url(../img/icon-naranjo.png);}
+html .table-thead a.tableHeadSortLink:hover {background: none;}
+.table-thead thead i,
+.table-thead thead i {
+   background-image: url(../img/icon-blanco.png);
+}
+
+.table-thead tr td + i {
+   background-image: url(../img/icon-azul-p.png);
+}
+
+/* ==========================================================================
+   PORLET
+   ========================================================================== */
+.nav-header:hover .icon-accion {
+  background-image: url("../img/icon-azul-p.png");
+}
+
+/* ==========================================================================
+   PORLET - CONFIGURAR
+   ========================================================================== */
+.ajustes-config ul {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.ajustes-config li {
+  width: 300px;
+  float: left;
+} 
+
+
+/* ==========================================================================
+   LOGIN
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+#footer {
+  width: 100%;
+  min-width: 1000px;
+  clear: both;
+  margin-top:25px;
+  background:url(../img/bg-footer.jpg) repeat-x 0 0;
+}
+
+#footer i { margin-right: 10px; }
+
+#footer .contenedor-footer {
+  width:940px;
+  height:auto;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.contenedor-footer a, 
+.contenedor-footer .mensaje{
+  float:left;
+  height:68px;
+  padding:12px 0 0;
+  color:#fff;
+  width:155px;
+}
+.contenedor-footer .mensaje span {
+  display:block;
+}
+.contenedor-footer a:hover {
+  text-decoration:none;
+  color:#fff;
+}
+.contenedor-footer a span {
+  font-size:12px;
+  color:#fff;
+  display:block;
+  line-height: 15px;
+    margin-top: 6px;
+}
+.contenedor-footer a span:hover {
+  color:#fff;
+  text-decoration: underline;
+}
+.contenedor-footer .phone {
+  padding:23px 0;
+  float:left;
+  width:590px;
+  margin-right:15px;
+}
+.contenedor-footer .phone p {
+  display: block;
+    float: left;
+    font-size: 12px;
+    margin: 5px 20px 0 0;
+    width: auto;
+}
+
+.contenedor-footer .phone a {
+  float: none;
+}
+
+.contenedor-footer p, .contenedor-footer span {
+  color:#fff;
+}
+
+/*.contenedor-footer .mensaje {
+  background:url(../img/bg-header-li.png) repeat-y right center;
+}*/
+
+.contenedor-footer .margen-parrafo {
+  margin-left: 29px;
+}
+
+.bottom-footer {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background: url(../img/bg-bottom-footer.png) 0 0 repeat-x;
+  clear: both;
+  text-align: center;
+  color: #003766;
+}
+
+.bottom-footer a {
+  /*color: #F47920;*/
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+/* ==========================================================================
+   FONDOS NARANJOS
+   ========================================================================== */
+html body .bg-primario,
+.campana,
+.alert-content,
+html body .cont-paginator .activado a,
+html body .cont-paginator .activado span,
+.nav-titulos-content ul li.activado,
+.agente-inversion .head,
+.anuncio-login { background: #F3791F; }
+
+html body .bg-secundario  { background: #32434D; }
+
+/* ==========================================================================
+   FORM COLUMNAS
+   ========================================================================== */
+#form-deposito-dap {
+  width: 600px;
+}
+
+.breadcrumbs .breadcrumbs-content .wpthemeCrumbTrailSeparator {
+	background: url(../img/span-breadcrumbs.png) 0 0 no-repeat!important;
+	width: 8px;
+	height: 30px;
+	margin-left: 10px;
+	text-indent: -9999px;
+	display: block;
+}
+.removeTR table.displayPageTable > tbody > tr:first-child {display:none;}
+.removePadding table.displayPageTable > tbody > tr > td {padding:0px!important}
+
+@media screen and ( min-width: 1200px) { 
+  .porlet-inversiones-contenido .left    { width: 600px; float: left; }
+}
+
+/* Campañas diferentes colores */
+.alerta-campanas .arrow-top {width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #F3791F;}
+.estilo01 .arrow-top {width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #f47920;}
+.estilo01 .alert-content {background:#f47920;}
+.estilo02 .arrow-top {width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #134679;}
+.estilo02 .alert-content {background:#134679;}
+.estilo03 .arrow-top {width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #ababab;}
+.estilo03 .alert-content {background:#ababab;}
+
+/*.estilo00 .arrow-top {background: url(../img/arrow_estilo00.png) 0 0 no-repeat;position: absolute;z-index: 10;top: 2px;left: 10px;width: 15px;height: 9px;border:0;}*/
+.estilo00 .arrow-top {width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #f3791f;}
+.estilo00 .arrow-top:after {display:block;content:'';width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #fff;top:2px;top: 1px;left: -10px;position: relative;z-index: 10;}
+.estilo00 .alert-content {background:#FFF;border: 1px solid #f3791f;color: #f3791f;}
+.estilo00 .alert-content .info-alert {color: #f3791f;}
+.estilo00 .alert-content .accion-alert a {color: #f3791f;}
+.estilo00 .alert-content .accion-alert a.icon-blanco {background-image: url("../img/icon-naranjo.png");}
+
+.estilo04 .arrow-top {width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #134679;}
+.estilo04 .arrow-top:after {display:block;content:'';width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #fff;top:2px;top: 1px;left: -10px;position: relative;z-index: 10;}
+.estilo04 .alert-content {background:#FFF;border: 1px solid #134679;color: #134679;}
+.estilo04 .alert-content .info-alert {color: #134679;}
+.estilo04 .alert-content .accion-alert a {color: #134679;}
+.estilo04 .alert-content .accion-alert a.icon-blanco {background-image: url("../img/icon-azul.png");}
+
+.nav-user .usuario a.btn-datos-usuario i {background-image: url("../img/icon-naranjo.png")!important;}
+
+/*Alerta campañas x ubicación*/
+.alerta-campanas {display: table;width: 97.5%;margin: 10px;padding-top: 10px;position:relative;}
+.alerta-campanas .alert-content .info-alert {text-align:left;}
+.alerta-campanas .alert-content .accion-alert {width:100px;}
+.alerta-campanas .alert-content .accion-alert a {margin-right:10px;}
+.alerta-campanas .alert-content .accion-alert a#cerrar {margin-top:4px;}
+.alerta-campanas .alert-content .accion-alert .info-alert {text-align:right;}
+#porlet-resumen .alert-content .accion-alert a {margin-right: 40px;}
+#porlet-resumen .alert-content .accion-alert a {margin-right: 40px;}
+#porlet-resumen .alerta-campanas {width:100%;margin:0px;}
+.la_column1 {margin-left:0px;}
+div[id^="envio-mail-"] .wind-emerg .ico {float: left;width: 28px;height: 24px;margin-left: 8px;position: absolute;margin-top: -12px;top: 50%;}
+div[id^="envio-mail-"] .wind-emerg .info-emerg {margin-left:46px;}
+#envio-mail-wait .wind-emerg .ico {float: left;width: 32px;height: 32px;margin-left: 5px;position: absolute;margin-top: -16px;top: 50%;}
+#envio-mail-wait .icon-load {background: url(../img/ajax-loader.gif) 0 0 no-repeat!important;width:32px;height:32px;}
+.txtTipoCambio {display: block;width: 330px;margin-right: 0px;white-space: normal;/*word-break: break-all;*/ se comenta por error en mensaje de CVD P1}
+.txtTipoCambio > span {display:block;margin-top:-20px;}
+.txtTipoCambio span[name="lwcmAccessBeforeContent"] {display:none;} 
+.txtTipoCambio table tr td {padding:0px!important;}
+.txtTipoCambio table tr td .recomendado {color:#000;margin:0px;}
+.dijitComboBoxMenuPopup {max-height: 200px;overflow-y: auto;overflow-x: hidden;}
+ html .claro .dijitComboBoxMenuPopup .dijitComboBoxMenu {height: 100%!important;}
+.icon-aprobar { background: url("../img/ico-aprobar.png") no-repeat top left !important;}
+/* Test menú a la Izquierda 
+.row > .span9 {float:right;}
+.row > .span3 {float:left;margin: 0 20px 0 0;}
+.row > .span3 .nav-titulos {margin-top:0px;}*/
+.nav-titulos h4 a {float: inherit!important;display: table-cell;vertical-align: middle;}
+#simulador-credito .bloque-campos .select-large {width: 210px!important;}
+#simulador-credito .select-large .dijitComboBox {width: 210px!important;}
+#simulador-credito .datos .bloque label {margin-top:5px;}
+#simulador-credito .datos .bloque .bloque-campos span[name='rutCliente'] {padding-top: 5px;display: block;}
+.nav-user ul > li.cerrarsesion {border: 1px solid #F47920;}
+.nav-user ul > li.cerrarsesion:hover {border: 1px solid #dd6d00;}
+.contenedor-codigo .texto_mensaje {display:inline-block;}
+/* Cambios gráfico aplicados a Personas */
+h2 {position:relative;}
+h2 a.volver-atras {padding: 0 10px 0 30px!important;background: url(../img/bg-btn.jpg) repeat-x 0 0 #E6E6E4!important;display: inline-block!important;width: auto!important;height: 28px!important;border: 1px solid #C5C1C0!important;border-radius: 4px!important;font-size: 14px!important;font-weight: bold!important;line-height: 27px!important;text-align: center!important;color: #373D45!important;cursor: pointer!important;vertical-align: middle!important;}
+h2 .icon-volver {z-index: 100;position: absolute;top: 6px;left: 10px;}
+h2 a.volver-atras:hover {background: url(../img/bg-btn.jpg) repeat-x 0 -29px #E6E6E4!important;border: 1px solid #C5C1C0!important;}
+
+.icons-acciones li {width:auto;position:relative;padding:0;}
+.popover .icons-acciones li {position:relative;padding: 0 8px;width:15px;}
+.icons-acciones li .boton-barra {z-index:1;position:relative;background: none;color: #000;padding: 4px 30px 4px 8px;border:0;font-size:12px;}
+.icons-acciones li:hover .boton-barra {color:#fff!important;}
+.bg-accion .icon-naranjo a, .bg-accion .icon-naranjo span {width:15px;float:right;  position: absolute;top: 0px;right: 8px;}
+.bg-accion .icons-acciones h4 {float:left;display:inline-block;margin:6px 4px 4px 0!important;}
+.bg-accion .icon-print:hover h4 {color:#FFF;}
+.bg-accion .icon-doc:hover h4 {color:#FFF;}
+.bg-accion .icon-excel:hover h4 {color:#FFF;}
+.bg-accion .icon-mail:hover h4 {color:#FFF;}
+
+.bg-accion .icon-naranjo i {z-index:0;width: 15px;float: right;display: block;position: absolute;top: 6px;right: 8px;height: 15px;background-image: url("../img/icon-naranjo.png")!important;}
+.bg-accion .icon-naranjo:hover i {background-image: url("../img/icon-blanco.png")!important;}
+.bg-accion .icon-print i {background-position: -1305px 0;}
+.bg-accion .icon-doc i {background-position: -765px 0;}
+.bg-accion .icon-excel i {background-position: -780px 0;}
+.bg-accion .icon-mail i {background-position: -465px 0;}
+.contenedor-codigo .btn-codigo a {margin: 0 20px 0 0!important;}
+
+/*Buscador en tablas*/
+.buscar-modulo {background-color: #ddd;border-radius: 5px;padding: 5px;width: 99%;margin: 10px 0;}
+.buscar-modulo input {margin-bottom: 0;background-image: url(../img/icon-mini-naranjo.png)!important;background-repeat: no-repeat!important;background-position: 191px 7px!important;background: url(../img/bg-tab-top.jpg) bottom left repeat-x #FFF;}
+.buscar-modulo form.margen1-bottom {margin-bottom:0px!important;}
+
+#transferencia.modulo-medium .separar.no-m-bottom {margin-bottom: 0!important;}
+#transferencia.modulo-medium .separar.no-m-top {margin-top: 0!important; margin-bottom:0px!important;}
+#transferencia .filtro-cuenta {width: 694px;margin: 20px auto!important;float: inherit;}
+.cont-tab-transferencias #DestSelectedID #p1_DestSelectedId {width:100%;}
+.cont-tab-transferencias.tab-top .tab li {position:relative;}
+.cont-tab-transferencias.tab-top .tab li#tab1 {margin-right:10px;}
+.cont-tab-transferencias.tab-top .tab li i {position:absolute;  top: 18px;left: 10px;background-image: url("../img/icon-gris.png")!important;}
+.cont-tab-transferencias.tab-top .tab li.activado i {top: 13px;left: 10px;background-image: url("../img/icon-naranjo.png")!important;}
+.cont-tab-transferencias.tab-top .tab li input {margin-top: 7px;line-height: 45px;padding-left:28px;height: 38px;border-radius: 5px 5px 0 0;background:#FFF;line-height: 30px;font-size: 14px;color: #999E9F;font-weight:normal;  border: 1px solid #DDD;}
+.cont-tab-transferencias.tab-top .tab li:hover input {text-decoration:underline;}
+.cont-tab-transferencias.tab-top .tab .activado input {margin-top: 0px;height: 46px;font-weight: bold;background: url(../img/bg-tab-top.jpg) bottom left repeat-x #FFF;color:#F3791F;}
+.cont-tab-transferencias .cont-buscador {background-color: #ddd;border-radius: 5px;padding: 5px;width: 295px;margin-top: 10px;}
+.cont-tab-transferencias .input-xlarge input[type="text"] {width: 290px!important;}
+.cont-tab-transferencias .cont-buscador input[type="text"] {width: 280px!important;}
+.cont-tab-transferencias .textarea-xlarge textarea {width: 290px!important;}
+.cont-tab-transferencias .scroll {width:280px!important;}
+.cont-tab-transferencias .scroll .dijitRadio {float:left;margin-top:3px;}
+.cont-tab-transferencias .destacado {position: relative;text-align:left;padding: 0;background: none;margin:0;border: none;}
+.cont-tab-transferencias #mensaje-detinatario {margin-top: 12px!important;margin-left: 0px;}
+.cont-tab-transferencias .mensaje-lateral td {padding: 3px 16px!important;}
+.bt-transferenia-3 {padding-right:22px!important;}
+
+@media screen and (max-width: 1200px){
+	.cont-tab-transferencias {width: 650px;margin: 0 auto;}
+}
+
+
+/*#porlet-resumen td {font-weight:bold;background:#ededed!important;}*/
+#porlet-resumen .table-condensed .tableRowOdd td {background:#ededed;}
+#porlet-resumen .table-condensed .tableRowOdd td {font-weight:bold;}
+#porlet-resumen .table-condensed .tableRowEven td {font-weight:bold;}
+#porlet-resumen .table-condensed .tableRowOdd a {font-weight:bold}
+#porlet-resumen .table-condensed .tableRowEven a {font-weight:bold}
+#porlet-resumen .table-condensed .tableRowOdd td span {color:#373D45;}
+#porlet-resumen .table-condensed .tableRowEven td span {color:#373D45;}
+#porlet-resumen .table-condensed tr:nth-child(even) td a {font-weight:bold;}
+#porlet-resumen .table-condensed th {padding: 0;}
+#porlet-resumen .table-condensed th {padding: 0;}
+#porlet-resumen table td:first-child {min-width:260px;}
+#porlet-resumen table td:nth-child(2) {width:80px;}
+#porlet-resumen #tablaTarjetasCredito table td:nth-child(5) {width:177px;}
+#porlet-resumen table td:last-child {width:150px;}
+
+
+.tabla-uno tr th {border-bottom:0}
+.tabla-uno tr:nth-child(even) td {background:#fff!important;font-weight:normal!important;font-size:14px!important;border-bottom:1px solid #ddd;}
+.tabla-uno tr:nth-child(even) td span {font-weight:normal!important;font-size:14px!important;color:#373D45!important;}
+.tabla-uno tr:nth-child(even) td a {font-weight:normal!important;font-size:14px!important;color:#373D45!important;}
+.tabla-uno tr:nth-child(odd) td {background:#ededed!important;font-weight:bold}
+a.consulta-tc-link {pointer-events: none;cursor: default!important;text-decoration: none!important;color: #373D45!important;}
+/* tooltip saldo cartola */
+.datos-disclaimer{background:url(../img/ico_tooltip.png);position:before;float:right!important;background-size: contain;display:block;height: 14px!important;width: 14px!important;padding:1px;text-decoration:none!important;cursor:default;position:relative;}
+.datos-disclaimer:hover:before{content:'El monto del cupo utilizado podría no ser el más reciente';width:150px;border:1px solid #BCBCBC;border-radius:5px;background:#fff;margin:0;box-shadow:0 0 5px 0 #999;top:-82px;left:-5px;position:absolute;padding:5px;text-decoration:none;white-space:normal}
+.datos-disclaimer:hover:after{position:absolute;width:20px;height:10px;top:-11px;left:0;display:block;background:url(../img/arrows-direcciones-down.png) no-repeat;content:''}
+
+/*ToolTip Cartola resumen Home*/
+
+/*Cuenta no favorita*/
+.fav-marcador {text-decoration:none!important;}
+.fav-marcador:hover:before {content:'Seleccione como su Cuenta favorita';width: 210px;
+  border: 1px solid #BCBCBC;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0;
+  box-shadow: 0 0 5px 0 #999;
+  top: -42px;left: -5px;
+  position:absolute;
+  padding: 5px;text-decoration:none;white-space:nowrap;
+  }
+.fav-marcador:hover:after {position: absolute;
+  width: 20px;
+  height: 10px;
+  top: -11px; left: 0px;
+  display:block;
+  background: url(../img/arrows-direcciones-down.png) no-repeat;
+;content:'';}  
+
+/*Cuenta favorita*/
+.fav-marcador.selected-fav:hover:before {content:'Esta es su Cuenta favorita';width: 150px;
+  border: 1px solid #BCBCBC;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0;
+  box-shadow: 0 0 5px 0 #999;
+  top: -42px;
+  left: -5px;position:absolute;
+  padding: 5px;text-decoration:none;white-space:nowrap;
+  }
+.fav-marcador.selected-fav:hover:after {position: absolute;
+  width: 20px;
+  height: 10px;
+  top: -11px; left: 0px;
+  display:block;
+  background: url(../img/arrows-direcciones-down.png) no-repeat;
+;content:'';} 
+
+/*Tarjeta de crédito*/
+
+/*Tarjeta no favorita*/
+.tarjeta-credito .fav-marcador:hover:before {content:'Seleccione como su Tarjeta favorita';width: 210px;
+  border: 1px solid #BCBCBC;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0;
+  box-shadow: 0 0 5px 0 #999;
+  top: -42px;
+  left: -5px;position:absolute;
+  padding: 5px;text-decoration:none;white-space:nowrap;
+  }
+.tarjeta-credito .fav-marcador:hover:after {position: absolute;
+  width: 20px;
+  height: 10px;
+  top: -11px; left: 0px;
+  display:block;
+  background: url(../img/arrows-direcciones-down.png) no-repeat;
+;content:'';} 
+
+/*Tarjeta favorita*/
+.tarjeta-credito .fav-marcador.selected-fav:hover:before {content:'Esta es su Tarjeta favorita';width: 150px;
+  border: 1px solid #BCBCBC;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0;
+  box-shadow: 0 0 5px 0 #999;
+  top: -42px;
+  left: -5px;position:absolute;
+  padding: 5px;text-decoration:none;white-space:nowrap;
+  }
+.tarjeta-credito .fav-marcador.selected-fav:hover:after {position: absolute;
+  width: 20px;
+  height: 10px;
+  top: -11px; left: 0px;
+  display:block;
+  background: url(../img/arrows-direcciones-down.png) no-repeat;
+;content:'';} 
+
+
+#porlet-movimientos span[name="tablaUltimosMovimientos"] table .gridTable {  background:#FFF!important;border:#FFF!important;}
+#porlet-movimientos span[name="tablaUltimosMovimientos"] table .gridTable th.tableHead {background:#FFF!important;border:#FFF!important;}
+
+@media screen and (max-width: 1200px){
+  	.bt-transferenia-3 {padding-right:0px!important;}
+}
+
+
+
+/* Estilos Preguntas Funcionalidades */
+
+.pregunta .crowd  {position:relative;margin:-20px 0 30px;padding:0 20px;}
+.pregunta .crowd label {display: inline-block;float: left;width:310px;}
+.pregunta .crowd .input-xlarge {width: 74%;display: inline-block;float: left;margin-right:22px;}
+.pregunta .crowd .input-xlarge .dijitTextBox {width:100%!important;}
+.pregunta .crowd .input-xlarge .dijitInputInner {width:98%!important;margin-bottom: 0;}
+.pregunta .crowd .container {margin: 8px auto 8px !important;}
+.pregunta .crowd .close-crowd {margin-right:-8px;}
+.crowd .container {margin: 22px auto 0!important;}
+.pregunta .crowd table {width:100%}
+.pregunta .crowd table td:first-child {width:34%}
+.pregunta .crowd table td {vertical-align: middle;}
+.pregunta .crowd label {margin:0 20px 0 0}
+.pregunta .crowd label span {margin:0;}
+.crowd{background: #424242;padding:0 0 5px 0;overflow: hidden;}
+.crowd .container{margin: 14px auto 5px !important;width: 100%;}
+.crowd input[type="text"]{float: left;background: #666 !important;box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2) inset , 0 1px 0 0 rgba(255,255,255,0.3);color: #fff;height: 20px;border:none !important;margin-right: 30px;}
+.crowd label{color: #fff;font-size: 14px;margin:3px 20px 0 0;font-weight: normal;}
+.crowd .accion {float: left;width: 100px;background: url(../img/check-btn.png) no-repeat left top #fff;border: 1px solid #fff;color: #333;}
+.crowd .accion:hover{background: url(../img/check-btn.png) no-repeat left bottom #f3791f;color: #fff;}
+.crowd .icon-cerrar {margin: 6px;}
+.question-crowd{float: left;width: 370px;margin-right: 20px;}
+.pull-btn{width: 500px;float: left;margin-bottom: 10px;margin-right: 60px;}
+.pull-btn span{background: #353535 none repeat scroll 0 0;border: medium none;border-radius: 5px;box-shadow: 0 3px 2px -3px #000, 0 1px 0 0 #555 inset;color: #fff;display: block;float: left;font-weight: bold;height: 20px;margin-right: 3%;padding: 5px 0;text-align: center;width: 22.6%;cursor: pointer;}
+.pull-btn span:last-child{margin-right: 0;}
+.pull-btn span:hover, span.selected{background: #f3791f;box-shadow: 0 3px 2px -3px #000, 0 1px 0 0 rgba(255,255,255,0.5) inset;}
+.question-crowd span{font-size: 12px;display: block;color: #999;width: 100%;float: left;}
+
+@media screen and (min-width: 1200px) {
+	.crowd{padding:0 0 5px 0;overflow: hidden;}
+}
+@media screen and (max-width: 1200px) {
+	.crowd {padding:0 0 5px 0;overflow: hidden;}
+	.crowd input[type="text"]{float: left;width: 50% !important;}
+	.pull-btn {width: 360px;float: left;margin-right: 20px;}
+	.question-crowd {width: 320px;}
+}
+.crowd input[type="text"]{float: left;width: 50% !important;}
+.pull-btn{width: 360px;float: left;margin-right: 20px;}
+.question-crowd{width: 320px;}
+
+/*Estilos preguntas TEF*/
+
+.crowd {background: #FFFFFF;padding:0 0 5px 0;overflow: hidden;}
+.crowd-tef .vf_fields {background:none!important;}
+.crowd-tef .error-validacion {padding: 10px 16px;}
+.crowd-tef .error-validacion .mensaje {width: 78%;}
+.crowd .container {margin: 15px auto 0 ;}
+.crowd input[type="text"]{float: left;width: 60% !important;background: #666 !important;box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2) inset , 0 1px 0 0 rgba(255,255,255,0.3);color: #fff;height: 20px;border:none !important;margin-right: 30px;}
+.crowd label span {color: #fff;font-size: 14px;margin: 3px 0 0 0;font-weight: normal;}
+.crowd .accion {float: left;width: 100px;background: url(../img/check-btn.png) no-repeat left top #fff;border: 1px solid #fff;color: #333;}
+.crowd .accion:hover {background: url(../img/check-btn.png) no-repeat left bottom #f3791f;color: #fff;}
+.crowd .icon-cerrar {margin: 6px;}
+.question-crowd {float: left;width: 370px;margin-right: 20px;}
+.pull-btn {width: 500px;float: left;margin-bottom: 10px;margin-right: 60px;}
+.pull-btn span {background: #353535 none repeat scroll 0 0;border: medium none;border-radius: 5px;box-shadow: 0 3px 2px -3px #000, 0 1px 0 0 #555 inset;color: #fff;display: block;float: left;font-weight: bold;height: 20px;margin-right: 3%;padding: 5px 0;text-align: center;width: 17%;cursor: pointer;}
+.pull-btn span:last-child {margin-right:0px!important;}
+.pull-btn span:hover, span.selected {background: #f3791f;box-shadow: 0 3px 2px -3px #000, 0 1px 0 0 rgba(255,255,255,0.5) inset;}
+.question-crowd span {font-size: 12px;display: block;	color: #999;width: 100%;float: left;}
+.crowd-tef {width: 444px;position: relative;margin: 20px 0;border-radius: 5px;}
+.crowd-tef .close-crowd{position: absolute;top: 10px;right: 10px;}
+.crowd-tef .pull-btn{width: 404px;margin: 20px;}
+.crowd-tef .transaccion{float: right;}
+.crowd-tef .question-crowd{	margin: 0 20px 0;}
+.crowd-tef .crowd-form {margin: 20px 0;width: 420px;}
+.pull-btn span:nth-child(5) {margin-right:0px!important;}
+.crowd-tef .vf_fields .displayPageTable {display:none;}
+.crowdEnd {background: #424242;padding:20px;overflow: hidden;position:relative;margin:-20px 0 30px;}
+@media screen and (min-width: 1200px) {
+	.crowd {padding:0 0 5px 0;overflow: hidden;}
+}
+@media screen and (max-width: 1200px) {
+	.crowd {padding:0 0 5px 0;overflow: hidden;}
+	.crowd input[type="text"]{float: left;width: 50% !important;}
+	.pull-btn{width: 360px;float: left;margin-right: 20px;}
+	.question-crowd {width: 320px;}
+	.crowd-tef {width: 330px;}
+	.crowd-tef .question-crowd{width: 280px;}
+	.crowd-tef .crowd-form{width: 310px;}
+	.crowd-tef .pull-btn {width:295px;}
+	.crowd label span {margin: 3px 0px 10px 0;}
+	.pregunta .crowd label {width: 200px;}
+	.pregunta .crowd .input-xlarge {width: 66%;}
+}
+.personalizacion h3{font-size: 16px;margin-bottom: 15px;}
+.img-container {display: table;height:100%;max-height:400px;margin: 0 auto;max-width:400px;width:100%;background-color: #f3f3f3;}
+.img-container .user-img {width: 100%;height: auto;position: relative;}
+.img-container .user-img img{width: 100%;height: auto;display: block;}
+.img-cont {margin-bottom: 30px;padding: 0 30px;width: 400px;float: left;}
+.img-cont .user-img:hover > .overlay-img-user{background: none;}
+.img-input{cursor: pointer;display: block;height: 100% !important;left: 0;position: absolute;right: 0;text-indent: -9999px;width: 100% !important; background: none; border: none;}
+.baja-prioridad.img-input-upload {bottom: 10px;left:50%;margin-left:-57px;position: absolute;padding:0 10px!important; }
+.n-corto{font-size: 12px !important;margin-bottom: 26px;}
+.n-corto input{margin-right: 10px;}
+.img-container .user-img .thumb-img img{width: 40px;height: auto;}
+.thumb-img { position: absolute;right: -50px;top: 0;}
+.img-acciones p{margin: 10px 0;}
+.mensajes-ico{width: 30px;height: 15px;background: url(../img/ico-mensaje.png) no-repeat center;display: block;margin: 25px 20px 0 10px;position: relative;}
+#selectedFile {z-index: 300; position: absolute; cursor: pointer;margin: 0 auto;width: 240px;display: block;bottom: 9px;opacity: 0;filter: alpha(opacity=0);left:100px;left:10px\9\0;/*Only works in IE9*/}
+.datos-personales .grupoNombre {display:table;width:100%;}
+.datos-personales .grupoNombre .input-medium {display:inline-block;float:left}
+.datos-personales .grupoNombre .mensaje {display:inline-block;margin-left:10px;padding-top: 4px;font-size: 11px;color: #777;}
+.datos-personales .n-corto {margin-bottom: 14px;}
+.datos-personales #divFotoActual {float:left;margin-right: 8px;border:2px solid #fafafa;}
+.datos-personales #divMostrarFotoActual {font-size: 11px;color: #777;}
+
+@media screen and (max-width: 1200px) {
+	.img-container{width: 250px;}
+	.img-cont {margin-bottom: 30px;overflow: hidden;padding: 0 20px;width: 340px;float: left;}
+	.datos-personales {float: left;width: 260px;padding-left: 30px;margin-bottom:20px;}
+}
+.userSinFoto{background: url(../img/profile-xl.jpg) center;height:100vh;max-height: 280px;width:100%;max-width: 400px;min-height:280px;min-width:280px;}
+.user-img .userSinFoto {background-size: 100% !important;background-position: center;}
+.preview-container{height: 40px;width: 40px;} 
+.user-img .img-acciones{position: absolute; bottom: -35px; width: 100%; text-align: center;}
+
+/* INICIO Estilo Valoración Estrellas TEF */
+
+.valoracion {
+    padding: 30px 10px;
+    border: 1px solid #f47920;
+    background-color: white;
+    border-radius: 8px;
+}
+.valoracion p.text-valoracion-2 {
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+    color: #adadad;
+    font-family: sans-serif;
+    letter-spacing: 0.2;
+    font-weight: 400;
+    font-size: 14px;
+}
+.valoracion p.text-valoracion-1 {
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+    color: #787878;
+    font-family: sans-serif;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+.valoracion p.text-valoracion-1 span:nth-child(2)  {
+    color: #adadad;
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 0.2;
+}
+.valoracion form .stars {
+  background: url("../img/stars.png") repeat-x 0 0;
+  width: 200px;
+  margin: 15px auto 5px auto;
+}
+.valoracion form .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.valoracion form .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+.valoracion form .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+.valoracion form .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+.valoracion form .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+.valoracion form .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+.valoracion form .stars label {
+  display: block;
+  width: 40px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  /*text-indent: -999em;*/
+  position: relative;
+  float: left;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+.valoracion form .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+.valoracion form .stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+.valoracion form .stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+.valoracion form .stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+.valoracion form .stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+.valoracion form .stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+.valoracion form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("../img/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+.valoracion .tabcontent {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.valoracion .tabcontent span {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #f47920;
+}
+
+.valoracion form label p {
+    display: none;
+    width: auto;
+    position: absolute;
+    color: #f47920;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    top: 28px;
+    left: 0;
+}
+
+.valoracion form .stars label:hover p,
+.valoracion form .stars label:active p,
+.valoracion form .stars label:visited p,
+.valoracion form .stars label:focus p {
+    display: block;
+    position: inherit;
+
+}
+.valoracion form .stars label.star-1 p {
+    width: 80px;
+    left: -50%;
+}
+
+.valoracion form .stars label.star-2 p {}
+.valoracion form .stars label.star-3 p {}
+.valoracion form .stars label.star-4 p {}
+.valoracion form .stars label.star-5 p {
+    width: 80px;
+    left: -50%;
+}
+.valoracion form .stars label.star-2 p {}
+.valoracion form .stars label.star-3 p {width: 80px;left: -50%;transition:all ease 1s;}
+.valoracion form .stars label.star-4 p {}
+.valoracion form .stars label.star-5 p {width: 80px;left: -50%;transition:all ease 1s;}
+.valoracion form .transaccion  {margin: 0 auto;float: inherit!important;margin-top: 30px;}
+
+/* FIN Estilo Valoración Estrellas TEF*/
+
+/* flujo de Campaña de Crédito de Consumo */
+.estilo05 {padding:0;/*background: #32434d;color: #fff;*/display:table;width:100%;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;margin: 20px 0 20px;}
+.estilo05 .alerta-campanas {width:100%;padding:0;margin:0;}
+.estilo05 .promo {margin:0;padding: 1%;width: 92%;font-size: 14px;font-weight: bold;line-height: 30px;}
+.estilo05 span[name="mostrar2"] {cursor:pointer;padding: 6px 10px;position: absolute;right: 4px;top: 9px;border-left: 1px solid #DDD;}
+.estilo05 .alert-content {overflow:initial;display:table;/*padding-bottom: 8px;background: #32434d;*/}
+.estilo05 #colapsable-cartola {/*background:#fff;*/}
+.estilo05 .alert-content .info-alert {width: 100%;padding: 0%;float: left;/*color: #FFF;*/}
+.estilo05 .the-last-days {position: absolute;top: -20px;left: -40px;/*background: #FBB450;color: #373D45;*/padding: 5px 10px;font-weight:bold;}
+.estilo05 .iconoBarraCampana {float: left;display: inline-block;width: 15px;height: 15px;margin:13px 5px 6px;}
+.estilo05 .promo h3, .estilo05 .promo h4 {line-height:36px!important;} 
+.estilo05 .middle-text-offer {background: #EDEDED;width: 40%;height: 180px;float: left;padding: 20px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 30px 0;}
+.estilo05 .middle-text-offer h3, .promo .middle-text-offer h4 {color: #373D45;}
+.estilo05 .middle-text-offer h2 {margin-top: 10px;font-size: 30px;margin-bottom: 10px;color: #373D45;}
+.estilo05 h3.time {font-size: 14px;font-weight: normal;margin-bottom: 10px;color: #373D45;}
+.estilo05 h3.time i {margin-right:10px;width:24px;height:24px;background:url(../img/reloj.png) no-repat;background-position:0 0;}
+.estilo05 h3.time span {padding-top: 3px;display: inline-table;}
+
+.estilo05 .last-offer {background: #D6D6D6;width: 30%;height: 180px;float: left;text-align: center;margin: 30px 0;}
+.estilo05 .last-offer a.transaccion {margin-top: 76px;margin-bottom: 35px;}
+.estilo05 .last-offer a {display: block;width: 120px;margin: 0 auto;}
+.estilo05 .last-offer a.no-more {margin-top: 26px;}
+.estilo05 .cont {width: 95%;margin: 0 auto;}
+.estilo05 .img-offer {width: 30%;float: left;height: 180px;margin: 30px 0;position: relative;overflow:hidden;}
+.estilo05 .img-offer img {min-height: 180px;}
+.estilo05 .icon-desplega-bottom.activado {background-position: -330px 0;}
+
+#campanaProducto .porlet-content {background:#fff;} 
+.personascampanaproducto00 {background: #32434d;color: #FFF;border-radius: 4px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;}   /*background: Colo fondo de la barra; color: Color de el texto que aparece en la barra */
+.personascampanaproducto00 span[name="mostrar2"] {border-left: 1px solid #FFF;} /* */
+.personascampanaproducto00 .alert-content {background: #32434d;} /* */
+.personascampanaproducto00 #colapsable-cartola {background:#fff;} /* */
+.personascampanaproducto00 .alert-content .info-alert {color: #FFF;} /* */
+.personascampanaproducto00 .the-last-days {background: #FBB450;color: #000;} /*background: Colo fondo de etiqueta "últimos dias"; color: Color de el texto que aparece en la etiqueta */
+
+
+.credito-consumo-new .cont {width: 95%;margin: 0 auto;}
+.credito-consumo-new .grows {width: 100%;*zoom: 1;}
+.credito-consumo-new .grows:before, .grows:after {content: " ";display: table;}
+.credito-consumo-new .grows:after {clear: both;}
+.credito-consumo-new [class*=cols] {float: left;margin-left: 2%;}
+.credito-consumo-new [class*=cols]:nth-child(1) {margin-left: 0;}
+.credito-consumo-new .cols1 {width: 6.500000000000001%;}
+.credito-consumo-new .cols2 {width: 15.000000000000002%;}
+.credito-consumo-new .cols3 {width: 23.5%;}
+.credito-consumo-new .cols4 {width: 32%;}
+.credito-consumo-new .cols5 {width: 40.50000000000001%;}
+.credito-consumo-new .cols6 {width: 49%;}
+.credito-consumo-new .cols7 {width: 57.5%;}
+.credito-consumo-new .cols8 {width: 66%;}
+.credito-consumo-new .cols9 {width: 74.5%;}
+.credito-consumo-new .cols10 {width: 83.00000000000001%;}
+.credito-consumo-new .cols11 {width: 91.5%;}
+.credito-consumo-new .cols12 {width: 100%;}
+.credito-consumo-new .promo {padding: 10px 0 10px 20px;background: #32434d;color: #fff;}
+.credito-consumo-new .promo i {margin-right: 0;}
+.credito-consumo-new .promo h3 {font-weight: normal;}
+.credito-consumo-new .promo h3 span {font-weight: bold;}
+.credito-consumo-new .offer {background: #EDEDED;padding-bottom: 20px;text-align: center;margin: 30px 0;}
+.credito-consumo-new .offer img {max-width: 100%;}
+.credito-consumo-new .offer h2 {margin-top: 10px;font-size: 30px;}
+.credito-consumo-new .offer h3 {margin-top: 20px;}
+.credito-consumo-new .offer a {margin-top: 20px;}
+.credito-consumo-new .actions {background: #EDEDED;padding: 20px;}
+.credito-consumo-new .link-right {float: right;}
+.credito-consumo-new .margin0 {margin: 0;}
+.credito-consumo-new .img-offer {width: 30%;float: left;height: 180px;margin: 30px 0;position: relative;}
+.credito-consumo-new .middle-text-offer{background: #EDEDED;width: 40%;height: 180px;float: left;padding: 30px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 30px 0;}
+.credito-consumo-new .middle-text-offer h2 {margin-top: 10px;font-size: 30px;margin-bottom: 10px;}
+.credito-consumo-new h3.time {font-size: 14px;font-weight: normal;margin-bottom: 10px;}
+.credito-consumo-new .last-offer {background: #D6D6D6;width: 30%;height: 180px;float: left;text-align: center;margin: 30px 0;}
+.credito-consumo-new .last-offer hr {border-bottom: 1px solid #E0E0E0;}
+.credito-consumo-new .last-offer a {display: block;width: 120px;margin: 0 auto;}
+.credito-consumo-new .last-offer a.transaccion {margin-top: 35px;margin-bottom: 35px}
+.credito-consumo-new .last-offer a.link {margin-bottom: 10px;}
+.credito-consumo-new .top-loan .selectBox {float: left;display: inline-block;}
+.credito-consumo-new .box-loan {float: left;margin-right: 20px;}
+.credito-consumo-new .box-loan .enfatizar {margin-top: 25px;}
+.credito-consumo-new .box-loan .select-xsmall {width: 55px;}
+.credito-consumo-new .box-loan .select-xsmall input[type="text"]{width: 76%!important;}
+.credito-consumo-new .results {right: 23px;width: 280px;top:21px;height: 93px;border-radius: 0 5px 5px 0;background: #dcdcdc;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 15px 20px;position: absolute;}
+.credito-consumo-new .show-info {width: 60%;float: left;}
+.credito-consumo-new .show-info h2 {margin-bottom: 0;}
+.credito-consumo-new .data h2 {margin-top: 20px;margin-bottom: 10px;}
+/*.credito-consumo-new .data input[type="text"]{width: 168px !important;}*/
+.credito-consumo-new p.desc {clear: both;margin-left: 25px;color: #878787;width: 500px;}
+.credito-consumo-new .nowidth {width: 500px !important;float: left;}
+.credito-consumo-new .checkie {margin-left: 5px;}
+.credito-consumo-new .results2 {width: 100%;border: 2px solid #DFDFDF;border-radius: 5px;background: #fff;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 15px 20px;}
+.credito-consumo-new tr.monto {background: #003767;}
+.credito-consumo-new tr.monto td {color: #fff;}
+.credito-cuotas tr.monto {background: #003767;}
+.credito-cuotas tr.monto td {color: #fff;}
+.credito-consumo-new .full {width: 100% !important;}
+.credito-consumo-new .calendar {margin-top: 20px;}
+.credito-consumo-new .date {padding-left: 10px;}
+.credito-consumo-new .icon-gift {background: url(../img/gift.png) no-repeat;display: inline-block;width: 15px;height: 15px;line-height: 15px;vertical-align: text-top;background-repeat: no-repeat;margin-top: -1px;}
+.credito-consumo-new .icon-money {background: url(../img/money.png) no-repeat;display: inline-block;width: 20px;height: 20px;line-height: 20px;vertical-align: text-top;background-repeat: no-repeat;margin-top: -1px;}
+.credito-consumo-new .icon-card {background: url(../img/card.png) no-repeat;display: inline-block;width: 20px;height: 20px;line-height: 20px;vertical-align: text-top;background-repeat: no-repeat;margin-top: -1px;}
+.credito-consumo-new .center {margin:10px auto;display: block !important;width: 250px !important;}
+.credito-consumo-new tr.bigok {background: #003767;}
+.credito-consumo-new tr.bigok td {color: #fff;}
+.credito-consumo-new tr.bigok td h2 {padding-top: 20px;}
+.credito-consumo-new .no-overflow {overflow: visible;}
+.credito-consumo-new #myDropdown a {text-decoration: none !important;}
+.credito-consumo-new #myDropdown2 a {text-decoration: none !important;}
+.credito-consumo-new #myDropdown2 {width: 120px !important;}
+.credito-consumo-new #myDropdown2 .dd-select {width: 120px !important;}
+.credito-consumo-new #myDropdown2 ul.dd-options.dd-click-off-close {width: 120px !important;}
+.credito-consumo-new #myDropdown3 a {text-decoration: none !important;}
+.credito-consumo-new #myDropdown3 {width: 120px !important;}
+.credito-consumo-new #myDropdown3 .dd-select{width: 120px !important;}
+.credito-consumo-new #myDropdown3 ul.dd-options.dd-click-off-close{width: 120px !important;}
+.credito-consumo-new #myDropdown3 a {text-decoration: none !important;}
+i.seguro-star {display:inline-block;width:15px;height:15px;background:url(../img/full.png)no-repeat;float: left;margin-right: 6px;}
+i.seguro-life {display:inline-block;width:15px;height:15px;background:url(../img/life.png)no-repeat;float: left;margin-right: 6px;}
+i.seguro-none {display:inline-block;width:15px;height:15px;background:url(../img/none.png)no-repeat;float: left;margin-right: 6px;}
+.the-simulation2 .cont .grows .cols4 {float:right;height:129px;}
+
+
+.credito-consumo-new a.dd-selected {padding: 7px;max-height: 15px}
+.credito-consumo-new .mt {margin-top: 20px;margin-bottom: 0;}
+.credito-consumo-new .mt2 {padding-top: 10px;margin-bottom: 0;}
+.credito-consumo-new span.discount {position: absolute;bottom: 0;left: 0;width: 100%;background: #003767;color: #fff;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding:5px;font-size: 14px;text-align: center;}
+.credito-consumo-new .icon-discount{background: url(../img/discount.png) no-repeat;display: inline-block;width: 20px;height: 20px;line-height: 20px;vertical-align: text-top;background-repeat: no-repeat;margin-top: -1px;}
+.credito-consumo-new .img-offer-top {position: relative;}
+.credito-consumo-new span.account {margin-top: 5px;display: inline-block;font-weight: bold;border-radius: 4px;color: #003767;background: #DFDFDF;padding: 8px 14px;margin-right: 10px;}
+.credito-consumo-new h2.precios {font-weight: bold;color: #003767;font-size: 22px;margin-top:10px}
+.credito-consumo-new .caes {padding-left: 20px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width:40%;}
+.credito-consumo-new .offer-aumento {background: #f4f4f4;padding: 15px 10px; }
+.credito-consumo-new .offer-aumento input[type="checkbox"]{margin-top: -5px;}
+.credito-consumo-new .offer-aumento #myDropdown2, #myDropdown3{display: inline-block;margin-left: 10px;top:8px;}
+.credito-consumo-new span.checkaumento {font-size: 16px;margin-left: 10px;}
+.credito-consumo-new .divider {display: block;height: 20px;}
+.credito-consumo-new a#poplinea {text-decoration: underline;}
+.credito-consumo-new a#poplinea2 {text-decoration: underline;}
+.credito-consumo-new .poplinea {display: none;position: absolute;z-index: 9999;left: 200px;background: #f4f4f4;border: 1px solid #dadada;width: 200px;padding: 10px;}
+.credito-consumo-new .poplinea2 {display: none;position: absolute;z-index: 9999;left: 200px;background: #f4f4f4;border: 1px solid #dadada;width: 200px;padding: 10px;}
+.credito-consumo-new .all {cursor: pointer;	}
+.credito-consumo-new .terms {padding-left: 20px;margin-top: 30px;margin-bottom: 20px;}
+.credito-consumo-new .doublecontent {display: none;position: absolute;right: -300px;top:0;background: #32434d;color: #fff;width: 240px;padding: 20px 30px 0 30px;}
+.credito-consumo-new .doublecontent h3 {font-size: 18px;}
+.credito-consumo-new .doublecontent h4 {margin-top: 5px;font-weight: normal;}
+.credito-consumo-new .doublecontent h5 {margin-top: 10px;font-weight: normal;}
+.credito-consumo-new .doublecontent h2 {margin-top: 10px;font-size: 28px;}
+.credito-consumo-new .bottom-selection {background: #003767;display: inline-block;width: 100%;padding: 20px 30px;margin-left: -30px;margin-top: 10px;text-align: center;}
+.credito-consumo-new .ml {margin-left: 40px;}
+.credito-consumo-new .pd {padding: 0 10px;text-align: left;}
+.credito-consumo-new .legal {margin-top: 10px;font-style: italic;}
+.credito-consumo-new .data h3 {margin:10px 0;}
+.credito-consumo-new .data ul li {list-style-type: disc;}
+.credito-consumo-new .wide {width: 258px !important;}
+.credito-consumo-new .the-simulation {display: none;}
+.credito-consumo-new .the-last-days {position: absolute;top: -20px;left:-40px;background: #FBB450;padding: 5px 10px;color: #fff;}
+.credito-consumo-new .destroy {padding: 20px;display: none;}
+.credito-consumo-new .force-right {float: right;margin-top: 50px;}
+.cont-gris-consumo .grows .show-simulation {margin-top:26px;}
+.dd-desc {color: #373D45!important;display: none;font-weight: normal;line-height: 1.4em;position: absolute;left: -274px;width: 240px;background: #f1f1f1;padding: 10px;border: 1px solid #ddd;border-radius: 6px;top: 0px;font-size: 11px;}
+.dd-desc:after {content: ' ';display: block;position: absolute;right: -8px;top: 3px;width: 0;height: 0;border-bottom: 8px solid transparent;border-top: 8px solid transparent;border-left: 8px solid #f1f1f1;z-index: 10;}
+.dd-desc:before {content: ' ';display: block;position: absolute;right: -9px;top: 3px;width: 0;height: 0;border-bottom: 8px solid transparent;border-top: 8px solid transparent;border-left: 8px solid #dddddd;}
+.dd-option:hover .dd-desc {display:block;}
+.dd-container li {position:relative!important;}
+.dd-options .dd-option  {text-decoration:blink!important;font-size:10px}
+.dd-select .dd-selected {font-size:10px;padding: 7px;max-height: 15px;}
+.dd-select .dd-selected label {font-weight:bold;font-size: 12px;}
+/*.dd-option-image, .dd-selected-image {margin-top: 3px;}*/
+@media screen and (max-width: 1200px) {
+	.credito-consumo-new .results {right: 18px;}
+	.credito-consumo-new .box-loan {margin-right: 10px;}
+	.credito-consumo-new .box-loan:last-child {clear:left;float:right;margin-right: 263px;}
+	.credito-consumo-new .box-loan .enfatizar {margin-top: 5px;}
+	.credito-consumo-new .results {height: 127px;}
+	.cont-gris-consumo .grows .show-simulation {margin-top:0px;}
+}
+.cont-gris-consumo {
+	background: #FAFAFA;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 96%;
+    padding: 14px 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+/* Crédito de consumo V3 */
+.contenedor-consumo {display:table;width: 100%;margin-bottom: -8px;}
+.cont-base-consumo {display: block;width: 100%;clear: both;padding-left: 10px;}
+.cont-gris-superior {background: #FAFAFA;border: 1px solid #ddd;border-radius: 5px;width: 69%;padding: 12px 0;margin: 0 auto 0 15px;display: inline-block;}
+.medida-left .cont-gris-consumo {background: #FAFAFA;border: 1px solid #ddd;border-radius: 5px;width: 97%;padding: 14px 0;margin: 0 auto;margin-bottom: 20px;display: inline-block;}
+.cont-gris-consumo {background: #FAFAFA;border: 1px solid #ddd;border-radius: 5px;width: 39%;padding: 14px 0;margin: 0 auto;margin-bottom: 20px;display: inline-block;}
+.cont-gris-consumo-bottom {background: #FAFAFA;border: 1px solid #ddd;border-radius: 5px;width: 96%;padding: 14px 2px;margin-bottom: 20px;display: inline-block;margin-left: 10px;}
+.cont-gris-oscuro {background-color: #dcdcdc;border: 1px solid #dcdcdc;border-radius: 5px;width: 26%;padding: 7px 0;overflow: hidden;display: inline-table;margin-left: 10px;float: left;}
+.contenedor-consumo .medida-left {width: 57%;display: inline-block;float: left;padding-left: 20px;}
+.contenedor-consumo .cont-montos {width:75%;}
+.contenedor-consumo .txt-montos {font-size:14px;font-weight:normal;line-height: 25px; letter-spacing: -0.01em}
+.contenedor-consumo .txt-cae {font-size:14px;font-weight:bold;}
+.contenedor-consumo .montos {font-size:26px;font-weight:bold;color:#003767;}
+.contenedor-consumo .montos-des {font-size:16px;font-weight:bold;}
+.contenedor-consumo .check-texto {display: block;float: none;width: 68%;margin: 0 auto;}
+.contenedor-consumo .bg-cuota {background-color: #dcdcdc;}	
+.icon-gift-large {background: url(../img/gift_large.png) no-repeat;background-position: 0 0!important;display: inline-block;width: 24px!important;height: 24px!important;line-height: 24px!important;vertical-align: text-top!important;background-repeat: no-repeat!important;margin-top: -1px!important;}
+.label-regalo {margin-top: 2px;float: left;padding-left: 6px;}
+.nowidth{width: 500px!important;float: left;}
+.cont-gris-consumo-bottom .grows .cols12 label {display: table;margin: 5px auto;}
+.cont-gris-consumo-bottom table.contrato {margin: 0 auto;width: auto;display: table;clear: both;}
+.cont-gris-consumo-bottom table.contrato .check-texto {width:68%;float:left;display: inline-block;white-space: nowrap;}
+.cont-gris-consumo-bottom .transaccion { margin: 0 auto;float: inherit;display: block;}
+
+@media screen and ( max-width: 1200px) {
+	.nowidth {width: 390px!important;}
+	p.desc {width: 390px!important;}
+	.check-texto {width: 410px!important;}
+	.contenedor-consumo .cont-montos {width: 60%;}
+	.cont-gris-oscuro {width: 96%;}
+	.contenedor-consumo .txt-montos {float: left;}
+	.contenedor-consumo .montos {display: inline-block;margin-left: 20px;}
+    .cont-gris-superior {width: 96%; margin: 16px 0 0 10px;}
+	.cont-gris-consumo-bottom {width: 95%;}
+	.cont-gris-consumo-bottom table.contrato {width: 80%;}
+	.label-regalo strong {width:142px;float:left;}
+}
+.color-txtconsumo {color:#32434d!important;font-weight:bold;}
+.box-consumo {float: left;margin-right: 10px;}
+.box-consumo .select-box  .dijitTextBox {width:auto;}
+.box-consumo .select-xsmall {width:60px;}
+.margen-sup-consumo{margin-top: 24px;}	
+.margen-right-consumo{margin-right: 25px;}
+.contenedor-consumo .padding3-left{ padding-left:30px;}
+.contenedor-consumo .cont-central {display:table; width: 100%; border-spacing: 20px;border-collapse: separate;margin-left: -10px;}
+.contenedor-consumo .cont-columnas {display:table-row;}
+.contenedor-consumo .cont-cell-izq {display:table-cell; width: 55%;background: #FAFAFA;border: 1px solid #ddd;border-radius: 5px;padding: 14px 0; vertical-align: top;}
+.contenedor-consumo .cont-cell-der {display:table-cell;   width: 39%;background: #FAFAFA;border: 1px solid #ddd;border-radius: 5px;padding: 14px 0;}
+.contenedor-consumo .txt-simular{font-size:16px;}	
+.cont-ico-pregunta {display:block;width:155px;} 
+.icono-pregunta{background-image:url(../img/pregunta.png);display:block;width:15px;height:15px; }
+.tooltip-info {position:relative;display:inline-block;float:right;}
+.contenedor-consumo .tooltip-info .info-credito { display:none;background: #fff;border: 1px solid #ccc;border-radius: 5px;position: absolute;top: -6px;right: -238px;width: 220px;padding: 4px;}
+.contenedor-consumo .tooltip-info .info-credito:before {content:' ';z-index:2;display:block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid #fff;position:absolute;top:8px;left:-7px;}
+.contenedor-consumo .tooltip-info .info-credito:after {content:' ';z-index:1;display:block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid #ccc;position:absolute;top:8px;left:-8px;}
+.tooltip-info .info-credito:before {content:' ';z-index:2;display:block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid #fff;position:absolute;top:32px;left:-7px;}
+.tooltip-info .info-credito:after {content:' ';z-index:1;display:block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:7px solid #ccc;position:absolute;top:32px;left:-8px;}
+.tooltip-info:hover .info-credito {display:block;}
+.tooltip-info .info-credito p {font-size:11px;font-weight:normal;}
+.tooltip-info .recomendado {font-size:12px !important;font-weight:normal;color: #000;margin: 0 0 0 4px !important;padding: 0;}
+.tooltip-info td, .tooltip-info span  {padding:0!important;}
+.mensaje-consumo {border: 1px solid #f47920;border-radius: 5px;padding: 7px;font-size: 11px;background-color: #ffffff;}
+.mensaje-consumo .texto {display: inline-block;width: 80%;margin-left: 9px;}	
+.icono-alerta-consumo{width:16px; height:16px; background-image:url(../img/alerta.png); display: block;}
+.contenedor-consumo .full {width: 100% !important;}
+.contenedor-consumo p.desc {clear: both; margin-left: 25px; color: #878787; width: 500px;}
+
+.contenedor-consumo .bg-cuota {background-color: #FF7900;}
+.contenedor-consumo .txt-cuota {font-size: 14px;font-weight: bold;color: #FFF;}
+.contenedor-consumo .monto-total {background-color: #dcdcdc;font-size: 14px;font-weight: bold;color: #003767;}
+.contenedor-consumo .txt-check {display: inline-block;width: 94%!important;}
+.contenedor-consumo .cont-cell-der .cols12 .center {margin:0 auto;display:block;}
+.contenedor-consumo tr.monto  {background: #003767;}
+.contenedor-consumo tr.monto td {color:#ffffff;}
+/* Fin crédito de consumo V3 */
+
+
+/* TABLA CORPUNTOS */  
+.modulo-corpuntos .puntos-venc {width: 74%;}
+.modulo-corpuntos .puntos-act {width: 25%;}
+.modulo-corpuntos .puntos-act table {background-color:#DDD;}
+.modulo-corpuntos .puntos-act h2{ color:#F3791F;}
+.modulo-corpuntos .texto-administrable .recomendado {margin: 0px!important;color: #373D45;font-size: 12px;}
+
+
+/* Avisos de seguridad */
+.box-cuenta-avisos {margin-bottom: 10px;width: 609px;clear: both;}
+.avisos-left {width: 315px!important;float: left;}
+.avisos-right {float: right;}
+.modulo-gris {background-color:#F5F5F5;width: 98%!important;padding: 1%;margin: 10px 0px 10px 0;float: left;clear: both;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.error-validar-coor{ margin:auto; width:190px;}
+.alinear-periodo label {margin-top: 4px; margin-right: 10px;}
+.alinear-almedio1 p {margin-top: 4px;margin-left: 10px;}
+.media-1 {margin-left: 1px!important;}
+.tabla-avisos td.input-small {padding: 2px;}
+.tabla-avisos td.input-small input {margin-bottom: 0;}
+.tabla-avisos .th-costo > span {width: 120px;display: table;white-space: normal;text-align: center;margin:0 20px;}
+.tabla-avisos .th-mail > span {width: 120px;display: table;white-space: normal;text-align: center;margin:0 20px;}
+.tabla-avisos .table-thead input[type="checkbox"] {float:inherit;}
+.velo {display: block; width: 100%;height: 100%;background: rgba(255,255,255, 0.0); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5FFFFFF,endColorstr=#e5FFFFFF); zoom: 1; -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF)";position: absolute;left: 0px; border-radius: 6px;z-index: 120;}
+.check-disabled input[type="checkbox"] {pointer-events: none;opacity: 0.5;}
+.tabla-avisos .displayPageTable .tableRowOdd td:nth-child(2), .tabla-avisos .displayPageTable .tableRowEven td:nth-child(2) {padding: 2px!important;}
+.tabla-avisos .displayPageTable .tableRowOdd td:nth-child(2) input, .tabla-avisos .displayPageTable .tableRowEven td:nth-child(2) input {margin-bottom: 0px!important;}
+/* Fin Avisos de seguridad */
+
+
+/* Campana Credito Consumo Nuevo */
+.icon-reloj-large {background: url(../img/reloj.png) no-repeat;background-position: 0 0 !important; width: 24px !important; height: 24px !important; line-height: 24px !important; vertical-align: text-top !important; background-repeat: no-repeat !important;}
+.cont { width: 95%;  margin: 0 auto;}
+.cont-gris-superior .cont {width: 97%;}
+.box-loan{float: left;margin-right: 30px;}
+.selectBox .box-consumo {position: absolute;left: 3px;top: 3px;width: 100%;height: auto;overflow: hidden;}
+.results2{width: 100%;border: 2px solid #DFDFDF;border-radius: 5px;background: #fff;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 15px 20px;}
+.tr.monto{background: #003767;}
+.tr.monto td{color: #fff;}
+.grows {width: 100%;*zoom: 1;}
+.grows:before,
+.grows:after {content: " "; display: table;}
+.grows:after {clear: both;}
+.a.dd-selected{padding: 7px;max-height: 15px}
+.cont-gris-consumo .center {margin: 10px auto;display: block !important;width: 250px !important;}
+.cont-gris-consumo .wide {width:300px !important;}
+.cont-gris-consumo .contrato p.desc {display:table;}
+.contenedor-consumo #mensajeCheckBox {padding: 5px 25px;color: red;margin: 0 auto;width: 230px;}
+/* Header */
+.nav-user-new .icon-cerrar {background-image: url("../img/icon-blanco.png");}
+#nav-principal > li:hover > a,
+#nav-principal .wpthemeNavList .dropdown:hover > a {background:url(../img/bg-header-sub-ativo.png) 0 0  repeat-x;color: #FFF;}
+.wpthemeBanner .wpthemeBannerInner {background: url("../img/bg-header.jpg");height:60px;}
+.nav-user-new .user {padding-top:5px;}
+.nav-user-new .user .name {font-size: 10px;display:none;}
+.nav-user-new .user .name-user {display:inline-block;color:#fff;margin-top:15px;font-size:13px;font-weight:bold;}
+.nav-user-new .user .name-user {max-width: 210px;}
+#nav-principal li, .wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {border-left: 1px solid #db6d1d;}
+.nav-top, .wpthemeBanner .wpthemePrimaryNav {border-right: 1px solid #db6d1d; float:left;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li > a span {font-size:12px;}
+.nav-user-new .user:hover .sub-user {display:none;}
+#nav-principal .icon-nav-bottom {top:23px;}
+#nav-principal > li:hover > a, #nav-principal .wpthemeNavList .dropdown:hover > a {background:#fff;color:#F3791F;}
+#nav-principal .icon-nav-bottom {background-image: url(../img/icon-blanco.png);}
+#nav-principal li:hover  .icon-nav-bottom {background-image: url(../img/icon-naranjo.png);}
+#nav-principal > li > a, #nav-principal .wpthemeNavList > .dropdown > a {padding: 0 20px;height:60px;}
+#nav-principal .nav-drop {top: 60px;}
+.nav-user-new .cerrarsesion a {color:#fff;font-size:11px;background-color: #f57921;border: 1px solid #f57921;margin-top: 13px;}
+.nav-user-new .cerrarsesion a .icon-cerrar {background:url(../img/icon-blanco.png) -33px 0 no-repeat;}
+.nav-user-new .cerrarsesion:hover a {color:#fff;font-size:11px;background-color: #f57921;border: 1px solid #f57921;}
+.nav-user-new .cerrarsesion:hover a .icon-cerrar {background:url(../img/icon-blanco.png) -33px 0 no-repeat;}
+.buscador .dropdown input[type=text]{border-radius: 22px!important;border: 1px solid #adadad!important;width:510px!important;background-position: 490px 6px!important;}
+.buscador .dropdown input[type=text]:hover {background-position: 490px 6px!important;}
+#logo {margin: 8px 40px 0 0;}
+.wpthemeFrame .wpthemeBannerInner .wpthemeInner #logo .wpthemeBranding a.logo img {background: url(../img/logo-itau.png) 0 0 no-repeat;width: 45px;height: 45px;}
+div[id*="dfd_content"] .dijitDialogPaneContent {margin-bottom: -6px;margin-right: -2px;} 
+iframe[id*="dfd_content"] {margin:0px!important} /*contenedor campaña forzada*/
+@media screen and ( max-width: 1300px) {
+	.buscador .dropdown input[type=text]{border-radius: 22px!important;border: 1px solid #adadad!important;width:420px!important;background-position: 400px 6px!important;}
+	.buscador .dropdown input[type=text]:hover {background-position: 400px 6px!important;}
+}
+
+/* Campaña renovación tarjetas cred-deb */
+.renov_prod .cont {width: 95%;margin: 0 auto;}
+.renov_prod .grows {width: 100%;*zoom: 1;}
+.renov_prod .grows:before, .renov_prod .grows:after {content: " ";display: table;}
+.renov_prod .grows:after {clear: both;}
+.renov_prod [class*=cols] {float: left;margin-left: 2%;}
+.renov_prod [class*=cols]:nth-child(1) {margin-left: 0;}
+.renov_prod .cols1 {width: 6.500000000000001%;}
+.renov_prod .cols2 {width: 15.000000000000002%;}
+.renov_prod .cols3 {width: 23.5%;}
+.renov_prod .cols4 {width: 32%;}
+.renov_prod .cols5 {width: 40.50000000000001%;}
+.renov_prod .cols6 {width: 49%;}
+.renov_prod .cols7 {width: 57.5%;}
+.renov_prod .cols8 {width: 66%;}
+.renov_prod .cols9 {width: 74.5%;}
+.renov_prod .cols10 {width: 83.00000000000001%;}
+.renov_prod .cols11 {width: 91.5%;}
+.renov_prod .cols12 {width: 100%;}
+.renov_prod .promo {padding: 10px 0 10px 20px;background: #32434d;color: #fff;}
+.renov_prod .promo i {margin-right: 0;}
+.renov_prod .promo h3 {font-weight: normal;}
+.renov_prod .promo h3 span {font-weight: bold;}
+.renov_prod .offer {background: #EDEDED;padding-bottom: 20px;text-align: center;margin: 30px 0;}
+.renov_prod .offer img {max-width: 100%;}
+.renov_prod .offer h2 {margin-top: 10px;font-size: 30px;}
+.renov_prod .offer h3 {margin-top: 20px;}
+.renov_prod .offer a {margin-top: 20px;}
+.renov_prod .actions {background: #EDEDED;padding: 20px;}
+.renov_prod .link-right {float: right;}
+.renov_prod .margin0 {margin: 0;}
+.renov_prod .img-offer {width: 30%;float: left;height: 180px;margin: 30px 0;position: relative;}
+.renov_prod .middle-text-offer {background: #EDEDED;width: 40%;height: 180px;float: left;padding: 30px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 30px 0;}
+.renov_prod .middle-text-offer h2 {margin-top: 10px;font-size: 30px;margin-bottom: 10px;}
+.renov_prod h3.time {font-size: 14px;font-weight: normal;margin-bottom: 10px;}
+.renov_prod .last-offer {background: #D6D6D6;width: 30%;height: 180px;float: left;text-align: center;margin: 30px 0;}
+.renov_prod .last-offer hr {border-bottom: 1px solid #E0E0E0;}
+.renov_prod .last-offer a {display: block;width: 120px;margin: 0 auto;}
+.renov_prod .last-offer a.transaccion {margin-top: 35px;margin-bottom: 35px}
+.renov_prod .last-offer a.link {margin-bottom: 10px;}
+.renov_prod .top-loan .selectBox {float: left;display: inline-block;}
+.renov_prod .box-loan {float: left;margin-right: 30px;}
+.renov_prod .box-loan a.enfatizar {margin-top: 25px;}
+.renov_prod .results {right: 23px;width: 260px;top:21px;height: 93px;border-radius: 0 5px 5px 0;background: #dcdcdc;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 15px 20px;position: absolute;}
+.renov_prod .show-info {width: 50%;float: left;}
+.renov_prod .show-info h2 {margin-bottom: 0;}
+.renov_prod .data h2 {margin-top: 20px;margin-bottom: 10px;}
+.renov_prod .data input[type="text"]{width: 168px !important;}
+.renov_prod p.desc {clear: both;margin-left: 25px;color: #878787;width: 500px;}
+.renov_prod .nowidth{width: 500px !important;float: left;}
+.renov_prod .checkie {margin-left: 5px;}
+.renov_prod .results2 {width: 100%;border: 2px solid #DFDFDF;border-radius: 5px;background: #fff;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 15px 20px;}
+.renov_prod tr.monto {background: #003767;}
+.renov_prod tr.monto td {color: #fff;}
+.renov_prod .full {width: 100% !important;}
+.renov_prod .calendar {margin-top: 20px;}
+.renov_prod .date {padding-left: 10px;}
+.renov_prod .icon-gift {background: url(../img/gift.png) no-repeat;display: inline-block; width: 15px; height: 15px; line-height: 15px; vertical-align: text-top; background-repeat: no-repeat; margin-top: -1px;}
+.renov_prod .icon-money {background: url(../img/money.png) no-repeat;display: inline-block;width: 20px;height: 20px;line-height: 20px;vertical-align: text-top;background-repeat: no-repeat;margin-top: -1px;}
+.renov_prod .icon-card {background: url(../img/card.png) no-repeat;	display: inline-block; width: 20px; height: 20px; line-height: 20px; vertical-align: text-top; background-repeat: no-repeat; margin-top: -1px;}
+.renov_prod .center {margin:10px auto;display: block !important;width: 250px !important;}
+.renov_prod tr.bigok {background: #003767;}
+.renov_prod tr.bigok td {color: #fff;}
+.renov_prod tr.bigok td h2 {padding-top: 20px;}
+.renov_prod .no-overflow {overflow: visible;}
+.renov_prod #myDropdown a {text-decoration: none !important;}
+.renov_prod #myDropdown2 a {text-decoration: none !important;}
+.renov_prod #myDropdown2 {width: 120px !important;}
+.renov_prod #myDropdown2 .dd-select {width: 120px !important;}
+.renov_prod #myDropdown2 ul.dd-options.dd-click-off-close {width: 120px !important;}
+.renov_prod #myDropdown3 a {text-decoration: none !important;}
+.renov_prod #myDropdown3 {width: 120px !important;}
+.renov_prod #myDropdown3 .dd-select {width: 120px !important;}
+.renov_prod #myDropdown3 ul.dd-options.dd-click-off-close {width: 120px !important;}
+.renov_prod #myDropdown3 a {text-decoration: none !important;}
+.renov_prod a.dd-selected {padding: 7px;max-height: 15px}
+.renov_prod .mt {margin-top: 20px;margin-bottom: 0;}
+.renov_prod .mt2 {padding-top: 10px;margin-bottom: 0;}
+.renov_prod span.discount {position: absolute;bottom: 0;left: 0;width: 100%;background: #003767;color: #fff;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding:5px;font-size: 14px;text-align: center;}
+.renov_prod .icon-discount {background: url(../img/discount.png) no-repeat;display: inline-block;width: 20px; height: 20px; line-height: 20px; vertical-align: text-top; background-repeat: no-repeat;margin-top: -1px;}
+.renov_prod .img-offer-top {position: relative;}
+.renov_prod span.account {margin-top: 5px;display: inline-block;font-weight: bold;border-radius: 4px;color: #003767;background: #DFDFDF;padding: 8px 14px;margin-right: 10px;}
+.renov_prod h2.precios {font-weight: bold;color: #003767;font-size: 22px;margin-top:10px}
+.renov_prod .caes {padding-left: 40px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.renov_prod .offer-aumento {background: #f4f4f4;padding: 15px 10px; }
+.renov_prod .offer-aumento input[type="checkbox"]{margin-top: -5px;}
+.renov_prod .offer-aumento #myDropdown2, .renov_prod #myDropdown3 {display: inline-block;margin-left: 10px;top:8px;}
+.renov_prod span.checkaumento {font-size: 16px;margin-left: 10px;}
+.renov_prod .divider {display: block;height: 20px;}
+.renov_prod a#poplinea {text-decoration: underline;}
+.renov_prod a#poplinea2 {text-decoration: underline;}
+.renov_prod .poplinea {display: none;position: absolute;z-index: 9999;left: 200px;background: #f4f4f4;border: 1px solid #dadada;width: 200px;padding: 10px;}
+.renov_prod .poplinea2 {display: none;position: absolute;z-index: 9999;left: 200px;background: #f4f4f4;border: 1px solid #dadada;width: 200px;padding: 10px;}
+.renov_prod .all {cursor: pointer;}
+.renov_prod .terms {padding-left: 20px;margin-top: 30px;margin-bottom: 20px;}
+.renov_prod .doublecontent {display: none;position: absolute;right: -300px;top:0;background: #32434d;color: #fff;width: 240px;padding: 20px 30px 0 30px;}
+.renov_prod .doublecontent h3 {font-size: 18px;}
+.renov_prod .doublecontent h4 {margin-top: 5px;font-weight: normal;}
+.renov_prod .doublecontent h5 {margin-top: 10px;font-weight: normal;}
+.renov_prod .doublecontent h2 {margin-top: 10px;font-size: 28px;}
+.renov_prod .bottom-selection {background: #003767;display: inline-block;width: 100%;padding: 20px 30px;margin-left: -30px;margin-top: 10px;text-align: center;}
+.renov_prod .ml {margin-left: 40px;}
+.renov_prod .pd {padding: 0 10px;text-align: left;}
+.renov_prod .legal {margin-top: 10px;font-style: italic;}
+.renov_prod .data h3 {margin:10px 0;}
+.renov_prod .data ul li {list-style-type: disc;}
+.renov_prod .wide {width: 258px !important;}
+.renov_prod h3.forzada {line-height: 32px;}
+.renov_prod .forzadabottom {position: absolute;background: #DFDFDF;padding:30px 0;width: 100%;left: 0;bottom:-80px;}
+.renov_prod .left-forzada {width: 300px;margin-left: 50px;float: left;}
+.renov_prod .right-forzada {margin-right: 50px;float: right;}
+.renov_prod a.show-actions {background: url(../img/bottom.png) no-repeat 93% #fff;padding: 7px 60px 7px 30px;border-radius: 5px;display: inline-block;}
+.renov_prod a.show-actions:hover {text-decoration: none;}
+.renov_prod .actions-forzada {background: #F5F5F5;width: 215px;padding: 10px;position: absolute;top:62px;display: none;}
+.renov_prod .actions-forzada li label {display: inline-block;width: 170px;vertical-align: middle;margin-left: 10px;line-height: 15px;padding-top: 5px;}
+.renov_prod a.continue-forzada {margin: 20px auto 0;}
+.renov_prod li.final-forzada {text-align: center;}
+.renov_prod .img-fm {position: relative;}
+.renov_prod .img-fm img {max-width: 100%;}
+.renov_prod .text-quote {position: absolute;bottom: 20%;left: 30px;width: 450px;font-size: 24px;font-weight: bold;color: #fff;line-height: 34px;}
+.renov_prod .fm-offer {background: #FAFAFA;padding: 30px;float: left;}
+.renov_prod .first-info {width: 35%;float: left;}
+.renov_prod .second-info {float: left;width: 60%;margin-left: 5%;}
+.renov_prod .second-info table {width: 100%;}
+.renov_prod .second-info table th {text-align: left;}
+.renov_prod .second-info table tr td {font-size: 21px;vertical-align:top;padding-top: 10px;}
+.renov_prod .second-info table tr td span {font-size: 12px;color: #a3a3a3;}
+.renov_prod .offerfm {padding: 5px 10px 20px 10px;margin-bottom: 0;display: inline-block;}
+.renov_prod .offerfm h3 {text-align: left;font-size: 21px;color: #003767;margin-top: 15px;margin-bottom: 15px;}
+.renov_prod .offerfm h4 {text-align: left;font-size: 16px;margin-top: 10px;margin-bottom: 10px;}
+.renov_prod .offerfm h5 {text-align: left;}
+.renov_prod .offer-bottom {background: #dadada;width: 100%;text-align: center;padding: 10px 0;margin-bottom: 20px;}
+.renov_prod .title-fm {width: 24%;float: left;}
+.renov_prod .title-fm h3 {font-size: 16px;margin-top: 10px;}
+.renov_prod .sub-fm h4 {font-size: 13px;}
+.renov_prod .sub-fm {margin-left: 2%;width: 40%;float: left;}
+.renov_prod .action-fm {width: 30%;float: left;margin-left: 2%;}
+.renov_prod .offerfinal {margin-bottom: 0;margin-top: 0;}
+.renov_prod .offerfirst {height: 252px;}
+.renov_prod i.icon-money.icon-gris.little-money {width: 16px;height: 16px;background-size: cover;}
+.renov_prod h4.time-forzada, .renov_prod .credito-forzada i {margin-right: 10px;}
+.renov_prod .campana-flotante .content-info h3 {margin-bottom: 15px;}
+.renov_prod .blue {color: #02366A;}
+.renov_prod h4.forzada {color: #383838;font-size: 21px;}
+.renov_prod img.forzada-img {padding-top: 30px;width: 260px;}
+.renov_prod .container-promos {width: 460px;}
+.renov_prod .promos {width: 126px;margin: 20px 10px;float: left;text-align: center;}
+.renov_prod .promos img {width: 50px;display: block;margin: 0 auto;}
+.renov_prod .promos span {font-size: 18px;color: #02366A;margin-top: 10px;display: block;}
+.renov_prod .promos p {color: #606060;font-size: 14px;}
+.renov_prod h4.title-renew {font-size: 21px;color: #F47924;font-weight: normal;margin-bottom: 30px;margin-top: 20px;}
+.renov_prod .renew-left {width: 600px;margin-left: 23px;float: left;}
+.renov_prod .renew-right {width: 450px;margin-left: 23px;float: left;border: 1px solid #ddd;border-radius: 5px;background: #FAFAFA;padding: 23px;}
+.renov_prod .renew-right ul{font-size: 14px;color: #606060;}
+.renov_prod .renew-right li {padding-left: 50px;margin-bottom: 20px;padding-top: 4px;}
+.renov_prod li.call-r {background: url(../img/icon-buzon.png) no-repeat;background-size: 40px;}
+.renov_prod li.alert-r {background: url(../img/icon-alerta.png) no-repeat;background-size: 40px;}
+.renov_prod li.phone-r {background: url(../img/icon-telefono.png) no-repeat;background-size: 40px;}
+.renov_prod .renew-left p {color: #606060;font-size: 18px;}
+.renov_prod .renew-left label {font-size: 14px;color: #606060;margin-top: 10px;font-weight: normal;}
+.renov_prod .renew-left select {width: 94%;}
+.renov_prod .renew-left .checkbox {color: #606060;font-size: 18px;margin-top: 20px;}
+.renov_prod .renew-left .renovar {margin-top: 30px;text-align: right;}
+.renov_prod .renovar a {margin-right: 45px;margin-bottom: 30px;}
+.renov_prod .the50 {width: 45%;margin-right: 5%;float: left;}
+.renov_prod .the50-r {width: 45%;margin-right: 0;float: left;}
+.renov_prod .the100{width: 100%;float: left;}
+@media screen and ( max-width: 1200px) {
+	.renew-right {width: 230px!important;}
+}
+/* Fin Campaña renovación tarjetas cred-deb*/
+/*tooltip validaciones*/
+.tooltip_hc {position:relative;}
+.tooltip_hc .tooltip_1 {position: absolute;left: 130px;top: 13px;}
+.tooltip_hc .tooltip_1 .dijitTooltipConnector {background-position: 2px -34px !important;left: 6px;top: 14px;}
+.tooltip_hc .tooltip_1 .dijitTooltipContainer {line-height: 14px;margin-top: -13px;position: relative;}
+/*Tabla consulta de créditos*/
+span[name="tablaCreditos"] div[name="creditoGroupContainer"] td[name="saldoDeuda_ColumnData"],
+span[name="tablaCreditos"] div[name="creditoGroupContainer"] td[name="CapitalPrestamo_ColumnData"],
+span[name="tablaCreditos"] div[name="creditoGroupContainer"] td[name="importeCuota_ColumnData"] 
+{white-space:nowrap;}
+
+.tcliqDap {background: #fff;border: solid 1px #EEE;position: relative;display: table;-webkit-box-shadow: #DDD 0 0 3px 0;-moz-box-shadow: #DDD 0 0 3px 0;box-shadow: #DDD 0 0 3px 0;border-collapse: separate;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;top: 10px;}
+.icon-avance-tarjeta {background-position: -435px 0;}
+
+/*warning seguros*/
+.modal-seguros{display: none;}
+.modal-seguros .modal-bg { position: fixed; overflow: hidden; z-index: 3000; top: 0; left: 0; background: #000; opacity: 0.5; width: 100%; height: 100%;}
+.modal-seguros .modal-contenido {padding: 0 20px 20px 20px;display: flex; display: -webkit-flex;}
+.modal-footer .pregunta-botonera { font-size: 16px; font-weight: bold; margin-bottom: 10px; }
+.modal-seguros #modal-campana {border-radius: 10px; overflow: hidden; -webkit-box-shadow: #222 0 0 6px 0; -moz-box-shadow: #222 0 0 6px 0; box-shadow: #222 0 0 6px 0;border-collapse: separate;}
+.modal-seguros .modal-content {width: 800px; background: #FFFFFF; position: absolute;z-index: 4000;top: -20%;left: 46%;margin-left: -350px;}
+.modal-seguros .contenedor-modal {position: relative;box-shadow: #222 0 0 6px 0;border-collapse: separate;}
+.modal-seguros #modal-campana .modal-header, #modal-campana #cerrar-modal {background: none;}
+.modal-seguros .modal-header { position: relative; overflow: hidden;padding: 10px 20px;}
+.modal-seguros .head-interior {float: none!important;width: 100%;}
+.modal-seguros .modal-header h2 {text-align: center;font-size: 18px; color: #FF7900;margin: 0 auto; padding-top: 20px; padding-bottom: 10px;width: 72%;}
+.modal-seguros #modal-campana p {text-align: left;}
+.modal-seguros #idCerrar {display:none;}
+.modal-seguros .modal-header .icon-cerrar {float: right;margin-top: 5px;}
+.modal-seguros .modal-destacado{width:450px; margin:0 auto; font-weight: bold; }
+.modal-seguros .txt-destacado{font-size: 14px;margin: 0 auto;width: 72%;}
+.modal-seguros .left {width: 50%;float: left;background: #ebebeb;margin: 0 10px 0px 10px;}
+.modal-seguros .left-capa2 {width: 58%;float: left;background: #ebebeb;margin: auto;}
+.modal-seguros .right {width: 50%;float: right;background: #ebebeb;margin: 0 10px 0px 10px;}
+.modal-seguros .contenedor{float: left;}
+.modal-seguros .txt-contenedor{padding:20px;}
+.modal-seguros .contenedor h2{text-align:left;font-size: 14px;font-weight: bold; box-shadow: 0px 1px #FF7900;height: 30px; line-height: 26px;}
+.modal-seguros .modal-content .modal-footer {overflow: hidden;background: #ffffff;padding-top: 10px;}
+.modal-seguros .botonera{ width:445px; margin:0 auto; }
+.dif-cp .modal-seguros .botonera { float: none!important; }
+.dif-cp .modal-seguros .modal-content { top: 10%; }
+.modal-seguros .modal-footer .accion, .modal-footer-top { float:none!important;}
+.modal-seguros .nota {padding: 30px;margin-left: 10px; margin-right: 10px;}
+.modal-seguros .icon-vida {display: inline-block;background-image:url(../img/icono-vida.png); float:left;background-position: 0px 0; height: 24px; width: 24px;}
+.modal-seguros .icon-cesantia {display: inline-block;background-image:url(../img/icono-cesantia.png); float:left;background-position: 0px 0; height: 24px; width: 24px;}
+.modal-seguros .icon-salvavidas {display: inline-block;background-image:url(../img/life.png); float:left;background-position: 0px 0;height: 29px;width: 24px;}
+/*Tooltip simulador crédito*/
+.tooltip_hc .tooltip_2 {position: absolute;left: 110px;top: 0;}
+.tooltip_hc .tooltip_2 .dijitTooltipConnector {background-position: 2px -34px!important;left: 6px; top: 15px;}
+
+/*FFMM*/
+#ffmm-promocio-suscripcion .cont-mensajes .left-info {width: 50%!important;}
+#ffmm-promocio-suscripcion .cont-mensajes .right-info1 {float: left!important;width: 20%!important;}
+#ffmm-promocio-suscripcion .cont-mensajes .right-info2 {float: right;width: 30%!important;}
+.margen0-bottom {margin-bottom:0px!important;}
+.form-pregunta {width: 90%; display: block; margin: 20px auto;border-bottom: 1px solid #ccc;padding-bottom: 20px;}
+.form-pregunta:last-child {border-bottom:0;}
+.form-pregunta  strong {margin-bottom:10px;display:block;}	
+.form-pregunta  ul li {margin:4px 0;}
+.riesgo-intro {display:block;width:96%;margin-bottom:30px;}
+.riesgo-intro h3 {margin-bottom:6px;}
+.perfiles-riesgo {display: table-cell;height:100%;width:250px;border-right: 1px solid #ccc; padding-left:20px;}
+.perfiles-riesgo ul {width:220px;}
+.perfiles-riesgo li{background: #ccc; border-radius:3px;text-align:center;padding:9px;font-weight:bold;color:#000;font-size:15px;margin-bottom: 10px;}
+.perfiles-riesgo li.selected {background: #ff7900;color:#fff;box-shadow: 1px 1px 1px 1px #ccc;}
+.perfiles-riesgo li.selected:before { content: ' '; display: inline-block;width: 16px;height: 16px;float: right; margin-right: -48px;margin-top: 4px;border-right: 1px solid #ccc;border-top: 1px solid #ccc;-ms-transform: rotate(45deg);-webkit-transform: rotate(45deg);transform: rotate(45deg);background: #f5f5f5;}
+.perfiles-riesgo li input[type="radio"] {float:left;margin-top:4px;}
+.detalle-perfil-riesgo {display: table-cell;height: 100%;padding:0px 20px 20px 30px;vertical-align: top;}
+.padding3 {padding:30px;}
+.margen3-right {margin-right:30px;}
+.left-icon {display:inline-block;float:left;	width:101px;margin-right:20px;}
+.right-text-desc {display:inline-block;width:80%;}
+.icon-hoja-alert-xlarge {display:block!important;width:101px!important;height:111px!important;background:url(../img/hoja-alerta-xlarge.png) no-repeat!important;}
+.image-left {float: left;margin: -9px 20px -9px -9px;}
+.tipo-fondos {width: 530px!important;}	
+.buscador-tomar-ffmm {width:270px;float:right;margin-right:6px;margin-top: -6px;}
+.tabla-invertir td[name="BotonDeseoInvertir_ColumnData"] {position:relative;display:inline-block;}
+.tabla-invertir td[name="BotonDeseoInvertir_ColumnData"] .tooltip-descrip {display:none;position:absolute;background:#fff;width:180px;height:38px;border:1px solid #ddd;border-radius:6px;top: -7px;right: -198px;box-shadow: 0px 0px 4px 0px #DDD;padding:6px;}
+.tabla-invertir td[name="BotonDeseoInvertir_ColumnData"]:hover .tooltip-descrip {display: block;} 
+.tabla-invertir td[name="BotonDeseoInvertir_ColumnData"] .tooltip-descrip:before {content:' ';display:block; border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 10px solid #fff;position:absolute;left:-9px;bottom:15px;z-index:5;}
+.tabla-invertir td[name="BotonDeseoInvertir_ColumnData"] .tooltip-descrip:after {content:' ';display:block; border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 10px solid #DDD;position:absolute;left:-9px;bottom:14px;}
+.fondos-mutuos .txt-toma-fondos{margin: 30px;margin-left: 10px;}
+.fondos-mutuos .contenedor-codigo p {line-height: 14px;clear: both;margin: 10px 20px 10px 20px;text-align: left;}
+@media screen and ( max-width: 1200px) {
+	.right-text-desc {
+		display:inline-block;
+		width:70%;
+	}
+}
+.cuestionario-perfil-00 #form_preguntas > div > ul > li > table { width:100%!important;}
+.cuestionario-perfil-00 #form_preguntas > div > ul > li > table td{padding-left:20px}
+.cuestionario-perfil-00 #form_preguntas > div > ul > li > table td label{ display:inline-block; margin-left:10px; font-weight:normal }     
+    
+    
+/* simulador credito consumo celula sprint 2*/
+.results2 h2 {margin-bottom:6px;}
+.results2 .agrupador  td {padding:2px 8px;}
+.results2 .agrupador  td span {border-bottom:1px solid #ccc;width:100%;display:block;}
+.results2 .date {font-size: 10px;}
+.results2 .sep-detalle.tope  td {padding:12px 8px 2px;}
+.results2 .sep-detalle.bottom td {padding:2px 8px 12px;}
+.results2 .sep-detalle  td {padding:2px 8px;}
+.results2 .border-total-cred {border:1px solid #ff9900;}
+.contenedor-consumo .txt-monto-dest {font-size:12px;}
+.contenedor-consumo .txt-tit-descrip {padding:16px 8px 10px 8px;}
+.monto-total-final {font-size: 14px;font-weight: bold;} 
+.mostar-detalle-monto {cursor:pointer;}
+.contenedor-consumo .icono-informacion {display: inline-block;width: 16px;height: 16px;border-radius: 8px;background: #ff9900;color: #fff;font-size: 12px;text-align: center;margin: 0px 0 0 4px;line-height: 14px;}
+.results2 .mostar-detalle-monto {width:20px;margin-right:0px;}
+.results2 .mostar-detalle-monto .icon-desplega {display:block;width:10px;height:10px;border-top:0;border-bottom:2px solid #000;border-right:2px solid #000;-ms-transform: rotate(45deg);-webkit-transform: rotate(45deg);transform: rotate(45deg);}
+.results2 .mostar-detalle-monto .icon-desplega.activado {display:block;width:10px;height:10px;border-top:2px solid #000;border-right:2px solid #000;border-bottom:0;-ms-transform: rotate(-45deg);-webkit-transform: rotate(-45deg);transform: rotate(-45deg);margin-top:6px;margin-bottom: -4px;}
+.results2 .tooltip-info {z-index: 100;}
+.contenedor-consumo .txt-check {line-height: 16px;}
+.results2 .td-collap {padding:8px 4px}
+.results2 .link-icon-desplega {margin-left:8px;display:inline-block;}
+.show-table {display:table!important;}
+.contenedor-consumo .cont-central #wcmNotaSegurosMensuales {float:left;}
+.contenedor-consumo .cont-central #wcmNotaSegurosMensuales  table[name="lwcmAccessTable"] td {padding:0}
+.contenedor-consumo .cont-central #wcmNotaSegurosMensuales  table[name="lwcmAccessTable"] td .recomendado {margin: 0!important;}
+.contenedor-consumo .cont-central #wcmNotaSegurosMensuales  table[name="lwcmAccessTable"] td .recomendado .texto {font-size:12px;color:#373D45;}
+
+
+
+/*DAP Modificacion 10-03-2017*/
+.dap-privado-plazo{width: 65px;}
+.dap-dias-plazo {width: 216px; font-size: 11px!important;font-weight: normal!important;}
+.mensaje-lateral.dap {width:430px;}
+.mensaje-lateral .arrow-mensaje-dap {position: absolute;width: 10px;height: 20px;left: -10px;top: 361px;background: url(../img/arrows-direcciones.png) no-repeat;}
+.mensaje-lateral .arrow-mensaje-dap2 {position: absolute;width: 10px;height: 20px;left: -10px;top: 10px;background: url(../img/arrows-direcciones.png) no-repeat;}
+.modulo-medium .separar-dap {width: 87%;margin: 0px 0 20px 10%!important;}
+.separar-dap {width: 100%;float: left;clear: both;position: relative; margin: 20px 0;}
+.a-dap {color: #F3791F!important;text-decoration: none!important;}
+.dap-direcciones {line-height: 28px;float: left;margin-right: 10px;}	
+.dap-direcciones.txtright {width:60px;text-align:right;}
+.mensaje-lateral .simulacion td {padding:8px;}
+.check-simular {float:left;margin-right:5px;}
+.aling-ubicacion {margin-left: 40px;}
+.modulo-medium .modulo-left.otrasucursal {width: 450px;}	
+.txt-dap .monto-dap {font-size:24px;}
+.txt-dap .titulos {font-size:14px;}
+.mensaje-respuesta-dap {background: #F5F5F5!important;text-align:center;position:relative;padding:20px 20px}	
+.margin-bottom-35 {margin-bottom: 35px;}
+.porlet-dap {background: #FFF;position: relative;margin-bottom: 20px;border: 1px solid #DDD;box-shadow: #DDD 0 0 5px 0;border-collapse: separate;}
+.porlet-dap-header { background: url(images/bg-porlet-header.png) 0 0 repeat-x; height: 40px;padding: 0 0 0 10px;border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;} 
+.porlet-dap-header .mostrar-porlet {padding: 3px 13px;}
+.porlet-dap-header [class*="drop-"] {line-height: auto;}
+.porlet-dap-header .activado {background-position: -330px 0;}
+.porlet-dap-header .configurar {height:30px;margin-right: 20px;}
+.porlet-dap-header .configurar i, .porlet-dap-header .mostrar-porlet i {display: block;margin-top: 8px;}
+.porlet-dap-header form {margin-top:5px;height: 30px;}
+.porlet-dap-header h3 {line-height: 40px;height: 30px;font-weight: bold;}
+.porlet-dap-header input { margin-top:0;}
+.porlet-dap-content {overflow: hidden;}
+.porlet-dap-content img {width: 100%;}
+.porlet-dap-content td a {text-decoration: underline;color: #79808B;}
+.porlet-dap-content td a:hover {color: #333;}
+.valores-porlet-dap {float: left;left: 50%;margin: 0 auto;padding: 0;position: relative;}
+.valores-porlet-dap li {font-size: 20px;float: left;position: relative;right: 50%;text-align: center;color: #32434D;}
+.valores-porlet-dap li span {font-size: 12px;font-weight: bold;display: block;clear: both;color: #999;}
+.porlet-dap-content .valores-dos li + li {margin-left: 85px;padding-left: 85px;}
+.porlet-dap-content .valores-tres li + li {margin-left: 60px;padding-left: 60px;}
+#porlet-dap-resumen table td:first-child { width:50%;}
+.dap-mensaje-porlet {width:100%}
+
+@media screen and ( max-width: 1200px) {
+	.mensaje-lateral.dap { width: 330px;}
+	.modulo-medium .separar-dap {width: 100%;margin: 0px 0 20px 0%!important;}
+		
+}
+
+/* CSS MODAL ENVIAR MAIL 29032017 - COPIAR EN EL CSS... */
+   	#divContenido.kbft_modal_enviar_mail .kbft_modal_enviar_mail .col50{width:48%;}
+   	#divContenido.kbft_modal_enviar_mail .kbft_modal_enviar_mail #periodoSeleccionado{ display:inline}
+   	#divContenido.kbft_modal_enviar_mail{top:0px!important; position:absolute; width:100%!important; z-index:9999}
+	#divContenido.kbft_modal_enviar_mail #modal-enviar-email .modal-content {width: 85%!important; margin:0px 0px auto auto !important;} 
+	#divContenido.kbft_modal_enviar_mail div.campos.clearfix.flotar-left.col50.padding2-top > div.flotar-left.margen1-right > label{margin-top:5px}
+/* FIN CSS MODAL ACTUALIZAR MAIL 29032017*/
+
+
+
+/*CSS PIN -2 ACTIVACION DE TARJETA, CREACION DE CLAVE 22-03-2017*/
+.kbft_relative{position:relative!important}
+
+.pin-2-tarjeta-digitos{position:relative; width: 402px ;height:233px; margin: 10px auto}
+.pin-2-tarjeta-digitos img{position:absolute;z-index:0; }
+
+.row-cuatro-digitos{z-index:1; position:relative; width:100%;  padding-top:150px}
+.row-cuatro-digitos div:first-child{float:right; padding-right:20px}
+.row-cuatro-digitos div:first-child input{ font-size:28px; text-align:center; letter-spacing: 4px}
+
+.row-cuatro-digitos div:last-child{float:right;padding-top:6px; padding-right:12px}
+.row-cuatro-digitos div:last-child span{font-size: 22px!important; color:white}
+.activar-pin-2{box-sizing:border-box!important;width:49.5%!important;padding:10px; }
+
+
+.pin-2-crea-y-confirma-clave{width:70%; margin: 10px auto}
+.pin-2-crea-y-confirma-clave li{}
+.pin-2-crea-y-confirma-clave li div{ float: right;  }
+.pin-2-crea-y-confirma-clave li div input{ font-size:42px; text-align:center !important; letter-spacing: 12px}
+.pin-2-crea-y-confirma-clave li label{float: left; margin-right:10px; margin-top:4px}
+.pin-2-crea-y-confirma-clave li .input.input-medium input{width:112px!important}
+
+@media screen and ( min-width: 1200px) { 
+.pin-2-crea-y-confirma-clave{width:49%;}
+}
+
+
+
+.kbft_campagna_alerta.pin-2{ border:#DDD solid 1px; border-radius:6px;padding:10px;margin-bottom:20px; background-color:#ffffff}
+.kbft_campagna_alerta.pin-2 .content{}
+.kbft_campagna_alerta.pin-2 .content ul{}
+.kbft_campagna_alerta.pin-2 .content ul li{
+width:62%;
+height:58px;
+float:left; 
+overflow:hidden;
+}
+.kbft_campagna_alerta.pin-2 .content ul li.frst{width: 11%;}
+.kbft_campagna_alerta.pin-2 .content ul li.lst{width:22%; margin-left:3%}
+.kbft_campagna_alerta.pin-2 .content ul li i{
+height:58px;
+width:58px;
+margin-left:10px; 
+display:block; 
+background-image:url(../img/icon-tarjeta-pin-2.png);
+}
+.kbft_campagna_alerta.pin-2 .content ul li p{font-size:20px; font-weight:bold;padding:5px 0 ; line-height:24px; break-word:word-break}
+.kbft_campagna_alerta.pin-2 .content ul li p span{color:#897748; }
+
+@media screen and ( min-width: 1200px) { 
+.kbft_campagna_alerta.pin-2 .content ul li.frst{width: 9%;}
+.kbft_campagna_alerta.pin-2 .content ul li.lst{ margin-left:5%}
+.kbft_campagna_alerta.pin-2 .content ul li p span{display:block}
+}
+.no-flotar{float:none!important;}
+
+/*BOTON*/
+.kbft_campagna_alerta.pin-2 a.accion {
+    height: 27px;
+    text-decoration: none;
+}
+.kbft_campagna_alerta.pin-2 .accion {
+    display: inline-block;
+    width: auto;
+    height: 29px;
+    padding: 0 30px;
+    border: 1px solid #C5C1C0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    color: #373D45;
+    cursor: pointer;
+    vertical-align: middle;
+    background: #E6E6E4;
+}
+.kbft_campagna_alerta.pin-2 .transaccion {
+    border: 1px solid #CB5E02;
+    background: url(../img/bg-btn.jpg) repeat-x 0 -130px #FF7900;
+    color: #FFFFFF;
+    margin-top:16px !important
+}
+/*BOTON*/
+/*CSS PIN -2 ACTIVACION DE TARJETA, CREACION DE CLAVE 22-03-2017*/
+
+/* ==========================================================================
+   SIMULADOR HACIA ABAJO
+   ========================================================================== */
+
+
+	
+    .simulador-ab .contenedor-consumo .montos { font-size: 16px; font-weight: 400; margin-top: 5px;}
+    .simulador-ab .contenedor-consumo .montos span { font-size: 20px; font-weight:bold; margin: 0 10px;}
+    .simulador-ab .contenedor-consumo .txt-simular { color: #ff7900!important;}
+    .simulador-ab .top-loan { width: 85%; margin: auto;}
+    .simulador-ab .box-consumo { margin-right: 30px; }
+    .simulador-ab .pasos-ab { background: #ff7900; width: 20px; border-radius: 10px; text-align: center; font-weight: bold; margin: 0 10px 10px; color: #fff; float: left;}  
+    .simulador-ab .table.credito-cuotas.det-lft { min-height: 230px; }
+   
+	
+	.velo-simulador {z-index: 200;height: 27%;background: #fff;position: absolute; width: 100%;opacity: 0.5; left:0px;}
+	.velo-simuladorBtnInteresa {z-index: 200;height: 54%;background: #fff;position: absolute; width: 100%;opacity: 0.5; left:0px;}
+	.velo-simuladorContratar {z-index: 200;height: 100%;background: #fff;position: absolute; width: 100%;opacity: 0.5;} 
+	.velo-simulador2 {z-index: 200;height: 57%;background: #fff;position: absolute; width: 100%;opacity: 0.5;}
+	.velo3-simulador2 {z-index: 200;height: 69%;background: #fff;position: absolute; width: 100%;opacity: 0.5;}
+	.simulador-ab .nowidth {width: 390px!important;}
+	.simulador-ab p .desc {width: 390px!important;}
+	.simulador-ab .check-texto {width: 410px!important;}
+	.simulador-ab .contenedor-consumo .cont-montos {width: 60%;}
+	.simulador-ab .cont-gris-oscuro {width: 98%; margin: 10px auto; float: none; display: block; padding: 5px 0!important;}
+    .simulador-ab .cont-gris-superior {width: 98%; margin: 30px auto 40px; display: block; background: #F7F7F7!important; }
+	.simulador-ab .cont-gris-consumo-bottom {width: 95%;}
+    .simulador-ab .bullts-01 { width: 66px; height: 17px; background: url(../img/bullts-sim.png) no-repeat 0 2px; margin: auto!important;}
+    .icon-alertNw {background-image:url("../img/icon-alertNw.png");background-position: 0px 1px;} 
+    .simulador-ab .contenedor-consumo { position: relative;}
+    .simulador-ab .tooltip-info .info-credito.tool-top{ top: -73px; right: -170px;}
+    .simulador-ab .tooltip-info .info-credito.tool-top:before {content:' ';z-index:2;display:block;border-top:7px solid #fff;;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top:68px;left:45px;}
+	.simulador-ab .tooltip-info .info-credito.tool-top:after {content:' ';z-index:1;display:block;border-top:7px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top:69px;left:45px;}
+
+  
+
+.simulador-ab .table.table-detalle.tab-res-sim { margin: 10px auto; width: 98%;  }
+.simulador-ab .bullts-02 { width: 66px; height: 17px; background: url(../img/bullts-sim.png) no-repeat 0 -13px; margin: auto!important;}
+
+.simulador-ab .bullts-03 { width: 66px; height: 17px; background: url(../img/bullts-sim.png) no-repeat 0 -34px; margin: auto!important; }
+
+.simulador-ab .fecha-cont { float: left; }
+.results2 .tooltip-info.tooltip-sobre { z-index:300!important; }
+
+.simulador-ab .benef-sim { width: 96%; border: solid 1px #ff7900; border-radius: 5px; padding: 10px; margin: 5px auto; display: table;}
+.simulador-ab .benef-sim .box-sim-40 { width: 40%; float: left; }
+.simulador-ab .benef-sim .box-sim-20 { width: 20%; float: left; padding: 5px 0 0;}
+.simulador-ab .benef-sim .box-sim-40 label { color: #ff7900; font-size: 14px;}
+.simulador-ab .benef-sim .box-sim-20 span { font-weight: bold; line-height: 12px; }
+.simulador-ab .benef-sim .box-sim-20 .icon-benef { margin-right: 15px; min-height: 30px; line-height: 30px;}
+.simulador-ab .benef-sim .box-sim-20 .icon-benef .icon-favorito-1 { background-position: -1178px 0; }
+.simulador-ab .contenedor-consumo .msj-chkbx .tooltip-info .dijitTooltipContainer  {  width: 210px!important; margin-top: -58px!important; left: 346px; top:64px; }
+.simulador-ab .contenedor-consumo .msj-chkbx #toolTipMsjContratar.tooltip-info .dijitTooltipConnector { left: 332px; top:26px; }
+.results2 .credito-cuotas .sep-detalle .tooltip-info {  z-index: 50; }
+.tltp-sobre {z-index: 100!important;}
+.simulador-ab .credito-cuotas .sep-detalle .tooltip-info .info-credito td { padding-left: 0px!important; }
+.simulador-ab .contenedor-consumo .box-consumo #toolTipValidaEmail .dijitTooltipConnector { background-position: 3px -35px!important; }
+.simulador-ab .modal-seguros .botonera { float:none; margin: auto!important; width:445px; }
+.simulador-ab .margen-sup-consumo { margin: 25px 0 0 20px; }
+.simulador-ab .contenedor-consumo .box-consumo #toolTipValidaEmail .dijitTooltipContainer { background-position: 3px -35px!important;  width: 153px!important;margin-top: -42px;}
+
+.simulador-ab .tooltip-info .info-credito.tool-top2 .recomendado { font-size: 11px!important; }
+.simulador-ab .tooltip-info .info-credito.tool-top2:before {content:' ';z-index:2;display:block;border-top:7px solid #fff;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 48px;left:45px;}
+.simulador-ab .tooltip-info .info-credito.tool-top2:after {content:' ';z-index:1;display:block;border-top:7px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;position:absolute;top: 49px;left:45px;}
+.contenedor-consumo .tooltip-info .info-credito.tool-top2 {top: -60px;right: -170px;}
+.simulador-ab .msj-chkbx #check1 { margin-top: 3px; }
+
+.simulador-ab .benef-sim .cont-benef { color: #000; font-size: 12px; }
+.simulador-ab .benef-sim .cont-benef p { font-weight: normal; }
+.simulador-ab .benef-sim .benef-desc { margin-top: 13px; line-height: 12px; }
+
+
+
+
+
+.simulador-ab .margen5-bottom { margin-bottom: 50px!important; }
+.simulador-ab .contenedor-consumo .cont-central .cont-cell-izq { width: 50%; }
+.simulador-ab .contenedor-consumo .cont-central .cont h2 { color: #ff7900; margin-bottom: 0px; font-weight: 500;}
+.simulador-ab .contenedor-consumo .table-detalle { background: #ebebeb; }
+.simulador-ab .contenedor-consumo .table-detalle td { font-size: 18px; padding-top: 10px; padding-bottom: 10px; }
+.simulador-ab .contenedor-consumo .table-detalle th { font-size: 14px; padding-top: 10px!important; }
+.simulador-ab .contenedor-consumo .cont-central { background: #f7f7f7; border: solid 1px #ddd; border-radius: 5px!important; width: 98%; border-spacing: 12px; border-collapse: separate; margin: auto; }
+.simulador-ab .contenedor-consumo .cont-central .cont { display: table-cell; width: 50%; }
+.simulador-ab .contenedor-consumo .cont-central .cont .results2 { border: solid 1px #ddd; }
+.simulador-ab .contenedor-consumo .cont-central .cont .results2 .subt-monto-Bruto { float: left;}
+.simulador-ab .contenedor-consumo .cont-central .cont .cont-midd { display: table-cell; width: 20px; }
+.simulador-ab .contenedor-consumo .cont-central .cont .monto-bruto span { margin-right: 4px; font-size: 16px; font-weight: bold; }
+.simulador-ab .contenedor-consumo .cont-central .results2 .sep-detalle td { padding: 0px 8px; }
+.top-loan .box-consumo.an-fijo { width: 280px!important; }
+.top-loan .box-consumo.an-fijo P{ font-size: 11px; line-height: 11px; color: #878787;}
+.simulador-ab .contenedor-consumo .cont-central.dcts-sim { width: 98%; border: solid 1px #ff7900; background: #fff; margin-top: -30px; }
+.simulador-ab .contenedor-consumo .cont-central.dcts-sim h3 { margin-bottom: 10px; }
+.simulador-ab .contenedor-consumo .cont-central.dcts-sim ul li { width: 12%; float: left; font-size: 11px; padding: 10px; font-weight: 500; line-height: 13px; }
+
+.simulador-ab .contenedor-consumo .cont-central.dcts-sim ul .lft { float: left; width: 25px; line-height: 40px; margin:10px 0; }
+.simulador-ab .contenedor-consumo .cont-central.dcts-sim ul .rgt { float: left; width: 75%; }
+.simulador-ab .msj-chkbx { background: #f3f3f3; padding: 10px; margin: 30px 0 50px; min-height: 50px;}
+.simulador-ab .msj-chkbx label{ width: 65%; padding: 15px 0 0; float: left; line-height: 20px;}
+.simulador-ab .msj-chkbx .dvchk { width: 7%; float: left; text-align: right; padding: 12px 5px; line-height: 20px; }
+.simulador-ab .msj-chkbx a { float: left;}
+.simulador-ab [class*="icon-grande"].icon-expirar { background-position: -1058px 0; }
+.simulador-ab .contenedor-consumo .icono-informacion { background: #668880; font-family: serif!important; }
+.wdt100 { width: 100%; }
+.simulador-ab .credito-cuotas.det-lft .icon-nav-right { margin-top: -1px; }
+.credito-cuotas.det-lft .sep-detalle td { padding-left: 30px!important; }
+.simulador-ab .credito-cuotas.det-lft .nota-valor td p { line-height: 12px; font-size: 11px; }
+.simulador-ab .table.table-detalle.tab-res-sim span { font-size: 18px; }
+.simulador-ab .rgt.tooltip-info .info-credito.tool-top.rgt  { top: -65px; right: -15px; }
+.simulador-ab  .rgt.tooltip-info .info-credito.tool-top { right: -85px; }
+
+.simulador-ab .rgt.tooltip-info .info-credito.tool-top:before {
+    content: ' ';
+    z-index: 2;
+    display: block;
+    border-top: 7px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 46px;
+    left: 108px;
+}
+
+.simulador-ab .rgt.tooltip-info .info-credito.tool-top:after {
+    content: ' ';
+    z-index: 1;
+    display: block;
+    border-top: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 47px;
+    left: 108px;
+}
+
+
+    
+.simulador-ab .rgt.tooltip-info .info-credito.tool-top { top: -55px!important; min-height: 25px; width: 230px; left: -60px; }
+
+
+.simulador-ab .rgt.tooltip-info .info-credito.tool-top.gde { width: 250px; left: -90px; top: -65px!important; min-height: 52px; }
+
+
+
+.simulador-ab .rgt.tooltip-info .info-credito.tool-top.gde:before {
+    content: ' ';
+    z-index: 2;
+    display: block;
+    border-top: 7px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+}
+
+.simulador-ab .rgt.tooltip-info .info-credito.tool-top.gde:after {
+    content: ' ';
+    z-index: 1;
+    display: block;
+    border-top: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 61px;
+    left: 110px;
+    
+}
+
+ .tltp-sobre { z-index: 100;}
+
+.simulador-ab .msj-error { width: 25%; color: red; margin: -45px auto 30px; text-align: center; line-height: 15px; }
+
+.simulador-ab .tab-res-sim .t-int { border-right: none!important; text-decoration: line-through; font-weight: initial; }
+
+
+  @media screen and ( max-width: 1200px) {
+        .simulador-ab .top-loan { width: 100%; }
+        .accion.enfatizar.margen-sup-consumo { margin-left: 0px!important; }
+        .simulador-ab .contenedor-consumo .cont-central { border-spacing: 8px; }
+        .simulador-ab .cols12.mrgn15 .top-loan .box-consumo { margin-right: 15px; }
+        .simulador-ab .contenedor-consumo .cont-central.dcts-sim ul .lft { float: none; width: 100%!important; text-align: center; }
+        .simulador-ab .contenedor-consumo .cont-central.dcts-sim ul .rgt { float: none; width: 100%; text-align: center; margin-top: 0px!important;}
+        .simulador-ab .contenedor-consumo .cont-central.dcts-sim ul li { text-align: center;}
+        .simulador-ab .contenedor-consumo .cont-central.dcts-sim ul li.w17 { width: 15%;}
+        .simulador-ab .msj-error { margin-right: 80px; text-align: center; margin-right: 50px;}
+        
+}   
+
+/* ==========================================================================
+   DETALLE SIMULADOR HACIA ABAJO
+   ========================================================================== */
+
+.cont-det-sim .modulo-medium .modulo-right .cuota-mensual { padding: 10px 0 0; border-bottom: none!important;}
+.cont-det-sim .modulo-medium .modulo-right .cuota-mensual { padding: 10px 0 0; border-bottom: none!important; font-weight: 400;}
+.cont-det-sim .modulo-medium .modulo-right .valor { font-weight: bold; padding-top: 5px; font-size: 20px;}
+.cont-det-sim .modulo-medium .modulo-right .table-comprobante td span { float: right; font-weight: bold; }
+.cont-det-sim .modulo-medium .modulo-right .table-comprobante .text-left p{ font-weight: 400; float: left; margin-right: 10px;}
+.cont-det-sim .modulo-medium .modulo-right .table-comprobante .text-left span{ font-weight: bold; float: left; }
+.cont-det-sim .modulo-medium .modulo-right .table-comprobante .text-right span{ font-weight: bold; float: right;}
+.cont-det-sim .modulo-medium .modulo-right .table-comprobante .text-right p { font-weight: 400; float: right; }
+.cont-det-sim .modulo-medium .modulo-left .mensaje-respuesta h3 { margin: 30px 0; }
+.cont-det-sim .modulo-medium .modulo-left .mensaje-respuesta { padding-bottom: 20px; height: 350px;}
+
+.cont-det-sim .modulo-medium .modulo-left .msj-retrc { margin-top: 120px; font-size: 11px; line-height: 11px; }
+.cont-det-sim .modulo-medium .modulo-right .table-comprobante.sello { background-position: center 80%;}
+.cont-det-sim .modulo-medium .modulo-right .title { font-size: 16px; }
+.cont-det-sim .modulo-medium .modulo-right .table-comprobante td.valor span { float: initial!important; text-align: center; margin-top: 7px; }
+.por-anual, .por-anual span {font-weight: 400;font-size: 13px!important; }
+.simulador-ab .cont-gris-superior .w-fjo p { width: 280px; font-size: 11px; line-height: 12px; color:#878787; }
+.simulador-ab .txt-naranjo { color: #ff7900!important; }
+.texto-segDesgravamen { margin-top: 8px; margin-left: 30px; }
+.simulador-ab .steps-simAB { width: 33%; height: 30px; float: left; }
+.simulador-ab .dijitCheckBox, .simulador-ab .dijitCheckBoxIcon { background: url("../img/checkboxStates.png")!important; background-repeat: no-repeat; width: 20px; height: 20px; margin: 0 2px 0 0; padding: 0; cursor: pointer; }
+.simulador-ab .dijitCheckBoxChecked, .simulador-ab .dijitToggleButtonChecked .dijitCheckBoxIcon { background-position: 83px!important; }
+.simulador-ab .dijitCheckBoxInput { margin-left: 5px!important; }
+
+#ffmm-datos td[name="BotonDeseoInvertir_ColumnData"] {position:relative;}
+#ffmm-datos td[name="BotonDeseoInvertir_ColumnData"].showTooltipFM a:hover:before {content:'El riesgo de este fondo es mayor al de tu perfil.';display:block;width: 140px;height: 50px;background:#fff;position:absolute;right: -128px;top: -12px;color: #373D45;font-size: 11px;font-weight: 300;border: 1px solid #ddd;border-radius: 6px;text-align:left;box-shadow: 0px 0px 4px 0px #DDD;padding: 6px;}
+#ffmm-datos td[name="BotonDeseoInvertir_ColumnData"].showTooltipFM a:hover:after {content:' ';display:block;border-top: 9px solid transparent;border-bottom: 9px solid transparent;border-right: 9px solid #fff;position: absolute;right: 25px;top: 11px;}
+.simulador-ab .mostar-detalle-monto .icon-desplega {display:block;width:10px;height:10px;border-top:0;border-bottom:2px solid #000;border-right:2px solid #000;-ms-transform: rotate(45deg);-webkit-transform: rotate(45deg);transform: rotate(45deg);}
+.simulador-ab .mostar-detalle-monto .icon-desplega.activado {float: right!important;border-top:2px solid #000;border-right:2px solid #000;border-bottom:0;-ms-transform: rotate(-45deg);-webkit-transform: rotate(-45deg);transform: rotate(-45deg);}
+.simulador-ab .td-collap {padding:10px  15px 4px; text-align: right; }
+.simulador-ab .link-icon-desplega {display:inline-block;}
+.simulador-ab #colapsable-cartola td { padding: 0px 0 0 15px; line-height:20px; }
+.simulador-ab .monto-total.mostar-detalle-monto td{padding-bottom: 0px!important;}
+.simulador-ab .sub-mb td { padding: 0 0 10px 10px!important; }
+.simulador-ab .monto-total.mostar-detalle-monto h2 {  }
+.simulador-ab #div-collapsible {border: solid 1px #ddd!important;border-radius: 5px;padding: 3px 10px 10px;background: #fff;}
+.simulador-ab .table .bg { background: #fff!important; }
+.simulador-ab .contenedor-consumo .monto-total {background: #fff!important;}
+.simulador-ab .results2.fecha-pago h3 { font-size: 12px; font-weight: 500; text-align: center;}
+.simulador-ab .results2.fecha-pago h3 span { color: #ff7900; font-weight: bold;}
+.simulador-ab .cont-fijo {min-height: 230px; max-height: 230px;}
+.simulador-ab .info-credito td { border: none!important; }
+.simulador-ab .tooltip-info:hover .info-credito { z-index: 10!important; }
+.simulador-ab .fecha-pago .icon-fecha { background: url("../img/icon-calendNw.png")!important; background-position: 0px 0px; }
+.simulador-ab .fecha-pago h3 { 14px!important; }
+.simulador-ab .table-detalle .THead th .tooltip-info { float: none!important; }
+.simulador-ab .cont-fijo .fecha-pago h3 { font-size: 14px!important; }
+.simulador-ab .THead th .tooltip-info .icono-informacion { font-size: 12px!important; font-weight: bold; }
+#warning-seguros.modal-seguros .modal-footer .botonera { width: 510px!important; float: none!important; }
+.modal-capa1PopUp .modal-seguros .modal-content {top: 0%!important;}
+.simulador-dos #webContent11 { float: left; padding-top: 0px!important; }
+.simulador-dos #webContent11 .recomendado {padding: 0px!important; margin: 0px!important; color: #333; font-size: 12px!important;}
+.simulador-dos .table-modal.contrato #webContent11 tr td { padding:2px 0px 0px; margin-left: -5px; }
+.simulador-ab .benef-sim .cont-benef {color: #000;font-size: 12px;width: 170px;}
+.simulador-ab .desgr-seg table td .recomendado { color: #373D45!important; margin-top: 0px!important; }
+.simulador-ab .margen4-bottom { margin-bottom: 40px!important; }
+.simulador-ab .desgr-seg { margin: -30px 0 -20px 12px };
+.simulador-ab .margen1-topNeg { margin-top: 10px!important; }
+.simulador-ab .w-09 { width: 9%!important; }
+.simulador-ab .w-14 { width: 14%!important; }
+.simulador-ab .w-20 { width: 20%!important; }
+
+
+
+
+/*posicion left nuevo tooltip notificaciones*/
+.nav-user-new .notificaciones .inew-tooltip .inew-tooltiptext {left: 12px;!important;}

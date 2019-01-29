@@ -1,0 +1,21 @@
+.wpthemeLeft {float: right;}
+.wpthemeRight {float: left;}
+.wpthemeHeader {text-align: right;}
+.wpthemeHeaderNav ul {padding: 0 5px 0 0;}
+.wpthemeEditControl{margin: 0 0 0 20px;}
+.wpthemePrimaryNav li {margin: 0 0 0 1px;}
+.wpthemeCommonActions > li {float: right;}
+.wpthemeCommonActions > li > span, 
+.wpthemeCommonActions li a, 
+.wpthemeCommonActions li a:active {border-left: 1px solid #4b4b4b;border-left: 1px solid rgba(255,255,255,.15);border-right: 0;padding: 0 0 0 10px;}
+.wpthemeSecondaryNav li{margin: 0 0 0 -1px;}
+.wpthemeSearch {margin: 8px 0 10px 20px;}
+.wpthemeSearch input.wpthemeSearchButton {	padding: 0 0 2px 2px;}
+.wpthemeControl .wpthemeControlHeader h2 {padding: 5px 0 5px 5px;}
+.wpthemeCol{margin: 0 20px 0 0;}
+.wpthemeRow {margin: 0 0 20px 20px; padding: 0 5px 0 0;}
+.wpthemeRow .wpthemeControl ,.hiddenWidgetsDiv .wpthemeControl {float: right; margin: 0 0 0 7.5px;}
+.wpthemeMainContent .hiddenWidgetsDiv {padding: 0 7.5px 0 0;}
+.hiddenWidgetsDiv .hiddenWidgetMessage {margin:0 0 7.5px -7.5px;}
+.wptheme_ie7 .wpthemeControl .wpthemeControlHeader h2 {float:right}
+.wptheme_ie7 .wpthemeControlHeader .wpthemeIcon {float:left}

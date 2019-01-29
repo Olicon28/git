@@ -1,0 +1,163 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+html .accion { 
+	display:inline-block;
+	width:auto;
+	height:29px;
+	padding:0 30px;
+	border:1px solid #C5C1C0;
+	border-radius:4px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:27px;
+	text-align:center;
+	color:#373D45;
+	cursor:pointer;
+	vertical-align:middle;
+	background: #E6E6E4;
+}
+
+/* ==========================================================================
+   BTN BAJA PRIORIDAD -GRIS
+   ========================================================================== */
+html .baja-prioridad { background:url(../img/bg-btn.jpg) repeat-x 0 0 #E6E6E4; }
+html .baja-prioridad:hover { background:url(../img/bg-btn.jpg) repeat-x 0 -29px #E6E6E4; border:1px solid #C5C1C0; }
+html .baja-prioridad:active { background:url(../img/bg-btn.jpg) repeat-x 0 -64px #E6E6E4; }
+html body .accion-small { height: 23px!important; line-height: 23px!important; font-size: 12px!important; padding: 0 20px; }
+
+/* ==========================================================================
+   BTN TRANSACCION - NARANJO
+   ========================================================================== */
+html .transaccion, 
+html .enfatizar {
+	color: #fff;
+} 
+
+html .transaccion { border: 1px solid #CB5E02; background:url(../img/bg-btn.jpg) repeat-x 0 -130px #FF7900; }
+html .transaccion:hover { background:url(../img/bg-btn.jpg) repeat-x 0 -97px #FF7900; border: 1px solid #CB5E02; }
+html .transaccion:active { background:url(../img/bg-btn.jpg) repeat-x 0 -163px #FF7900; }
+
+/* ==========================================================================
+   BTN ACCION - NEGRO
+   ========================================================================== */
+html .enfatizar { border:1px solid #676565; background:url(../img/bg-btn.jpg) repeat-x 0 -228px #2F2F2F; }
+html .enfatizar:hover { background:url(../img/bg-btn.jpg) repeat-x 0 -195px #2F2F2F; border:1px solid #676565; }
+html .enfatizar:active { background:url(../img/bg-btn.jpg) repeat-x 0 -261px #2F2F2F; }
+
+/* ==========================================================================
+   BTN LINK
+   ========================================================================== */
+
+html .accion-link {
+	background:none;
+	border:none;
+	text-shadow:none;
+	padding: 0;
+}
+
+html .accion-link:hover {
+	text-decoration:underline;
+	background:none;
+}
+
+html a.accion { height: 27px; text-decoration: none; }
+
+/* ==========================================================================
+   BTN BLOCK
+   ========================================================================== */
+html .accion-block{ 
+	display:block;
+	/*width:100%;*/
+}
+
+/* ==========================================================================
+   BTN DISABLED
+   ========================================================================== */
+html .accion.disabled {
+    text-shadow:none;
+    cursor:default;
+	color:#999;
+	border: 1px solid #DDD;
+	background:url(../img/bg-btn.jpg) repeat-x 0 0 #E6E6E4;
+}
+
+html .accion.disabled:hover, .btn-disabled:active {
+	text-decoration:none;
+	color:#999;
+	border: 1px solid #DDD;
+	background:url(../img/bg-btn.jpg) repeat-x 0 0 #E6E6E4;
+}
+
+html .accion.disabled2 {
+    text-shadow:none;
+    cursor:pointer;
+	color:#999;
+	border: 1px solid #DDD;
+	background:url(../img/bg-btn.jpg) repeat-x 0 0 #E6E6E4;
+}
+
+html .accion.disabled2:hover, .btn-disabled2:active {
+	text-decoration:none;
+    cursor:pointer;
+	color:#999;
+	border: 1px solid #DDD;
+	background:url(../img/bg-btn.jpg) repeat-x 0 0 #E6E6E4;
+}
+
+html button.accion, 
+html input.accion[type="submit"],
+html input.accion[type="button"] {
+	line-height: 20px;	
+}
+
+.botones {
+    clear: both;
+}
+.botones .accion,
+.botones .volver {
+    float: right;
+} 
+ 
+.botones .volver {
+    line-height: 30px;
+    text-decoration: underline;
+}
+ 
+.botones .accion { margin-left: 20px; }
+
+
+/* ==========================================================================
+   BTN ACCION SMALL
+   ========================================================================== */
+/*html a.accion-small, 
+html button.accion-small  { 
+	color: #313945;
+	font-size: 12px;
+	font-weight: bold;
+	height: 24px;
+	line-height: 23px;
+	background: url(../img/btn-accion-small.jpg) repeat-x 0 3px #fff;
+}
+html a.accion-small:hover, 
+html button.accion-small:active {
+	color: #F07B25; 
+}*/
+
+
+.botones {
+	clear: both;
+}
+.botones .accion,
+.botones .volver {
+	float: right;
+} 
+
+.botones .volver {
+	line-height: 30px;
+	text-decoration: underline;
+}
+
+.botones .accion { margin-left: 20px; }

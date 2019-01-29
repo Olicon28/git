@@ -1,0 +1,635 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+/* ==========================================================================
+   PORLET
+   ========================================================================== */
+.porlet { 
+	background: #FFF; 
+	/*position: relative;*/
+	margin-bottom: 20px;
+}
+
+.porlet:last-child {
+	margin-bottom: 0;
+}
+
+/* ==========================================================================
+   PORLET HEADER
+   ========================================================================== */
+.porlet-header { 
+	background: url(../img/bg-porlet-header.png) 0 0 repeat-x; 
+	height: 30px;
+	padding: 0 0 0 10px;
+	line-height: 40px; 	
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+} 
+
+.porlet-header .mostrar-porlet { 
+	padding: 0 10px;
+	height:30px;
+	width: 15px;
+}
+
+.porlet-header [class*="drop-"] { 
+	line-height: auto;
+}
+
+.porlet-header .activado {
+    background-position: -330px 0;
+}
+
+.porlet-header .configurar {
+	height:30px;
+	margin-right: 20px;
+}
+
+.porlet-header .configurar i,
+.porlet-header .mostrar-porlet i {
+	display: block;
+	margin-top: 8px;
+}
+
+.porlet-header form {
+	margin-top:5px;
+	height: 30px;
+}
+.porlet-header h3 {
+	line-height: 32px;
+	height: 30px;
+}
+
+.porlet-header input { margin-top:0;}
+
+/* ==========================================================================
+   PORLET CONTENT
+   ========================================================================== */
+
+/* 
+++ RWEB RW-479 HOME COLAPSABLE ++ 
+.porlet-content { 
+overflow: initial!important;
+}
+*/
+
+#asignar-permisos .porlet-content {overflow:hidden!important;}
+.porlet-content img {
+	width: 100%;
+}
+.porlet-content td a {
+	text-decoration: underline;
+	color: #79808B;
+}
+.porlet-content td a:hover {
+	color: #333;
+}
+.valores-porlet {
+	float: left;
+	left: 50%;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+.valores-porlet li {
+	font-size: 20px;
+	float: left;
+	position: relative;
+	right: 50%;
+	text-align: center;
+	color: #32434D;
+}
+.valores-porlet li span {
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	clear: both;
+	color: #999;
+}
+.porlet-content .valores-dos li + li {
+	margin-left: 85px;
+	padding-left: 85px;
+}
+.porlet-content .valores-tres li + li {
+	margin-left: 60px;
+	padding-left: 60px;
+}
+/*#porlet-resumen table td:first-child { 
+	width:50%; 
+	}*/
+
+#porlet-resumen table td:nth-child(2),
+#porlet-resumen table td:nth-child(2) {
+	width:25%;
+}
+
+#porlet-resumen table {
+	margin: 20px 0;
+}
+
+/* ==========================================================================
+   porlet FOOTER
+   ========================================================================== */
+.porlet-footer { 
+	background: #EDEDED; 
+	height: 30px;
+	padding: 0 10px!important;
+	line-height: 30px;
+	overflow: hidden;
+	color: #32434C;
+	clear: both;
+}
+
+.porlet-footer a {
+	color: #7A828C;
+	text-decoration: underline;
+}
+
+.porlet-footer a:hover {
+	color: #333;
+}
+
+#porlet-resumen .porlet-content,
+#porlet-resumen .porlet-footer {
+	display: block;	
+}
+
+/* ==========================================================================
+   CONFIGURAR PORLET HEADER
+   ========================================================================== */
+.configurar-header { 
+	height: 30px;
+	padding: 0 0 0 10px;
+	line-height: 40px; 
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+} 
+
+.configurar-header i {
+ 	background-image: url(../img/icon-gris.png);
+ }
+
+.configurar-header .cerrar-config { 
+	padding: 0 10px;
+	height: 30px;
+}
+
+.configurar-header .cerrar-config i {
+	display: block;
+	margin-top: 12px;
+}
+
+.porlet-configurar .configurar-header a i {
+	margin: 7px 0 0 0;
+}
+.porlet-configurar h3 {
+	line-height: 28px;
+}
+
+/* ==========================================================================
+   CONFIGURAR PORLET
+   ========================================================================== */
+.porlet-configurar {
+	background: #FAFAFA;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-order-radius: 5px;
+}
+
+/* ==========================================================================
+   CONFIGURAR PORLET CONTENT
+   ========================================================================== */
+.configurar-content {
+	padding:20px 40px;
+	background: #FAFAFA;
+	color: #373D45;
+	overflow-y: scroll;
+	height: 80%; 
+}
+
+.configurar-content p {
+	font-size: 15px; 
+}
+
+.configurar-content .ajustes {
+	margin: 20px 0;
+}
+
+.configurar-content .ajustes li {
+	float: left;
+	width: 206px;
+	margin-bottom: 5px;
+}
+
+.configurar-content .ajustes li * {
+	float: left;
+}
+
+.configurar-content .ajustes label {
+	margin-left: 5px;
+	width: 150px;
+	line-height: 15px;
+}
+
+/* ==========================================================================
+   PORLET - CONFIGURAR
+   ========================================================================== */
+.ajustes-config {
+	margin-top: 20px;
+}
+
+.ajustes-config .border-bottom {
+	border-bottom: 1px solid #CCC;
+}
+.ajustes-config label {
+	font-weight: normal;
+} 
+
+.ajustes-config h4 {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.ajustes-config li input {
+	margin: 3px 5px 0 2px;
+}
+
+.ajustes-config li input,
+.ajustes-config li label {
+	float: left;
+}
+
+.configurar-content button {
+	float: right;
+	clear: both;
+}
+
+
+/* ==========================================================================
+   BALANCE
+   ========================================================================== */
+#grap-balance {
+	width: 460px;
+	padding: 10px;
+	float: right;
+}
+
+.datos-balance {
+	width: 175px;
+	float: left;
+	margin-left: 20px;
+}
+
+.datos-balance li span {
+	display: block;
+}
+
+.datos-balance li {
+	margin-top: 35px;
+	text-align: center;
+}
+
+.datos-balance .valor {
+	font-size: 20px;
+}
+
+.datos-balance .detalle {
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	padding-left: 0;
+	width: auto;
+}
+
+
+
+/*NAV HEADER*/
+.nav-header, 
+.nav-header .dijitButtonText {
+	font-weight: bold;	
+}
+
+.nav-header .dijitButtonNode, 
+.nav-header span { 
+	float: left; 
+	line-height: 40px;
+}
+
+.nav-header {
+	height: 40px;
+	/*line-height: 40px;*/
+	padding: 0 10px;
+	position: relative;
+	font-size: 13px;
+	border-radius: 5px 5px 0 0; 
+}
+
+.nav-header:hover {
+	background: #FFF;
+}
+
+.nav-header a {
+    /*display: block;*/
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 25px;
+}
+ 
+.nav-header a:hover {
+    text-decoration: none;
+}
+
+.nav-header i {
+	margin-right: 10px;
+}
+
+.nav-header .icon-accion {
+	margin-right: 0;
+}
+
+.nav-header button {
+	background: none;
+	border: 0 none;
+}
+
+.nav-header .dijitButtonText {
+	display: block;
+	cursor: pointer;
+	margin-left: -5px;
+}
+
+
+
+.activado-menu-lateral:hover {
+	background: none;
+}
+
+.activado-menu-lateral i {
+ 	background-image: url("../img/icon-naranjo.png") !important;
+}
+.nav-sidebar .activado-menu-lateral i.icon-accion {
+	background-position: -915px 0;
+} 
+
+.nav-header input,
+.nav-header .dijitToggleButtonIconChar {
+	display: none;
+}
+
+.nav-header .icon-accion {
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+
+/*NAV CONTENT*/
+.nav-content {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.nav-content .selectBox {
+	width: 200px;
+}
+
+.nav-content .accion {
+	width: 202px;
+}
+
+.nav-content form,
+.nav-content fieldset {
+	float: left;
+}
+
+.nav-content .bloque {
+	display: block;
+	overflow: hidden;
+}
+
+.nav-content .bloque label {
+	line-height: 29px;
+}
+
+.porlet i {
+	margin-right: 10px;
+}
+/* ==========================================================================
+   PORLET INVERSIONES
+   ========================================================================== */
+/* HEADER */ 
+#inversiones .titulo{
+	float: left;
+	width: 260px;
+	padding: 30px 0 0 10px;
+}
+#inversiones .titulo h3 {
+	font-size: 20px;
+	font-weight: normal;
+}
+.titulo .datos {
+	margin-top: 40px;
+}
+.titulo .datos ul {
+	margin-top: 20px;
+}
+#inversiones .titulo ul li i { 
+	display: block;
+    float: left;
+    height: 10px;
+    margin: 5px 5px 0 0;
+    width: 10px;
+    background: url(../img/ico-colores-inversiones.jpg) no-repeat;
+}
+ 
+#inversiones .titulo i.naranjo { background-position: 0 0; }
+#inversiones .titulo i.azul	   { background-position: -10px 0; }
+#inversiones .titulo i.blanco  { background-position: -20px 0; }
+#inversiones .titulo i.gris	   { background-position: -30px 0; }
+
+#inversiones .porlet {
+	border: none;
+}
+/*#inversiones .porlet-header {
+	border: 1px solid #ddd; 
+}*/
+#inversiones .porlet-header h2 {
+	/*border-right: 1px solid #ddd;*/
+    margin: 0;
+    padding-right: 20px;
+}
+.datos-head {
+	float: left;
+	margin: 0 14px;
+}
+.datos-head p {
+	float: left;
+    font-size: 11px;
+    color: #797F8C;
+}
+.destacado-head {
+	padding: 4px 8px;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	font-size: 11px;
+	color: #797F8C;
+	overflow: hidden;
+}
+
+.destacado-head p {
+	line-height: 13px;
+}
+
+.destacado-head .ver-todo {
+	float: right;
+	text-decoration: underline;
+}
+
+.destacado-head p span {
+	margin: 0 10px; 
+}
+
+
+/* CONTENIDOS */
+.porlet-inversiones-contenido {
+	/*border: 1px solid #ddd;*/
+	border-top: none;
+	background: #fff;
+	overflow: hidden;
+	display: block;
+}
+.porlet-inversiones-contenido .center .table td {
+	padding: 10px 30px;
+}
+.porlet-inversiones-contenido .center .table td.no-border {
+	border-right:none;
+}
+.porlet-inversiones-contenido .table-inversiones th {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.porlet-inversiones-contenido .right h3 {
+	font-size: 14px;
+	font-weight: normal;
+}
+.porlet-inversiones-contenido .center .table  {
+	padding: 10px 20px; 
+}
+.porlet-inversiones-contenido.mitad .left,
+.porlet-inversiones-contenido.mitad .right {
+	width: 326px;
+	float: left;
+}
+
+.porlet-inversiones-contenido.mitad .right {
+	text-align: center;
+}
+
+.porlet-inversiones-contenido .left,
+.porlet-inversiones-contenido .right,
+.porlet-inversiones-contenido.mitad .left,
+.porlet-inversiones-contenido.mitad .right {
+	padding: 10px;
+}
+/*.porlet-inversiones-contenido .left {
+	float: left;
+	width: 460px;
+}*/
+.porlet-inversiones-contenido .right {
+	padding: 20px;
+    width: 174px;
+	float: right;
+}
+.porlet-inversiones-contenido .right ul li{
+	padding-left: 12px;
+	background: url(../img/bullet-inv.jpg) left center no-repeat;
+}
+.nav-header-mini {
+	font-size: 11px;
+    height: auto;
+    line-height: 14px;
+    padding: 10px;
+}
+.nav-header-mini i { margin-top: -5px;}
+
+/* FOOTER */
+.porlet-inversiones-footer {
+	height: 30px;
+	border-top: none; 
+	overflow: hidden;
+	padding: 0 10px;
+	background: url(../img/bg-porlet-header.png) repeat-x 0 0 ;
+}
+.porlet-inversiones-footer a {
+	display: block;
+	font-size: 12px; 
+	font-weight: bold;
+	margin-top: 4px;
+}
+.porlet-inversiones-footer a i {
+	margin-top: -2px;
+}
+/* ==========================================================================
+   PORLET SEGUROS
+   ========================================================================== */
+.porlet .porlet-footer-info {
+	height: auto;
+	border-radius:0 0 5px 5px;
+}
+.porlet-content.seguros {
+	background: #fff;
+}
+/* ==========================================================================
+   ACORDEON 
+   ========================================================================== */
+.acordeon {
+	border-bottom: none;
+	overflow: hidden;
+	margin:0 10px 10px 10px;
+}
+
+.acordeon .acordeon-head {
+	cursor: pointer;
+	padding: 10px 20px 20px;
+	height: 10px;
+	background: #fff;
+}
+.acordeon .acordeon-head i {
+	float: left;
+	margin-right: 10px;
+}
+.acordeon .acordeon-head:hover {
+	box-shadow: 0px 1px 1px #ccc inset;
+}
+.acordeon .acordeon-content {
+	background: #F6F5F2;
+	padding: 20px;
+}
+.acordeon input[type="radio"] {
+	margin-right: 10px;
+}
+
+.acordeon .acordeon-content table {
+	background: #fff;
+}
+
+.th1 		{ width: 30% !important;  }
+.th2, .th3 	{ width: 22%!important; }
+.th3 		{ /*padding-left: 2%;*/ }
+
+.cont-table-porlet + .cont-table-porlet {
+	margin-top: 20px;
+}
+
+

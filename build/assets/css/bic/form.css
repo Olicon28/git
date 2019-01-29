@@ -1,0 +1,906 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+/* ==========================================================================
+   FORM
+   ========================================================================== */
+form { margin: 0 }
+fieldset { padding: 0; margin: 0; border: 0; }
+legend { display:none; }
+form .block { clear: both; }
+p > input[type="radio"],
+p > input[type="checkbox"] {
+  margin-top: -2px;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-weight: normal;
+  line-height: 20px;
+}
+input,
+button,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+label small { font-weight: normal; }
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  display: inline-block;
+  width: 90%!important;
+  height: 20px;
+  padding: 4px 6px!important;
+  margin-bottom: 10px;
+  line-height: 20px;
+  color: #555555;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.claro .dijitTextArea,
+.claro textarea { 
+  min-height: 80px!important; 
+  border: 1px solid #CCC!important;
+}
+
+textarea { height: 80px; resize:none; }
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #FFF!important;
+  border: 1px solid #cccccc!important;
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+  -moz-transition: border linear .2s, box-shadow linear .2s;
+  -o-transition: border linear .2s, box-shadow linear .2s;
+  transition: border linear .2s, box-shadow linear .2s;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+  border-color: rgba(244, 121, 32, 0.8)!important;
+  outline: 0;
+  outline: thin dotted \9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(244, 121, 32,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(244, 121, 32,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(244, 121, 32,.6);
+  border: 1px solid #F3791F \9!important;
+  outline: none;
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+select,
+input[type="file"] {
+   height: 30px;
+   line-height: 30px;
+}
+select {
+  width: 220px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  font-size:12px;
+}
+
+select[multiple],
+select[size] {
+  height: auto;
+}
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+input:-moz-placeholder, 
+input:-ms-input-placeholder, 
+input::-webkit-input-placeholder,
+textarea:-moz-placeholder,
+textarea:-ms-input-placeholder,
+textarea::-webkit-input-placeholder 
+{ 
+  color: #999999;
+}
+
+input[class*="span"],
+select[class*="span"],
+textarea[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+
+input,
+textarea {
+  margin-left: 0;
+}
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][readonly],
+input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+
+input:focus:invalid,
+textarea:focus:invalid,
+select:focus:invalid {
+  color: #b94a48;
+  border-color: #ee5f5b;
+}
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0 0 6px #f8b9b7;
+  -moz-box-shadow: 0 0 6px #f8b9b7;
+  box-shadow: 0 0 6px #f8b9b7;
+}  
+
+
+/* ==========================================================================
+   TAMAÑOS INPUT
+   ========================================================================== */
+
+.input-mini input[type="text"],
+.input-mini input[type="password"],
+.input-mini .dijitInputInner,
+.textarea-mini textarea   
+  { width:  46px!important; }
+  
+.input-small input[type="text"],
+.input-small input[type="password"],
+.input-small .dijitInputInner,
+.textarea-small textarea        
+  { width:  82px!important; }
+  
+.input-medium input[type="text"],
+.input-medium input[type="password"],
+.input-medium .dijitInputInner,
+.textarea-medium textarea     
+  { width: 136px!important; }
+  
+.input-large input[type="text"],
+.input-large input[type="password"],
+.input-large .dijitInputInner,
+.textarea-large textarea    
+  { width: 196px!important; }
+  
+.input-xlarge input[type="text"],
+.input-xlarge input[type="password"],
+.input-xlarge .dijitInputInner,
+.textarea-xlarge textarea     
+  { width: 256px!important; }
+  
+.input-xxlarge input[type="text"],
+.input-xxlarge input[type="password"],
+.input-xxlarge .dijitInputInner,
+.textarea-xxlarge textarea  
+  { width: 516px!important; }
+ 
+ 
+.input-xxxlarge input[type="text"],
+.input-xxxlarge input[type="password"],
+.input-xxxlarge .dijitInputInner,
+.textarea-xxlarge textarea  
+  { width: 556px!important; } 
+  
+.input-block input[type="text"],
+.input-block input[type="password"],
+.input-block .dijitInputInner,
+.textarea-block textarea 
+  { 
+    display:block;
+    width: 94%!important;
+}
+  
+.input-icode input[type="text"],
+.input-icode input[type="password"],
+.input-icode .dijitInputInner     
+  { width:42px!important; text-align:center; }
+
+
+/*agregado 31 de mayo*/ 
+.label-small-left label {
+    width: 100px;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 14px;
+    float: left;
+}
+.label-small-left input {
+    float: left;
+}
+.label-small-left .form-xlarge {
+    width: 490px;
+    width: 500px\0/; /* ie8 hack */
+    margin: 0 auto 40px;
+
+}
+
+.label-small-left .form-xlarge h4 {
+  margin-bottom: 20px;
+}
+
+.bloque-alto .radio-button,
+.bloque-xalto .radio-button {
+     width: 20px;
+ }
+.bloque-alto label .min-label,
+.bloque-xalto label .min-label {
+    width: 100px;
+}
+  
+/* ==========================================================================
+   TAMAÑOS COMBOBOX
+   ========================================================================== */  
+html .select-xsmall  { width: 47px; }
+html .select-small   { width: 96px; }
+html .select-medium  { width: 180px; }
+html .select-large   { width: 196px; }
+html .select-xlarge  { width: 268px; }
+html .select-xxlarge { width: 516px; }
+
+html .select-small select { width: 100px; }
+
+/* ==========================================================================
+   DISEÑO COMBOBOX
+   ========================================================================== */
+html .select-small .box   { width: 64px; }
+html .select-medium .box  { width: 148px; }
+html .select-large .box   { width: 140px; }
+html .select-xlarge .box  { width: 260px; }
+html .select-xxlarge .box { width: 400px; }
+
+.dj_webkit .selectBox select { left: 10px; }
+.dj_safari .selectBox select { margin-top:-3px; }
+
+.selectBox {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  position: relative;
+  height: 28px;
+  border-radius: 4px;
+  background:url(../img/bg-btn-combobox.jpg) right no-repeat #fff;
+}
+.selectBox * {
+  color: #555;
+
+}
+.selectBox .box {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.selectBox select {
+  width: 100%;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  border: 1px solid #036;
+  cursor: pointer;
+  z-index:100;
+  opacity: 0;
+  filter: alpha(Opacity=0);
+  -moz-opacity: 0;
+}
+.selectBox select option{
+  cursor: pointer;
+}
+/* ==========================================================================
+   LABEL LEFT
+   ========================================================================== */
+
+.label-left label {
+  width: 200px;
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  float: left;  
+}
+
+.label-left input,
+.label-left textarea,
+.label-left .selectBox {
+  float: left;
+}
+
+.label-left .form-xxlarge,
+.label-left .form-xlarge,
+.label-left .form-large {
+  margin: 0 auto; 
+}
+
+.label-left .form-xxlarge { width: 750px; }
+.label-left .form-xlarge  { width: 490px; }
+.label-left .form-large  { width: 430px; }
+
+/* ==========================================================================
+   BLOQUES SMALL - LARGE
+   ========================================================================== */
+.bloque {
+  clear: both;
+}
+.bloque-large {
+  padding-right:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+.bloque-small {
+  float: right;
+  width: 282px;
+  margin-right: 28px;
+}
+.bloque-large label {
+  margin-left: 50px;
+    width: 170px;
+}
+.contenedor-inline input {
+  float: none;
+  width: auto;
+  margin-right: 5px;
+}
+.contenedor-inline {
+  margin-bottom:10px;
+}
+.contenedor-inline span {
+}
+.monto-small {
+    float: right;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+/* ==========================================================================
+   FORM INLINE
+   ========================================================================== */
+
+.form-inline { clear: both; }
+.form-inline .bloque { margin-bottom: 10px; width: 678px; float: left; clear: both; }
+
+.form-inline .bloque .text-small { margin-top:5px; }
+
+
+.form-inline .left { width: 265px!important; float: left; }
+  .form-inline .left label { float: right; clear: both; margin-top: 3px;}
+  .form-inline .left label.condenssed { line-height: 14px; }
+
+.form-inline .right { width: 400px; float: right; }
+  .form-inline .right p, .form-inline .right input { margin-bottom: 0; }
+  .form-inline .right p input[type="checkbox"], .form-inline .right p input[type="radio"] { margin-top: -1px; }
+
+
+  .form-inline .right .selectBox { margin-bottom: 0; }
+
+  .form-inline .dato-fijo { margin-top: 3px; }
+
+  .form-inline h3 { clear: both; }
+
+  .cont-button {
+    width: 270px;
+    float: right;
+    margin-right: 130px;
+    line-height: 30px;
+  }
+
+    .cont-button .volver {
+      float: right; margin-right: 10px;
+    }
+
+
+.form-inline .legal-bloque  {
+  float: left;
+  width: 270px;
+  margin-left: 278px;
+}
+
+.form-inline .legal-bloque small {
+  line-height: 14px;
+}
+
+.form-inline .bloque .accion {
+  float: right;
+}
+
+.form-inline .bloque-accion {
+  width: 550px;
+}
+
+.form-inline .bloque-accion2 {
+  width: 548px;
+}
+
+.form-inline .bloque-accion2 .accion {
+  float: right;
+}
+
+
+
+/* ==========================================================================
+   FORM DATOS
+   ========================================================================== */
+.form-datos { width: 678px; float: left; clear: both; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #DDD; }
+  
+  .form-datos h3 { margin-bottom: 10px; }
+  .form-datos label { font-weight: normal; }
+  .form-datos input[type="radio"] { margin-top: -3px; }
+  .form-datos input[type="text"] { width:316px; margin-bottom: 0; }
+
+  .form-datos .form-left {
+    width: 330px;
+    float: left;
+  }
+
+  .form-datos .form-right {
+    width: 330px;
+    float: right;
+  }
+
+
+.disabled input[type="text"],
+.disabled select {
+  cursor: not-allowed;
+  background: #EEE;
+}
+
+.selectBox.disabled * {
+  cursor: not-allowed;
+}
+
+.modulo-medium .modulo-right .input-xlarge input[type="text"] {
+  width: 312px;
+}
+
+/* ==========================================================================
+   FORM COLUMNA
+   ========================================================================== */
+.modulo-medium .form-columna input[type="text"] { width: 316px; }
+.modulo-medium .form-columna .selectBox { width: 327px; }
+
+.form-columna .accion { float: right; }
+
+
+/* ==========================================================================
+   FORM CLASSIC
+   ========================================================================== */
+.form-classic {
+  
+}
+
+.form-classic .bloque {
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   FORM COLUMNAS
+   ========================================================================== */
+#form-deposito-dap {
+  margin:0 auto;
+  overflow: hidden;
+}
+
+#form-deposito-dap h3 { margin: 20px 0; }
+#form-deposito-dap  .text-small { font-size: 10px; line-height: 11px; }
+
+#form-deposito-dap .datos1 .bloque {  width: 250px; }
+#form-deposito-dap .bloque { float: left; clear: none;  margin-right: 20px;}
+#form-deposito-dap .bloque  .input-calendario { margin-right: 0;}
+
+
+#form-deposito-dap .datos-separa {
+  clear: both;
+  float: left;
+  margin-bottom: 20px;
+  width: 600px;
+}
+
+
+.form-columna { clear: both; }
+
+/*FORMULARIO CGF*/
+.formulario-cgf,
+.form-cont-cge {
+  width: 650px;
+  display:table;
+}
+
+.formulario-cgf {
+  margin: 0 auto;
+}
+
+.form-cont-cge {
+  margin-bottom: 10px;
+  float: left;
+  clear: both;
+}
+
+.form-cont-cge .left-cgf {
+  float: left;
+  width: 200px; 
+  text-align: right;
+}
+
+.form-cont-cge .right-cgf {
+  float: right;
+  width: 440px;
+}
+.right-cgf .continuar {
+  margin-right: 18px;
+  float: right;
+}
+
+.formulario-cgf #direccion li {
+  float: left;
+  margin-right: 10px;
+}
+.formulario-cgf #divDireccion li {
+float: left;
+margin-right: 10px;
+}
+
+.descarga-cge {
+  width: 520px; /*cambio de 500px 30052014*/
+  clear: both;
+  margin: 20px auto;
+}
+
+.form-cgf-paso2 {
+  width: 656px;
+  margin: 0 auto;
+}
+
+.cont-cgf2 {
+  float: left;
+  clear: both;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDD;
+}
+
+.form-cgf-paso2 .cgf2-dato {
+  float: left;
+  margin-right: 8px;
+  width:130px;
+}
+.form-cgf-paso2 .formDatoFijo {width:64px;}
+.form-cgf-paso2 .select-small {width: 96px!important;}
+
+.cont-cgf2 .selectBox,
+.cont-cgf2 input {
+  margin-bottom: 0;
+}
+
+.form-cgf-paso2 .accion,
+.form-cgf3 .accion {
+  float: right;
+  clear: both;
+}
+
+#agrega-cuenta {
+  clear: both;
+}
+
+/*PASO 3*/
+
+.form-cgf3 {
+  margin-left: 10px;
+}
+
+.form-cgf3,
+.cgf3-datos {
+  float: left;
+  clear: both;
+  width: 678px;
+}
+
+.cgf3-datos input[type="text"],
+.cgf3-datos .selectBox {
+  margin-bottom: 0;
+}
+
+.cgf3-datos {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.form-cgf3 .tipo {
+  width: 80px;
+}
+
+.form-cgf3 .tipo,
+.form-cgf3 .direccion,
+.form-cgf3 .region,
+.form-cgf3 .comuna {
+  float: left;
+}
+
+.form-cgf3 .direccion,
+.form-cgf3 .comuna {
+  margin: 0 10px;
+}
+
+.form-cgf3 .tipo label {
+  line-height: 30px;
+}
+
+.form-cgf3 .tipo input {
+  margin: 7px 5px 0 0;
+}
+
+.form-cgf3 .tipo input,
+.form-cgf3 .tipo label {
+  float: left;
+}
+
+.form-cgf3 .direccion .calle input  { width: 190px!important; }
+.form-cgf3 .direccion .numero input { width: 49px!important; margin:0 5px; }
+.form-cgf3 .direccion .depto input  { width: 60px!important; }
+
+.form-cgf3 .direccion li {
+  float: left;
+}
+
+.form-cgf3 .region .selectBox,
+.form-cgf3 .comuna .selectBox {
+  width: 146px;
+}
+
+
+.error-dato input[type="text"],
+.error-dato input[type="password"] {
+  border: 1px solid rgba(244, 121, 32, 0.8)!important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(244, 121, 32,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(244, 121, 32,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(244, 121, 32,.6);
+}
+
+#solicitud-tarjeta .form-inline {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+.cont-solictud {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+  clear: both;
+}
+
+.cont-solictud .bloque-left {
+  float: left;
+  width: 290px;
+  text-align: right;
+}
+
+.cont-solictud .bloque-right {
+  float: right;
+  width: 300px;
+} 
+
+.cont-solictud label {
+  line-height: 30px;
+}
+
+.cont-solictud .last label {
+  line-height: 14px;
+}
+
+#solicitud-tarjeta .accion {
+  float: right;
+  margin: 20px 30px 0 0;
+}
+
+
+#ffmm-contrato-general-fondos .tipo {
+  width: 100%;
+}
+#ffmm-contrato-general-fondos .direccion {
+  margin-left: 0px;
+}
+
+
+/* ==========================================================================
+   FORM SOLICITAR
+   ========================================================================== */
+#form-solicitar {
+  width: 600px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+#form-solicitar .solicitar {
+  width: 600px;
+  float: left;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+#form-solicitar .left-solicitar {
+  float: left;
+  text-align: right;
+  width: 200px;
+}
+
+#form-solicitar .left-solicitar label {
+  line-height: 30px;
+}
+
+#form-solicitar .right-solicitar {
+  float: right;
+  width: 380px;
+}
+
+#form-solicitar input {
+  margin-bottom: 5px;
+}
+
+#form-solicitar .accion {
+  float: right;
+  margin-right: 23px;
+}
+
+#filtro-pago-cobranza {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#filtro-pago-cobranza label {
+  float: left;
+  line-height: 30px;
+}
+
+#filtro-pago-cobranza .selectBox {
+  float: right;
+}
+
+/* ==========================================================================
+   FILTRO OPERACIONES
+   ========================================================================== */
+#filtro-operaciones {
+  width: 610px;
+  margin: 0 auto;
+}
+
+
+#filtro-operaciones label,
+#filtro-operaciones .selectBox {
+  float: left;
+}
+#filtro-operaciones .operaciones {float:right;}
+#filtro-operaciones label {
+  line-height: 30px;
+  margin-right: 10px;
+}
+/*
+#filtro-operaciones .operaciones + .operaciones {margin-left: 30px;}*/
+
+#filtro-operaciones > .operaciones {
+  margin-left: 30px;
+}
+
+#filtro-operaciones .operaciones .accion {
+  margin-top: 0;
+}
+
+/* ==========================================================================
+   FILTRO DOCUMENTOS CANCELADOS
+   ========================================================================== */
+#filtro-doc-cancelados {
+  width: 520px;
+  margin: 0 auto;
+}
+
+#filtro-doc-cancelados label,
+#filtro-doc-cancelados .operaciones,
+#filtro-doc-cancelados .selectBox  {
+  float: left;
+}
+
+#filtro-doc-cancelados .operaciones,
+#filtro-doc-cancelados .operaciones .mes-anios {
+  width: 260px;
+}
+/*
+#filtro-doc-cancelados input[type="text"] {
+  width: 93px!important;
+}
+*/
+
+#filtro-doc-cancelados label {
+  width: 112px;
+  padding-right: 10px;
+  margin: 0;
+  text-align: right;
+  line-height: 30px;
+}
+/*
+#filtro-doc-cancelados .selectBox {
+  width: 106px;
+}
+*/
+#filtro-doc-cancelados .accion {
+  margin-right: 30px;
+}
+.consultar-right {
+    padding-right: 48px;
+}
+

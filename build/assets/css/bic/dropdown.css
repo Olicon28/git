@@ -1,0 +1,161 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+/* ==========================================================================
+   DROPDOWN GENERIC
+   ========================================================================== */
+.drop-mini ul   { width:130px; }
+.drop-small ul  { width:200px; }
+.drop-medium ul { width:270px; }
+
+.drop-right .arrow {
+	right: 2px;
+}
+
+.drop-left .arrow {
+	left: 2px;
+}
+
+.nav-user ul li ul li img {
+	margin: 6px 0 0 0;
+}
+
+.info-notificacion {
+	padding:10px;
+}
+.info-notificacion i {
+	margin-right: 10px;
+}
+.nav-user li .info-notificacion i {
+	margin-top: 0;
+}
+
+.salir ul li:hover { 
+	background: none; 
+}
+
+.salir ul li span {
+	margin-top:8px;
+}
+
+
+.dropdown-medium {
+	width: 220px !important;
+}
+
+#dropdown {
+	position: relative;
+ 	width:398px;
+ 	height:auto;
+ 	display: inline-block;
+	font-size: 14px;
+	font-weight: bold; 	
+	z-index: 1010;
+	margin-bottom: 20px;
+}
+
+
+#dropdown .dropdown-contenedor {
+	border:1px solid #ccc;
+	border-radius:2px;
+	overflow:hidden;
+	width:100%;
+	float:left;
+	height:35px;
+	background: url(../img/bg-dropdown.jpg) 0 0 repeat-x #efefed;
+}
+#dropdown .dropdown-texto{
+	background:transparent;
+	border:none;
+	box-shadow:none;
+	padding-left:8px;
+	line-height: 35px;
+	float:left;
+}
+#dropdown button {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+#dropdown button:active {
+	border:none;
+}
+
+#dropdown .dijitButton {
+	width: 30px;
+	height:35px;
+}
+
+
+#dropdown .dijitButtonText {
+	padding: 0 0;
+}
+
+#dropdown .dijitOffScreen {
+	display: none;
+}
+#dropdown-btn_label i {
+	margin: 10px 0 0 7px;
+	display: block;
+	cursor: pointer;
+}
+
+#dropdown .favorita i { visibility: visible!important; }
+#dropdown .icon-favorito-1 { visibility: hidden;}
+
+#dropdown [class*="icon-favorito-"] {
+	margin-right: 10px;
+}
+
+#dropdown ul {
+	position: absolute;
+	top:37px;
+	left: 1px;
+	background:#fff;
+    border-radius: 0 0 5px 5px;
+    box-shadow:0 0 5px 0 #999;
+    float: left;
+    width: 398px; 
+    margin:0;
+    display:none;
+}
+.show{
+	display:block !important;
+}
+
+#dropdown ul li {
+    height: 24px;
+    list-style: none outside none;
+    padding: 8px 10px;
+}
+#dropdown ul li.last  {
+	border: none;
+}
+#dropdown ul li a {
+	color: #373D45;
+    font-size: 14px;
+    display: block;
+}
+
+#dropdown ul li:hover i {
+	background-image: url("../img/icon-naranjo.png");
+}
+
+#dropdown ul li a:hover {
+	text-decoration: none;
+}
+#dropdown-lista li i {
+	float: left;
+} 
+
+#dropdown table {
+	*background: url(../img/bg-dropdown.jpg) 0 0 repeat-x #EFEFED;
+}
+
+#dropdown .dijitNoIcon {
+	*display: none;
+}
+
+

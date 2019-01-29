@@ -1,0 +1,278 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+.carrousel,
+.carrousel-paginas {
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+	position:relative;
+	text-align: justify;
+}
+
+.carrousel .logo-itau,
+.carrousel-paginas .logo-itau {
+	margin-bottom: 10px;
+}
+
+.slides_container {
+	width:655px;
+	display:none;
+}
+
+.slides_control {
+	border-top: 1px solid #DDD;
+	margin-top: 30px;
+}
+
+.slides_container div {
+	width:655px;
+	height:450px;
+	padding: 20px 0;
+	display:block;
+}
+
+.slides_container p {
+	margin-bottom: 10px;
+}
+
+/*PREV - NEXT*/
+#slides .next,
+#slides .prev {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	bottom: 20px;
+	z-index: 1002;
+	background-image: url(../img/icon-naranjo.png);
+}
+
+#slides .next { 
+	background-position: -300px 0; 
+	right: 20px; 
+}
+#slides .prev { 
+	background-position: -315px 0;
+	right: 40px; 
+}
+
+
+/* ============ PAGINATION  ============ */
+
+.pagination {
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	z-index: 1005;
+}
+
+.pagination li {
+	float: left;
+}
+
+.pagination li + li {
+}
+
+.pagination a {
+	font-size: 11px;
+	text-align: left;
+	text-indent: 8px;
+	text-decoration: none;
+	line-height: 18px;
+	display: block;
+	color: #FFF;
+	width: 70px;
+	height: 20px;
+	/*background: url(../img/pag-carrousel.png) 0 -21px; */ /*No existe la imagen - IBM*/
+
+}
+ 
+.pagination .current a {
+	text-indent: -9999px;
+	/*background: url(../img/pag-carrousel.png) 0 0; */ /*No existe la imagen - IBM*/
+}
+
+.pasos-slide {
+	position: absolute;
+	right: 370px;
+	top: 12px;
+}
+
+
+/* ============ PAGINACIÓN  ============ */
+
+.carrousel-paginas {
+	width: 670px;
+	overflow: hidden;
+	height: 580px;
+	position: relative;
+} 
+.carrousel-paginas .cont-carrousel {
+	position: absolute;
+	width: 5500px;
+	overflow: hidden;
+	height: 560px;
+	padding-top: 20px;
+} 
+.cont-carrousel > div {
+	position: relative; 
+	width: 650px;
+	height: 550px;  
+	float: left; 
+	padding: 10px;
+}
+#paginador-carrusel .botones {
+	position: absolute;
+	right: -10px;
+	bottom: 0;
+	width: 84px;
+	height: 30px;
+}
+#paginador-carrusel .botones p {
+	width: 62px;
+	display: inline;
+	color: #F3791F;
+}
+#paginador-carrusel .botones a.next {
+	left: 40px;
+	background-position: -300px 0;
+}
+#paginador-carrusel .botones a.prev {
+	float: left;
+	left: 0 ;
+	background-position: -315px 0;
+	margin-right: 4px
+} 
+#paginador-carrusel .botones a {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	text-indent: -9999px;
+	bottom: 20px;
+	z-index: 1002;
+	background-image: url(../img/icon-naranjo.png);
+}
+.contenedor-paginador div {
+	position: absolute;
+}
+
+#paginador-carrusel .pasos-paginas {
+	width: 300px;
+	float: right;
+	margin-right: 10px;
+}
+
+#paginador-carrusel .pasos-paginas > div {
+	width: 300px;
+	height: 20px;
+	position: absolute;
+}
+#paginador-carrusel .pasos-paginas p {
+	float: left;
+	margin-left: -60px;
+} 
+#paginador-carrusel .pasos-paginas .on {
+	width: 0;
+	z-index: 1200;
+	/*background: url(../img/pag-anim.png) 0 -21px;*/  /*No existe la imagen - IBM*/
+}
+#paginador-carrusel .pasos-paginas .off {
+	z-index: 1100;
+	/*background: url(../img/pag-anim.png) 0 0 ;*/  /*No existe la imagen - IBM*/
+}
+@media screen and (min-width: 1200px) {
+	.cont-carrousel > div {
+		width: 650px !important;
+	}
+	#paginador-carrusel .botones {
+		width: 102px;
+	}
+}
+
+/* modal-seguros */
+
+#modal-seguros .carrousel, 
+#modal-seguros .slides_container{	
+	width: 670px;
+	overflow-y: scroll !important; 
+	overflow-x: hidden !important; 
+}
+#modal-seguros .slides_container > div {
+	height: 470px !important;
+}
+#modal-seguros .slides_container .slides_control .slide {
+	width: 640px;
+}
+#modal-seguros .slide > div { 
+	height: auto !important;
+	width: 640px;
+}
+#modal-seguros .carrousel-paginas {
+	height: 550px !important;
+}
+#modal-seguros .slides_container div {
+	height: auto;	
+	width: auto;
+}
+#modal-seguros .slides_container{
+	margin-top: -50px;
+} 
+
+
+/* pag 1 de 14 */
+
+#modal-seguros .pagination {
+	top: inherit;
+	bottom: 16px !important; 
+	right: 48px !important;
+}
+#modal-seguros .pagination .current a {
+	color: #F3791F;
+	text-indent: 0;
+	background: none;
+}
+#modal-seguros .pagination a {
+	display: inline;
+	width: auto;
+	height: auto;
+	color: #F3791F;
+}
+#modal-seguros .pagination li { 
+	display: none;
+}
+#modal-seguros .pagination li.current {
+	margin-right: 8px;
+} 
+#modal-seguros .pagination li:last-child,
+#modal-seguros .pagination li[class="current"] {
+	display: block;
+}
+#modal-seguros .pagination li:last-child:before {
+	margin-right: 6px;
+	content:"de";
+	display: inline;
+	color: #F3791F;
+}
+#modal-seguros .pagination li.current:last-child:after {
+	content: "13";
+	position: relative;
+	margin: 0 30px 0 -50px;
+	font-size: 11px;
+	color: #F3791F;
+}
+#modal-seguros.modal-seguros3 .pagination li.current:last-child:after {
+	content: "9" !important;
+}
+#modal-seguros .pagination li:last-child[class="current"] {
+	display: block;
+}
+#modal-seguros .prev {
+	right: 108px;
+}
+#modal-seguros .slides_container div {
+	padding: 10px 0;
+}

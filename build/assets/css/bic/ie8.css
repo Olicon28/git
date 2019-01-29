@@ -1,0 +1,58 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+
+/* ==========================================================================
+	   DROPDOWN
+   ========================================================================== */
+   
+  #dropdown ul {
+    border: solid 1px #ccc;
+    border-top: none;
+    margin-left: -1px;	
+  } 
+  
+/* ==========================================================================
+	   DETALLE TRANSFERENCIA
+   ========================================================================== */   
+	.detalle-transferencia {
+	    border: solid 1px #ddd;
+	}
+	
+/* ==========================================================================
+	   NAV ICON
+   ========================================================================== */ 
+.nav-icon {border: solid 1px #ddd;width: 220px;}
+.span9 {margin-left:0px;}
+#notificaciones .table td
+
+@media screen and ( min-width: 1200px) { 
+	.wpthemeInner {width:1170px!important;}
+	.porlet-header {width:930px!important;}
+	#asignar-permisos .modulo-large .porlet-header {width:100%!important;}
+	/*Largo Nombre usuario cortado con css*/
+	.nav-user .usuario a {width:230px!important;}
+	.nav-user .usuario .name {width:184px!important;text-align:left;}
+}
+
+
+.wpthemeInner.breadcrumbs {width:100%!important;}
+#tab-trans table {border-collapse:collapse;}
+#tab-trans table td.activado a {margin-top:0px;}
+#tab-trans table td a {margin-top:8px;}
+#notificaciones .table td .icon-buscar {margin-top: -10px;}
+.page-informativa .right-info LI a img {width:auto;}/* página pago servivios externos */
+/*Largo Nombre usuario cortado con css*/
+.nav-user .usuario a {width:160px;}
+.wrap-bg {
+background:url(../img/bg-mensajes.png) 0 0 repeat;
+/* For IE 8*/-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#11000000, endColorstr=#11000000)";  
+}
+.wind-emerg .load {background:url(/wps/mycontenthandler/olb/!ut/p/digest!xz28scOVQ88UoDpLoQgMnQ/war/privateThemeStatic/themes/bicPrivateTheme/css/img/ajax-loader.gif) no-repeat!important;z-index:13000; }
+.dijitDialogPaneContent form [name^="portlets"] html body {overflow:hidden;}
+.modal .modal-bg {-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";}
+.placeholder {font-style:normal;color:#939393;}
+.tab-top .modulo-large .modulo-header {width:98%;}
+#nav-principal .dropdown:hover .nav-drop, .nav-user .dropdown:hover .nav-drop {display:table!important;}

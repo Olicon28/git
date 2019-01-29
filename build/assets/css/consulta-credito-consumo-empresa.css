@@ -1,0 +1,19 @@
+.consulta-credito-consumo #popOverHistorica { left: -277px; position: absolute; z-index: 999; top: 0px; }
+
+.consulta-credito-consumo .relative { position: relative; }
+
+.consulta-credito-consumo i.icon-itaufonts_fechar { cursor: pointer; }
+
+.dropdown-inbox * { display: inline-flex !important; }
+
+.dropdown-inbox .icon-itaufonts_seta_achatada { position: absolute; right: 0; margin-right: 7px !important; }
+
+.dropdown-inbox .dijitStretch.dijitButtonNode { padding: 12px 30px 12px 12px !important; position: relative; }
+
+#tabla-new-guideline .gridTable th { vertical-align: top; }
+
+.main-box.grid-box { padding-left: 0px; padding-right: 0px; }
+
+.yes { color: red; background: black no-repeat; border: 1px solid red; }
+
+.yes { color: gray; }

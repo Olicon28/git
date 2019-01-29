@@ -1,0 +1,34 @@
+.dropdown ul li:hover{background: #F5F5F5!important;}
+
+ /*  NAV PRINCIPAL - HOVER  */
+
+#nav-principal .dropdown:hover .nav-drop,.nav-user .dropdown:hover .sub-user { display:table!important;; }
+#nav-principal > li:hover i { background-image:url(/wps/contenthandler/iol/!ut/p/digest!L_negPqVWa2FDiru8UDKPw/war/privateThemeStatic/themes/bicPrivateTheme/css/img/icon-naranjo.png); }
+/*  NAV PRINCIPAL - SUBMENU  */
+#nav-principal .nav-drop,#nav-principal .nav-drop a { color:#32434C!important; }
+#nav-principal .nav-drop {background:#FFF!important;width:310px!important;position:absolute!important;top: 49px!important;left:-1px!important;z-index:1002!important;display:none!important;padding:10px 0!important;border:1px solid #DDD!important;border-top:0 none!important;-webkit-box-shadow:0 5px 5px 0 #DDD!important;-moz-box-shadow:0 5px 5px 0 #DDD!important;box-shadow:0 5px 5px 0 #DDD!important;border-collapse:separate!important;border-radius:0 0 5px 5px!important;-webkit-border-radius:0 0 5px 5px!important;-moz-border-radius:0 0 5px 5px!important;}
+#nav-principal .nav-drop > li { /*padding:15px 10px!important;*/
+padding:0!important;margin:0 15px!important;/*float:left!important;clear:both!important;*/
+width:280px!important;background:none!important;border:0 none!important; }
+#nav-principal .nav-drop li a { /*padding:0;*/
+padding:15px 10px!important;margin:0!important;width:260px!important;float:left!important;clear:both!important;line-height:14px!important; }
+#nav-principal .nav-drop li a i { margin-top:0!important;float:left!important;margin-right:10px!important; }
+#header .nav-drop .titulo { float:left!important;font-weight:bold!important;color:#373D45!important; }
+/*  NAV PRINCIPAL - SUBMENU - NAV CON TITULO + PARRAFO  */
+#nav-principal .parrafo { font-weight:normal!important;line-height:14px!important;font-size:12px!important;float:left!important;clear:both!important;margin-top:4px!important;color:#A3A19D!important;width:260px!important;font-weight:normal!important; }
+#nav-principal .nav-drop i + .titulo + .parrafo { width:240px!important;margin-left:25px!important; }
+/*  NAV PRINCIPAL - SUBMENU - HOVER  */
+#nav-principal .nav-drop li:hover,.nav-user li:hover { border-radius:5px!important;-webkit-border-radius:5px!important;-moz-border-radius:5px!important; }
+.nav-drop > li:hover{background:#fafafa!important;margin: 0!important;width: 90%!important;border-radius:0!important;}
+#nav-principal .sub-user .nav-drop > li:hover{background:#fafafa!important;margin: 0!important;width: 93%!important;border-radius:0!important;align-content: center!important;}
+
+#nav-principal .nav-drop i {background-image:url(/wps/contenthandler/iol/!ut/p/digest!L_negPqVWa2FDiru8UDKPw/war/privateThemeStatic/themes/bicPrivateTheme/css/img/icon-naranjo.png);display:block!important;}
+
+#nav-principal .dropdown ul li:hover,#dropdown ul li:hover{background:#f5f5f5!important}
+#nav-principal .nav-drop > li.itemmenu {width: 280px!important;}
+
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {float: left!important;margin: 0!important;}
+#nav-principal .dropdown:hover .nav-drop,.nav-user .dropdown:hover .sub-user {display: table!important;}
+#nav-principal .nav-drop {background:#FFF;width:310px;position:absolute;top:46px;left:-1px;z-index:1002;display:none;padding:10px 0;border:1px solid #DDD;border-top:0 none;-webkit-box-shadow:0 5px 5px 0 #DDD;-moz-box-shadow:0 5px 5px 0 #DDD;box-shadow:0 5px 5px 0 #DDD;border-collapse:separate;border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;}
+#header .dropdown,.wpthemeBanner .dropdown{position:relative!important;}
+#nav-principal>li>a, #nav-principal .wpthemeNavList>.dropdown>a {height: 50px;}

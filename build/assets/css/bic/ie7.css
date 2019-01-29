@@ -1,0 +1,323 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+.porlet {position:inherit;}
+
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+.container, 
+.container-fluid,
+.dl-horizontal { *zoom: 1; }
+/*.shadow { filter: shadow(color=#DDD, direction=10, strength=1);	}*/
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+#nav-principal .productos { *width: 90px; }
+#nav-principal .transacciones { *width: 120px; }
+#nav-principal .servicios { *width: 90px; }
+
+/* ==========================================================================
+   ICONS
+   ========================================================================== */
+[class^="icon-"],
+[class*=" icon-"] {
+	*margin-right: .3em;
+}
+
+/* ==========================================================================
+   BOTONES
+   ========================================================================== */
+.accion  { *display:inline; }  
+a.accion { *display: inline-block; }
+
+#transferencia input.wpfBlueButton, #transferencia button.wpfBlueButton {
+  *margin-top:10px;
+  }
+
+/* ==========================================================================
+   DROPDOWN 
+   ========================================================================== */
+.dropdown .arrow { *margin-top: 21px; }
+
+/* ==========================================================================
+   FORM 
+   ========================================================================== */
+input[type="radio"],
+input[type="checkbox"] {
+	 *margin-top: 0;
+}
+
+select,
+input[type="file"] {
+	*margin-top: 4px;
+}
+
+.help-inline {
+	 *display: inline;
+	  *zoom: 1;
+}
+
+.input-append input,
+.input-prepend input,
+.input-append select,
+.input-prepend select,
+.input-append .uneditable-input,
+.input-prepend .uneditable-input { 
+	 *margin-left: 0;
+}
+
+.form-search input,
+.form-inline input,
+.form-horizontal input,
+.form-search textarea,
+.form-inline textarea,
+.form-horizontal textarea,
+.form-search select,
+.form-inline select,
+.form-horizontal select,
+.form-search .help-inline,
+.form-inline .help-inline,
+.form-horizontal .help-inline,
+.form-search .uneditable-input,
+.form-inline .uneditable-input,
+.form-horizontal .uneditable-input,
+.form-search .input-prepend,
+.form-inline .input-prepend,
+.form-horizontal .input-prepend,
+.form-search .input-append,
+.form-inline .input-append,
+.form-horizontal .input-append { 
+	 *display: inline;
+	  *zoom: 1;
+}
+
+.form-horizontal .control-group {
+	 *zoom: 1;
+}
+
+.form-horizontal .controls { 
+  *display: inline-block;
+  *padding-left: 20px;
+  *margin-left: 0;
+}
+
+.form-horizontal .controls:first-child {
+  *padding-left: 180px;
+}
+
+/* ==========================================================================
+   TABLAS 
+   ========================================================================== */
+.table-bordered {
+  *border-collapse: collapse;
+}
+
+.table-border-bottom {
+  *border-collapse: collapse;
+}
+
+
+/* ==========================================================================
+   FOOTER 
+   ========================================================================== */
+
+.contenedor-footer .margen-parrafo {
+	*margin-left: 25px;
+}
+
+/* ==========================================================================
+   PORLET 
+   ========================================================================== */
+
+/*TRANSFERIR*/
+.menu-lateral .selectBox {
+	width: 175px;	
+}
+
+.menu-lateral .accion-block {
+	float: right;
+	padding: 0 53px;
+}	
+
+/* ==========================================================================
+   CALENDARIO
+   ========================================================================== */
+.claro .dijitCalendarCurrentMonthLabel {
+	*width:95px;
+}
+
+/* ==========================================================================
+	   DROPDOWN
+   ========================================================================== */
+   
+  #dropdown ul {
+    border: solid 1px #ccc;
+    border-top: none;
+    margin-left: -1px;	
+  } 
+  
+/* ==========================================================================
+	   DETALLE TRANSFERENCIA
+   ========================================================================== */   
+	.detalle-transferencia {
+	    border: solid 1px #ddd;
+	}
+	
+/* ==========================================================================
+	   NAV ICON
+   ========================================================================== */ 
+	.nav-icon {
+		border: solid 1px #ddd;
+		width: 220px;
+	}
+	
+/* ==========================================================================
+	   TARJETA DE CREDITO
+   ========================================================================== */ 	
+	.tar-credito > .table.table-bordered.radius {
+			border-collapse: collapse;
+		}	
+/* Fix comboBox IE7 - dijitComboBox */
+.select-small .dijitInputField {width: 96px!important;}
+.select-medium  .dijitInputField {width: 180x!important;}
+.select-large  .dijitInputField {width: 196px!important;}
+.select-xlarge .dijitInputField {width: 268px!important;}
+.select-xxlarge .dijitInputField {width: 516px!important;}
+/*H2 para cambio de clave y porlets home*/ 
+.wpthemeControlHeader .wpthemeInner {float:left;min-height:30px;}
+/* Correción input texto login */
+#login .dijitTextBox .dijitInputField {margin-bottom:10px;}
+.primerLogin img {margin-right:0!important;}
+
+.error-dato input[type="text"],
+.error-dato input[type="password"],
+.error-dato input[type="datetime"],
+.error-dato input[type="datetime-local"],
+.error-dato input[type="date"],
+.error-dato input[type="month"],
+.error-dato input[type="time"],
+.error-dato input[type="week"],
+.error-dato input[type="number"],
+.error-dato input[type="email"],
+.error-dato input[type="url"],
+.error-dato input[type="search"],
+.error-dato input[type="tel"],
+.error-dato input[type="color"],
+.uneditable-input {
+  background-color: #FFF!important;
+  border: 1px solid #f47920!important;
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+  -moz-transition: border linear .2s, box-shadow linear .2s;
+  -o-transition: border linear .2s, box-shadow linear .2s;
+  transition: border linear .2s, box-shadow linear .2s;
+}
+.nav-user .dropdown .arrow {margin-top: 21px!important;}
+.nav-user .notificaciones .icon-mensaje {height:20px;}
+.filtro-right {width:auto;}
+.breadcrumbs .breadcrumbs-content .home a {border-right:none;}
+.breadcrumbs .breadcrumbs-content .home a:first-child {border-right:1px solid #DDDDDD;margin-right:8px;}
+.breadcrumbs .breadcrumbs-content .home a:last-child {border-right:0 none!important;margin-left:8px;}
+.simulador-contenido .bloque-campos p {padding-left:10px;}
+#ingrese-monto-divisas .left .bloque label {white-space:nowrap;}
+#ingrese-monto-divisas .left .bloque .text-small {white-space:nowrap;}
+.modulo-medium {padding-bottom:0;} /* se deja en 0 ya que aparece en las tablas padding-bottom:12px;*/
+.modulo-medium .modulo-filtro{margin-bottom:6px;}
+/*html .select-medium {width:200px;}*/ /*se cpomenta ya que hay otro css a 180px*/ 
+.enfatizar {margin-top:8px;}
+.separar .select-xlarge .dijitComboBox .dijitInputInner {width: 266px!important;}
+.separar .select-xlarge .dijitInputField {width: 270px!important;}
+.frase-legal.separar {float:none;}
+#ingrese-monto-divisas .select-xlarge {width:300px!important}
+#ingrese-monto-divisas .select-xlarge .dijitTextBox {width:300px!important}
+#ingrese-monto-divisas .select-xlarge .dijitTextBox .dijitInputField {width:300px!important}
+#ingrese-monto-divisas .left .bloque input[type="text"] {width: 286px!important;}
+.span9 {margin-left:0px;}
+.dijitContentPane {display: block!important;overflow: auto!important;}
+#cartolaContainer {width:100%;} /*Cartola historica, tabla quedaba a la mitad del ancho con scroll*/
+#tab-trans table {border-collapse:collapse;}
+#tab-trans table td.activado a {margin-top:0px;}
+#tab-trans table td a {margin-top:8px;}
+.popover {z-index:8888;}
+.padding1-bottom {padding-bottom:10px;}
+.padding2-bottom {padding-bottom:20px;}
+.padding3-bottom {padding-bottom:30px;}
+.padding1-top {padding-top:10px;}
+.padding2-top {padding-top:20px;}
+.padding3-top {padding-top:30px;}
+#dropdown .dijitButtonText {white-space:nowrap;}
+.span3 .menu-lateral .nav-header {position: static!important;}
+#footer {position:static!important;}
+.modulo-content .icon-detalle {position:static!important;}
+#notificaciones tr + tr td {border-top: 1px solid #DDD;}
+#notificaciones .desp-popover {position:static;}
+
+.campana-flotante {width:861px!important;}
+
+.separar .input-xlarge input[type="text"],
+.separar .textarea-xlarge textarea {width: 288px!important;}
+.btn-codigo {width:180px;}
+.simulador-contenido .bloque .input-large {margin-bottom:10px;}
+.simulador-contenido .bloque .input-large .dijitTextBox {width:210px;float:left}
+.simulador-contenido .bloque .bloque-campos p {width:50px!important;float:left;}
+
+.select-medium {width:180px!important;}
+.select-medium input[type="text"]{width:162px!important;}
+#transferir-content .select-medium {width:auto!important;}
+
+
+
+@media screen and ( min-width: 1200px) { 
+.wpthemeInner {width:1170px!important;}
+.porlet-header {width:930px!important;}
+.wpthemeLayoutContainers {overflow:hidden!important;}
+.porlet {position:inherit!important;}
+}
+
+.wpthemeInner.breadcrumbs {width:100%!important;}
+#transferencia-terceros {overflow:hidden;}
+.breakth > div a {float:left;}
+.breakth > div a:first-child {max-width:80%;}
+.breakth > div > a {margin-top:4px;}
+.breakth a img {top:0px;}
+#layoutContainers {overflow:hidden!important;}
+
+.modulo-footer {z-index:-10;}
+/*Pagar deuda nacional primer globo ayuda*/
+.modulo .separar .right .mensaje-lateral .padding1 p {position:relative;}
+.modulo .separar .right .mensaje-lateral .padding1 p strong span {position:absolute;right:0px;}
+
+.modulo-right .mensaje-lateral .padding1 p  {position:relative;}
+.modulo-right .mensaje-lateral .padding1 p strong span {position:absolute;right:0px;}
+
+.claro .dijitRadio {background-position:-105px 50%!important;}
+.claro .dijitRadioChecked {background-position:-86px 50%!important;}
+input[aria-pressed="false"] {background-position:-105px 50%!important;}
+.modulo-right.dijitContentPane {overflow:hidden!important;}
+
+.bg-campana {width:100%!important;}
+
+#suscribir-cartolas {
+	margin-bottom: 20px;
+	/*border-top: 1px solid #ddd;*/
+}
+#suscribir-cartolas .select-small { width: 130px; }
+#suscribir-cartolas .select-small .box { width: 100px; }
+#suscribir-cartolas .select-small select { width: 120px; }
+
+
+#suscribir-cartolas  td 	{ padding:10px 0; }
+#suscribir-cartolas .uno 	{ width: 180px; line-height: 30px; font-weight: bold; }
+#suscribir-cartolas .dos 	{ width: 130px; }
+#suscribir-cartolas .tres 	{ width: 150px; }
+#suscribir-cartolas .cuatro { width: 150px; }
+#suscribir-cartolas .cuatro input { width: 140px; }
+
+#contenedorTomarValeVista .select-xlarge .dijitInputField {width: 296px!important;}
+#contenedorTomarValeVista #rbtBeneficiario {width:94%;}
+#contenedorTomarValeVista .modulo-right #nuevo-beneficiario .input-large {width:302px!important;}
+#contenedorTomarValeVista .modulo-right .form_beneficiario ul {margin-bottom:10px;}
+.placeholder {font-style:normal;color:#939393;}

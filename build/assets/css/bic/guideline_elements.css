@@ -1,0 +1,224 @@
+/* autor: Kibernum UI/FrontEnd */
+/* fecha actualizacion: 22-11-2018 */
+/* Link normal y con icono */
+a.link_20 { color: #007AB7; text-decoration: underline; display: inline-block; }
+
+a.link_20:hover, a.link_20:active, a.link_20:visited { color: #0D47A1; }
+
+a.link_20.disabled_click, a.link_20.disabled_click i { color: #D8D8D8; pointer-events: none !important; cursor: pointer; }
+
+a.link_20 i { font-size: 24px; position: relative; margin: -7px 5px 0 0; width: 24px; height: 24px; display: inline-block; }
+
+/* Estilo y comportamiento para todos los botones */
+.btn-base { font-size: 14px !important; height: 40px !important; line-height: 18px !important; padding: 10px 17px !important; text-decoration: none !important; font-weight: normal !important; display: inline-block; text-align: center !important; border-radius: 2px !important; transition: all 0.3s linear; box-sizing: border-box; min-width: 160px; white-space: nowrap; box-shadow: none !important; }
+
+.btn-base.disabled_click { pointer-events: none !important; cursor: pointer !important; }
+
+/* Boton naranjo */
+.btn-termino { color: #fff !important; background: #EC7000 !important; border: solid 1px #EC7000 !important; }
+
+.btn-termino:hover { color: #fff !important; background: #FF7900 !important; border: solid 1px #FF7900 !important; }
+
+.btn-termino.disabled_click { background: #D8D8D8 !important; border: solid 1px #D8D8D8 !important; }
+
+/* Boton borde naranjo */
+.btn-continuidad { color: #EC7000 !important; background: #fff !important; border: solid 1px #EC7000 !important; }
+
+.btn-continuidad:hover { color: #FF7900 !important; background: #FFE6CE !important; border: solid 1px #FF7900 !important; }
+
+.btn-continuidad.disabled_click { background: #fff !important; color: #B4B4B4 !important; border: solid 1px #D8D8D8 !important; }
+
+/* Boton sin borde */
+.btn-apoyo { color: #007AB7 !important; background: none !important; border: solid 1px transparent !important; }
+
+.btn-apoyo:hover { color: #003767 !important; background: #FAFBFC !important; border: solid 1px #DFE6EE !important; }
+
+.btn-apoyo.disabled_click { background: #FFFFFF !important; border: solid 1px #DFE6EE !important; color: #DFE6EE !important; }
+
+/* Boton borde gris */
+.btn-auxiliar { color: #007AB7 !important; background: #fff !important; border: solid 1px #DFE6EE !important; }
+
+.btn-auxiliar:hover { background: #FAFBFC !important; color: #003767 !important; border: solid 1px #DFE6EE !important; }
+
+.btn-auxiliar.disabled_click { background: #FFFFFF !important; border: solid 1px #D8D8D8 !important; color: #D8D8D8 !important; }
+
+/* Boton mas icono */
+.btn-masicono { color: #007AB7 !important; background: #fff !important; border: solid 1px #DFE6EE !important; }
+
+.btn-masicono:hover { background: #FAFBFC !important; color: #003767 !important; border: solid 1px #DFE6EE !important; }
+
+.btn-masicono:hover i { color: #003767 !important; }
+
+.btn-masicono i { float: left; margin-top: -3px; color: #007AB7; font-size: 24px; }
+
+.btn-masicono.disabled_click { background: #FFFFFF !important; border: solid 1px #D8D8D8 !important; color: #D8D8D8 !important; }
+
+.btn-masicono.disabled_click i { color: #D8D8D8 !important; }
+
+/* Boton pequeno */
+.btn-small { font-size: 13px !important; height: 30px !important; padding: 7px 17px !important; text-decoration: none !important; font-weight: normal !important; display: inline-block; text-align: center !important; border-radius: 2px !important; transition: all 0.3s linear; box-sizing: border-box; min-width: 120px; color: #43484C !important; background: #fff !important; border: solid 1px #43484C !important; line-height: 16px !important; }
+
+.btn-small:hover { color: #EC7000 !important; background: #fff !important; border: solid 1px #EC7000 !important; }
+
+.btn-small.disabled_click { background: #D8D8D8 !important; border: solid 1px #D8D8D8 !important; }
+
+.btn-base.wpfBlueButton, .btn-base.wpfBlueButton { margin-right: 0 !important; }
+
+
+/* Colores */
+.color11{color:#003A6C;}
+
+
+/* TAMANOS DE TEXTO */
+.font-size-9 { font-size: 9px !important; }
+
+.font-size-12 { font-size: 12px !important; }
+
+.font-size-13 { font-size: 13px !important; }
+
+.font-size-14 { font-size: 14px !important; }
+
+.font-size-15 { font-size: 15px !important; }
+
+.font-size-16 { font-size: 16px !important; }
+
+.font-size-17 { font-size: 17px !important; }
+
+.font-size-18 { font-size: 18px !important; }
+
+.font-size-19 { font-size: 19px !important; }
+
+.font-size-20 { font-size: 20px !important; }
+
+.font-size-21 { font-size: 21px !important; }
+
+.font-size-22 { font-size: 22px !important; }
+
+.font-size-26 { font-size: 26px !important; }
+
+/* Tab styles */
+.tabs-include { padding: 10px; }
+
+.tabs-inbox { margin-bottom: 20px; }
+
+.tabs-inbox #tab-gnew *, .tabs-inbox .ngd-form * { box-sizing: border-box !important; }
+
+.tabs-inbox #tab-gnew { display: table; table-layout: fixed; width: 100%; margin: 0; padding: 0; list-style: none; }
+
+.tabs-inbox #tab-gnew li { display: table-cell; border: 1px solid #DFE6EE; color: #43484C; font-weight: normal; padding: 16px; line-height: 100%; text-align: center; background-color: #FAFBFC; vertical-align: top; height: 56px; cursor: pointer; border-top: 2px solid #DFE6EE; }
+
+.tabs-inbox #tab-gnew li:hover { border-top: 2px solid #EC7000; }
+
+.tabs-inbox #tab-gnew li.active { border-bottom: 0; border-top: 2px solid #EC7000; font-weight: Bold; background-color: #fff; color: #EC7000; }
+
+.tabs-inbox #tab-gnew li .tab-text { margin: 0 auto; min-height: 10px; display: inline-block; position: relative; }
+
+.tabs-inbox #tab-gnew li .tab-text i { float: left; display: block; width: 20px; height: 20px; position: absolute; font-size: 20px; margin: 0; top: -5px; }
+
+.tabs-inbox #tab-gnew li .tab-text p { float: left; margin-left: 25px; text-align: left; max-height: 50px; font-size: 15px; min-height: 16px; height: auto; }
+
+.tabs-inbox #tab-gnew li .tab-text span { display: flex; float: left; margin-left: 25px; text-align: left; max-height: 50px; font-size: 14px; }
+
+.tabs-inbox #tab-gnew li.disabled_tab { pointer-events: none !important; cursor: pointer !important; color: #b4b4b4; }
+
+.tabs-inbox .tabcontenido { position: relative; margin-bottom: 40px; padding: 40px 16px; border: 1px solid #DFE6EE; border-top: #fff; }
+
+.tabs-inbox.no-icon #tab-gnew li .tab-text p { text-align: center; width: 100%; float: none; margin: 0; }
+
+/* Nuevo checkbox */
+.inew-checkbox .dijitCheckBox, .inew-checkbox .dijitCheckBoxIcon { background: none !important; font-size: 24px; width: 24px; height: 24px; padding: 0; cursor: pointer; font-family: itaufonts_master_24px_v1; display: inline-block; content: "\e964"; font-size: 24px; color: #979797; font-weight: normal; position: relative; }
+
+.inew-checkbox .dijitCheckBox:before { content: "\e964"; color: #979797; font-weight: normal; position: absolute; left: -2px; }
+
+.inew-checkbox .dijitCheckBoxChecked:before { content: "\ea9b" !important; color: #EC7000 !important; }
+
+.inew-checkbox .dijitCheckBoxDisabled:before { color: #787878 !important; }
+
+/* Background colors */
+.background0 { background: #EC7000 !important; }
+
+.background1 { background: #FAFBFC !important; }
+
+.background2 { background: #EFE9E5 !important; }
+
+.background3 { background: #eeeeee !important; }
+
+/* Steps */
+.step-by-step { display: table !important; table-layout: fixed; text-align: center; margin: 0 auto; position: relative; clear: both; margin-bottom: 20px !important; }
+
+.step-by-step .span2 { width: 130px !important; float: none !important; }
+
+.step-by-step .step { display: table-cell; }
+
+.step-by-step .step p { font-size: 13px; font-weight: normal; line-height: 1; font-size: 13px; margin-top: 15px; color: #B9B9B9; }
+
+.step-by-step .step .circle { width: 20px; height: 20px; display: inline-block; border-radius: 30px; vertical-align: middle; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #B9B9B9; }
+
+.step-by-step .step:not(:first-child) { position: relative; }
+
+.step-by-step .step:not(:first-child):before { content: ''; display: inline-block; vertical-align: middle; width: 108px; height: 2px; position: absolute; top: 10px; right: 76px; background-color: #B9B9B9; }
+
+.step-by-step .step.on p { color: #EC7000; }
+
+.step-by-step .step.on:before, .step-by-step .step.on .circle { background-color: #EC7000; }
+
+/* estilos para Listas (ul - li) */
+.inew-list li { margin-bottom: 5px; list-style: none; font-size: 13px; padding-left: 10px; text-indent: -1em; text-align: left; }
+
+.inew-list li:before { content: ' '; width: 5px; height: 5px; border-radius: 50%; background: #ec7000; margin: 5px 8px 2px 0px; display: inline-block; }
+
+/* Transversal */
+.modulo-top { width: 100% !important; padding: 10px 10px 0px 10px; box-sizing: border-box !important; }
+
+.h1-ngl { font-size: 26px !important; color: #43484C !important; font-weight: normal !important; }
+
+.h2-ngl { font-size: 20px !important; color: #43484C !important; font-weight: normal !important; margin: 0 !important; }
+
+.h3-ngl { font-size: 18px !important; color: #43484C; font-weight: bold !important; margin: 0 !important; }
+
+.h4-ngl { font-size: 18px !important; color: #43484C !important; font-weight: normal !important; margin: 0 !important; }
+
+.h5-ngl { font-size: 15px !important; color: #43484C !important; font-weight: bold !important; margin: 0 !important; }
+
+.font-bold { font-weight: bold !important; }
+
+.no-wrap { white-space: nowrap !important; }
+
+/* Nuevo Comprobante GuideLine */
+.ngl_tabla_detalle label { float: left; text-align: left; font-size: 13px; font-weight: normal; margin: 0; }
+
+.ngl_tabla_detalle .dato { float: right; text-align: right; word-break: break-all; font-size: 13px; font-weight: bold; vertical-align: middle; }
+
+.ngl_tabla_detalle .titulo-glosa { font-size: 16px; font-weight: bold; }
+
+.ngl_tabla_detalle .link { font-size: 14px; font-weight: normal; }
+
+.ngl_tabla_detalle .info { font-size: 12px; font-weight: normal; background: none; padding: 0; margin: 0; }
+
+.ngl_tabla_detalle .descripcion { font-size: 12px; font-weight: normal; color: #D8D8D8; }
+
+.ngl_tabla_detalle .comentario p { font-size: 13px; font-weight: normal; }
+
+.ngl_tabla_detalle .link { font-size: 14px; }
+
+.ngl_tabla_detalle .fecha { font-size: 12px; margin: 10px 0; }
+
+.ngl_tabla_detalle .ngl_header { margin: 0 0 5px 0; padding: 28px 15px !important; line-height: 19px !important; background-color: #FAFBFC; display: table; width: 100%; box-sizing: border-box; }
+
+.ngl_tabla_detalle .ngl_group, .ngl_tabla_detalle .ngl_header { border: solid 1px #DFE6EE; }
+
+.ngl_tabla_detalle .ngl_glosa { padding: 15px; color: #43484C; border-bottom: solid 1px #DFE6EE; display: table; width: 100%; box-sizing: border-box; }
+
+.ngl_tabla_detalle .ngl_glosa:last-child { border: none; }
+
+.ngl_tabla_detalle .row { width: 100%; margin: 0px; }
+
+.ngl_tabla_detalle .datos-monto .ancho40 { float: left; }
+
+.ngl_tabla_detalle .datos-monto .ancho50 { float: right; }
+
+.ngl_tabla_detalle .datos-label .ancho50 { float: left; }
+
+.ngl_tabla_detalle .datos-label .ancho40 { float: right; }
+
+@media only screen and (max-width: 1200px) { .ngl_tabla_detalle .titulo-glosa { font-size: 14px; } }

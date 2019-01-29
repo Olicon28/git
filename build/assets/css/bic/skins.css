@@ -1,0 +1,38 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+.porlet-header {
+    background: url("../img/bg-porlet-header.png") repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    /*line-height: 1px;*/
+    padding: 0px;
+}
+
+.wpthemeControlHeader {
+    display: table;
+    margin: 0;
+    width: 100%;
+	border: none;
+}
+
+.wpthemeControl .wpthemeControlHeader h2 {
+    display: table-cell;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+.wpthemeControl.wpthemeStandard {
+    border: 1px solid #D7D7D7;
+    box-shadow: 0 1px 3px #D7D7D7;
+    padding: 0 0 0px;
+}
+
+.porlet-header  h3{    
+    padding: 0 0 0 10px;
+}

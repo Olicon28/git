@@ -1,0 +1,158 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+/*
+Estilos transversales para portal web Personas & Empresas Banco Itaú
+*/
+html {overflow:auto!important}
+body {overflow:auto!important}
+html body {font-size:0.750em;cursor:pointer!important;}
+a[href]:after {content: none !important;} /*Fix para corrección de impresiones*/
+.modulo-footer, .buscar-modulo, .botones, .accion {display:none;}
+html a { pointer-events: none!important;cursor: default!important;}
+th[name="Descargar_ColumnHeader"], td[name="Descargar_ColumnData"] {display:none}
+.simulador-contenido, .simulador-contenido ul.bullet li {display:block;width:auto;}
+H3 {display:block;width:100%;}
+h2 {display:block;width:100%;clear:both;}
+h2 i.icon-volver {display:none;}
+.filtro-calendario, .calendario {display:none;}
+.DAPHistoricoCalendar {display:block;}
+.DAPHistoricoCalendar .dijitButtonNode, .DAPHistoricoCalendar #btnConsultar {display:none;}
+.tableHead a:last-child {display:none;}
+/*.envioCartola span.enviadoMail {margin:1em;display:block;}
+.envioCartola span[name="email"] {margin:1em;display:block;}*/
+/* TC Estado cta internacional */
+.separar-tabla {display:block;clear:both;border:0px none;}
+.displayPageTable {border:0 none;}
+.displayPageTable th {background-color:#FFFFFF!important;background:0 none!important;color:#000000;border-bottom:1px solid #DDDDDD!important;}
+.displayPageTable th .tableHeadText {color: #000000!important;}
+a.tableHeadSortLink {color: #000000!important;}
+.table-bordered tbody:first-child tr:first-child > th:first-child {border-top:0px none;}
+.table-bordered tbody:last-child tr:last-child > td:last-child {border-bottom:0px none;}
+.table-bordered, .table-bordered th, .table-bordered td {font-size:8pt;border:collapse;padding:3px;border-bottom:1px solid #DDDDDD;}
+.table-text-mini {border:0 none;}
+.table-text-mini th, .table-text-mini td {border:collapse;font-size:5pt;border-radius:0;box-shadow:none;padding:3px none;border-bottom:1px solid #DDDDDD;}
+.table-text-mini th span, .table-text-mini td span {font-size:5pt;border:0 none;border-radius:0;box-shadow:none;}
+
+/*.displayPageTable a,*/
+.displayPageTable a.ver-valor-cuota,
+.displayPageTable .icon-detalle,
+.displayPageTable .icon-valor-cuota,
+.displayPageTable .icon-ver-contrato-general,
+.displayPageTable .icon-folleto,
+.displayPageTable .verMovimiento,
+.displayPageTable .icon-editar, 
+.displayPageTable .icon-eliminar, 
+.displayPageTable .icon-naranjo {display:none;background:none!important;pointer-events: none;}
+
+.displayPageTable .tableHead a {display:block;}
+
+.dijitInputContainer input[name="periodo"]{display:none;}
+.dijitValidationContainer, .dijitArrowButtonInner {display:none;}
+.dijitInputContainer {display:block;}
+
+.table-detalle {border:1px solid #dddddd;}
+#apv-cartola-movimientos .table-detalle {border:1px solid #dddddd;width:100%;clear:both;}
+
+.table-comprobante {border:collapse;border:1px solid #dddddd;}
+.table-comprobante br {display:block;clear:both;}
+.table-comprobante tr, .table-comprobante td {border-bottom:1px solid #dddddd;}
+.table-comprobante td strong, .table-comprobante td span {display:inline-block;}
+/*.table-comprobante td strong, .table-comprobante td span {display:block;clear:right;width:100%;} */ /*Se comenta para manetner la línea en print de activar/desactivar */
+
+.table .bg {background-color: none; border-collapse: collapse; border:1px solid #DDDDDD;}
+.table-bord-curvo {border:1px solid #DDDDDD;}
+.table-bord-curvo th {border-left:0 none;}
+.table-bord-curvo td {border-left:1px solid #dddddd;}
+
+.table-bordered {background-color: none;border-collapse: collapse;border:1px solid #DDDDDD;}
+.table-bordered .bg {background-color: none;border-collapse: collapse;border:1px solid #DDDDDD;}
+.table-bordered {background-color: none;border-collapse: collapse;border: 1px solid #dddddd;}
+
+ul.inline > li, ol.inline > li {display: inline-block;float: left;padding-left: 5px;padding-right: 5px;}
+
+
+.table {border:collapse!important;border}
+.table .bg {background-color: none; border-collapse: collapse; border:1px solid #DDDDDD;}
+
+.table .gridtable {border:1px solid #DDDDDD;}
+
+a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+a:link { font-weight:normal; text-decoration:none; color:#373D45; }
+#contenido img.icoitau {display:block;clear:both;float:left;}
+.breakth > div a {color:#000000;}
+.breakth > div a:last-child {display:none;}
+.breakth > div a + a, .breakth > div a > img, .icon-favorito-1 {display:none;}
+
+/*.modulo-header {display:block;clear:left;}*/
+#formApv .modulo-content {display:block;clear:both;width:96%!important;overflow:hidden;}
+#formApv .modulo-header {display:block;clear:left;}
+#formApv #divConRegistros1 {display:block;width:96%;}
+#apv-info #contenidoImprimir {display:table;overflow:hidden;}
+#formApv .table {width:96%!important;}
+#formApv .table th[name="Detalle_ColumnHeader"] span {display:none;}
+
+.dijitContentPane {width:100%;}
+
+/* Calendario mes año */
+.filtro-calendario {display:inline-block;z-index:300;position:relative;}
+.filtro-calendario .dijitInputContainer {height:18px;width:66px!important;display:block;}
+#resultShow {width:66px!important;color:#000000;padding:2px!important;background:none;line-height:normal!important;margin:0px!important;}
+#boxMonthYear, input[name="_bowStEvent"] {display:none;}
+
+/*Tab transferencia*/
+.tab {display:block;min-width:690px;min-height:47px;}
+.tab a {display:inline-block;min-width:210px;height:45px;}
+.tab a span.wpfTabText {min-width:110px;min-height:20px;display:block;}
+
+/* Combo-box */
+#combo_periodo .dijitComboBox .dijitArrowButton, 
+#combo_periodo .dijitComboBox .dijitValidationContainer 
+#combo_periodo .dijitComboBox .dijitInputInner
+{display:none;}
+
+
+
+/* force background colour printing in chrome browser */
+body, span, div, table, tr, tbody, tfoot, td, hr {
+    -webkit-print-color-adjust: exact!important;
+    print-color-adjust: exact!important; 
+    font-size:8pt; 
+}
+table td.title span {font-size:20px;}
+/* force backgrund colour printing in chrome browser */
+/*Estilos para empresas*/
+.displayPageTable td a {pointer-events: none!important;cursor: default!important;text-decoration:none!important;}
+.thRight .breakth, .thRight .tableHeadText, .thRight .breakth div a:first-child {float:right!important;text-align:right;}
+.modulo-medium .modulo-content, .modulo-medium .modulo-header {width: 98%!important;}
+.span9, .container  {width: 98%!important;}
+.graph2, .graph3 {background: url(../img/line-div-graph.jpg) center repeat-y #F5F5F5!important;min-height:340px;}
+.graph2 .graph, .graph3 .graph {display:table-cell;height:100%important;}
+.cont-graph {float:left;position:relative;}
+.cont-graph .graph #graficoPesos .graph-content {margin-left: -54px;position:relative;}
+.cont-graph .graph #graficoDolares .graph-content {margin-left: -54px;position:relative;}
+.cont-graph .graph #graficoPesos #msgPesos {margin:120px 0!important;}
+.cont-graph .graph #graficoDolares #msgDolares {margin-bottom:120px!important;}
+
+#dvGraficos .graph-head {width:223px;}
+#dvGraficos #ConDeposito-pesos, #dvGraficos #deposito-uf, #dvGraficos #deposito-dolar {width:250px;overflow:hidden;}
+#dap-saldos .modulo-content {width: 678px!important;display:block;overflow:hidden;}
+#dap-saldos .modulo-content .graph3 {width: 678px!important;display:block;overflow:hidden;}
+#dap-saldos .modulo-content .graph3 .graph {width: 220px!important;display:block;overflow:hidden;}
+#dvGraficos {width:970px;display:table}
+
+.selectBox .dijitButtonNode, .selectBox  .dijitValidationContainer {display:none;}
+.modulo-filtro2 label {float: left;margin: 0px 5px 10px 0;display:inline-block;}
+.mes-anios label {float: left;margin: -4px 5px 10px 0;display:inline-block;}
+.mes-anios .dijitTextBox {display:inline-block;}
+.ocultaPrint {display:none!important;}
+.grupoProrroga .table-thead tr th:nth-child(2), .grupoProrroga .table-thead tr td:nth-child(2) {display:none!important;}
+.modulo-corpuntos {width:98%;}
+.modulo-corpuntos .puntos-act {width: 24%;}
+.modulo-corpuntos .puntos-venc {width: 72%;}
+#contenidoSinMovimientos .icon-xlarge {background-image: none;}
+.tabla-corpuntos .displayPageTable tbody tr td:nth-child(4), .tabla-corpuntos .displayPageTable tbody tr td:nth-child(8) {white-space:nowrap;}
+
+.imprimir-area-ultimos-mov{display:block;box-sizing: border-box;width:83%!important;}

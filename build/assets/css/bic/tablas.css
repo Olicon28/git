@@ -1,0 +1,998 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+/* ==========================================================================
+   TABLE
+   ========================================================================== */
+td[rowspan], th[rowspan] { vertical-align: middle!important; }
+.table-thead input[type="radio"] {
+	margin-top: -3px;
+}
+
+.table-thead input[type="checkbox"] {
+    margin-top: 4px;
+}
+
+.title-inter {
+	background: #EEE;
+	font-weight: bold;
+	text-align: center!important;
+}
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  clear: both;
+}
+
+.table td .centrar, .table-comprobante .centrar { text-align: center; }
+
+
+.table { 
+	width: 100%; 
+}
+
+.table td {
+	color:#373D45;
+}
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  /*text-align: left;*/
+  vertical-align: top;
+}
+.table th { font-weight: normal; font-size:14px; border-bottom: 1px solid #dddddd; }
+.table thead th { vertical-align: bottom; }
+.table caption + thead tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child th,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+.table tbody + tbody { border-top: 2px solid #dddddd; }
+.table .table { background-color: #ffffff; }
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}
+
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.table-bordered th,
+.table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+
+.table-bordered caption + thead tr:first-child th,
+.table-bordered caption + tbody tr:first-child th,
+.table-bordered caption + tbody tr:first-child td,
+.table-bordered colgroup + thead tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child td,
+.table-bordered thead:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+.table-bordered thead:first-child tr:first-child > th:first-child,
+.table-bordered tbody:first-child tr:first-child > td:first-child,
+.table-bordered tbody:first-child tr:first-child > th:first-child {
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+}
+.table-bordered thead:first-child tr:first-child > th:last-child,
+.table-bordered tbody:first-child tr:first-child > td:last-child,
+.table-bordered tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+}
+.table-bordered thead:last-child tr:last-child > th:first-child,
+.table-bordered tbody:last-child tr:last-child > td:first-child,
+.table-bordered tbody:last-child tr:last-child > th:first-child,
+.table-bordered tfoot:last-child tr:last-child > td:first-child,
+.table-bordered tfoot:last-child tr:last-child > th:first-child {
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+.table-bordered thead:last-child tr:last-child > th:last-child,
+.table-bordered tbody:last-child tr:last-child > td:last-child,
+.table-bordered tbody:last-child tr:last-child > th:last-child,
+.table-bordered tfoot:last-child tr:last-child > td:last-child,
+.table-bordered tfoot:last-child tr:last-child > th:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+}
+.table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
+}
+.table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
+}
+.table-bordered caption + thead tr:first-child th:first-child,
+.table-bordered caption + tbody tr:first-child td:first-child,
+.table-bordered colgroup + thead tr:first-child th:first-child,
+.table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+}
+.table-bordered caption + thead tr:first-child th:last-child,
+.table-bordered caption + tbody tr:first-child td:last-child,
+.table-bordered colgroup + thead tr:first-child th:last-child,
+.table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* ==========================================================================
+   Tablas con Borde en el fondo
+   ========================================================================== */
+
+.table-border-bottom {
+  border-collapse: separate;
+}
+.table-border-bottom th,
+.table-border-bottom td {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* ==========================================================================
+   Tablas con Borde en el fondo / 
+   ========================================================================== */
+.table .bg {
+  background-color: #F6F6F6;
+} 
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color:#d6d6d6;
+}
+table td[class*="span"],
+table th[class*="span"],
+.row-fluid table td[class*="span"],
+.row-fluid table th[class*="span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+/* ==========================================================================
+   TABLA CREDITOS 
+   ========================================================================== */
+.table .tabla-creditos {
+	margin: 0;
+	padding: 0;
+}   
+.tabla-creditos td {
+	padding-top: 12px;
+}   
+.tabla-creditos .link-pago {
+	padding-top: 6px;
+}   
+.table-caption caption {
+	border: solid 1px #ddd;
+	border-bottom: none;
+	height: 28px;
+	padding-top: 10px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 10px;
+}
+.table-caption td {
+	text-align: center;
+}
+
+
+/* ==========================================================================
+   TABLE FILTRADO
+   ========================================================================== */
+.table-filtrado td span {
+	/*color:#003766;*/
+	color:#F3791F;
+	font-weight: bold;
+}
+
+
+/* ==========================================================================
+   TABLE HEAD COLOR TH
+   ========================================================================== */
+.bg-destacar tr.bg { background: #FFF; }
+
+.table-thead input[type="checkbox"]{
+	float: left;
+	margin-right:5px;
+}
+
+.table-thead { 
+	border-radius: 5px 5px 0 0; 
+	overflow: hidden;
+}
+
+.table-thead .filtrar-bottom i {
+	background-position: -1245px 0;
+}
+
+.table-thead .filtrar-top i {
+	background-position: -1260px 0;
+}
+
+
+
+html .table-thead th {
+	border: 0 none;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+	vertical-align: middle;
+	height: 22px;
+	line-height: 13px;
+	position: relative;
+}
+
+.table-thead a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.table-thead th i:hover { text-decoration: underline; cursor: pointer;}
+
+.table-thead .descripcion  {
+	width: 120px;
+}
+
+/*.table-thead .filtrar-top {
+	background: url(../img/bg-filtrar-top.jpg) 0 0 repeat-x #F87900;	
+}
+
+.table-thead .filtrar-top i {
+	opacity: 1;
+}*/
+
+.table-thead th i {
+	cursor: pointer;
+/*	float: right;
+	position: absolute;
+	top: 20px;
+	right: 0;*/
+}
+
+/* ==========================================================================
+   TABLE INFO
+   ========================================================================== */
+.table-info {
+	background: #FFF;
+	border: 1px solid #DDD;
+}
+
+.table-info td {
+	padding: 10px 0 0 20px;
+}
+
+.table-info .first {
+	padding-top: 20px;
+}
+
+.table-info .last {
+	padding-bottom: 20px;
+}
+
+/* ==========================================================================
+   TABLE LISTA
+   ========================================================================== */
+.table-lista caption {
+	text-align: left;
+	font-size:14px; 
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+.table-lista td strong {
+	background: url(../img/bullet-lista.gif) left 5px no-repeat;
+	padding-left: 10px;
+}
+.table-lista td {
+	padding: 4px 0 0 12px;
+}
+
+/* ==========================================================================
+   DETALLE TRANSFERENCIA
+   ========================================================================== */
+.detalle-transferencia {
+	background: #F8F8F8;
+    padding: 20px 0 0;
+    width: 322px;
+    /*float: right;*/
+    margin: 0 20px 20px 0;
+}
+.detalle-transferencia .THead,
+.detalle-transferencia .TBody {
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+}
+.detalle-transferencia .titulo-transferencias {
+	font-size: 16px;
+	font-weight: bold;
+}
+.detalle-transferencia td {
+	width: 50%;
+}
+.detalle-transferencia td span {
+	font-weight: bold;
+	display: block;
+}
+
+.detalle-transferencia .bg-accion { border-top: 1px solid #DDD; }
+
+
+/* ==========================================================================
+   COMPROBANTE TRANSFERENCIA
+   ========================================================================== */
+.comprobante-transferencia {
+	width: 322px;
+	background-color: #fff;
+	margin: 10px;
+	float: right;
+}
+.comprobante-transferencia .monto-transferencia {
+	display: block;
+}
+
+.table-detalle .TBody th,
+.table-detalle .TBody td {
+	vertical-align: top;
+}
+
+.table-detalle .THead th,
+.table-detalle .THead td {
+	vertical-align: bottom;
+}
+
+.table-detalle th {
+	border-bottom: 0 none;
+	padding:0;
+	font-size: 12px;
+	line-height: 14px;
+	border-right: 1px solid #DDD;
+}
+
+.table-detalle th,
+.table-detalle td {
+	text-align: center;
+}
+
+.table-detalle td {
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+	padding: 0 0 0 0;
+	border-right: 1px solid #DDD;	
+}
+.table-detalle td.last,
+.table-detalle th.last {
+	border-right: none;
+}
+.table-detalle {
+	background: #F5F5F5;
+}
+
+.table-detalle .THead th {
+	padding-top: 20px;
+}
+
+.table-detalle .TBody td {
+	padding-bottom: 20px;
+}
+
+.table-detalle a {
+	text-decoration: underline;
+}
+
+.table-detalle small {
+	font-weight: normal;
+	font-size: 11px;
+}
+/* ==========================================================================
+   TABLA DETALLE TRANSFERENCIAS 
+   ========================================================================== */
+.table-border-interior td {
+	border-bottom: 1px solid #ccc;
+}
+.table .no-border { 
+	border: none;
+}
+
+.table .monto-transferencia {
+	font-size: 20px;
+	font-weight: normal;
+}
+.table .text-center .monto-transferencia {
+	display: inline;
+}
+.table .titulo-tabla {
+	font-size: 20px;
+	text-align: center;
+}
+.td-destacado {
+	background: #ddd;
+}
+
+.mensaje-lateral td,
+.detalle-transferencia td,
+.comprobante-transferencia td {
+	padding: 10px 16px;
+}
+.separar .right table tr td {
+	padding: 8px 10px;	
+}
+
+.sello {
+	background-image: url(../img/sello-comprobante.png);
+	background-repeat: no-repeat;
+	background-position: right 60%;
+}
+
+/* ==========================================================================
+   TABLA DETALLE INGRESO
+   ========================================================================== */
+.table-detalle-ingreso {
+	background: #F8F8F8;
+	border-radius: 5px;
+	margin-bottom:-1px;
+	overflow: hidden;
+	line-height: 15px;
+} 
+
+.table-detalle-ingreso br,
+.table-comprobante br {
+	display: none;
+}
+
+.table-detalle-ingreso thead td {
+	text-align: center;
+}
+
+.table-detalle-ingreso thead .title {
+	font-size:14px;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.table-detalle-ingreso tr td {
+	border-bottom: 1px solid #DFDFDF; 
+}
+
+.table-detalle-ingreso td {
+	padding: 7px 10px;
+} 
+
+.table-detalle-ingreso .valor {
+	padding:10px;
+}
+	
+.table-detalle-ingreso .valor span{
+	font-size: 20px;
+}
+   
+/* ==========================================================================
+   TABLA COMPROBANTE
+   ========================================================================== */
+.table-comprobante {
+	border-radius: 5px;
+	margin-bottom:-1px;
+	overflow: hidden;
+	line-height: 15px;
+	box-shadow: #DDD 0 0 3px 0;
+	-webkit-box-shadow: #DDD 0 0 3px 0;
+	-moz-box-shadow: #DDD 0 0 3px 0;
+	border:1px solid #DDD;
+} 
+
+.table-comprobante br { display: none;}
+.table-comprobante strong { margin-top: -1px; display: inline-block;}
+
+.table-comprobante thead td {
+	text-align: center;
+	font-weight: bold;
+}
+
+.table-comprobante thead .text-left{
+	width: 48%;
+}
+
+.table-comprobante thead .title {
+	font-size:20px;
+	padding: 20px 0;
+	color:#F3791F;
+	font-weight:normal;
+}
+
+.table-comprobante tr td {
+	border-bottom: 1px solid #DFDFDF; 
+}
+
+.table-comprobante td {
+	padding: 5px 10px;
+} 
+
+.table-comprobante tbody td { line-height: 15px; }
+
+.table-comprobante .valor {
+	text-align: center;
+	padding:10px 0;
+}
+	
+.table-comprobante .valor span{
+	font-size: 20px;
+}   
+
+/*CSS monto vencimiento DAP*/
+.monto-venc-dap {font-size:24px; color:#f3791f; padding-top:4px; padding-bottom:4px}
+
+.monto-venc-dap-conf{font-size:24px; color:#f3791f; padding-top:4px;}
+/*FIN monto vencimiento DAP*/
+
+html .tres-datos th { width: 32%; }
+html .cuatro-datos th { width: 24%; }
+html .cinco-datos th { width: 19%; }
+
+
+/*TABLA*/
+.table-form tr { border-bottom: 1px solid #DDD; margin-bottom: 10px; display: block; }
+.table-form th { font-size: 12px; }
+.table-form td { padding: 0; }
+.table-form td span,
+.table-form td input[type="radio"],
+.table-form td label { line-height: 30px; }
+
+.table-form td span { font-weight: bold; }
+.table-form td label { font-weight: normal; }
+.table-form .first input[type="text"] { margin: 0 5px 10px 5px; }
+.table-form td * { float: left; }
+
+.table-form td input[type="text"] 		{ margin-left: 5px; }
+.table-form .last input[type="text"] 	{ width: 343px; margin-left: 5px; }
+
+.table-form td input[type="radio"] { margin: 8px 5px 0 10px; }
+
+.table-form .tr-last { border-bottom: 0 none; }
+
+.table-form .first .selectBox { width: 130px; margin: 0 10px; }
+.table-form .last .selectBox { width: 354px; margin-left: 6px; }
+
+/*TABLE DATOS*/
+.table-datos th { font-size: 12px; font-weight: bold; text-align: center; }
+.table-datos th.bg {
+	background: url(../img/bg-th-bored-curvo.jpg) repeat-x 4px 0px #efefed;
+}
+
+.table-datos td,
+.table-datos th {
+	padding: 2px 8px; 
+}
+
+/*TABLE PRESENTA DATOS*/
+
+.table-presenta-datos th {
+	font-size: 12px;
+	font-weight: bold;
+	border: 0 none;
+	text-align:left;
+}
+
+.table-presenta-datos th,
+.table-presenta-datos td {
+	padding: 2px 8px;
+}
+
+
+
+.cont-table-largo {
+	width: 440px;
+}
+
+.cont-table-corto {
+	width: 220px;
+}
+
+.cont-table-medium {
+	width: 49%;
+}
+
+.separar-tabla {  float: left; clear: both; margin-bottom: 10px; }
+.modulo-medium .separar-tabla { width: 100%; }
+
+
+.text-grande { font-size: 22px; font-weight: bold; }
+
+.table-text-mini .bg-th { padding-bottom: 10px;}
+.table-text-mini .bg-th th { padding: 10px 5px; }
+html body .table-text-mini * { font-size: 10px; line-height: 10px; }
+html body .table-text-mini th { padding: 0; height: auto; background: #ff7714; }
+
+.cols th { padding-bottom: 10px!important; } 
+
+
+.tabla-pagar-cuenta th,
+.tabla-pagar-cuenta td {
+	padding: 4px 8px;
+}
+
+table .bg-grey-text-white{color:#fff; background-color:#999;}
+
+/* ==========================================================================
+   TABLA NORMAL
+   ========================================================================== */
+.table-normal th {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* ==========================================================================
+   TABLA COMPRESSED
+   ========================================================================== */
+.table-compressed td,
+.table-compressed th {	padding: 4px 8px;
+}
+
+.table-fija td { text-align: center;}
+.table-fija .destacar {
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+
+.table-forms td { padding: 5px 6px;}
+.table-forms td input[type="text"] { margin-bottom: 0; }
+
+.table-forms-inline td * {
+	float: left;
+}
+
+.table-mini th {
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+}
+
+.table-mini thead th {
+	vertical-align: middle;
+}
+
+/*TABLA FONDOS*/
+.table-border {
+	border: 1px solid #ddd;
+	border-top: 0 none;
+}
+
+.table-border tr {
+	border-top: 1px solid #ddd;
+}
+
+.table-borde {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #DDD;
+	font-size: 12px;
+}	
+
+.table-borde th {
+	border-bottom: 0 none;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 5px 10px;
+}
+
+.table-borde td {
+	border-left: 1px solid #DDD;
+	padding: 5px 10px;
+}
+
+.tabla-fondos .table-borde {
+	width: 49%;
+}
+
+/* Agregado caso 1 r2 - para tablas.css */
+.table-bord-curvo {
+    border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  background-color: #FFF;
+}
+.table-bord-curvo th,
+.table-bord-curvo td {
+  border-left: 1px solid #dddddd;
+}
+.table-bord-curvo th {
+background:url("../img/bg-th-bored-curvo.jpg") repeat-x 4px 0px;
+}
+.table-bord-curvo td {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-bord-curvo .last td {
+  border-bottom:  0 none;
+}
+
+
+.table-bord-curvo th,
+.table-bord-curvo .bg td {
+	background-color: #F5F5F5;
+}
+
+.table-bord-curvo tr th {
+	-webkit-border-top-left-radius: 4px;
+	          border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-right-radius: 4px;
+	          border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;	
+}
+.table-bord-curvo .bg-last td {
+  border-bottom: 0 none;
+	border-collapse: collapse !important;
+}
+.table-bord-curvo < tr.bg-last {
+    border-collapse: collapse;
+}
+
+.table-hipotecario .bold {
+	width: 20%; /*Personas*/
+}
+
+.table-hipotecario .text-right {
+	width: 30%; /*Personas*/
+}
+
+
+.table-bg tbody tr {
+	background: #F6F6F6;
+	border-bottom: 2px solid #FFF;
+}
+
+.table-btn-right .accion,
+.table-btn-right tbody [class*="icon-"] {
+	float: right;
+}
+
+/*.rowspan td {
+	background: none!important;
+}*/
+
+.table tfoot .bg {
+	background: #eceaea;
+}
+
+
+/* ==========================================================================
+autor: IBM TEAM
+fecha:02-08-2018
+nota: xsl para transformacion de respuesta de servicio
+modificaciones nuevo guideline banco: Kibernum
+fecha: 12-09-2018
+========================================================================== */
+/* Sin resultados */
+#tabla-new-guideline [class^='icon']:hover { color: #EC7000 !important;}
+#tabla-new-guideline .no-data {border: solid 1px #DFE6EE;padding: 10px;}
+#tabla-new-guideline .no-data > div {position: relative;display: inline-block;}
+#tabla-new-guideline .no-data i {float: left;}
+#tabla-new-guideline .no-data span {display: block;margin-top:5px;width: 270px;}
+#tabla-new-guideline .table th, #tabla-new-guideline .table td {padding: 0;}
+#tabla-new-guideline .tableHead, #tabla-new-guideline .tableHeadText{font-weight:normal !important;} 
+#tabla-new-guideline .table {width:100%;}
+#tabla-new-guideline .cash20-tooltip p {color: #fff !important;}
+#tabla-new-guideline td[rowspan],#tabla-new-guideline th[rowspan] {vertical-align:middle!important;}
+#tabla-new-guideline .title-inter {background:#EEE;font-weight:bold;text-align:center!important;}
+#tabla-new-guideline table {width:100%;max-width:100%;background-color:transparent;border-collapse:separate;border-spacing:0;clear:both;}
+#tabla-new-guideline .table-condensed th, #tabla-new-guideline .table-condensed td {padding:4px 5px;}
+#tabla-new-guideline .table-bordered {border:1px solid #dddddd;border-left:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+#tabla-new-guideline .table-bordered th,#tabla-new-guideline .table-bordered td {border-left:1px solid #dddddd;}
+#tabla-new-guideline .table-bordered caption + thead tr:first-child th, #tabla-new-guideline .table-bordered caption + tbody tr:first-child th, #tabla-new-guideline .table-bordered caption + tbody tr:first-child td, #tabla-new-guideline .table-bordered colgroup + thead tr:first-child th, #tabla-new-guideline .table-bordered colgroup + tbody tr:first-child th, #tabla-new-guideline .table-bordered colgroup + tbody tr:first-child td, #tabla-new-guideline .table-bordered thead:first-child tr:first-child th, #tabla-new-guideline .table-bordered tbody:first-child tr:first-child th, #tabla-new-guideline .table-bordered tbody:first-child tr:first-child td {border-top:0;}
+#tabla-new-guideline .table-bordered thead:first-child tr:first-child > th:first-child, #tabla-new-guideline .table-bordered tbody:first-child tr:first-child > td:first-child, #tabla-new-guideline .table-bordered tbody:first-child tr:first-child > th:first-child {-webkit-border-top-left-radius:4px;-moz-border-radius-topleft:4px;border-top-left-radius:4px;}
+#tabla-new-guideline .table-bordered thead:first-child tr:first-child > th:last-child, #tabla-new-guideline .table-bordered tbody:first-child tr:first-child > td:last-child, #tabla-new-guideline .table-bordered tbody:first-child tr:first-child > th:last-child {-webkit-border-top-right-radius:4px;-moz-border-radius-topright:4px;border-top-right-radius:4px;}
+#tabla-new-guideline .table-bordered thead:last-child tr:last-child > th:first-child, #tabla-new-guideline .table-bordered tbody:last-child tr:last-child > td:first-child, #tabla-new-guideline .table-bordered tbody:last-child tr:last-child > th:first-child, #tabla-new-guideline .table-bordered tfoot:last-child tr:last-child > td:first-child, #tabla-new-guideline .table-bordered tfoot:last-child tr:last-child > th:first-child {-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;border-bottom-left-radius:4px;}
+#tabla-new-guideline .table-bordered thead:last-child tr:last-child > th:last-child, #tabla-new-guideline .table-bordered tbody:last-child tr:last-child > td:last-child, #tabla-new-guideline .table-bordered tbody:last-child tr:last-child > th:last-child, #tabla-new-guideline .table-bordered tfoot:last-child tr:last-child > td:last-child, #tabla-new-guideline .table-bordered tfoot:last-child tr:last-child > th:last-child {-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;border-bottom-right-radius:4px;}
+#tabla-new-guideline .table-bordered tfoot + tbody:last-child tr:last-child td:first-child {-webkit-border-bottom-left-radius:0;-moz-border-radius-bottomleft:0;border-bottom-left-radius:0;}
+#tabla-new-guideline .table-bordered tfoot + tbody:last-child tr:last-child td:last-child {-webkit-border-bottom-right-radius:0;-moz-border-radius-bottomright:0;border-bottom-right-radius:0;}
+#tabla-new-guideline .table-bordered caption + thead tr:first-child th:first-child, #tabla-new-guideline .table-bordered caption + tbody tr:first-child td:first-child, #tabla-new-guideline .table-bordered colgroup + thead tr:first-child th:first-child, #tabla-new-guideline .table-bordered colgroup + tbody tr:first-child td:first-child {-webkit-border-top-left-radius:4px;-moz-border-radius-topleft:4px;border-top-left-radius:4px;}
+#tabla-new-guideline .table-bordered caption + thead tr:first-child th:last-child, #tabla-new-guideline .table-bordered caption + tbody tr:first-child td:last-child, #tabla-new-guideline .table-bordered colgroup + thead tr:first-child th:last-child, #tabla-new-guideline .table-bordered colgroup + tbody tr:first-child td:last-child {-webkit-border-top-right-radius:4px;-moz-border-radius-topright:4px;border-top-right-radius:4px;}
+#tabla-new-guideline input[type='radio']:after{width:12px;height:12px;border-radius:50%;top:-1px;left:-3px;position:relative;background-color:#ffffff;content:'';display:inline-block;visibility:visible;border:2px solid #b4b4b4;cursor:pointer;}
+#tabla-new-guideline input[type='radio']:checked:after{width:8px;height:8px;border-radius:50%;top:-1px;left:-3px;position:relative;background-color:#ffffff;content:'';display:inline-block;visibility:visible;border:4px solid #EC7000;}
+#tabla-new-guideline i:hover{color:#EC7000}
+/* ========================================================================== TABLE HEAD COLOR TH ========================================================================== */
+#tabla-new-guideline .table-thead th {border:0 none;vertical-align:middle;position:relative;}
+#tabla-new-guideline .table-thead th i:hover {text-decoration:underline;cursor:pointer;}
+#tabla-new-guideline .table-thead .descripcion {width:120px;}
+#tabla-new-guideline .table-thead th i {cursor:pointer;}
+#tabla-new-guideline .table-thead input[type="radio"] {margin-top: -10px;}
+#tabla-new-guideline .table-thead input[type="checkbox"] {float:left;margin:4px 5px 0 0;}
+#tabla-new-guideline .table-thead .filtrar-bottom i {background-position:-1245px 0;}
+#tabla-new-guideline .table-thead .filtrar-top i {background-position:-1260px 0;}
+#tabla-new-guideline .table-thead th, #tabla-new-guideline .table-thead th:hover {background:  #FAFBFC !important}
+/* ========================================================================== Tablas con Borde en el fondo ========================================================================== */
+#tabla-new-guideline .table-border-bottom {border-collapse:separate;}
+#tabla-new-guideline .table-border-bottom th, #tabla-new-guideline .table-border-bottom td {border-bottom:1px solid #dddddd;}
+/* ========================================================================== Tablas con Borde en el fondo / ========================================================================== */
+#tabla-new-guideline .table .bg {background-color:#F6F6F6;}
+#tabla-new-guideline .table-hover tbody tr:hover > td, #tabla-new-guideline .table-hover tbody tr:hover > th {background-color:#d6d6d6;}
+#tabla-new-guideline table td[class*="span"], #tabla-new-guideline table th[class*="span"], #tabla-new-guideline .row-fluid table td[class*="span"], #tabla-new-guideline .row-fluid table th[class*="span"] {display:table-cell;float:none;margin-left:0;}
+/* ========================================================================== TABLA CREDITOS ========================================================================== */
+#tabla-new-guideline .table .tabla-creditos {margin:0;padding:0;}
+#tabla-new-guideline .tabla-creditos td {padding-top:12px;}
+#tabla-new-guideline .tabla-creditos .link-pago {padding-top:6px;}
+#tabla-new-guideline .table-caption caption {border:solid 1px #ddd;border-bottom:none;height:28px;padding-top:10px;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px;font-size:14px;text-align:left;padding-left:10px;}
+#tabla-new-guideline .table-caption td {text-align:center;}
+/* ========================================================================== TABLE FILTRADO ========================================================================== */
+#tabla-new-guideline .table-filtrado td span {color:#F3791F;font-weight:bold;}
+/* ========================================================================== TABLE INFO ========================================================================== */
+#tabla-new-guideline .table-info {background:#FFF;border:1px solid #DDD;}
+#tabla-new-guideline .table-info td {padding:10px 0 0 20px;}
+#tabla-new-guideline .table-info .first {padding-top:20px;}
+#tabla-new-guideline .table-info .last {padding-bottom:20px;}
+/* ========================================================================== TABLE LISTA ========================================================================== */
+#tabla-new-guideline .table-lista caption {text-align:left;font-size:14px;font-weight:bold;padding-bottom:40px;}
+#tabla-new-guideline .table-lista td strong {background:url(../img/bullet-lista.gif) left 5px no-repeat;padding-left:10px;}
+#tabla-new-guideline .table-lista td {padding:4px 0 0 12px;}
+/* ========================================================================== DETALLE TRANSFERENCIA ========================================================================== */
+#tabla-new-guideline .detalle-transferencia {background:#F8F8F8;padding:20px 0 0;width:322px;margin:0 20px 20px 0;}
+#tabla-new-guideline .detalle-transferencia .THead, #tabla-new-guideline .detalle-transferencia .TBody {font-weight:bold;text-align:center;line-height:20px;}
+#tabla-new-guideline .detalle-transferencia .titulo-transferencias {font-size:16px;font-weight:bold;}
+#tabla-new-guideline .detalle-transferencia td {width:50%;}
+#tabla-new-guideline .detalle-transferencia td span {font-weight:bold;display:block;}
+#tabla-new-guideline .detalle-transferencia .bg-accion {border-top:1px solid #DDD;}
+/* ========================================================================== COMPROBANTE TRANSFERENCIA ========================================================================== */
+#tabla-new-guideline .comprobante-transferencia {width:322px;background-color:#fff;margin:10px;float:right;}
+#tabla-new-guideline .comprobante-transferencia .monto-transferencia {display:block;}
+#tabla-new-guideline .table-detalle .TBody th, #tabla-new-guideline .table-detalle .TBody td {vertical-align:top;}
+#tabla-new-guideline .table-detalle .THead th, #tabla-new-guideline .table-detalle .THead td {vertical-align:bottom;}
+#tabla-new-guideline .table-detalle th {border-bottom:0 none;padding:0;font-size:12px;line-height:14px;border-right:1px solid #DDD;}
+#tabla-new-guideline .table-detalle th, #tabla-new-guideline .table-detalle td {text-align:center;}
+#tabla-new-guideline .table-detalle td {font-weight:bold;font-size:14px;color:#333;padding:0 0 0 0;border-right:1px solid #DDD;}
+#tabla-new-guideline .table-detalle td.last, #tabla-new-guideline .table-detalle th.last {border-right:none;}
+#tabla-new-guideline .table-detalle {background:#F5F5F5;}
+#tabla-new-guideline .table-detalle .THead th {padding-top:20px;}
+#tabla-new-guideline .table-detalle .TBody td {padding-bottom:20px;}
+#tabla-new-guideline .table-detalle a {text-decoration:underline;}
+#tabla-new-guideline .table-detalle small {font-weight:normal;font-size:11px;}
+/* ========================================================================== TABLA DETALLE TRANSFERENCIAS ========================================================================== */
+#tabla-new-guideline .table-border-interior td {border-bottom:1px solid #ccc;}
+#tabla-new-guideline .table .no-border {border:none;}
+#tabla-new-guideline .table .monto-transferencia {font-size:20px;font-weight:normal;}
+#tabla-new-guideline .table .text-center .monto-transferencia {display:inline;}
+#tabla-new-guideline .table .titulo-tabla {font-size:20px;text-align:center;}
+#tabla-new-guideline .td-destacado {background:#ddd;}
+#tabla-new-guideline .mensaje-lateral td, #tabla-new-guideline .detalle-transferencia td, #tabla-new-guideline .comprobante-transferencia td {padding:10px 16px;}
+#tabla-new-guideline .separar .right table tr td {padding:8px 10px;}
+#tabla-new-guideline .sello {background-image:url(../img/sello-comprobante.png);background-repeat:no-repeat;background-position:right 60%;}
+/* ========================================================================== TABLA DETALLE INGRESO ========================================================================== */
+#tabla-new-guideline .table-detalle-ingreso {background:#F8F8F8;border-radius:5px;margin-bottom:-1px;overflow:hidden;line-height:15px;}
+#tabla-new-guideline .table-detalle-ingreso br, #tabla-new-guideline .table-comprobante br {display:none;}
+#tabla-new-guideline .table-datos td, #tabla-new-guideline .table-datos th {padding:2px 8px;}
+/*TABLE PRESENTA DATOS*/
+#tabla-new-guideline .table-presenta-datos th {font-size:12px;font-weight:bold;border:0 none;text-align:left;}
+#tabla-new-guideline .table-presenta-datos th, #tabla-new-guideline .table-presenta-datos td {padding:2px 8px;}
+#tabla-new-guideline .cont-table-largo {width:440px;}
+#tabla-new-guideline .cont-table-corto {width:220px;}
+#tabla-new-guideline .cont-table-medium {width: 49%;}
+#tabla-new-guideline .separar-tabla {float: left;clear: both;margin-bottom: 10px;}
+#tabla-new-guideline .modulo-medium .separar-tabla {width: 100%;}
+#tabla-new-guideline .text-grande {font-size: 22px;font-weight: bold;}
+#tabla-new-guideline .table-text-mini .bg-th {padding-bottom: 10px;}
+#tabla-new-guideline .table-text-mini .bg-th th {padding: 10px 5px;}
+#tabla-new-guideline .table-text-mini * {font-size: 10px;line-height: 10px;}
+#tabla-new-guideline .table-text-mini th {padding: 0;height: auto;background: #ff7714;}
+#tabla-new-guideline .cols th {padding-bottom: 10px!important;}
+#tabla-new-guideline .tabla-pagar-cuenta th,#tabla-new-guideline .tabla-pagar-cuenta td {padding: 4px 8px;}
+#tabla-new-guideline table .bg-grey-text-white{color:#fff;background-color:#999;}
+/* ========================================================================= TABLA NORMAL ========================================================================== */
+
+#tabla-new-guideline .table-normal th {font-size: 12px;font-weight: bold;}
+/* ========================================================================== TABLA COMPRESSED ========================================================================== */
+#tabla-new-guideline .table-compressed td,#tabla-new-guideline .table-compressed th {padding: 4px 8px;}
+#tabla-new-guideline .table-fija td {text-align: center;}
+#tabla-new-guideline .table-fija .destacar {font-size: 14px;font-weight: bold;}
+#tabla-new-guideline .table-forms td {padding: 5px 6px;}
+#tabla-new-guideline .table-forms td input[type="text"] {margin-bottom: 0;}
+#tabla-new-guideline .table-forms-inline td * {float: left;}
+#tabla-new-guideline .table-mini th {font-size: 12px;line-height: 14px;font-weight: bold;}
+#tabla-new-guideline .table-mini thead th {vertical-align: middle;}
+/*TABLA FONDOS*/
+#tabla-new-guideline .table-border {border: 1px solid #ddd;border-top: 0 none;}
+#tabla-new-guideline .table-border tr {border-top: 1px solid #ddd;}
+#tabla-new-guideline .table-borde {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: 1px solid #DDD;font-size: 12px;}
+#tabla-new-guideline .table-borde th {border-bottom: 0 none;font-weight: bold;font-size: 12px;padding: 5px 10px;}
+#tabla-new-guideline .table-borde td {border-left: 1px solid #DDD;padding: 5px 10px;}
+#tabla-new-guideline .tabla-fondos .table-borde {width: 49%;}
+/* Agregado caso 1 r2 - para tablas.css */
+#tabla-new-guideline .table-bord-curvo {border: 1px solid #dddddd;border-collapse: separate;*border-collapse: collapse;border-left: 0;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;background-color: #FFF;}
+#tabla-new-guideline .table-bord-curvo th,#tabla-new-guideline .table-bord-curvo td {border-left: 1px solid #dddddd;}
+#tabla-new-guideline .table-bord-curvo th {background:url("../img/bg-th-bored-curvo.jpg") repeat-x 4px 0px;}
+#tabla-new-guideline .table-bord-curvo td {border-bottom: 1px solid #ddd;}
+#tabla-new-guideline .table-bord-curvo .last td {border-bottom: 0 none;}
+#tabla-new-guideline .table-bord-curvo th,#tabla-new-guideline .table-bord-curvo .bg td {background-color: #F5F5F5;}
+#tabla-new-guideline .table-bord-curvo tr th {-webkit-border-top-left-radius: 4px;border-top-left-radius: 4px;-moz-border-radius-topleft: 4px;-webkit-border-top-right-radius: 4px;border-top-right-radius: 4px;-moz-border-radius-topright: 4px;}
+#tabla-new-guideline .table-bord-curvo .bg-last td {border-bottom: 0 none;border-collapse: collapse !important;}
+#tabla-new-guideline .table-bord-curvo < tr.bg-last {border-collapse: collapse;}
+#tabla-new-guideline .table-hipotecario .bold {width: 20%;}
+#tabla-new-guideline .table-hipotecario .text-right {width: 30%;}
+#tabla-new-guideline .table-bg tbody tr {background: #F6F6F6;border-bottom: 2px solid #FFF;}
+#tabla-new-guideline .table-btn-right .accion,#tabla-new-guideline .table-btn-right tbody [class*="icon-"] {float: right;}
+#tabla-new-guideline .table tfoot .bg {background: #eceaea;}
+
+/* ========================================================================== Nueva tabla (no se generaron nombres de selectores nuevos.) ========================================================================== */
+#tabla-new-guideline .breakth {height: auto;text-align: left;}
+#tabla-new-guideline .movimientos-tabla {width: 100%;}
+#tabla-new-guideline .gridTable .tableHeadRow, #tabla-new-guideline .gridTable .tableHeadRow * {font-size: 14px !important;}
+#tabla-new-guideline .gridTable {border:solid 1px #DFE6EE;}
+#tabla-new-guideline .gridTable th {font-weight: normal;border-bottom:solid 1px #DFE6EE;padding: 10px;line-height: 100%;height: 60px;vertical-align: middle;}
+#tabla-new-guideline .gridTable > tbody > tr > td {border-bottom:solid 1px #DFE6EE;padding: 10px !important;line-height: 100%;height: 47px;vertical-align: middle;}
+#tabla-new-guideline .gridTable tr:last-child td {border-style:none;}
+#tabla-new-guideline .gridTable > th:first-child, #tabla-new-guideline .gridTable > td:first-child {padding-left: 20px;}
+#tabla-new-guideline .gridTable th:last-child,#tabla-new-guideline .gridTable td:last-child {padding-right: 20px;}
+#tabla-new-guideline .gridTable th img {top: 1px !important;width: 10px !important;}
+#tabla-new-guideline .gridTable td a {color: #007AB7;text-decoration: underline;}
+#tabla-new-guideline .gridTable td a::before {text-decoration: none !important;display: inline-block;}
+#tabla-new-guideline .gridTable .tableHeadRow, #tabla-new-guideline #porlet-movimientos .gridTable .tableRowOdd:hover, #tabla-new-guideline #porlet-movimientos .gridTable .tableRowEven:hover,#tabla-new-guideline .gridTable .tableRowOdd:hover,#tabla-new-guideline .gridTable .tableRowEven:hover {background: #FAFBFC !important;}
+#tabla-new-guideline .tableHead,#tabla-new-guideline .tableHeadAsc, #tabla-new-guideline .tableHeadDesc {background: none;height: auto; overflow: inherit!important;}
+/* footer tabla */
+#tabla-new-guideline .margenes-modulo-footer .modulo-footer.bg-accion.paginator {margin: 0 10px 10px 10px;}
+#tabla-new-guideline .modulo-footer.bg-accion {border-radius: 0;background: none;border-style: none;}
+#tabla-new-guideline a.tableHeadSortLink:link,#tabla-new-guideline a.tableHeadSortLink:active,#tabla-new-guideline a.tableHeadSortLink:visited{font-weight:normal !important;}
+#tabla-new-guideline tr.tableRowOdd:hover, #tabla-new-guideline tr.tableRowEven:hover {background:#FAFBFC!important;}
+#tabla-new-guideline #suscribir-cartolas .tableRowOdd:hover, #tabla-new-guideline #suscribir-cartolas .tableRowEven:hover {background:#FAFBFC!important;}
+#tabla-new-guideline #colapsable-cartola.tableRowOdd:hover, #tabla-new-guideline #colapsable-cartola .tableRowEven:hover {background:#FAFBFC!important;}
+#tabla-new-guideline .tableRowEven {background-color:#fff!important;color:#fff;}
+
+/* fechas cargos y abonos tabla */
+#tabla-new-guideline .cart-ingreso:after {content: "\e941";display: inline-block;position: relative;top: 0;width: 20px;height: 5px;float: right;margin-left: 6px;font-family: 'itaufonts_master_24px_v1' !important;color: #00d026;font-size: 16px;margin-left:0 !important;}
+#tabla-new-guideline .cart-egreso:after {content: "\e99c";display: inline-block;position: relative;top: 0; width: 20px;height: 5px;float: right;margin-left: 6px;font-family: 'itaufonts_master_24px_v1' !important;color: #ff0000;font-size: 16px;margin-left:0 !important;}
+
+/* fila activa */
+#tabla-new-guideline .gridTable tr.active {background-color: rgba(252, 231, 112, 0.20);}
+#tabla-new-guideline .gridTable tr.active:hover {background-color: rgba(252, 231, 112, 0.20)!important;}
+
+/* otros fixes */
+#tabla-new-guideline strong, #tabla-new-guideline strong *, #tabla-new-guideline b, #tabla-new-guideline b *, #tabla-new-guideline .bold, #tabla-new-guideline .bold *{font-weight:bold !important;}
+#tabla-new-guideline .inew-tooltip .inew-tooltiptext{color:#fff !important;}
+#tabla-new-guideline .footer-acciones *{box-sizing:content-box !important;}
+#tabla-new-guideline .footer-acciones li{border-radius:50% !important;}
+#tabla-new-guideline .popover h2, #tabla-new-guideline .popover h3 {color: #F47920 !important;}
+
+#tabla-new-guideline th, #tabla-new-guideline th span, #tabla-new-guideline td{color: #43484C;border-radius:0 !important;box-shadow: none !important;font-weight: normal !important;}
+#tabla-new-guideline th{font-size:14px !important;}
+#tabla-new-guideline td, #tabla-new-guideline td .outputData{font-size:13px !important;}
+#tabla-new-guideline a.tableHeadSortLink:link,#tabla-new-guideline a.tableHeadSortLink:active,#tabla-new-guideline a.tableHeadSortLink:visited {color: #43484C;}
+#tabla-new-guideline th, #tabla-new-guideline td, #tabla-new-guideline i{box-sizing:border-box;}
+#tabla-new-guideline td [class^='icon-itaufonts']{color: #43484C}

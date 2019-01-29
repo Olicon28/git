@@ -1,0 +1,205 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+@media screen and ( min-width: 1200px) { 
+
+  .container, 
+  .breadcrumbs-content {
+    width: 1170px;
+  }
+
+/*===== GRILLA=====*/
+.span9  { width: 930px; }
+.span12 { width: 1170px; }
+.span7  { width: 770px; }
+
+
+/*===== MODULOS MEDIUM =====*/
+  .modulo-medium {
+  	width: 928px;
+  }
+
+  .modulo-medium .modulo-content,
+  .modulo-medium .modulo-header {
+    width: 908px;
+  }
+
+  .modulo-medium .modulo-left,
+  .modulo-medium .modulo-right {
+    width: 444px;
+  }
+
+
+/*===== MODULOS LARGE =====*/
+  .modulo-large {
+    width: 1168px;
+  }
+
+  .modulo-large .modulo-content,
+  .modulo-large .modulo-header {
+    width: 1150px;
+  }
+
+.modulo-invitacion .informacion {
+  width: 590px;
+}
+
+.modulo-large .modulo-corto {
+  width: 480px;
+}
+
+.modulo-large .modulo-grande {
+  width: 647px;
+}
+
+ /*===== SLIDERS =====*/ 
+.carrousel,
+.slides_container,
+.slides_container div        { width: 888px; }
+.slides_container div        { height:350px; }
+
+
+/*===== PORLET =====*/
+/*.porlet-inversiones-contenido .left       { width: 600px; }*/
+.porlet-inversiones-contenido .right      { width: 255px; }
+.porlet-inversiones-contenido.mitad .left { width: 550px; }
+
+.porlet-content {
+  /*width: 908px;*/ /*se comenta para no ajustar portlet home*/
+  width:auto;
+}
+
+/*===== FORMULARIOS =====*/
+.modulo-medium .separar {
+  width: 80%;
+  margin: 20px 0 20px 10%!important;
+}
+
+html body .modulo-medium.bg-gris {
+  background-position: 438px 0;
+}
+
+.separar .right {
+  float: left;
+}
+
+#modulo-filtros .filtro {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#agendar-transferencias {
+  width: 100%;
+}
+
+#agendar-transferencias .datos {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.form-inline .bloque {
+  margin-left: 100px;
+}
+
+.modulo-large .separar {
+  width: 90%;
+  margin-left: 5%!important;
+}
+
+#pagar-deuda-bancos,
+#pei-pagar { background-position: 658px 0; }
+
+.form-inline .bloque-accion2 { width: 648px; }
+
+/*CGF*/
+.form-cgf3,
+.cgf3-datos { width: 908px; }
+.form-cgf3 .direccion .calle input { width: 193px!important; }
+.form-cgf3 .region .selectBox,
+.form-cgf3 .comuna .selectBox {
+  width: 215px;
+}
+
+#suscribir-cartolas .tres .selectBox { width: 210px; }
+#suscribir-cartolas .cuatro { width: 180px; }
+
+.dato-formulario input[type="text"] {
+  width: 244px!important;
+}
+
+/*===== CAMPANAS LANDING =====*/
+.cont-campanas { width: 910px; }
+.cont-campanas .info_campana { width: 590px;}
+#cam-destacadas img { width: 100%; height: 300px; }
+
+/*===== TABLAS =====*/
+.table-thead th br { display: none; }
+.table th { width: auto; }
+
+/*===== OTROS PRODUCTOS =====*/
+.prod-recomendados .descripcion-prod  { width: 469px;  padding-right: 20px; margin: 0 20px; border-right: 1px solid #DDD; }
+.prod-recomendados .beneficio-prod    { width: 408px; }
+
+
+/*===== FFMM tablas =====*/
+.tabla-div-datos .info-footer .content-btn.cuatro a {
+  padding: 8px 38px;
+}
+.tabla-div-datos .info-footer .content-btn.tres a {
+  padding: 5px 72px;
+}
+
+/*===== TABS SEGUROS =====*/
+.tab-contenedor { width: 930px; }
+.tab-contenedor .tab-interior { width: 690px; }
+.tab-interior .contenido-tab .left { width: 390px; }
+
+/*===== TABS CAMBIO DE CLAVE =====*/
+#tab-contenido { width: 791px; }
+#tab-contenido .mensaje-respuesta { width: 330px; }
+.form-clave { margin-left: 40px; }
+.recomendaciones { max-width: 300px; margin-right: 40px; }
+
+
+/*===== HELPDESK =====*/
+#helpdesk .flotar-left        { margin-left: 40px; }
+#helpdesk .flotar-right       { margin-right: 40px!important; }
+#helpdesk textarea            { width: 636px!important; }
+#helpdesk .input-xlarge input { width: 330px!important; }
+#helpdesk .input-large input  { width: 266px!important; }
+#helpdesk p.margen2-bottom    { margin-left: 40px; }
+#helpdesk .margen1-right .selectBox { width: 277px; }
+#helpdesk .mensaje-respuesta { width: 706px; }
+
+
+/*===== Landing acciones =====*/
+.prod-recomendados .acciones-right {
+  float: left;
+  width: 746px; 
+  padding-left: 80px;
+}
+
+/*===== OTROS =====*/
+.acciones-exito { margin-left: 31%; }
+#dap-consultar-dap, 
+.fluid-span9  { width: 930px;}
+.mensaje-exito p { line-height: 20px; }
+.nav-filtros li a { padding: 0 46px;}
+.cont-carrousel > div { width: 880px; }
+.porlet-content.porlet-scroll { width: 1128px; }
+.nav-user .usuario a {overflow:hidden;max-width:330px!important;display:block;}
+.nav-user .usuario .name {white-space: nowrap;max-width: 280px!important;overflow: hidden;text-overflow: ellipsis;}
+
+/*IOL Cambio de clave, llamado de modelo de icode*/
+#showIcodChangeDebitKey .modulo-medium {width: 344px;}
+#showIcodChangeDebitKey .modulo-medium .modulo-left, #showIcodChangeDebitKey .modulo-medium .modulo-right {
+    width: 344px!important;
+}
+#showIcodChangeDebitKey .modulo-medium .modulo-right {
+    padding: 0px;
+    width: 344px!important;
+}
+
+}

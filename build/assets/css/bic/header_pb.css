@@ -1,0 +1,518 @@
+/* 
+autor: IBM TEAM
+fecha :10-05-2016
+nota : Front para Header privado
+*/
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+#header { 
+	min-width: 1000px;
+	width:100%; 
+	height:65px;
+	position: relative;
+	z-index: 1011;
+}  
+#header .logo { 
+	margin:10px 40px 0 0; 
+	float: left;
+}
+#header .container { margin: 0 auto; }
+#header .dropdown,
+.wpthemeBanner .dropdown {
+	position: relative;
+}
+#header a:hover {
+	text-decoration: none;
+}
+/* ===================================
+   NAV PRINCIPAL
+   =================================== */
+#nav-principal {
+	display: table;float:left;
+}
+.nav-top { 
+	float: left;
+	height:65px;
+}
+#nav-principal > li {
+	float: left;	
+	display: table-row;
+}
+#nav-principal > li > a,
+#nav-principal .wpthemeNavList > .dropdown > a {
+	line-height: 14px;
+	height: 46px;
+	padding: 0 20px;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+}
+#nav-principal li a i {
+	/*margin-top: 25px;*/
+	float: right;
+}
+#nav-principal .title-top {
+	float: left;
+    font-weight: bold;
+    line-height: 14px;
+}
+#nav-principal .icon-nav-bottom { 
+	float: right; 
+	margin-top: -2px;
+	position: absolute;
+	right: 10px;
+	top: 16px;
+}
+#btn-salir {
+	*width: 40px;
+	*margin-top: 5px;
+}
+#salir {
+	*margin-top: 20px;
+}
+.cerrar-sesion {
+	*width: 80px!important;
+	padding: 0 15px!important;
+} 
+/* ================
+   NAV PRINCIPAL - HOVER
+   ================ */
+#nav-principal .dropdown:hover .nav-drop,
+.nav-user .dropdown:hover .sub-user {
+	display: table;
+}
+
+#nav-principal > li:hover i {
+	background-image: url(../img/icon-naranjo.png);
+}
+/* ===================================
+   NAV PRINCIPAL - SUBMENU
+   =================================== */
+#nav-principal .nav-drop,
+#nav-principal .nav-drop a {
+	color: #32434C;
+}
+#nav-principal .nav-drop {
+	background: #FFF;
+	width: 310px;
+	position: absolute;
+	top: 46px;
+	left: -1px;
+	z-index: 1002;
+	display: none;
+	padding: 10px 0;
+	border: 1px solid #DDD;
+	border-top: 0 none;
+	-webkit-box-shadow: 0 5px 5px 0 #DDD;
+	-moz-box-shadow: 0 5px 5px 0 #DDD;
+	box-shadow: 0 5px 5px 0 #DDD;
+	border-collapse: separate;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+}
+#nav-principal .nav-drop > li {
+	/*padding: 15px 10px;*/
+	padding:0;
+	margin: 0 15px;
+	/*float: left;
+	clear: both;*/
+	width: 280px;
+	background: none;
+	border: 0 none;
+}
+#nav-principal .nav-drop li a {
+	/*padding: 0;*/
+	padding:15px 10px;
+	margin: 0;
+	width: 260px;
+	float: left;
+	clear: both;
+	line-height: 14px;
+}
+#nav-principal .nav-drop li a i {
+	margin-top: 0;
+	float: left;
+	margin-right: 10px;
+}
+#header .nav-drop .titulo {
+	float: left;
+	font-weight: bold;
+	color: #373D45;
+}
+/* ================
+   NAV PRINCIPAL - SUBMENU - NAV CON TITULO + PARRAFO
+   ================ */
+#nav-principal .parrafo {  
+	font-weight: normal;
+	line-height: 14px;
+	font-size:12px;
+	float: left;
+	clear: both;
+	margin-top: 4px;
+	color: #A3A19D;	
+	width: 260px;
+	font-weight: normal!important;
+}
+#nav-principal .nav-drop i + .titulo + .parrafo {width: 240px;margin-left: 25px;}
+
+/* ================
+   NAV PRINCIPAL - SUBMENU - HOVER
+   ================ */
+#nav-principal .nav-drop li:hover,
+.nav-user li:hover {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#nav-principal .nav-drop li:hover a {
+	text-decoration: none;
+}
+#nav-principal .nav-drop i {
+	background-image: url(../img/icon-naranjo.png);
+}
+/* ==========================================================================
+   NAV USER
+   ========================================================================== */
+.nav-user {
+	float: right;
+}
+.nav-user > ul {
+	margin-top: 16px;
+}
+.nav-user .name,
+.nav-user li,
+.nav-user i {
+	float: left;
+}
+.nav-user > ul > li {
+	padding: 2px 10px;
+}
+.nav-user > ul > li a {
+	font-size: 11px;
+	line-height: 15px;
+}
+.nav-user .mensaje {
+	float: left;
+	min-width: 21px;
+	height: 16px;
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 0;
+	text-align: center;
+	position: relative;
+	top: -10px;
+	left: 5px;
+	z-index: 1002;
+	color: #FFF;
+	border-radius: 10px;
+}
+/* ===================================
+   NAV USER - SUBMENU DE USER
+   =================================== */
+.nav-user .sub-user {
+	position: absolute;
+	left: -110px;
+	top: 15px;
+	width: 250px;
+	display: none;
+	z-index:950;
+}
+.nav-user .nav-drop {
+	width: 250px;
+	padding: 10px 0;
+	float: left;
+	background: #FFF;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border: 1px solid #EEE;
+	border-top: 0 none;
+	-webkit-box-shadow: 0 5px 5px 0 #DDD;
+	-moz-box-shadow: 0 5px 5px 0 #DDD;
+	box-shadow: 0 5px 5px 0 #DDD;
+}
+.dropdown .arrow { 
+	width:11px;
+	height:7px;
+	display: block;
+	background:url("../img/dropdown-row.png") 0 0 no-repeat!important;
+}
+.nav-user .usuario .arrow,
+.nav-user .notificacion .arrow {
+	margin-top: 20px;
+}
+#salir .arrow {
+	margin-top: 11px;
+}
+.nav-user .usuario .arrow {
+	margin-left: 122px;
+}
+.nav-user .notificacion .arrow {
+	margin-left: 141px;
+}
+.nav-user .nav-drop li {
+	padding: 15px 10px;
+	margin: 0 15px;
+	float: left;
+	clear: both;
+	width: 200px;
+}
+.nav-user .nav-drop li,
+.nav-user .nav-drop li:hover {
+	border: 0 none;
+}
+.nav-user .nav-drop a {
+	color: #373D45;
+	display: block;
+	overflow: hidden;
+	font-size: 12px;
+}
+.nav-user .nav-drop a:hover {
+	*text-decoration: none;
+}
+.nav-user .nav-drop a i,
+.nav-user .nav-drop .titulo,
+.nav-user .nav-drop .parrafo {
+	float: left;
+}
+.nav-user .nav-drop i + .titulo + .parrafo {
+	width: 175px;
+	margin-left: 25px;
+}
+.nav-user .nav-drop a i {
+	margin-right: 10px;
+	background-image: url(../img/icon-naranjo.png);
+}
+.nav-user .usuario .name {
+	margin: 2px 0 0 10px;
+}
+.sub-user .ver-todo a {
+	padding-left: 25px;
+}
+#header .ver-todo {
+	border-top: 1px solid #DDD;
+	font-weight: bold;
+}
+#header .ver-todo:hover {
+	text-decoration: underline;
+}
+#header .ver-todo,
+#header .ver-todo:hover {
+	border-radius: 0!important;
+	-webkit-border-radius: 0!important;
+	-moz-border-radius: 0!important;
+}
+#header .nav-user a:hover {
+	text-decoration: none;
+}
+.cerrarsesion {
+	position: relative;
+}
+.cerrarsesion i {
+	margin-top: 0px;
+}
+.cerrarsesion .name {
+	margin-top: 0px;
+}
+.cerrarsesion button {
+	background: none;
+	border: 0 none;
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+}
+#salir p {
+	float: left;
+	line-height: 29px;
+}
+#salir a {
+	float: right;
+	line-height: 24px;
+	color: #373D45;
+}
+.cont-drop {
+	position: absolute;
+	right: 0;	
+	width: 285px;
+}
+.drop {
+	background: #fff;
+	padding: 10px;
+	clear: both;
+	position: relative;
+	z-index: 1002;
+	overflow: hidden;
+}
+.cont-drop .arrow { 
+	width: 11px;
+	height: 7px;
+	background: url("../img/dropdown-row.png") 0 0 no-repeat;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	bottom: -1px;
+	z-index: 1005;
+}
+/*Nuevos estilos para header tipo Brasil*/
+#header, .wpthemeBannerInner {background: #FFF;display:table;width:100%;}
+.wpthemeBannerInner {border:0px;}
+.wpthemeBanner #logo {overflow: hidden;}
+.wpthemeFrame .wpthemeBannerInner .wpthemeInner #logo .wpthemeBranding a.logo img {width: 30px;height: 30px;display: block;float: left;overflow: hidden;max-width: 45px !important;background: url(../img/logo-itau-mini.png) 0 0 no-repeat;background-size:30px 30px;}
+.wpthemeBanner {display:block;background: none;border-bottom: 0 none;padding: 0 0 0;font-size: 12px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;position: relative;z-index: 949;}
+/*Estilos Personalizacion */
+.nav-user-new {float: right;height: 50px;}
+.nav-user-new > ul > li{float: left;position:relative;}
+.nav-user-new ul li a:hover {text-decoration:none;}
+.nav-user-new .user:hover .sub-user {display: block;}
+.nav-user .usuario .sub-user .nav-drop .titulo .icon-usuario {margin-right:0px;}
+.nav-user .usuario .sub-user .nav-drop .titulo .icon-usuario.actualizaDatos {margin-right:10px;} 
+.nav-user .usuario .sub-user {left:-58px!important}
+.nav-user-new .nav-drop {width: 290px;padding: 10px 0;float: left;background: #FFF;border-radius: 0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px;border: 1px solid #EEE;border-top: 0 none;-webkit-box-shadow: 0 5px 5px 0 #DDD;-moz-box-shadow: 0 5px 5px 0 #DDD;box-shadow: 0 5px 5px 0 #DDD;}
+.nav-user-new .nav-drop li {padding: 15px 10px;margin: 0px 15px;float: left;clear: both;width: 240px;border-radius: 6px;}
+.nav-user-new .usuario .arrow {margin-left: 122px;}
+.nav-user-new .notificacion .arrow {margin-left: 141px;}
+.nav-user-new .nav-drop li {padding: 15px 10px;margin: 0 15px;float: left;clear: both;width: 240px;}
+.nav-user-new .nav-drop li,.nav-user .nav-drop li:hover {border: 0 none;}
+.nav-user-new .nav-drop a {color: #373D45;display: block;overflow: hidden;font-size: 12px;}
+.nav-user-new .nav-drop a:hover {*text-decoration: none;}
+.nav-user-new .nav-drop a i, .nav-user-new .nav-drop .titulo, .nav-user-new .nav-drop .parrafo {float: left;}
+.nav-user-new .nav-drop i + .titulo + .parrafo {width: 175px;margin-left: 25px;}
+.nav-user-new .nav-drop a i {margin-right: 10px;background-image: url(../img/icon-naranjo.png);}
+.nav-user-new .usuario .name {margin: 2px 0 0 10px;}
+.nav-user-new .parrafo { font-weight: normal;line-height: 14px;float: left;clear: both;margin-top: 4px;color: #A3A19D;width:230px;font-weight: normal!important;}
+.nav-user-new .user .arrow {display:block;margin-left: 122px;margin-top:-7px;width:11px;height:7px;background:url("../img/dropdown-row.png") 0 0 no-repeat!important;}
+
+/* Fin estilos personalización */
+.buscador .dropdown {position:relative;}
+.buscador .dropdown #resultPanel {display:none;position: absolute;left: 1px;background: #fff;top: 49px; min-width: 400px; z-index: 950; -webkit-box-shadow: #DDD 0px 4px 8px 2px; -moz-box-shadow:#DDD 0px 4px 8px 2px; box-shadow:#DDD 0px 4px 8px 2px;border: 1px solid #ddd;}
+.buscador .dropdown #resultPanel:before {content:' ';display:block;position:absolute;left:150px;top:-9px;width: 0; height: 0; border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #fff;z-index:10;}
+.buscador .dropdown #resultPanel:after {content:' ';display:block;position:absolute;left:150px;top:-10px;width: 0; height: 0; border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #eeebe4;}
+.buscador .dropdown #resultPanel .itemmenu:hover {background:none!important}
+.buscador .dropdown #resultPanel .itemmenu a {display: block;border-radius: 6px;padding: 4px;text-decoration:none;font-weight:normal;}
+.buscador .dropdown #resultPanel .itemmenu:hover a {background:#f1f1f1!important;text-decoration:none;}
+.buscador .dropdown:hover #resultPanel {display:block;} 
+.buscador .dropdown input[type=text]{border: 1px solid #d2d2d2!important;font-size: 12px;color: #8b8a89;height: 22px;width: 165px!important;-webkit-transition: all 100ms ease-in;border-radius: 14px;left: 66px;top: 8px; margin-top: 8px;cursor: pointer;background-image: url(../img/ico-buscar-gris.png);background-repeat: no-repeat;background-position: 150px 6px;}
+.buscador .dropdown input[type=text]:hover {background-image: url(../img/ico-buscar-naranjo.png);background-repeat: no-repeat;background-position: 150px 6px;}
+
+#nav-principal li a, .wpthemeBanner .wpthemeInner .wpthemePrimaryNav li a {color:#FFF;}
+#nav-principal li:hover a, .wpthemeBanner .wpthemeInner .wpthemePrimaryNav li:hover a {color:#003767;}
+#nav-principal .icon-nav-bottom {background-image: url(../img/icon-blanco.png);}
+.user {float: left;height:50px;}
+.perfil-img {border: 1px solid #ddd;border-radius: 4px;float: left;height: 40px!important;overflow: hidden;position: relative;width: 40px!important;margin:4px 10px 0 10px!important;}
+.user .icon-usuario {background:url(../img/profile-img.jpg) no-repeat center;background-size: contain;}
+.user .icon-femenino {background:url(../img/profile-femenino.jpg) no-repeat center;background-size: contain;}
+.perfil-img:hover > .overlay-img-user {height: 100%;width: 100%;background: url(../img/overlay.png) no-repeat center;position: absolute;top: 0;right: 0;background-size: cover;}
+
+/*Estilos personalización */
+.nav-user-new .user {max-width:300px;padding-right:10px;}
+.nav-user-new .user .name-user {font-size: 12px;font-weight:600;margin:7px 0 0 0;display: block;max-width: 290px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.nav-user-new .user .name {/*font-size:10px;*/min-width: 270px;display: block;}
+.nav-user-new .nav-drop a .titulo.wpthemeAccess {position:relative;top:0;}
+.nav-user-new .icon-cerrar {background-image: url("../img/icon-blanco.png");}
+.nav-user-new .icon-cerrar {background-image: url("../img/icon-azul.png");}
+.mensajes-ico {width: 30px;height: 15px;background: url(../img/ico-mensaje-iol.png) no-repeat center;display: block;margin: 25px 20px 0 10px;position: relative;}
+.mensajes-counter{font-size:10px;position: absolute;top: -10px;right: -10px;width: 20px;height: 20px;border-radius: 100%;background: #ec7404;color: #fff;font-weight: bold;text-align: center;}
+.jcrop-holder #preview-pane {top:10px!important;right:10px!important;border:1px solid #fff;border-radius:0!important;}
+.nav-user-new .nav-drop .titulo {font-weight: bold;font-size: 14px;}
+
+@media screen and (max-width: 1200px) {
+	.img-container{width: 250px;}
+	.img-cont {margin-bottom: 30px;overflow: hidden;padding: 0 20px;width: 340px;float: left;}
+	.datos-personales {float: left;width: 260px;padding-left: 30px;}
+	.name-user {max-width: 115px;}
+}
+.user-info {height: 65px;position: relative;}
+.user-info:hover > .sub-user {max-height: 300px;display: block;}
+.datos-personales {float: left;width: 300px;}
+.datos-personales label {font-size: 14px;font-weight: normal;}
+.personalizacion .datos-personales h3 {font-size: 18px;margin-bottom: 4px;}
+.sub-user ul {overflow: hidden;box-shadow:0px 2px 3px 0px #999}
+
+/*Imagen Usuario logeado*/
+.nav-user .usuario > img {position:absolute;left: 4px;float: left;top: -8px;width:32px;height:32px;border:2px solid #ffffff;border-radius:18px;left:0px;}
+.nav-user .usuario .icon-usuario {margin-right: -30px;margin-top:4px;}
+.nav-user .usuario .name {white-space:nowrap;}
+.nav-user .usuario .icon-femenino {background-image: url("../img/icon-naranjo.png")!important;background-position:-2055px 0px;margin-right:-30px;}
+.nav-user .usuario a {overflow:hidden;max-width:240px;display:block;}
+.nav-user .usuario .name {white-space: nowrap;max-width: 200px;overflow: hidden;text-overflow: ellipsis;}
+.nav-user .usuario .sub-user a {max-width:200px;}
+
+.empresa > a {width: 224px;height:36px;font-weight: bold;font-family: sans-serif;font-size: 12px;color: #ec7404;position: relative;background-color: #e8e8e8;cursor: pointer;border-radius: 4px;text-shadow: none;padding:2px 4px;display: inline-block;margin: 5px 0 0 4px;}
+.empresa > a .perfil-img {float:right;display:inline-block;width:20px!important;height:20px!important;border:0;margin:8px 6px!important;background:url(../img/cambiar_empresa.png) 0 0 no-repeat;}
+.empresa > a span {display:block;line-height:19px;display: block;max-width: 290px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.nav-user-new .notificaciones {background:none;margin:4px 0 0 0;padding:0;}
+.nav-user-new .notificaciones a {display:table;}
+.nav-user-new .notificaciones a .mensajes-ico {background:url(../img/sprite_mensaje.gif) 0 0 no-repeat;width: 30px;height:20px;margin: 12px 10px 0 10px;}
+.nav-user-new .descargas a {display:table;}
+.nav-user-new .descargas a .icon-zona-descargas {background:url(../img/descargas.gif) 0 0 no-repeat;width: 23px;height:20px;margin: 17px 10px 0 8px;}
+.nav-user-new .ayuda a {display:table;}
+.nav-user-new .ayuda a .icon-pregunta {background:url(../img/pregunta.gif) 0 0 no-repeat;width: 18px;height:24px;margin: 17px 10px 0 5px;}
+.nav-user-new .cerrarsesion a {margin-left:20px;display:block;margin-top:9px;border:1px solid #dbdbdb;text-transform:lowercase;font-size:12px;font-weight:bold;cursor:pointer;-webkit-border-radius: 3px;border-radius: 3px;padding:5px 12px;background:#fbfbfb;-webkit-transition: all 300ms ease-in;-moz-transition: all 300ms ease-in;-ms-transition: all 300ms ease-in;-o-transition: all 300ms ease-in;transition: all 300ms ease-in;}
+.nav-user-new .cerrarsesion a:hover {border-color:#464646;background-color:#464646;outline: 0;color:#fff;}
+.nav-user-new .cerrarsesion a .icon-cerrar {margin-right:3px;display:inline-block;width:10px;height:15px;background:url(../img/icon-salir-negro.png) 0 0 no-repeat;-webkit-transition: all 300ms ease-in;-moz-transition: all 300ms ease-in;-ms-transition: all 300ms ease-in;-o-transition: all 300ms ease-in;transition: all 300ms ease-in;}
+.nav-user-new .cerrarsesion a:hover .icon-cerrar {background:url(../img/icon-salir-blanco.png) 0 0 no-repeat}
+.nav-user-new .cerrarsesion a .name {text-transform: lowercase;font-size: 12px;font-weight: bold;cursor: pointer;}
+
+
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav [class*="productos "] {width: 141px;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav [class*="transacciones "] {width: 167px;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav [class*="servicios "] {width: 136px;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {float: left;margin:0;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li a {background: none;box-shadow: none;border: 0 none;padding: 0 20px;margin: 0;text-shadow: none;line-height: 65px;cursor: context-menu;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li .nav-drop li a {cursor:pointer;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li > a span {float: left;font-weight:bold;font-size:14px;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li:hover ul {display: table;}
+/*MIS SERVICIOS*/
+.wpthemeBanner .wpthemeInner .4Titulo {width: 270px;background: blue;}
+/*  SUB MENU   */
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li ul li {display: block;overflow: hidden;padding: 0;background: none;border-bottom: 1px solid #ddd;position: relative;width: 270px;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li ul a {line-height: 14px;color: #32434C;padding:0;display: block;overflow: hidden;padding:20px 15px;font-weight: bold;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li ul li:hover {box-shadow: none;background-color: #F5F5F5;background-image: none;text-decoration: none;filter: none!important;}
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li:hover a, .wpthemeBanner .wpthemeInner .wpthemePrimaryNav li ul a:hover {background: none;background-color: none;background-image: none;filter:none!important;}
+.wpthemeBanner .wpthemeInner .wpthemeNavList > .wpthemeSelected {text-decoration: none!important;filter: none;height: 65px;}
+.wpthemeBanner .wpthemeInner .wpthemeNavList .wpthemeSelected a {filter: none!important;} 
+/*  BREADCRUMBS   */
+.breadcrumbs {width: 100%!important;min-width: 1000px;display: inline-block;}
+.breadcrumbs .wpthemeCrumbTrail {  float: none;  margin: 0 auto;  padding: 0;  width: 940px;  overflow: hidden;}
+.breadcrumbs .breadcrumbs-content {float: left;  height: 30px;  line-height: 30px;  font-size: 11px;}
+.breadcrumbs .breadcrumbs-content a {font-weight: bold;}
+.breadcrumbs .breadcrumbs-content li {list-style-type: none;list-style-image: none;float:left;  height:30px;  line-height: 30px;  font-size: 11px;  font-weight: bold;  padding:0 10px 0;  color: #A3A09D;}
+.breadcrumbs .breadcrumbs-content li a {float: left;font-weight: bold;cursor: pointer;}
+.breadcrumbs .breadcrumbs-content .home a {padding-right: 10px;border-right: 1px solid #DDD;height: 30px;}
+.breadcrumbs .breadcrumbs-content .home i {width: 15px;height: 15px;display: block;margin-top: 7px;}
+.breadcrumbs .breadcrumbs-content .wpthemeCrumbTrailSeparator {width: 8px;height: 30px;margin-left: 10px;text-indent: -9999px;display: block;border-left:none;}
+.breadcrumbs-content {width: auto !important;}
+.wpthemeCrumbTrail .lastSuccessLogin {float: right;font-size: 11px;line-height: 30px;color: #999;}
+.nav-user-new .sub-user {z-index:950;top:50px;}
+.wpthemeBanner .wpthemeInner {width:1170px;}
+
+@media screen and ( max-width: 1200px) {
+	.wpthemeBanner .wpthemeInner {width: 950px;margin: 0 auto;}
+	.wpthemeBannerInner .wpthemeInner {width: 950px;margin: 0 auto;}
+}
+.nav-user-new.olb-new-menu .nav-drop a i {margin-right: 10px;background-image: url(../img/icon-gris-16.png)!important;}
+/*  RIGHT   
+.wpthemeBanner .wpthemeRight .wpthemeCommonActions li .arrow {margin-top: 2px;width: 11px;height: 7px;overflow: hidden;border: 0 none;}
+.wpthemeBanner .wpthemeRight .wpthemeCommonActions li ul {top: 85%;}
+.wpthemeBanner .wpthemeRight .wpthemeCommonActions li ul li {font-size: 12px;} 
+.wpthemeBanner .wpthemeRight .wpthemeCommonActions .drop-medium ul li {width: 238px;}
+.wpthemeBanner .wpthemeRight .wpthemeCommonActions .drop-mini ul li {width: 98px;}
+
+.wpthemeBanner .wpthemeRight #salir {color: #373D45;}
+.wpthemeBanner .wpthemeRight li {float: left;padding: 0;font-size: 11px;margin-left: 20px;border-right: 0 none;}
+.wpthemeBanner .wpthemeRight li a {padding: 0;border-right: 0 none;}
+
+.wpthemeSecondaryBanner li {float: left;}
+.wpthemeSecondaryNav {clear: none;} 
+
+.wpthemeCommonActions > li > span, .wpthemeCommonActions li a, .wpthemeCommonActions li a:active {color: #373D45;display:inline;}
+.wpthemeBanner .wpthemeRight li {padding: 9px;}
+.wpthemeBanner .wpthemeRight li {margin-left: 0px; padding: 16px;}
+.wpthemeBanner .wpthemeRight li span  .titulo, .wpthemeBanner .wpthemeRight li a{font-weight: bold;}
+.wpthemeBanner .wpthemeRight li.drop-medium {position: relative;}
+.wpthemeBanner .wpthemeRight li span  .parrafo{font-weight: normal;}
+
+*/

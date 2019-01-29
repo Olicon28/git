@@ -1,0 +1,156 @@
+/* 
+autor: IBM TEAM
+fecha :25-09-2015
+nota : xsl para transformacion de respuesta de servicio
+*/
+.aviso-simuladores {
+	margin: 10px auto 0;
+    padding: 5px 10px;
+    text-align: center;
+    width: 660px;
+	background: #F3F3F1;
+}
+
+.datos .bloque {
+    margin: 10px 0 0;
+    overflow: hidden;
+    padding-left: 10px;
+} 
+.datos h2 {
+	color:#F47920;
+	margin-bottom: 10px;
+}
+.datos .bloque label,
+.datos-corto .bloque label { 
+	float: left;
+}
+.datos .bloque-campos textarea {
+	width: 196px;
+}
+.datos-corto .bloque .bloque-campos {
+	width: auto;
+}
+.bloque .bloque-campos {
+	float: right;
+	width: 450px;
+}
+
+.simulador-contenido {
+	margin: 6px 0 0;
+}
+.simulador-contenido h2 {
+	margin-bottom: 10px;
+} 
+.simulador-contenido .modulo-right {
+	width: 45%!important;
+	float: right;
+}
+.bloque-campos .selectBox { 
+	float: left;
+	width: 208px;
+}
+.datos .bloque-campos input {
+	float: left;
+	margin-right: 10px;
+}
+/**/
+.simulador-contenido .datos {
+	border-top: 1px solid #ddd;
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.simulador-contenido .datos-comprimidos {
+	margin: 0;
+	padding-top: 10px;
+}
+.datos-comprimidos .bloque {
+	margin-top: 0;
+}
+/**/
+.datos-corto .bloque {
+	margin: 10px 0;
+}
+.table-comprimida th, .table-comprimida td {
+	padding: 2px 4px;
+}
+.simulador-contenido .bullet li {
+	margin: 0;
+}
+.simulador-contenido .datos-corto {
+    float: left;
+    margin: 10px 0;
+    width: 49%;
+}
+/**/
+.datos-corto .borrar,
+.datos .borrar {
+	text-decoration: underline;
+}
+.simulador-contenido .botones {
+	float: right;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.frase-legal {
+	margin: 20px 0;
+	font-size: 11px;
+	line-height: 14px;
+	clear: both;
+}
+.simulador-contenido .botones .aceptar {
+	margin-left: 20px; 
+	float: left;
+}
+.simulador-contenido .botones .borrar {
+	float: left;
+	text-decoration: underline;
+}
+.frase-legal ul li {
+	margin: 0;
+}
+.table-simulador .THead th { padding-top: 10px; }
+.table-simulador .TBody td { padding-bottom: 10px; }
+.table-simulador th, .table-simulador td { padding: 2px 20px}
+
+.table-simulador .cae {
+	font-size: 12px;
+	padding-top:10px;
+}
+
+.table-simulador .cae_valor {
+	font-size: 22px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+
+.cae_valor {
+	font-size: 22px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+.table-simulador .cae div {
+	display: none;
+    left: 130px;
+    position: absolute;
+    top: 330px;
+}
+.table-simulador .cae:hover div {
+	font-size: 11px;
+	line-height:12px;
+	width: 300px;
+	display: block;
+	background: url(../img/bg-popover.jpg) repeat-x 0 0 #E2E3E5;
+	z-index: 2000;
+}
+.table-simulador .valor {
+	color: #222;
+	background: #fffff;
+	font-size:14px;
+	padding:10px 20px;
+}
+.datos-apv {
+	float: right;
+	width: 360px;
+}
